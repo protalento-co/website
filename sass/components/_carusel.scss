@@ -1,0 +1,56 @@
+.carusel {
+  max-width: 110rem;
+  margin-right: auto;
+  margin-left: auto;
+
+  &__title {
+    min-height: 3.5rem;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  .slick-track {
+    display: flex;
+    gap: 3rem;
+  }
+
+  %arrow {
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .slick-prev:before {
+    content: '<';
+    @extend %arrow;
+  }
+
+  .slick-next:before {
+    content: '>';
+    @extend %arrow;
+  }
+
+  .slick-dots {
+    bottom: -5rem;
+
+    li {
+      button {
+        &::before {
+          font-size: 1rem;
+
+          color: $cWhite;
+
+          opacity: 1;
+        }
+      }
+
+      &.slick-active {
+        button {
+          &::before {
+            color: $cPrimaryDynamic;
+          }
+        }
+      }
+    }
+  }
+}

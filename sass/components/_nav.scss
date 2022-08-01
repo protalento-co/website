@@ -1,0 +1,142 @@
+.nav {
+  position: fixed;
+  z-index: 1000;
+
+  width: 100%;
+
+  margin: 0 auto;
+  padding: 1rem 2rem;
+
+  background-color: #4267cd;
+
+  --state-open: scale(1);
+  --state-close: scale(0);
+  --links: translate(100%);
+
+  &.active {
+    --active: none;
+    --state-open: scale(0);
+    --state-close: scale(1);
+    --links: translate(0);
+
+    @include for-size('tablet-landscape-up') {
+      --links: unset;
+    }
+  }
+
+  @include for-size('tablet-landscape-up') {
+    --links: unset;
+  }
+
+  &__logo-box {
+    z-index: 1000;
+  }
+
+  &__logo {
+    z-index: 1000;
+  }
+
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include for-size('tablet-portrait-up') {
+      padding: 1.5rem 5rem;
+    }
+  }
+
+  &__ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    gap: 5rem;
+
+    background-color: #4267cd;
+
+    list-style: none;
+    transform: var(--links);
+    transition: transform 1s;
+
+    @include for-size('tablet-landscape-up') {
+      flex-direction: row;
+      align-items: center;
+
+      position: unset;
+      background: unset;
+      gap: 10rem;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  &__link-programas {
+    display: none;
+    position: absolute;
+    left: -10rem;
+
+    border-radius: 2rem;
+    width: 25rem;
+  }
+
+  &__link-btn {
+    position: relative;
+    &:hover {
+      .nav__link-programas {
+        display: block;
+      }
+    }
+  }
+
+  &__link {
+    font-size: $small-size;
+    color: $cNeutral;
+
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  &__programas {
+    margin-left: -2rem;
+
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+  }
+
+  .hamburguer {
+    position: relative;
+    height: 4rem;
+    width: 3rem;
+    z-index: 1000;
+
+    @include for-size('tablet-landscape-up') {
+      display: none;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    span {
+      position: absolute;
+      transition: transform 1s;
+    }
+
+    &__open {
+      transform: var(--state-open);
+    }
+
+    &__close {
+      transform: var(--state-close);
+    }
+  }
+}

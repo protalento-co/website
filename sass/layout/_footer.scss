@@ -1,0 +1,10 @@
+.footer {
+
+    &__box {
+        margin-top: 10rem;
+
+        @include for-size("phone-only"){
+            margin-top: unset;
+        }
+    }
+}

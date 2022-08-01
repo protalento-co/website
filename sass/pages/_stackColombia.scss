@@ -1,0 +1,32 @@
+.logos {
+  position: relative;
+
+  max-width: 110rem;
+  margin: 0 auto;
+  margin-top: 10rem;
+
+  z-index: 1;
+
+  img {
+    height: 4rem;
+    object-fit: cover;
+  }
+
+  h2 {
+    margin-top: 2rem;
+  }
+}
+
+.desarrolladoras {
+  @include for-size('tablet-landscape-up') {
+    margin-top: -4%;
+  }
+}
+
+.nuestroaAliados {
+  &__content {
+    img {
+      min-width: 30rem;
+    }
+  }
+}

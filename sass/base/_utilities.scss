@@ -1,0 +1,357 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+// no time
+.box__li,
+.industrias__box,
+.programas__box,
+.afiliados__box {
+  cursor: pointer;
+}
+
+// overflow
+.overflow-hidden {
+  overflow: hidden;
+}
+
+// text align
+.txt-center {
+  text-align: center;
+}
+
+.txt-end {
+  text-align: end;
+}
+
+// display
+.d-block {
+  display: block;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.d-none {
+  display: none;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+@include for-size('tablet-landscape-up') {
+  .d-block-landscape {
+    display: block;
+  }
+
+  .d-none-landscape {
+    display: none;
+  }
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+.align-item-end {
+  align-items: end;
+}
+
+.align-self-start {
+  align-self: flex-start;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.gap-5 {
+  gap: 5rem;
+}
+
+// width
+.w-100 {
+  width: 100%;
+}
+
+.normal-wd-phone {
+  width: 100%;
+  @include for-size('phone-only') {
+    width: unset;
+  }
+}
+
+.normal-wd-portrait {
+  width: 100%;
+  @include for-size('tablet-portrait-up') {
+    width: unset;
+  }
+}
+
+// margin
+.mT-1 {
+  margin-top: 1rem;
+}
+
+.mT-2 {
+  margin-top: 2rem;
+}
+
+.mT-3 {
+  margin-top: 3rem;
+}
+
+.mT-4 {
+  margin-top: 4rem;
+}
+
+.mT-5 {
+  margin-top: 5rem;
+}
+
+.mT-10 {
+  margin-top: 10rem;
+}
+
+.mT-15 {
+  margin-top: 15rem;
+}
+// padding
+.pXY-mini {
+  padding: .5rem 1rem;
+}
+
+.pT-5 {
+  padding-top: 5rem;
+}
+
+.pY-1 {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.pX-1 {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.pX-2 {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.pX-3 {
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+.pX-5 {
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+
+.pY-1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.pY-2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.pY-3 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.pY-4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.pY-5 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.pY-10 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+//background
+.bg-white {
+  background: $cWhite;
+}
+
+.bg-purple {
+  background: $cPurple;
+}
+
+.bg-blue {
+  background: $cBlue;
+}
+
+.bg-cSecondaryElements {
+  background: $cSecondaryElements;
+}
+
+.bg-yellow {
+  background: $cPrimaryDynamic;
+}
+
+.bg-blueDark {
+  background: $cSecondaryDynamic;
+}
+
+.bg-blueDarker {
+  background: $cBlueDarker;
+}
+
+.bg-blueLighter {
+  background: $cBlueLighter;
+}
+
+.bg-blueLight {
+  background: $cIcons;
+}
+
+.bg-graylight {
+  background: #f2f6fa;
+}
+
+.shape-circle {
+  overflow: hidden;
+
+  height: 7rem;
+  min-width: 7rem;
+
+  border-radius: 50%;
+}
+// color
+.cRed {
+  color: $cRed;
+}
+
+.c-white {
+  color: $cWhite;
+}
+
+.c-gray {
+  color: $cGray;
+}
+
+.c-yellow {
+  color: $cPrimaryDynamic;
+}
+
+.c-blue {
+  color: $cSecondaryDynamic;
+}
+
+.c-blueLight {
+  color: $cBlueLight;
+}
+
+.c-blueDark {
+  color: $cBlueDark;
+}
+
+.c-blueDarker {
+  color: $cBlueDarker;
+}
+
+// font weight
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+// font-size
+.mini-size {
+  font-size: $mini-size;
+}
+
+.sm-size {
+  font-size: $sm-size;
+}
+
+.smaller-size {
+  font-size: $smaller-size;
+}
+
+.small-size {
+  font-size: $small-size;
+}
+
+.medium-size {
+  font-size: $medium-size;
+}
+
+.medium-big-size {
+  font-size: $medium-big-size;
+}
+
+.medium-bigger-size {
+  font-size: $medium-bigger-size;
+}
+
+// text decoration
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.text-decoration-line {
+  text-decoration: line-through;
+}
+// font-family
+.font-nunito {
+  font-family: 'Nunito', sans-serif;
+}
+
+// line height
+.line-height-md {
+  line-height: 1.4em;
+}
+
+// box shadow
+.boxShadow {
+  box-shadow: 0px 4px 15px 10px #0000000a;
+}
+
+// radius
+.raidus-small {
+  border-radius: 1rem;
+}
+
+.radius-smaller {
+  border-radius: 0.8rem;
+}

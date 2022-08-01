@@ -1,0 +1,43 @@
+.btn {
+  display: inline-block;
+
+  font-size: $medium-size;
+
+  padding: 1rem 4rem;
+
+  border-radius: 2rem;
+
+  text-decoration: none;
+  cursor: pointer;
+
+  &--yellow {
+    color: $cSecondaryDynamic;
+
+    background-color: $cPrimaryDynamic;
+  }
+
+  &--yellow-white {
+    color: $cNeutral;
+
+    background-color: $cPrimaryDynamic;
+  }
+
+  &--border {
+    background: transparent;
+    border: 0.2rem solid $cNeutral;
+  }
+
+  &--purple{
+    font-size: $smaller-size;
+
+    padding: 1rem 2rem;
+    
+    color: $cSecondaryDynamic;
+    
+    border-color: $cSecondaryDynamic;
+  }
+
+  &--raidus-small {
+    border-radius: .5rem;
+  }
+}

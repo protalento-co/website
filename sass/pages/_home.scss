@@ -1,0 +1,220 @@
+.header {
+  position: relative;
+
+  padding-top: 10rem;
+
+  @include for-size('phone-only') {
+    padding-top: 15rem;
+  }
+
+  &::after {
+    content: '';
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 30%;
+
+    z-index: -1;
+
+    background: url('https://res.cloudinary.com/protalento/image/upload/v1658502293/Website/Home/Desktop/background_home_hero_uuttwu.png')
+      no-repeat bottom center / cover;
+
+    @include for-size('tablet-portrait-up') {
+      bottom: 0;
+    }
+  }
+
+  &--bg-none {
+    &::after {
+      background: unset;
+    }
+  }
+
+  &__content {
+    font-size: $medium-size;
+  }
+
+  &__title {
+    font-size: 2.8rem;
+    line-height: 1.5em;
+
+    @include for-size('phone-only') {
+      font-size: $big-size;
+      line-height: 7.5rem;
+    }
+  }
+
+  &__titlesmall {
+    line-height: 2.8rem;
+  }
+
+  &__text {
+    line-height: 2.4rem;
+  }
+
+  &__line {
+    position: relative;
+
+    .linea {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+
+      @include for-size('tablet-portrait-up') {
+        top: unset;
+        left: unset;
+      }
+
+      @include for-size('desktop-up') {
+        bottom: -100%;
+      }
+    }
+
+    .btn {
+      width: 100%;
+
+      @include for-size('tablet-portrait-up') {
+        width: unset;
+      }
+    }
+  }
+
+  &__form-box {
+    position: relative;
+    .square {
+      position: absolute;
+
+      &--1 {
+        bottom: 30%;
+        left: -10rem;
+      }
+
+      &--2 {
+        bottom: 35%;
+        left: -5rem;
+      }
+
+      &--3 {
+        bottom: 5%;
+        right: -5rem;
+      }
+
+      &--4 {
+        top: 30%;
+        right: -5rem;
+      }
+    }
+
+    &--bg-blue {
+      &::after {
+        content: '';
+
+        position: absolute;
+        top: 0;
+        // height: 290rem;
+        width: 100%;
+
+        background: url(https://res.cloudinary.com/protalento/image/upload/v1658777286/Website/Convocatorias/Rectangle_1139_e9c74r.svg)
+          no-repeat;
+      }
+    }
+  }
+
+  &__form {
+    position: relative;
+
+    padding: 3rem 2rem;
+
+    border-radius: 1rem;
+    box-shadow: 0px 4px 8px 0px #3569804d;
+
+    z-index: 100;
+  }
+
+  &__input {
+    padding: 1rem 1.5rem;
+
+    background: $cNeutral;
+    border: 1px solid $cGray;
+    border-radius: 0.5rem;
+
+    &::placeholder {
+      color: $cGrayLight;
+    }
+
+    &--small {
+      width: 35%;
+    }
+  }
+}
+
+.aliados {
+  position: relative;
+
+  &__square {
+    display: none;
+
+    position: absolute;
+    top: 15%;
+    left: 5%;
+
+    @include for-size('phone-only') {
+      display: block;
+    }
+
+    @include for-size('tablet-landscape-up') {
+      top: 10%;
+      left: 15%;
+    }
+  }
+
+  &__img {
+    max-height: 7rem;
+    // width: 100%;
+  }
+
+  .customer-logos {
+    .slick-track {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .slick-slide img {
+      display: unset;
+    }
+  }
+
+  &__box {
+    text-align: center;
+  }
+}
+
+.programas {
+  position: relative;
+
+  background: $cSecondaryDynamic;
+
+  &__square {
+    display: none;
+
+    position: absolute;
+    bottom: -10rem;
+
+    @include for-size('tablet-portrait-up') {
+      display: block;
+
+      left: 2rem;
+    }
+
+    @include for-size('tablet-landscape-up') {
+      left: 5rem;
+    }
+  }
+}
+
+.postulate {
+  background: $cBlueDark;
+}

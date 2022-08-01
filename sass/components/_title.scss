@@ -1,0 +1,44 @@
+.title {
+  position: relative;
+
+  &::after {
+    content: '';
+
+    background: $cBlueDark;
+
+    position: absolute;
+    bottom: -1.5rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 4rem;
+    height: 0.3rem;
+
+    border-radius: 2rem;
+  }
+
+  &--begin {
+    &::after {
+      left: 2rem;
+    }
+  }
+
+  &--small-mrg {
+    &::after {
+      top: unset;
+      bottom: -1.5rem;
+    }
+  }
+
+  &--black {
+    &::after {
+      background: $cBlack;
+    }
+  }
+
+  &--white {
+    &::after {
+      background: $cWhite;
+    }
+  }
+}

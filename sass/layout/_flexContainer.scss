@@ -1,0 +1,38 @@
+.flexContainer {
+  display: flex;
+
+  &--column-reverse {
+    flex-direction: column-reverse;
+  }
+
+  &--column {
+    flex-direction: column;
+  }
+
+  &--row-portrait {
+    @include for-size('tablet-portrait-up') {
+      flex-direction: row;
+    }
+  }
+
+  &--row-landscape {
+    @include for-size('1100px') {
+      flex-direction: row;
+    }
+  }
+
+  &--slider {
+    & > div {
+      flex: 1;
+      min-width: 40rem;
+    }
+  }
+
+  &__box {
+    flex: 1;
+  }
+
+  &__box-2 {
+    flex: 2;
+  }
+}

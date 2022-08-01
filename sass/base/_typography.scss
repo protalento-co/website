@@ -1,0 +1,12 @@
+html {
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 500;
+  font-size: 50%;
+  color: $cBlack;
+
+  @include for-size('tablet-medium-up') {
+    font-size: 62.5%;
+  }
+}
+
+// font-family: font-family: 'Nunito', sans-serif;

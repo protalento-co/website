@@ -1,0 +1,141 @@
+.industrias {
+  &__box {
+    width: 23rem;
+
+    &--main {
+      margin-right: auto;
+      margin-left: auto;
+
+      position: relative;
+      max-width: 95rem;
+
+      &::after {
+        content: '';
+
+        position: absolute;
+        right: 5rem;
+        top: 10rem;
+        z-index: -1;
+
+        background: url(https://res.cloudinary.com/protalento/image/upload/v1659325522/Website/faltantes/The_World_s_Oceans_A_gubq6t.png)
+          no-repeat;
+        height: 10rem;
+        width: 10rem;
+      }
+    }
+
+    &--2 {
+      align-self: flex-end;
+      margin-top: 5rem;
+    }
+
+    &--3 {
+      align-self: flex-start;
+      margin-top: 5rem;
+    }
+
+    &--4 {
+      align-self: flex-start;
+      margin-top: 5rem;
+    }
+
+    &--5 {
+      margin-top: 5rem;
+    }
+
+    &--6 {
+      align-self: flex-end;
+
+      margin-top: 5%;
+      margin-left: 5%;
+    }
+
+    @include for-size('tablet-portrait-up') {
+      &--2 {
+        align-self: unset;
+
+        margin-left: 10%;
+        margin-top: 20%;
+      }
+
+      &--3 {
+        align-self: unset;
+
+        margin-left: 10%;
+        margin-bottom: 15%;
+      }
+
+      &--4 {
+        align-self: unset;
+        margin-top: 25%;
+      }
+
+      &--5 {
+        margin-top: 10%;
+        margin-left: 5%;
+      }
+
+      &--6 {
+        align-self: unset;
+      }
+    }
+  }
+
+  &__avatar {
+    position: relative;
+
+    height: 15rem;
+    width: 15rem;
+
+    border-bottom-right-radius: 10rem;
+    border-bottom-left-radius: 10rem;
+    border-top-right-radius: 10rem;
+
+    overflow: hidden;
+
+    cursor: pointer;
+
+    @include for-size('tablet-portrait-up') {
+      min-width: 15rem;
+    }
+
+    &.activo {
+      .industrias__content-box {
+        opacity: 1;
+      }
+
+      .industrias__img {
+        opacity: 0;
+      }
+    }
+  }
+
+  &__main-box {
+    @include for-size('tablet-landscape-up') {
+      max-height: 20rem;
+    }
+  }
+
+  &__content-box {
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+
+    padding-left: 1rem;
+
+    background: $cBlueLighter;
+
+    opacity: 0;
+
+    transition: opacity 1s;
+  }
+
+  &__img {
+    position: absolute;
+    // height: 100%;
+    width: 100%;
+
+    transition: opacity 1s;
+  }
+}
