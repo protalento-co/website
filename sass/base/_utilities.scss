@@ -13,6 +13,10 @@
   cursor: pointer;
 }
 
+.afiliados__box {
+  justify-content: center;
+}
+
 // overflow
 .overflow-hidden {
   overflow: hidden;
@@ -94,9 +98,10 @@
   gap: 5rem;
 }
 
-// width
+width
 .w-100 {
-  width: 100%;
+  width: 135px;
+  height: 81px;
 }
 
 .normal-wd-phone {
