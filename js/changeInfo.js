@@ -17,6 +17,8 @@ const information = [
     trabajo: 'Cientifico de Datos en',
     lugar: 'Endava',
     profesion: 'Académico con PhD',
+    linkEmpresa: 'https://www.linkedin.com/company/endava/',
+    linkTalento: 'https://www.linkedin.com/in/jorgemariosalazarrios/'
   },
 
   {
@@ -28,6 +30,8 @@ const information = [
     trabajo: 'Analista de Datos en',
     lugar: 'Andercol',
     profesion: 'Estudiante Ingeniería de Petróleos',
+    linkEmpresa: 'https://www.linkedin.com/company/andercol-sas/',
+    linkTalento: 'https://www.linkedin.com/in/chelsy-mena-gonzalez/'
   },
 
   {
@@ -39,6 +43,8 @@ const information = [
     trabajo: 'Cientifico de Datos en',
     lugar: 'Endava',
     profesion: 'Académico con PhD',
+    linkEmpresa: 'https://www.linkedin.com/company/endava/',
+    linkTalento: 'https://www.linkedin.com/in/jorgemariosalazarrios/'
   },
 
   {
@@ -50,6 +56,8 @@ const information = [
     trabajo: 'Cientifico de Datos en',
     lugar: 'Endava',
     profesion: 'Académico con PhD',
+    linkEmpresa: 'https://www.linkedin.com/company/endava/',
+    linkTalento: 'https://www.linkedin.com/in/duvan-villadiego/'
   },
 
   {
@@ -61,6 +69,8 @@ const information = [
     trabajo: 'Back End Developer en',
     lugar: 'Credicorp Capital',
     profesion: 'Profesora de Ciencias Naturales',
+    linkEmpresa: 'https://www.linkedin.com/company/credicorpcapital/',
+    linkTalento: 'https://www.linkedin.com/in/karen-edith-moreno-moreno-a99992a7/'
   },
 
   {
@@ -72,6 +82,8 @@ const information = [
     trabajo: 'Desarrolladora Full Stack Jr en',
     lugar: 'Banco de Bogotá',
     profesion: 'Ingeniera Ambiental',
+    linkEmpresa: 'https://www.linkedin.com/company/banco-de-bogota/',
+    linkTalento: 'https://www.linkedin.com/in/mariacamilaarroyoa/'
   },
 ];
 
@@ -90,7 +102,7 @@ boxes.forEach((info) => {
 // function
 function placeInformation(id) {
   // console.log(id)
-  const { img, ruta, profesion, title, trabajo, lugar, name } = information[id];
+  const { img, ruta, profesion, title, trabajo, lugar, name, linkEmpresa, linkTalento } = information[id];
 
   main.innerHTML = `
     <div class="industrias__avatar" id="avatar">
@@ -125,7 +137,8 @@ function placeInformation(id) {
               <h2 class="small-size c-blueDark">${name}</h2>
             </li>
             <li class="sm-size c-blueDark mT-1">
-              <p>${trabajo} <span class="c-yellow">${lugar}</span></p>
+              <p>${trabajo} <a href="${linkEmpresa}" target="_blank" class="c-yellow">${lugar}</a></p>
+              <a href="${linkTalento}" target="_blank" class="c-yellow"><i class="uil uil-linkedin-alt"></i></a>
             </li>
           </ul>
           
