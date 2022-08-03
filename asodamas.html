@@ -35,7 +35,7 @@
     <script src="js/sidenav.js" defer></script>
     <script src="js/ChangeInfoli.js" defer></script>
     <script src="js/programa.js" defer></script>
-    <script src="js/afiliados.js" defer></script>
+    <script src="js/afiliados/afiliados-asodamas.js" defer></script>
     <script src="js/btnHelp.js" defer></script>
     <!-- script -->
     <title>PROtalento | Home</title>
@@ -237,82 +237,19 @@
           <!-- images -->
 
           <!-- form -->
-          <form action="#" class="bg-white header__form">
-            <h2 class="medium-big-size font-nunito header__titlesmall">¡Regístrate, hackea tu talento y reprograma tu futuro!</h2>
-
-            <div class="smaller-size mT-2">
-              <p>¿Desde dónde te registras?</p>
-
-              <div class="flexContainer align-item-center gap-1 mT-1">
-                <input type="checkbox" id="mexico" value="mexico" />
-                <label for="mexico">México</label>
-              </div>
-
-              <div class="flexContainer align-item-center gap-1 mT-1">
-                <input type="checkbox" id="Colombia" value="Colombia" />
-                <label for="Colombia">Colombia</label>
-              </div>
-
-              <div class="flexContainer align-item-center gap-1 mT-1">
-                <input type="checkbox" id="Otro" value="Otro" />
-                <label for="Otro">Otro</label>
-              </div>
-
-              <div class="mT-2">
-                <label for="">¿Cual es tu correo electrónico? <span class="cRed">*</span> </label>
-                <input type="text" class="header__input d-block mT-1 w-100" placeholder="Ingresa tu Correo electrónico" />
-              </div>
-
-              <div class="mT-2">
-                <label for=""> ¿Cual es tu número telefónico? <span class="cRed">*</span> </label>
-
-                <div class="flexContainer align-item-center gap-2 mT-1">
-                  <input list="numeros" placeholder="Selecciona" class="header__input header__input--small" />
-
-                  <datalist id="numeros">
-                    <option value="red"></option>
-                  </datalist>
-
-                  <input type="text" class="header__input flexContainer__box" placeholder="Ingresa tu número" />
-                </div>
-              </div>
-
-              <div class="mT-2">
-                <label for=""
-                  >¿En qué horario prefieres ser contactado?
-                  <span class="cRed">*</span>
-                </label>
-                <input type="text" class="header__input d-block mT-1 w-100" placeholder="Seleccionar horario" />
-              </div>
-
-              <p class="mT-2">¿Desde dónde te registras?</p>
-
-              <div class="flexContainer align-item-center gap-1 mT-2">
-                <input type="checkbox" id="WhatsApp" value="WhatsApp" />
-                <label for="WhatsApp">WhatsApp</label>
-              </div>
-
-              <div class="flexContainer align-item-center gap-1 mT-1">
-                <input type="checkbox" id="Llamada" value="Llamada" />
-                <label for="Llamada">Llamada</label>
-              </div>
-
-              <div class="flexContainer align-item-center gap-1 mT-1">
-                <input type="checkbox" id="Correo" value="Correo" />
-                <label for="Correo">Correo</label>
-              </div>
-
-              <div class="flexContainer align-item-center gap-1 mT-3">
-                <input type="checkbox" id="mexico" value="mexico" />
-                <label for="mexico"
-                  >Acepto los
-                  <span class="c-yellow"> Términos y Condiciones y las Politícas de Privacidad </span>
-                </label>
-              </div>
-
-              <a href="#" class="btn btn--raidus-small btn--yellow-white mT-5"> Quiero empezar aquí </a>
-            </div>
-          </form>
+          <div id="form" class="bg-white header__form">
+            <h2 class="medium-big-size font-nunito header__titlesmall" style="margin-bottom: 25px">
+              ¡Regístrate, hackea tu talento y reprograma tu futuro!
+            </h2>
+            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+            <script>
+              hbspt.forms.create({
+                region: "na1",
+                portalId: "20826022",
+                formId: "05e5b45f-5390-410e-bed7-0d8f60b50f74"
+              });
+            </script>
+          </div>
           <!-- form -->
         </div>
       </div>
@@ -470,7 +407,7 @@
               <div>
                 <h3 class="title title--begin c-blueDark medium-size">Horario:</h3>
 
-                <p class="medium-big-size fw-300 c-blueDarker mT-2">6:00 a 8:30 am 5:00 a 9:00 pm Sábados mañana</p>
+                <p class="medium-big-size fw-300 c-blueDarker mT-2">6:00 a 8:30 am <br>5:00 a 9:00 pm Sábados mañana</p>
               </div>
             </div>
           </div>
@@ -648,7 +585,6 @@
                 <div>
                   <p class="medium-size">Resultados de tu prueba de ICFES o Prueba Saber.</p>
                   <a href="https://www.icfes.gov.co/resultados.html" class="d-block medium-size c-yellow mT-2"> Aqui podras consultar tus resultados </a>
-
                 </div>
               </li>
             </ul>
@@ -904,38 +840,36 @@
         >
           <div>
             <img
-              src="https://res.cloudinary.com/protalento/image/upload/v1658839552/Website/Convocatorias/Protalento-logoazul-_3x_2_bmzjqb.svg"
+              src="https://res.cloudinary.com/protalento/image/upload/v1659477020/Website/Convocatorias/logo-asodamas-web-x1_zoevfm.png"
               alt=""
             />
           </div>
 
           <div>
-            <h3 class="title title--begin medium-bigger-size c-yellow medium-size">Stefanini Group</h3>
+            <h3 class="title title--begin medium-bigger-size c-yellow medium-size">Asodamas</h3>
 
             <p class="medium-size line-height-md mT-5">
-              Es una multinacional brasileña que actúa en el sector de servicios en tecnologías de la información. Tienen presencia en más de 40
-              países y se posicionan entre las 100 mayores empresas de TI del mundo (BBC News). Ofrecen procesos de transformación digital, servicios
-              en Consultoría, Integración, Desarrollo de Soluciones, BPO, Outsourcing para Aplicaciones e Infraestructura, entre otras soluciones.
+              Somos una asociación sin ánimo de lucro fundada en 2008, está integrada por esposas de gobernantes – primeras gestoras y gestores sociales y asociadas de número que en su mayoría son organizaciones de mujeres de base que trabajan por las comunidades más vulnerables de la sociedad colombiana.
             </p>
           </div>
         </div>
 
         <div class="gridSystem gridSystem--autoVariation gap-2 pX-5 mT-5">
           <!-- box -->
-          <div id="stefanini" class="afiliados__box txt-center boxShadow raidus-small pX-1 pY-2">
+          <div id="asodamas" class="afiliados__box txt-center boxShadow raidus-small pX-1 pY-2">
             <img
               class="w-100"
-              src="https://res.cloudinary.com/protalento/image/upload/v1658798648/Website/Convocatorias/logo_color_1_mm3ipm.svg"
+              src="https://res.cloudinary.com/protalento/image/upload/v1659478723/Website/Convocatorias/logo-asodamas-web-x1_khxsnh.png"
               alt=""
             />
           </div>
           <!-- box -->
 
           <!-- box -->
-          <div id="dev" class="afiliados__box txt-center boxShadow raidus-small pX-2 pY-2">
+          <div id="bvc" class="afiliados__box txt-center boxShadow raidus-small pX-2 pY-2">
             <img
               class="w-100"
-              src="https://res.cloudinary.com/protalento/image/upload/v1658798640/Website/Convocatorias/Copia_de_Copia_de_logo-devf_1_qnz7da.svg"
+              src="https://res.cloudinary.com/protalento/image/upload/v1658502414/Website/Home/Desktop/logo_bvc_oq8pwn.png"
               alt=""
             />
           </div>
@@ -949,26 +883,7 @@
             />
           </div>
           <!-- box -->
-
-          <!-- box -->
-          <div id="sufi" class="afiliados__box txt-center boxShadow raidus-small pX-2 pY-2">
-            <img
-              class="w-100"
-              src="https://res.cloudinary.com/protalento/image/upload/v1658798623/Website/Convocatorias/Logos_y_Vigilado_Sufi_LOGOS_Logo-rojo_1_zoqebd.svg"
-              alt=""
-            />
-          </div>
-          <!-- box -->
-
-          <!-- box -->
-          <div id="flevo" class="afiliados__box txt-center boxShadow raidus-small pX-2 pY-2">
-            <img
-              class="w-100"
-              src="https://res.cloudinary.com/protalento/image/upload/v1658798615/Website/Convocatorias/Isologo-Flevo-secundario-transparente-01-1-e1644858311932_1_ea6psp.svg"
-              alt=""
-            />
-          </div>
-          <!-- box -->
+          
         </div>
       </div>
     </section>
