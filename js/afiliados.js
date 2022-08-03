@@ -79,6 +79,7 @@ afiliadosBox.forEach((item) => {
     <img
       src="${url}"
       alt=""
+      style="width: 150px;"
     />
   </div>
 
