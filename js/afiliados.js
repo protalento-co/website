@@ -63,8 +63,18 @@ const afiliados = {
     title: "Coding Dojo",
     content: "Coding Dojo se ha transformado en la Academia EdTech más relevante a nivel global, a 10 años de su fundación en Silicon Valley y con más de 10 mil casos de éxito de graduados en el mundo. En América Latina contamos con alumnos y ex alumnos de Chile, Colombia, Perú, Ecuador, Uruguay y México. ",
     url: "https://res.cloudinary.com/protalento/image/upload/v1658861077/Website/Convocatorias/pictures/Logo-celeste_1_mljipn.svg"
+  },
+  asodamas: {
+    title: 'Asodamas',
+    content:
+      'Somos una asociación sin ánimo de lucro fundada en 2008, está integrada por esposas de gobernantes – primeras gestoras y gestores sociales y asociadas de número que en su mayoría son organizaciones de mujeres de base que trabajan por las comunidades más vulnerables de la sociedad colombiana.',
+    url: 'https://res.cloudinary.com/protalento/image/upload/v1659478723/Website/Convocatorias/logo-asodamas-web-x1_khxsnh.png',
+  },
+  bvc: {
+    title: 'BVC',
+    content: 'Una de nuestras más de 200 empresas aliadas con las que co-creamos rutas de aprendizaje de precisión para la empleabilidad. La Bolsa de Valores de Colombia es el centro de conexión entre los sueños de las personas y los deseos de crecimiento de las empresas, liderando la transformación del mercado de capitales y contribuyendo al desarrollo económico del país.',
+    url: 'https://res.cloudinary.com/protalento/image/upload/v1658502414/Website/Home/Desktop/logo_bvc_oq8pwn.png'
   }
-
 };
 
 const container = document.querySelector('.afiliados__container');
@@ -79,6 +89,7 @@ afiliadosBox.forEach((item) => {
     <img
       src="${url}"
       alt=""
+      style="width: 150px;"
     />
   </div>
 
