@@ -36,19 +36,6 @@ const information = [
 
   {
     title:
-      'PROtalento me aportó conocimiento del mercado y una red de contactos invaluable.',
-    img: 'images/JorgeSalazar.png',
-    name: 'Jorge Mario Salazar',
-    ruta: 'Al inicio de la ruta',
-    trabajo: 'Cientifico de Datos en',
-    lugar: 'Endava',
-    profesion: 'Académico con PhD',
-    linkEmpresa: 'https://www.linkedin.com/company/endava/',
-    linkTalento: 'https://www.linkedin.com/in/jorgemariosalazarrios/'
-  },
-
-  {
-    title:
       'PROtalento me dio la seguridad y apoyo que necesitaba para despegar mi carrera.',
     img: 'images/duvanVilladiego.png',
     name: 'Duvan Andrés Villadiego',
@@ -134,7 +121,7 @@ function placeInformation(id) {
               </h2>
             </li>
             <li class="mT-4">
-              <h2 class="small-size c-blueDark">${name}</h2>
+              <h2 class="medium-size c-blueDark">${name}</h2>
             </li>
             <li class="sm-size c-blueDark mT-1">
               <p>${trabajo} <a href="${linkEmpresa}" target="_blank" class="c-yellow">${lugar}</a></p>
