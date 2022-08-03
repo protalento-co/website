@@ -107,6 +107,10 @@
   height: 81px;
 }
 
+.talent-shape {
+  width: 50px;
+}
+
 .normal-wd-phone {
   width: 100%;
   @include for-size('phone-only') {

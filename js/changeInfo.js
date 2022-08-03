@@ -40,8 +40,8 @@ const information = [
     img: 'images/duvanVilladiego.png',
     name: 'Duvan Andrés Villadiego',
     ruta: 'Al inicio de la ruta',
-    trabajo: 'Cientifico de Datos en',
-    lugar: 'Endava',
+    trabajo: 'Full Stack Developer en',
+    lugar: 'Accenture',
     profesion: 'Académico con PhD',
     linkEmpresa: 'https://www.linkedin.com/company/endava/',
     linkTalento: 'https://www.linkedin.com/in/duvan-villadiego/'
