@@ -1,10 +1,5 @@
 let boxes = document.querySelectorAll('.industrias__box');
 let main = document.getElementById('main-box');
-let avatar = document.getElementById('avatar');
-
-avatar.addEventListener('click', () => {
-  avatar.classList.toggle('activo');
-});
 
 // array
 const information = [
@@ -98,18 +93,6 @@ function placeInformation(id) {
               alt=""
               class="industrias__img"
             />
-
-            <div class="industrias__content-box">
-            <div class="industrias__content">
-              <h3 class="title title--begin sm-size c-blueDark">
-               ${ruta}
-              </h3>
-
-              <h2 class="sm-size line-height-md fw-600 c-blueDarker mT-2">
-                ${profesion}
-              </h2>
-            </div>
-          </div>
         </div>
 
           <ul>
@@ -123,17 +106,18 @@ function placeInformation(id) {
             <li class="mT-4">
               <h2 class="medium-size c-blueDark">${name}</h2>
             </li>
-            <li class="sm-size c-blueDark mT-1">
+            <div>
+            <h3 class="title--begin sm-size c-blueDark talent__title">Antes</h3>
+            <h2 class="sm-size line-height-md fw-600 c-blueDarker">${profesion}</h2>
+            </div>
+            <div>
+            <h3 class="title--begin sm-size c-blueDark talent__title">Ahora</h3>
+            <li class="sm-size c-blueDark">
               <p>${trabajo} <a href="${linkEmpresa}" target="_blank" class="c-yellow">${lugar}</a></p>
               <a href="${linkTalento}" target="_blank" class="c-yellow"><i class="uil uil-linkedin-alt"></i></a>
             </li>
+            </div>
           </ul>
           
     `;
-
-  avatar = document.getElementById('avatar');
-
-  avatar.addEventListener('click', () => {
-    avatar.classList.toggle('activo');
-  });
 }

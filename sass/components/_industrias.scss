@@ -93,8 +93,6 @@
 
     overflow: hidden;
 
-    cursor: pointer;
-
     @include for-size('tablet-portrait-up') {
       min-width: 15rem;
     }
@@ -133,9 +131,6 @@
 
   &__img {
     position: absolute;
-    // height: 100%;
     width: 100%;
-
-    transition: opacity 1s;
   }
 }
