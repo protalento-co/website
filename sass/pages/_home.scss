@@ -218,3 +218,18 @@
 .postulate {
   background: $cBlueDark;
 }
+
+.carusel__country {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    width: 25px;
+    margin-top: 10px;
+  }
+}
+
+.talent__title {
+  margin-top: 10px;
+}
