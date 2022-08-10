@@ -233,3 +233,43 @@
 .talent__title {
   margin-top: 10px;
 }
+
+.t-y-c {
+  text-align: center;
+
+  .tyc__content {
+    padding: 120px 30% ;
+  }
+
+  .content__title {
+    color: $cBlueDark;
+  }
+
+  h1 {
+    font-size: $medium-bigger-size;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: $medium-big-size;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-size: $medium-size;
+    margin-bottom: 20px;
+  }
+
+  p{
+    font-size: $small-size;
+  }
+
+  ul, ol {
+    font-size: $small-size;
+
+  }
+
+  b {
+    font-weight: 600;
+  }
+}
