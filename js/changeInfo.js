@@ -6,7 +6,7 @@ const information = [
   {
     title:
       'PROtalento me aportó conocimiento del mercado y una red de contactos invaluable.',
-    img: 'images/JorgeSalazar.png',
+    img: 'https://res.cloudinary.com/protalento/image/upload/q_auto/v1660169214/Website/PROtalento/Home/Talentos/jorge-mario-salazar_pqjvqg_qdpowg.svg',
     name: 'Jorge Mario Salazar',
     ruta: 'Al inicio de la ruta',
     trabajo: 'Cientifico de Datos en',
@@ -19,7 +19,7 @@ const information = [
   {
     title:
       'PROtalento me guió para elegir mi camino profesional en el mundo de la tecnología y una red de colegas con el mismo mindset.',
-    img: 'images/ChelsyMena1.png',
+    img: 'https://res.cloudinary.com/protalento/image/upload/q_auto/v1660169208/Website/PROtalento/Home/Talentos/chelsy-mena_dnpdpw_jieg9w.svg',
     name: 'Chelsy Mena',
     ruta: 'Al inicio de la ruta',
     trabajo: 'Analista de Datos en',
@@ -32,7 +32,7 @@ const information = [
   {
     title:
       'PROtalento me dio la seguridad y apoyo que necesitaba para despegar mi carrera.',
-    img: 'images/duvanVilladiego.png',
+    img: 'https://res.cloudinary.com/protalento/image/upload/q_auto/v1660169209/Website/PROtalento/Home/Talentos/duvan-andres-villadiegos_t7k0gj_oyr5uy.svg',
     name: 'Duvan Andrés Villadiego',
     ruta: 'Al inicio de la ruta',
     trabajo: 'Full Stack Developer en',
@@ -45,7 +45,7 @@ const information = [
   {
     title:
       'PROtalento me inyectó confianza en mis habilidades y capacidades, lo que me permitió verme y ver el mundo diferente, y allí mi éxito como desarrolladora web.',
-    img: 'images/karenMoreno.png',
+    img: 'https://res.cloudinary.com/protalento/image/upload/q_auto/v1660169214/Website/PROtalento/Home/Talentos/karen-edith-moreno_jcuymx_zxcuio.svg',
     name: 'Karen Edith Moreno',
     ruta: 'Al inicio de la ruta',
     trabajo: 'Back End Developer en',
@@ -58,7 +58,7 @@ const information = [
   {
     title:
       'PROtalento para mi fue un motor de oportunidades. En el proceso aprendí a reconocer y explotar mis fortalezas, a trabajar en mis debilidades y a ver mi potencial como impulsora del cambio.',
-    img: 'images/maCamilaArroyo.png',
+    img: 'https://res.cloudinary.com/protalento/image/upload/q_auto/v1660169216/Website/PROtalento/Home/Talentos/maria-camila-arroyo_cf6xhr_lyhday.svg',
     name: 'Maria Camila Arroyo',
     ruta: 'Al inicio de la ruta',
     trabajo: 'Desarrolladora Full Stack Jr en',
