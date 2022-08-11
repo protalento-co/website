@@ -37,7 +37,7 @@ const information = [
     ruta: 'Al inicio de la ruta',
     trabajo: 'Full Stack Developer en',
     lugar: 'Accenture',
-    profesion: 'Académico con PhD',
+    profesion: 'Paseador de perros',
     linkEmpresa: 'https://www.linkedin.com/company/endava/',
     linkTalento: 'https://www.linkedin.com/in/duvan-villadiego/'
   },
@@ -108,7 +108,7 @@ function placeInformation(id) {
             </li>
             <div>
             <h3 class="title--begin sm-size c-blueDark talent__title">Antes</h3>
-            <h2 class="sm-size line-height-md fw-600 c-blueDarker">${profesion}</h2>
+            <h2 class="sm-size line-height-md fw-600 c-blueDark">${profesion}</h2>
             </div>
             <div>
             <h3 class="title--begin sm-size c-blueDark talent__title">Ahora</h3>
