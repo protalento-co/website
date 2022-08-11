@@ -57,7 +57,7 @@ const afiliados = {
     Son una compañía diversa, que trabaja en equipo para crear productos financieros modernos e innovadores, mientras que expanden las oportunidades de crédito a aquellos que están fuera del sistema financiero tradicional
     .
     `,
-    url: "https://res.cloudinary.com/protalento/image/upload/v1658502371/Website/Home/Desktop/logo-color-dark_2x_1_x84ffx.png"
+    url: "https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660169216/Website/PROtalento/Home/logo-color-dark_2x_1_x84ffx_jrj8tu.png"
   },
   dojo: {
     title: "Coding Dojo",
@@ -73,7 +73,7 @@ const afiliados = {
   bvc: {
     title: 'BVC',
     content: 'Una de nuestras más de 200 empresas aliadas con las que co-creamos rutas de aprendizaje de precisión para la empleabilidad. La Bolsa de Valores de Colombia es el centro de conexión entre los sueños de las personas y los deseos de crecimiento de las empresas, liderando la transformación del mercado de capitales y contribuyendo al desarrollo económico del país.',
-    url: 'https://res.cloudinary.com/protalento/image/upload/v1658502414/Website/Home/Desktop/logo_bvc_oq8pwn.png'
+    url: 'https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660169215/Website/PROtalento/Home/logo_bvc_oq8pwn_lofcyc.png'
   }
 };
 
