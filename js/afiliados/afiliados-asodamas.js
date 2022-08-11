@@ -9,7 +9,7 @@ const afiliados = {
     title: 'bvc',
     content:
       'Es la escuela de tecnología más grande y premiada en Latinoamérica. Con más de 8 años, +12,000 capacitaciones y 32 ubicaciones en 12 países de LATAM, hemos sido reconocidos por organizaciones como el Banco Interamericano de Desarrollo (BID), Google, Forbes y otras gracias a los resultados que nuestra comunidad ha logrado.',
-    url: 'https://res.cloudinary.com/protalento/image/upload/v1658502414/Website/Home/Desktop/logo_bvc_oq8pwn.png',
+    url: 'https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660169215/Website/PROtalento/Home/logo_bvc_oq8pwn_lofcyc.png',
   },
   primera: {
     title: 'Primera HFC',
