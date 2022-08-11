@@ -3,7 +3,7 @@ const afiliados = {
     title: 'Asodamas',
     content:
       'Somos una asociación sin ánimo de lucro fundada en 2008, está integrada por esposas de gobernantes – primeras gestoras y gestores sociales y asociadas de número que en su mayoría son organizaciones de mujeres de base que trabajan por las comunidades más vulnerables de la sociedad colombiana.',
-    url: 'https://res.cloudinary.com/protalento/image/upload/v1659478723/Website/Convocatorias/logo-asodamas-web-x1_khxsnh.png',
+    url: 'https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660170117/Website/PROtalento/Convocatorias/logo-asodamas-web-x1_khxsnh_mneqmt.png',
   },
   dev: {
     title: 'bvc',
@@ -15,7 +15,7 @@ const afiliados = {
     title: 'Primera HFC',
     content:
       'Es una organización de alto impacto social que enseña idiomas a los jóvenes y los apoya para mejorar sus oportunidades. Su misión es abrir oportunidades laborales para los jóvenes a través del poder de los idiomas.',
-    url: 'https://res.cloudinary.com/protalento/image/upload/v1658798632/Website/Convocatorias/Copia_de_logo-horizontal-sinSlogan_1_pjskfs.svg',
+    url: 'https://res.cloudinary.com/protalento/image/upload/q_auto/v1660170113/Website/PROtalento/Convocatorias/Copia_de_logo-horizontal-sinSlogan_1_pjskfs_zbwosq.svg',
   }
 };
 
