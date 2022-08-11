@@ -374,3 +374,12 @@
 .uil-linkedin-alt::before {
   padding-top: 15px;
 }
+
+.english__icon {
+  margin-right: 40px;
+}
+
+.uil-ear::before, .uil-comment-dots::before, .uil-edit::before, .uil-book-alt::before {
+  font-size: 30px;
+  color: $cMain;
+}
