@@ -383,3 +383,27 @@
   font-size: 30px;
   color: $cMain;
 }
+
+.hide {
+  display: none;
+
+  li {
+    margin-top: 15px;
+    font-size: $smaller-size;
+  }
+}
+
+.show {
+  display: block;
+
+  li {
+    font-size: $smaller-size;
+  }
+}
+
+.verMas {
+  margin-top: 20px;
+
+  background: $cPrimaryDynamic;
+  color: $cSecondaryDynamic;
+}
