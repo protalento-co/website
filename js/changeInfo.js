@@ -9,7 +9,7 @@ const information = [
     img: 'https://res.cloudinary.com/protalento/image/upload/q_auto/v1660169214/Website/PROtalento/Home/Talentos/jorge-mario-salazar_pqjvqg_qdpowg.svg',
     name: 'Jorge Mario Salazar',
     ruta: 'Al inicio de la ruta',
-    trabajo: 'Cientifico de Datos en',
+    trabajo: 'Cientifíco de Datos en',
     lugar: 'Endava',
     profesion: 'Académico con PhD',
     linkEmpresa: 'https://www.linkedin.com/company/endava/',
