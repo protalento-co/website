@@ -40,9 +40,11 @@
     <script src="js/sidenav.js" defer></script>
     <script src="js/ChangeInfoli.js" defer></script>
     <script src="js/ChangeInfoP.js" defer></script>
+    <script src="js/ChangeInfoP.js" defer></script>
     <script src="js/programa.js" defer></script>
     <script src="js/afiliados.js" defer></script>
     <script src="js/btnHelp.js" defer></script>
+    <script src="js/comoPagar.js" defer></script>
     <script src="js/comoPagar.js" defer></script>
     <!-- script -->
     <title>PROtalento | Desarrollo Web Full Stack</title>
@@ -75,7 +77,7 @@
                 </li>
 
                 <li class="flexContainer justify-content-between align-item-center gap-1 mT-2">
-                  <a href="https://www.protalento.com/full-stack-python" class="c-blueDarker medium-size">Full-Stack Python</a>
+                  <a href="https://www.protalento.com/full-stack-full-stack-python" class="c-blueDarker medium-size">Full-Stack Full-Stack Python</a>
                   <p class="pXY-mini fw-600 bg-blue c-blue radius-smaller mini-size">Nuevo</p>
                 </li>
 
@@ -134,8 +136,8 @@
               </li>
 
               <li class="flexContainer align-item-center gap-1 mT-2">
-                <a href="https://www.protalento.com/full-stack-python" class="c-blueDarker medium-size">
-                  <span class="fw-600">Full-Stack Python</span>
+                <a href="https://www.protalento.com/full-stack-full-stack-python" class="c-blueDarker medium-size">
+                  <span class="fw-600">Full-Stack Full-Stack Python</span>
                 </a>
                 <p class="pX-2 pY-1 bg-blue c-blue raidus-small sm-size">Nuevo</p>
               </li>
@@ -232,7 +234,7 @@
 
           <!-- button -->
           <div class="header__line mT-4">
-            <a href="#form" class="btn btn--yellow txt-center"> ¡Conoce el programa! </a>
+            <a href="#formform" class="btn btn--yellow txt-center"> ¡Conoce el programa!! </a>
           </div>
         </div>
         <!-- content -->
@@ -337,17 +339,17 @@
             <img src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660170114/Website/PROtalento/Convocatorias/Asset_5_2x_1_mh37oo_rcfadu.png" alt="" loading="lazy" class="w-100" />
           </div>
           <div>
-            <p class="medium-size fw-600 line-height-md font-nunito  justify-text">
+            <p class="medium-size fw-600 line-height-md font-nunito  justify-text  justify-text">
               ¡Dato Curioso!: En Colombia el 96% de las empresas demanda a estos profesionales.
             </p>
 
-            <p class="medium-size fw-300 line-height-md mT-2  justify-text">
+            <p class="medium-size fw-300 line-height-md mT-2  justify-text  justify-text">
               Un Desarrollador Web <span class="fw-600">Full Stack</span> es ese profesional que tiene experiencia en todos los aspectos o “stacks”
               del desarrollo web, desde el diseño, la codificación frontend, la codificación back end, experiencia con hosting, bases de datos, entre
               otros.
             </p>
 
-            <p class="medium-size fw-300 line-height-md mT-2  justify-text">Adquiere la mágia de codificar el mundo para que sea mas accesible y productivo.</p>
+            <p class="medium-size fw-300 line-height-md mT-2  justify-text  justify-text">Adquiere la mágia de codificar el mundo para que sea mas accesible y productivo.</p>
 
             <div class="mT-4">
               <a href="#form" class="btn btn--yellow txt-center"> ¡Postúlate! </a>
@@ -430,7 +432,8 @@
                 <h3 class="title title--begin c-blueDark medium-size">Precio:</h3>
 
                 <p class="medium-big-size fw-300 c-blueDarker mT-2">$11.126.500 COP<br> IVA incluido</p>
-                <p class="medium-big-size fw-300 c-blueDarker mT-2">SUFI <br>$11.000.000 COP<br> IVA incluido</p>
+                <p class="medium-big-size fw-300 c-blueDarker mT-2">SUFI <br>$11.126.500 COP<br> IVA incluido</p>
+                <p class="medium-big-size fw-300 c-blueDarker mT-2">SUFI <br>$11.000.000 COPCOP<br> IVA incluido</p>
               </div>
             </div>
           </div>
@@ -451,7 +454,7 @@
         </div>
 
         <h3 class="medium-size line-height-md txt-center mT-5">
-          ¡Se acabaron los pretextos! <br /> <br>
+          ¡Se acabaron los pretextos! <br /> <br> <br>
           Hemos dedicado nuestros esfuerzos para crear y detectar las opciones de financiamiento mas justas. <br />
           Ahora puedes confiar en las letras chiquitas
         </h3>
@@ -495,6 +498,16 @@
 
               <p class="medium-size mT-2">$211.040</p>
               <p class="smaller-size mT-1">COP</p>
+
+              <span class="hide" id="hideText">
+                <ul>
+                  <li>Diseñado para estudiantes sin historial crediticio y no se necesita codeudor.</li>
+                  <li>Debe ser pagado en un plazo de 36 meses, pero se permiten pagos anticipados que pueden reducir el capital prestado y el tamaño de las cuotas a pagar.</li>
+                  <li>Periodo de gracia de capital de 12 meses, las primeras cuotas son de $211.000 y a partir del mes 13 son de $560.000.</li>
+                  <li>El valor de estas cuotas es estimativo, y al ser una tasa variable el monto puede tener variaciones.</li>
+                </ul>
+              </span>
+              <button class="btn verMas txt-center" id="hideText_btn">Ver Mas</button>
 
               <span class="hide" id="hideText">
                 <ul>
@@ -663,7 +676,7 @@
 
               <p class="line-height-md medium-size mT-2">
                 Deberás disponer de tiempo para presentar unas pruebas como parte de tu postulación, ojalá en un lugar tranquilo y sin
-                distracciones. Estas pruebas son:
+                distracciones.  Estas pruebas son:
               </p>
 
               <ul class="mT-4">
@@ -905,7 +918,7 @@
           <div>
             <h3 class="title title--begin medium-bigger-size c-yellow medium-size">Stefanini Group</h3>
 
-            <p class="medium-size line-height-md mT-5 justify-text">
+            <p class="medium-size line-height-md mT-5 justify-text justify-text">
               Es una multinacional brasileña que actúa en el sector de servicios en tecnologías de la información. Tienen presencia en más de 40
               países y se posicionan entre las 100 mayores empresas de TI del mundo (BBC News). Ofrecen procesos de transformación digital, servicios
               en Consultoría, Integración, Desarrollo de Soluciones, BPO, Outsourcing para Aplicaciones e Infraestructura, entre otras soluciones.
@@ -917,7 +930,7 @@
           <!-- box -->
           <div id="stefanini" class="afiliados__box txt-center boxShadow raidus-small pX-1 pY-2">
             <img
-              class="w-100 allies"
+              class="w-100 allies allies"
               src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660170117/Website/PROtalento/Convocatorias/logo_color_1_mm3ipm_xawjb1.svg"
               alt=""
             />
@@ -927,7 +940,7 @@
           <!-- box -->
           <div id="sufi" class="afiliados__box txt-center boxShadow raidus-small pX-2 pY-2">
             <img
-              class="w-100 allies"
+              class="w-100 allies allies"
               src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660170117/Website/PROtalento/Convocatorias/Logos_y_Vigilado_Sufi_LOGOS_Logo-rojo_1_zoqebd_mxate1.svg"
               alt=""
             />
@@ -937,7 +950,7 @@
           <!-- box -->
           <div id="dev" class="afiliados__box txt-center boxShadow raidus-small pX-2 pY-2">
             <img
-              class="w-100 allies"
+              class="w-100 allies allies"
               src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660170113/Website/PROtalento/Convocatorias/Copia_de_Copia_de_logo-devf_1_qnz7da_as9ds1.svg"
               alt=""
             />
@@ -946,7 +959,7 @@
           <!-- box -->
           <div id="primera" class="afiliados__box txt-center boxShadow raidus-small pX-2 pY-2">
             <img
-              class="w-100 allies"
+              class="w-100 allies allies"
               src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660170113/Website/PROtalento/Convocatorias/Copia_de_logo-horizontal-sinSlogan_1_pjskfs_zbwosq.svg"
               alt=""
             />
@@ -1036,7 +1049,7 @@
             </li>
 
             <li>
-              <a class="d-inline-block text-decoration-none c-white mT-1" href="https://www.protalento.com/full-stack-python">Full-Stack Python</a>
+              <a class="d-inline-block text-decoration-none c-white mT-1" href="https://www.protalento.com/full-stack-full-stack-python">Full-Stack Full-Stack Python</a>
             </li>
 
             <li>
