@@ -383,3 +383,40 @@
   font-size: 30px;
   color: $cMain;
 }
+
+.hide {
+  display: none;
+
+  li {
+    margin-top: 15px;
+    font-size: $smaller-size;
+  }
+}
+
+.show {
+  display: block;
+
+  li {
+    font-size: $smaller-size;
+  }
+}
+
+.verMas {
+  margin-top: 20px;
+
+  background: $cPrimaryDynamic;
+  color: $cBlueDarker;
+}
+
+.allies {
+  width: 150px;
+  height: 40px !important;
+
+  margin-top: 10px;
+}
+
+.fin-title {
+  font-size: $medium-size;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
