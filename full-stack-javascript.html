@@ -32,8 +32,9 @@
   <script src="js/programa.js" defer></script>
   <script src="js/afiliados.js" defer></script>
   <script src="js/btnHelp.js" defer></script>
+  <script src="js/comoPagar.js" defer></script>
   <!-- script -->
-  <title>PROtalento | Home</title>
+  <title>PROtalento | Full-Stack JavaScript</title>
 </head>
 
 <body>
@@ -63,12 +64,12 @@
               </li>
 
               <li class="flexContainer justify-content-between align-item-center gap-1 mT-2">
-                <a href="https://www.protalento.com/python" class="c-blueDarker medium-size">Python</a>
+                <a href="https://www.protalento.com/full-stack-python" class="c-blueDarker medium-size">Full-Stack Python</a>
                 <p class="pXY-mini fw-600 bg-blue c-blue radius-smaller mini-size">Nuevo</p>
               </li>
 
               <li class="flexContainer justify-content-between align-item-center gap-1 mT-2">
-                <a href="https://www.protalento.com/mern" class="c-blueDarker medium-size">MERN</a>
+                <a href="https://www.protalento.com/full-stack-javascript" class="c-blueDarker medium-size">Full-Stack JavaScript</a>
                 <p class="pXY-mini fw-600 bg-blue c-blue radius-smaller mini-size">Nuevo</p>
               </li>
 
@@ -121,14 +122,14 @@
             </li>
 
             <li class="flexContainer align-item-center gap-1 mT-2">
-              <a href="https://www.protalento.com/python" class="c-blueDarker medium-size">
-                <span class="fw-600">Python</span>
+              <a href="https://www.protalento.com/full-stack-python" class="c-blueDarker medium-size">
+                <span class="fw-600">Full-Stack Python</span>
               </a>
               <p class="pX-2 pY-1 bg-blue c-blue raidus-small sm-size">Nuevo</p>
             </li>
 
             <li class="flexContainer align-item-center gap-1 mT-2">
-              <a href="https://www.protalento.com/mern" class="c-blueDarker medium-size"><span class="fw-600">MERN</span> </a>
+              <a href="https://www.protalento.com/full-stack-javascript" class="c-blueDarker medium-size"><span class="fw-600">Full-Stack JavaScript</span> </a>
               <p class="pX-2 pY-1 bg-blue c-blue raidus-small sm-size">Nuevo</p>
             </li>
 
@@ -207,7 +208,7 @@
       <!-- content -->
       <div class="header__content c-blueDark">
         <h2 class="header__title font-nunito">
-          Aprende un conjunto de tecnologías que te abriran las puertas al mundo digital con MERN.
+          Aprende un conjunto de tecnologías que te abrirán las puertas al mundo digital con MERN.
         </h2>
 
         <p class="small-size fw-300 line-height-md mT-4">
@@ -221,8 +222,8 @@
 
         <!-- button -->
         <div class="header__line mT-4">
-          <a href="#" class="btn btn--yellow txt-center">
-            ¡Conoce el programa
+          <a href="#form" class="btn btn--yellow txt-center">
+            ¡Conoce el programa!
           </a>
         </div>
       </div>
@@ -389,7 +390,7 @@
 
             <div>
               <h3 class="title title--begin c-blueDark medium-size">
-                Costo:
+                Precio:
               </h3>
 
               <p class="sm-size mT-2">Primeros 10 inscritos</p>
@@ -423,13 +424,13 @@
       </div>
 
       <h3 class="medium-size line-height-md txt-center mT-5">
-        ¡Se acabaron los pretextos! <br />
+        ¡Se acabaron los pretextos! <br /> <br>
         Hemos dedicado nuestros esfuerzos para crear y detectar las opciones
         de financiamiento mas justas. <br /> Ahora puedes confiar en las
         letras chiquitas
       </h3>
 
-      <div class="gridSystem gridSystem--2-columns-variante justify-content-center gap-2 pX-5 mT-5">
+      <div class="gridSystem gridSystem--3-columns justify-content-center gap-2 pX-5 mT-5">
         <!-- box -->
         <div
           class="flexContainer flexContainer--column flexContainer--row-landscape align-item-center justify-content-center gap-2 boxShadow raidus-small pX-2 pY-2">
@@ -466,10 +467,46 @@
 
             <p class="medium-size c-blueDarker mT-2">$175.799</p>
             <p class="smaller-size c-blueDarker mT-1">COP</p>
+            <span class="hide" id="hideText">
+              <ul>
+                <li>Diseñado para estudiantes sin historial crediticio y no se necesita codeudor.</li>
+                <li>Debe ser pagado en un plazo de 36 meses, pero se permiten pagos anticipados que pueden reducir el capital prestado y el tamaño de las cuotas a pagar.</li>
+                <li>Periodo de gracia de capital de 12 meses, las primeras cuotas son de $211.000 y a partir del mes 13 son de $560.000.</li>
+                <li>El valor de estas cuotas es estimativo, y al ser una tasa variable el monto puede tener variaciones.</li>
+              </ul>
+            </span>
+            <button class="btn verMas txt-center" id="hideText_btn">Ver Mas</button>
 
           </div>
         </div>
         <!-- box -->
+        <!-- box -->
+        <div
+        class="flexContainer flexContainer--column flexContainer--row-landscape align-item-center justify-content-center gap-2 boxShadow raidus-small pX-2 pY-2"
+      >
+        <div>
+          <img
+            src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660170116/Website/PROtalento/Convocatorias/Isologo-Flevo-secundario-transparente-01-1-e1644858311932_1_ea6psp_tbjy42.svg"
+            alt=""
+          />
+        </div>
+
+        <div>
+          <h3 class="title title--begin c-blueDark medium-size">Primeros 10 inscritos</h3>
+
+          <p class="medium-size mT-2">$11.000.000 COP</p>
+          <p class="smaller-size mT-1 c-blueDark">Del 11 en adelante</p>
+          <p class="smaller-size mT-1">$13.700.000 COP</p>
+
+          <span class="hide" id="hideText2">
+            <ul>
+              <li>La financiacióna 6 meses se da sin interés asociado.</li>
+            </ul>
+          </span>
+          <button class="btn verMas txt-center" id="hideText_btn2">Ver Mas</button>
+        </div>
+      </div>
+      <!-- box -->
       </div>
     </div>
   </section>
@@ -522,7 +559,7 @@
           </div>
 
           <p class="line-height-md medium-size mT-2">
-            Asegurate de tener los siguientes documentos listos al momento de
+            Asegúrate de tener los siguientes documentos listos al momento de
             realizar tu postulación, ya que deberás ingresar los datos de
             estos como parte del proceso.
           </p>
@@ -562,13 +599,13 @@
             <div class="flexContainer align-item-center gap-2 c-blueDark">
               <img src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660237950/Website/PROtalento/Home/Vector_vdrwty.svg" alt="" />
 
-              <h2 class="medium-size">TIEMPO DE DEDICACIÓN</h2>
+              <h2 class="medium-size">Tiempo de dedicación</h2>
             </div>
 
             <p class="line-height-md medium-size mT-2">
               Deberás disponer de tiempo para presentar unas pruebas como
               parte de tu postulación, ojalá en un lugar tranquilo y sin
-              distracciones.Estas pruebas son:
+              distracciones. Estas pruebas son:
             </p>
 
             <ul class="mT-4">
@@ -579,7 +616,7 @@
                     alt="" loading="lazy" />
                 </div>
 
-                <p class="medium-size">Prueba de inglés.</p>
+                <p class="medium-size">Prueba de inglés</p>
 
                 <p class="sm-fs bg-purple radius-smaller pY-1">120 mins</p>
               </li>
@@ -820,7 +857,7 @@
       <div class="flexContainer justify-content-center flex-wrap align-item-center gap-2 pX-5 mT-5">
         <!-- box -->
         <div id="dojo" class="afiliados__box txt-center boxShadow raidus-small pX-1 pY-2">
-          <img class="w-100"
+          <img class="w-100 allies"
             src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660170117/Website/PROtalento/Convocatorias/Logo-celeste_1_mljipn_wvujtr_m8xxkb.svg"
             alt="" />
         </div>
@@ -828,7 +865,7 @@
 
         <!-- box -->
         <div id="sufi" class="afiliados__box txt-center boxShadow raidus-small pX-2 pY-2">
-          <img class="w-100"
+          <img class="w-100 allies"
             src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660170117/Website/PROtalento/Convocatorias/Logos_y_Vigilado_Sufi_LOGOS_Logo-rojo_1_zoqebd_mxate1.svg"
             alt="" />
         </div>
@@ -848,7 +885,7 @@
         </div>
 
         <h2 class="medium-bigger-size line-height-md font-nunito mT-2">
-          ¡Registrate, hackea tu talento y reprograma tu futuro!
+          ¡Regístrate, hackea tu talento y reprograma tu futuro!
         </h2>
       </div>
       <!-- box -->
@@ -930,11 +967,11 @@
           </li>
 
           <li>
-            <a class="d-inline-block text-decoration-none c-white mT-1" href="https://www.protalento.com/python">Python</a>
+            <a class="d-inline-block text-decoration-none c-white mT-1" href="https://www.protalento.com/full-stack-python">Full-Stack Python</a>
           </li>
 
           <li>
-            <a class="d-inline-block text-decoration-none c-white mT-1" href="https://www.protalento.com/mern">MERN</a>
+            <a class="d-inline-block text-decoration-none c-white mT-1" href="https://www.protalento.com/full-stack-javascript">Full-Stack JavaScript</a>
           </li>
 
           <li>

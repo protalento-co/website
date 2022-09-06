@@ -100,7 +100,7 @@ afiliadosBox.forEach((item) => {
       ${title}
     </h3>
 
-    <p class="medium-size line-height-md mT-5">
+    <p class="medium-size line-height-md mT-5 justify-text">
       ${content}
     </p>
   </div>

@@ -3,9 +3,9 @@ const content = document.getElementById('content');
 
 const text = [
   [
-    'Aprender a trabajar con HTML y CSS para desarrollar sitios web estáticos, responsivos',
+    'Aprender a trabajar con HTML y CSS para desarrollar sitios web estáticos, responsivos.',
     'Uso básico de Git y Github para generar portafolio y desplegar sitios web.',
-    'Lógica de programación con JavaScript para manipular HTML y CSS mediante el DOM',
+    'Lógica de programación con JavaScript para manipular HTML y CSS mediante el DOM.',
   ],
   [
     'Aprender a reconocer y utilizar estructuras de datos y algoritmos de búsqueda y ordenamiento con JavaScript para manejar datos eficientemente.',
