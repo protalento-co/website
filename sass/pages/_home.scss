@@ -74,6 +74,7 @@
 
     .btn {
       width: 100%;
+      text-align: center;
 
       @include for-size('tablet-portrait-up') {
         width: unset;
