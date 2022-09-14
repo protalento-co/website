@@ -21,7 +21,7 @@ const afiliados = {
     title: 'Primera HFC',
     content:
       'Es una organización de alto impacto social que enseña idiomas a los jóvenes y los apoya para mejorar sus oportunidades. Su misión es abrir oportunidades laborales para los jóvenes a través del poder de los idiomas.',
-    url: 'https://res.cloudinary.com/protalento/image/upload/q_auto/v1660170113/Website/PROtalento/Convocatorias/Copia_de_logo-horizontal-sinSlogan_1_pjskfs_zbwosq.svg',
+    url: 'https://res.cloudinary.com/protalento/image/upload/f_auto/v1663189266/Website/PROtalento/Convocatorias/Recurso_1_hdkypw.png',
   },
   flevo: {
     title: 'Flevo',
