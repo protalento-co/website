@@ -40,9 +40,13 @@
     <!-- script -->
     <script src="js/sidenav.js" defer></script>
     <script src="js/ChangeInfoli.js" defer></script>
+    <script src="js/ChangeInfoP.js" defer></script>
+    <script src="js/ChangeInfoP.js" defer></script>
     <script src="js/programa.js" defer></script>
     <script src="js/afiliados.js" defer></script>
     <script src="js/btnHelp.js" defer></script>
+    <script src="js/comoPagar.js" defer></script>
+    <script src="js/comoPagar.js" defer></script>
     <!-- script -->
     <title>PROtalento | Asodamas</title>
   </head>
@@ -172,9 +176,7 @@
                 <p class="pX-2 pY-1 bg-purple c-blue raidus-small sm-size">Abierto</p>
               </li>
             </ul>
-            <div class="txt-center mT-3 pY-3">
-              <a href="#form" class="btn btn--yellow">¡Postúlate!</a>
-            </div>
+
           </li>
         </ul>
 
@@ -218,13 +220,13 @@
         <div class="header__content c-blueDark">
           <h2 class="header__title font-nunito">¡Buscamos talento tech!</h2>
 
-          <p class="small-size fw-300 line-height-md mT-4">Tenemos 500 cupos para digitalizar tu creatividad y que aprendas a crear sitios web.</p>
+          <p class="medium-big-size line-height-md mT-4 fw-600">Estudia ahora y paga después &#128079;</p>
 
-          <p class="small-size mT-4">Aprende Desarrollo Web Full Stack + Inglés + Habilidades para emplearte</p>
+          <p class="medium-size mT-4 fw-300">Aprende Desarrollo Web Full Stack + Inglés (opcional) + Habilidades para emplearte</p>
 
           <!-- button -->
           <div class="header__line mT-4">
-            <a href="#form" class="btn btn--yellow txt-center"> ¡Conoce el programa! </a>
+            <a href="#form"></a>
           </div>
         </div>
         <!-- content -->
@@ -280,7 +282,7 @@
           alt=""
           style="width: 130px; height: 78px"
         />
-        <h2 class="sm-size c-gray">FINANCIADOR</h2>
+        <h2 class="sm-size c-gray">PROMOTOR</h2>
       </div>
       <!-- box -->
       <!-- box -->
@@ -322,7 +324,7 @@
       <div class="container">
         <div class="title medium-bigger-size line-height-md c-blueDark txt-center font-nunito">
           <h2>
-            ¿Por qué las empresas buscan Desarrolladores
+            ¿Por qué las empresas buscan Desarrollador@s
             <span class="d-block">Web Full Stack?</span>
           </h2>
         </div>
@@ -428,7 +430,7 @@
               <div>
                 <h3 class="title title--begin c-blueDark medium-size">Precio:</h3>
 
-                <p class="medium-big-size fw-300 c-blueDarker mT-2">$10.545.000 <br> IVA incluido para financiación con FLEVO y SUFI</p>
+                <p class="medium-big-size fw-300 c-blueDarker mT-2">A una sola cuota: <br><br> Con inglés: <br> $11.000.000 COP <br> IVA incluido <br><br> Sin inglés: <br> $9.200.000 COP <br> IVA incluido</p>
               </div>
             </div>
           </div>
@@ -473,9 +475,20 @@
                 <span class="d-block text-decoration-line"></span>
               </p>
 
-              <p class="medium-big-size fw-300 c-blueDarker txt-center mT-2">
-                <span class="d-block">Pago del 18% de tu sueldo.</span>
-              </p>
+              <p class="medium-size fw-300 c-blueDarker mT-2"> Estudia ahora y paga después</p>
+
+              <span class="hide" id="hideText">
+                <ul>
+                  <li><b class="fw-600">Precio con inglés:</b><p> $18.000.000 IVA incluido.</p></li>
+                  <li>
+                    <b class="fw-600">Precio sin inglés:</b><p> Recibe un 25% de descuento y paga $14.000.000 IVA incluido.<br><br>
+                      Paga el 18% de tu sueldo por un periodo determinado una vez ya estés empleado. Nuestros talentos consiguen trabajo desde que están estudiando por un promedio de $2.800.000. 
+                  </p>
+                </li>
+                </ul>
+              </span>
+              <button class="btn verMas txt-center" id="hideText_btn">Ver Mas</button>
+
             </div>
           </div>
           <!-- box -->
@@ -490,9 +503,13 @@
             </div>
 
             <div>
-              <h3 class="title title--begin c-blueDark medium-size">Cuotas desde</h3>
+              <!-- <h3 class="title title--begin c-blueDark medium-size">Cuotas desde</h3> -->
 
-              <p class="medium-big-size fw-300 c-blueDarker mT-2">$211.040</p>
+              <p class="medium-size fw-300 c-blueDarker mT-2">Tienes acceso a un súper descuento del 49% .
+                <br>
+                <br>
+                Manejamos financiación con tasas justas:  pagas hasta $9.200.000 sin inglés y $11.000.000 con inglés. 
+                </p>
             </div>
           </div>
           <!-- box -->
@@ -507,9 +524,13 @@
             </div>
 
             <div>
-              <h3 class="title title--begin c-blueDark medium-size">Cuotas desde</h3>
+              <!-- <h3 class="title title--begin c-blueDark medium-size">Cuotas desde</h3> -->
 
-              <p class="medium-big-size fw-300 c-blueDarker mT-2">$175.799</p>
+              <p class="medium-size fw-300 c-blueDarker mT-2">Tienes acceso a un súper descuento del 49% .
+                <br>
+                <br>
+                Manejamos financiación con tasas justas:  pagas hasta $9.200.000 sin inglés y $11.000.000 con inglés. 
+                </p>
             </div>
           </div>
           <!-- box -->
@@ -522,7 +543,7 @@
     <section class="mT-10">
       <div class="container">
         <div class="title medium-bigger-size txt-center c-blueDark">
-          <h2>Fechas Claves</h2>
+          <h2>Fecha Clave</h2>
         </div>
 
         <div class="gridSystem gridSystem--3-columns gap-2 pX-5 mT-10">
@@ -530,7 +551,7 @@
           <div class="txt-center boxShadow raidus-small pX-2 pY-2">
             <h3 class="c-blueDarker medium-size">Postulación hasta:</h3>
 
-            <p class="medium-big-size fw-300 bg-blue c-white radius-smaller pY-1 pX-3 mT-2">Septiembre 30</p>
+            <p class="medium-big-size fw-300 bg-blue c-white radius-smaller pY-1 pX-3 mT-2" style="font-size: 18px;">Octubre 12 2022</p>
           </div>
           <!-- box -->
 
@@ -538,14 +559,14 @@
           <div class="txt-center boxShadow raidus-small pX-2 pY-2">
             <h3 class="c-blueDarker medium-size">Selección hasta:</h3>
 
-            <p class="medium-big-size fw-300 bg-cSecondaryElements c-white radius-smaller pY-1 pX-3 mT-2">Octubre</p>
+            <p class="medium-big-size fw-300 bg-cSecondaryElements c-white radius-smaller pY-1 pX-3 mT-2" style="font-size: 18px;">Octubre 2022 y Noviembre 2022</p>
           </div>
           <!-- box -->
           <!-- box -->
           <div class="txt-center boxShadow raidus-small pX-2 pY-2">
             <h3 class="c-blueDarker medium-size">Inicio de programa:</h3>
 
-            <p class="medium-big-size fw-300 bg-yellow c-white radius-smaller pY-1 pX-3 mT-2">Noviembre</p>
+            <p class="medium-big-size fw-300 bg-yellow c-white radius-smaller pY-1 pX-3 mT-2" style="font-size: 18px;">Noviembre 8 2022 y Enero 10 2023</p>
           </div>
           <!-- box -->
         </div>
@@ -564,20 +585,6 @@
             </p>
 
             <ul class="mT-4">
-              <li class="flexContainer gap-2">
-                <div class="align-self-start">
-                  <img
-                    src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660169975/Website/PROtalento/Generales/ui_assets_ellipse_check_tyc0ic_n0ei7q.svg"
-                    alt=""
-                    loading="lazy"
-                  />
-                </div>
-
-                <div>
-                  <p class="medium-size">90% de nuestros egresados consiguen trabajo en 4 meses</p>
-                </div>
-              </li>
-
               <li class="flexContainer gap-2 mT-3">
                 <div class="align-self-start">
                   <img
@@ -629,7 +636,7 @@
                     />
                   </div>
 
-                  <p class="medium-size">Prueba de inglés</p>
+                  <p class="small-size">Prueba de Inglés</p>
 
                   <p class="sm-fs bg-purple radius-smaller pY-1">120 mins</p>
                 </li>
@@ -643,7 +650,7 @@
                     />
                   </div>
 
-                  <p class="medium-size">Prueba de nivel Desarrollo Web</p>
+                  <p class="small-size">Prueba de nivel Desarrollo Web Full Stack</p>
 
                   <p class="sm-fs bg-purple radius-smaller pY-1">30 mins</p>
                 </li>
