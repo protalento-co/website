@@ -72,7 +72,7 @@ const afiliados = {
   },
   bvc: {
     title: 'BVC',
-    content: 'Una de nuestras más de 200 empresas aliadas con las que co-creamos rutas de aprendizaje de precisión para la empleabilidad. La Bolsa de Valores de Colombia es el centro de conexión entre los sueños de las personas y los deseos de crecimiento de las empresas, liderando la transformación del mercado de capitales y contribuyendo al desarrollo económico del país.',
+    content: 'Una de nuestras más de 200 empresas aliadas con las que co-creamos rutas de aprendizaje de precisión para la empleabilidad.<br><br> La Bolsa de Valores de Colombia es el centro de conexión entre los sueños de las personas y los deseos de crecimiento de las empresas, liderando la transformación del mercado de capitales y contribuyendo al desarrollo económico del país.',
     url: 'https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660169215/Website/PROtalento/Home/logo_bvc_oq8pwn_lofcyc.png'
   }
 };
