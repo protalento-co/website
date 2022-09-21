@@ -286,3 +286,29 @@
 .justify-text {
   text-align: justify;
 }
+
+.didi__details {
+  padding: 1.5rem;
+  margin: 3rem;
+
+  background: $cWhite;
+  box-shadow: 0px 4px 15px 10px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  summary {
+    list-style: none;
+  }
+
+  summary::before {
+    // content: url("https://res.cloudinary.com/protalento/image/upload/v1663796521/Website/PROtalento/Generales/Vector_i2zyag.svg");
+    content: '+';
+    padding-right: 1rem;
+  }
+}
+
+.didi__details[open] summary::before {
+  content: '-';
+}
+
