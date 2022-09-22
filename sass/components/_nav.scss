@@ -145,6 +145,7 @@
   display: flex;
   flex-direction: row;
 }
+
 .nav__didi {
   position: fixed;
   z-index: 1000;
@@ -153,6 +154,8 @@
 
   margin: 0 auto;
   padding: 1rem 2rem;
+
+  background-color: #ffffff;
 
   --state-open: scale(1);
   --state-close: scale(0);
