@@ -236,11 +236,9 @@
 }
 
 .t-y-c {
-  text-align: center;
+  padding: 120px 10% ;
 
-  .tyc__content {
-    padding: 120px 30% ;
-  }
+  text-align: center;
 
   .content__title {
     color: $cBlueDark;
@@ -312,3 +310,7 @@
   content: '-';
 }
 
+.faq {
+  margin-left: 3%;
+  margin-right: 3%;
+}
