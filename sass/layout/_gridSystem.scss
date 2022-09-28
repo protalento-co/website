@@ -59,6 +59,10 @@
     }
   }
 
+  &--2-columns-didi {
+    grid-template-columns: repeat(2, minmax(auto, 20rem));
+  }
+
   &--3-columns {
     @include for-size('tablet-landscape-up') {
       grid-template-columns: repeat(3, 1fr);

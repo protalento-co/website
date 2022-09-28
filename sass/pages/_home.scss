@@ -106,6 +106,42 @@
         top: 30%;
         right: -5rem;
       }
+
+      &--5 {
+        top: 5%;
+        left: 50%;
+      }
+
+      &--6 {
+        top: 20%;
+        left: 2%;
+      }
+
+      &--7 {
+        top: 78%;
+        left: -12%;
+      }
+
+      &--8 {
+        top: 25%;
+        left: 15%;
+      }
+
+      &--9 {
+        top: 20%;
+        left: 60%;
+      }
+
+      &--10 {
+        width: 287px;
+
+        top: -1%;
+        left: 15%;
+        
+        background: $cWhite;
+        box-shadow: 0px 4px 15px 10px rgba(0, 0, 0, 0.04);
+        border-radius: 8px;
+      }
     }
 
     &--bg-blue {
@@ -289,25 +325,216 @@
   padding: 1.5rem;
   margin: 3rem;
 
+  overflow: hidden;
+
   background: $cWhite;
   box-shadow: 0px 4px 15px 10px rgba(0, 0, 0, 0.04);
   border-radius: 8px;
 
   cursor: pointer;
 
+}
+
+.didi-programs-details {
+  width: 310px;
+  min-height: 81px;
+
+  padding-top: 20px;
+  padding-left: 30px;
+
+background: $cWhite;
+
+box-shadow: 0px 10px 20px 4px rgba(32, 33, 47, 0.2);
+border-radius: 8px;
+
+cursor: pointer;
+
   summary {
     list-style: none;
+    
+    .program-img {
+      margin-top: 33px;
+    }
+
+    .devf-img {
+      height: 16px;
+      width: 69px;
+    }
+
+    .coding-dojo-img {
+      height: 23px;
+      width: 64px;
+    }
+
+    .protalento-img {
+      height: 9px;
+      width: 69px;
+    }
+
+    h4 {
+      margin-top: 16px;
+    }
+
   }
 
-  summary::before {
-    // content: url("https://res.cloudinary.com/protalento/image/upload/v1663796521/Website/PROtalento/Generales/Vector_i2zyag.svg");
-    content: '+';
-    padding-right: 1rem;
+  .program-features-container {
+
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: .5rem;
+
+    .program-features {
+      padding: 8px;
+      margin-right: 10px;
+
+      color: #006096;
+      font-weight: 600;
+      letter-spacing: 1px;
+
+      background: rgba(195, 214, 249, 0.4);
+      border-radius: 24px;
+    }
+
+  }
+
+  a {
+    font-size: $smaller-size;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: $cSecondaryDynamic;
+    text-decoration: none;
+  }
+
+}
+
+.program-flag {
+  margin-top: 0.6rem;
+
+  img {
+    margin-right: 0.6rem;
   }
 }
 
-.didi__details[open] summary::before {
-  content: '-';
+.faq {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+// .min-h-didi {
+//   padding-bottom: 46%;
+// }
+
+
+.didi-map-company {
+  width: 165px;
+  height: 101px;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+
+  .header__content__didi {
+    max-width: 424px;
+  }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .square--5 { align-self: start;}
+}
+
+.accordeon {
+  margin: 15rem 0;
+}
+
+.accordeon-title .arrow { 
+  transition: all .3s;
+
+  float: right;
+}
+
+.arrow {
+  margin-right: 2rem;
+
+  transition: all .3s;
+}
+
+.arrow-rotate {
+  transform: rotate(90deg);
+
+  transition: all .3s;
+}
+
+.accordeon-content {
+  padding: 0 1rem;
+  line-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all .3s;
+}
+
+.accordeon-content.active {
+  padding: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+  opacity: 1;
+}
+
+.hero__salary-1 {
+  position: absolute;
+
+  top: 28%;
+  left: 5%;
+  width: 212px;
+  height: 103px;
+
+  padding: 1.5rem;
+
+  text-align: center;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px 10px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.hero__salary-2 {
+  position: absolute;
+
+  top: 72%;
+  left: 22%;
+
+  width: 212px;
+  height: 103px;
+
+  padding: 1.5rem;
+
+  text-align: center;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px 10px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+@media only screen and (min-width: 528px) and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 2000px) {
+
 }
 
 .faq {
