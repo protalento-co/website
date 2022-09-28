@@ -90,6 +90,14 @@
   align-items: flex-start;
 }
 
+.align-item-center {
+  align-items: center;
+}
+
+.align-item-flex-end {
+  align-items: flex-end;
+}
+
 .align-self-start {
   align-self: flex-start;
 }
@@ -158,6 +166,10 @@
   margin-top: 10rem;
 }
 
+.mT-12 {
+  margin-top: 12rem;
+}
+
 .mT-15 {
   margin-top: 15rem;
 }
@@ -178,6 +190,18 @@
   margin-left: 4rem;
 }
 
+.mL-5 {
+  margin-left: 5rem;
+}
+
+.mL-6 {
+  margin-left: 6rem;
+}
+
+.mL-7 {
+  margin-left: 7rem;
+}
+
 .mR-1 {
   margin-right: 1rem;
 }
@@ -192,6 +216,10 @@
 
 .mR-4 {
   margin-right: 4rem;
+}
+
+.mR-5 {
+  margin-right: 5rem;
 }
 
 .mB-1 {
@@ -502,6 +530,10 @@
   border-radius: 0px 0px 8px 8px
 }
 
+.border-radius-50 {
+  border-radius: 3.5px;
+}
+
 .max-width-didi {
   max-width: 530px;
 }
@@ -518,4 +550,26 @@
 
   box-shadow: 0px 10px 20px rgba(32, 33, 47, 0.2);
   border-radius: 24px;
+}
+
+//left-border
+
+.lB-purple {
+  border-left: 5px #A715FF solid;
+}
+
+.lB-yellow {
+  border-left: 5px $cPrimaryDynamic solid;
+}
+
+.lB-blueDark {
+  border-left: 5px $cBlueDark solid;
+}
+
+.lB-aqua{
+  border-left: 5px $cSecondaryElements solid;
+}
+
+.lB-lighterBlue{
+  border-left: 5px $cIcons solid;
 }

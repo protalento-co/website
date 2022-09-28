@@ -24,59 +24,59 @@
     }
 
     &--1 {
-      top: 32%;
+      top: 26.2%;
       left: 48%;
     }
 
     &--2 {
-      top: 22%;
-      left: 50%;
+      top: 17%;
+      left: 49.5%;
     }
 
     &--3 {
-      top: 38%;
-      left: 15%;
+      top: 34%;
+      left: 14%;
     }
 
     &--4 {
-      top: 36%;
-      left: 28%;
+      top: 31%;
+      left: 25%;
     }
 
     &--5 {
-      bottom: 26%;
-      left: 33%;
+      bottom: 33%;
+      left: 32%;
 
       height: 50px;
     }
 
     &--6 {
-      top: 25%;
-      right: 52%;
+      top: 19%;
+      right: 54%;
     }
 
     &--7 {
-      bottom: 15%;
-      left: 30%;
+      bottom: 23%;
+      left: 29%;
 
       img {
-        width: 100%;
+        width: 70px;
       }
     }
 
     &--8 {
-      bottom: 33%;
-      left: 17%;
+      bottom: 40%;
+      left: 23%;
     }
 
     &--9 {
-      left: 12%;
-      bottom: 23%;
+      left: 17%;
+      bottom: 32%;
     }
 
     &--10 {
-      left: 5%;
-      bottom: 42%;
+      left: 13%;
+      bottom: 40.5%;
     }
   }
 
@@ -89,6 +89,27 @@
 
     @include for-size('tablet-portrait-up') {
       width: 15rem;
+      height: 6.1rem;
+    }
+
+    --logo: scale(1);
+    --text: scale(0);
+
+    &:hover {
+      --logo: scale(0);
+      --text: scale(1);
+    }
+  }
+
+  .map__box__didi {
+    background: $cWhite;
+
+    border-radius: 1rem;
+
+    position: relative;
+
+    @include for-size('tablet-portrait-up') {
+      width: 11rem;
       height: 6.1rem;
     }
 
