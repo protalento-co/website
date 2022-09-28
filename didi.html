@@ -45,12 +45,13 @@
       <script src="js/afiliados.js" defer></script>
       <script src="js/btnHelp.js" defer></script>
       <script src="js/comoPagar.js" defer></script>
+      <script src="js/acordeon.js" defer></script>
       <!-- script -->
     <title>PROtalento | DiDi</title>
 </head>
 <body>
     <nav class="nav__didi">
-        <div class="nav__box container bg-white">
+        <div class="nav__box container bg-white bg-white">
           <a href="https://www.protalento.com/" class="nav__logo-box">
             <img
               src="https://res.cloudinary.com/protalento/image/upload/f_auto/v1660170117/Website/PROtalento/Convocatorias/Protalento-logoazul-_3x_2_bmzjqb_zrzdme.svg"
@@ -247,37 +248,50 @@
       <header class="header header--bg-none">
         <div class="container gridSystem gridSystem--header justify-content-around gap-5">
           <!-- content -->
-          <div class="header__content c-blueDark">
-            <h2 class="header__title font-nunito">Didi y PROtalento nos unimos para que puedas acceder a una especialidad tech + inglés + habilidades para la empleabilidad </h2>
+          <div class="header__content c-blueDark header__content__didi">
+            <h2 class="header__title font-nunito">Didi y PROtalento se unen para:</h2>
   
             <p class="small-size fw-300 line-height-md mT-4">
-                Junto a Didi queremos que te prepares y obtengas el empleo que te pague lo que mereces para vivir como quieres en pocos meses. Conoce nuestros programas y especialízate en las habilidades más demandadas en el mundo laboral, en un solo lugar, a un precio asequible y financiable.
+              Generar hasta<b class="fw-600"> $3.000.000</b> siendo un <b class="fw-600">PROembajador</b> y tener un <b class="fw-600">ingreso extra</b> con los referidos que se sumen a un programa en PROtalento <br> <br>
+              Aprender en pocos meses las <b class="fw-600">habilidades más demandadas</b> en el mercado laboral para obtener un empleo en el que puedas empezar a ganar en promedio un salario de <b class="fw-600">$2.800.000.</b> 
             </p>
   
-            <p class="small-size fw-300 line-height-md mT-4">Si eres Didi Driver, conviértete en <b class="fw-600">PROembajador</b>, atrae talento y recibe muchos beneficios.</p>
+            <p class="small-size fw-600 line-height-md mT-4">Especialízate en tech + inglés + habilidades para emplearte, en un solo lugar, a un precio asequible y financiable.</p>
   
             <!-- button -->
-            <div class="header__line mT-4">
-              <a href="#form"></a>
+            <div class="mT-4 mB-5">
+              <a href="#information" class="btn btn--yellow txt-center didi-button small-size">¡Conoce más!</a>
             </div>
+            <!-- button -->
           </div>
           <!-- content -->
-  
-          <div class="header__form-box header__form-box--bg-blue">
-            <!-- images -->
 
+          <div class="header__form-box">
+            <!-- images -->
+            <img src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1664389484/Website/PROtalento/Convocatorias/DiDi/Group_2316_1_m2dvah.png" alt="Hero">
+            
+            <div class="hero__salary-1">
+              <h4 class="c-blueDark medium-big-size">$3.000.000<br> en ingresos extra</h4>
+              <p class="c-blueDark smaller-size mT-1">SIENDO <a class="c-yellow" href="#ambassador">PROEMBAJADOR</a></p>
+            </div>
+
+            <div class="hero__salary-2">
+              <h4 class="c-blueDark medium-big-size">$2.800.000<br> de salario</h4>
+              <p class="c-blueDark smaller-size mT-1">TRABAJANDO EN <a class="c-yellow" href="#study">TECH</a></p>
+            </div>
             <!-- images -->
           </div>
+
         </div>
       </header>
 
       <!-- section -->
     <section class="pY-10">
         <div class="container txt-center">
-        <div class="gridSystem gridSystem--programa gap-2 mT-5 justify-items-center margin-sides">
+        <div class="gridSystem gridSystem--programa gap-2 mT-10 justify-items-center margin-sides">
 
             <!-- box -->
-            <div class="flexContainer flexContainer--column justify-content-center raidus-small pY-3 pX-2 max-width-didi">
+            <div class="flexContainer flexContainer--column justify-content-center raidus-small pY-3 pX-2 align-self-start section-a" id="ambassador">
                 <div class="flexContainer gap-2 justify-content-center bg-cSecondaryElements pY-4 top-border-radius">
                 <div>
                     <h3 class="c-white medium-big-size">¡Quiero ser PRO embajador!</h3>
@@ -286,28 +300,22 @@
               <div>
                   <img src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1663866596/Website/PROtalento/Convocatorias/DiDi/conception-of-success-joyful-bearded-man-in-white-shirt-looks-back-while-sitting-in-the-modern-car_1_bttxng.png" class="w-100" alt="a">
               </div>
-              <div class="bg-white bottom-border-radius boxShadow line-height-b txt-left">
-                <h4 class="fw-600 medium-size c-blueDarker mL-4 mT-5">Al ser PROembajador:</h4>
+              <div class="bg-white bottom-border-radius boxShadow line-height-b txt-left min-h-didi">
+                <h4 class="fw-600 medium-size c-blueDarker mL-4 mT-3 mR-4">Si eres un arrendador registrado en DiDi, conviértete en PROEmbajador:</h4>
                 <div class="margin-sides c-blueDarker mT-2">
-                  <p class="medium-size">Además de recibir una satisfacción gigante por aportar al desarrollo de América Latina, recibirás los siguientes <b class="fw-600">beneficios:</b></p> <br>
-                  <p class="medium-size">Si un (1) talento firma el contrato y cumple con los requisitos, recibirás <b class="fw-600">$40.000.</b></p> <br>
-                  <p class="medium-size">A partir de los 3 talentos que firmen el contrato, recibirás diferentes bonos:</p>
-                  <ul>
-                    <li><p class="medium-size"> - El bono 1 será por el talento # 3 y equivaldrá a <b class="fw-600">$80.000.</b> </p></li>
-                    <li><p class="medium-size"> - El bono 2 será por el talento # 6 por <b class="fw-600">$160.000.</b></p></li>
-                    <li><p class="medium-size"> - El bono 3 será por el talento # 9 por <b class="fw-600">$240.000.</b></p></li>
-                    <li><p class="medium-size"> - El bono 4 será por el talento # 12 por <b class="fw-600">$320.000</b> ($80.000 x 4) y así sucesivamente si más talentos finalizan el proceso.</p></li>
-                  </ul>
+                  <p class="medium-size">Además de recibir una satisfacción gigante por ayudar a tus familiares y conocidos podrás aportar al desarrollo de América Latina y generar hasta <b class="fw-600">$3.000.000</b> adicionales por traer un total de <b class="fw-600">21 personas</b> que tomen y finalicen programa en PROtalento. <br><br>
+                   Recibirás beneficios económicos desde el referido uno (1) que se sume y cumpla con los requisitos:</p> <br>
+                 <p class="fw-600 medium-size">*Aplican términos y condiciones.</p>
                 </div>
                 <div class="mT-4 mB-5 txt-center">
-                  <a href="#form" class="btn btn--yellow txt-center didi-button small-size"> ¡Postúlate! </a>
+                  <a href="#form" class="btn btn--yellow txt-center didi-button small-size"> ¡Registrate! </a>
                 </div>
               </div>
             </div>
             <!-- box -->
 
             <!-- box -->
-            <div class="flexContainer flexContainer--column justify-content-center raidus-small pY-3 pX-2 max-width-didi">
+            <div class="flexContainer flexContainer--column justify-content-center raidus-small pY-3 pX-2 section-b" id="study">
                 <div class="flexContainer gap-2 justify-content-center bg-blueMain pY-4 top-border-radius">
                 <div>
                     <h3 class="c-white medium-big-size">¡Quiero estudiar en PROtalento!</h3>
@@ -316,8 +324,8 @@
               <div>
                   <img src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1663866596/Website/PROtalento/Convocatorias/DiDi/online-communication_1_qhx67d.png" class="w-100" alt="a">
               </div>
-              <div class="bg-white bottom-border-radius boxShadow line-height-b txt-left">
-                <h4 class="fw-600 medium-size c-blueDarker mL-4 mT-5">Al estudiar con PROtalento:</h4>
+              <div class="bg-white bottom-border-radius boxShadow line-height-b txt-left max-h-didi">
+                <h4 class="fw-600 medium-size c-blueDarker mL-4 mT-3">Al estudiar con PROtalento:</h4>
                 <div class="margin-sides c-blueDarker mT-2">
                   <ul>
                     <li class="flexContainer align-item-center gap-2 align-item-flex-start">
@@ -375,13 +383,15 @@
                       <p class="medium-size">Tendrás acompañamiento con un guía profesional hasta graduarte y conseguir empleo.</p>
                     </li>
                   </ul>
+                  <br>
+                  <p class="medium-size">Si vienes como <b class="fw-600">referido</b> de un PROembajador, <b class="fw-600">recibirás un 5%</b> en el total del programa que elijas.</p>
                 </div>
                 <div class="mT-4 mB-5 txt-center">
                   <a href="#form" class="btn btn--yellow txt-center didi-button"> ¡Postúlate! </a>
                 </div>
               </div>
             </div>
-        </div>
+          </div>
           <!-- box -->
       </div>
     </section>
@@ -391,190 +401,218 @@
       <section class="bg-blueMain pY-10 mT-10">
         <div class="container pX-5">
           <div class="title title--white medium-bigger-size c-white txt-center font-nunito">
-            <h2>¡Conoce nuestros programas abiertos y postúlate!</h2>
+            <h2>¡Conoce nuestros programas abiertos!</h2>
           </div>
   
-          <div class="carusel flexContainer gap-5 mT-5">
-            <!-- box -->
-            <div class="raidus-small overflow-hidden">
-              <img
-                src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660168747/Website/PROtalento/Home/Carrusel/Mask_group_yy7wxj_efa9we_lof9iw.png"
-                alt=""
-                class="carusel__img"
-              />
-              <div class="carusel__content c-blueDarker bg-white txt-center pY-2 pX-3">
-                <h2 class="carusel__title small-size">Desarrollo Web Full Stack</h2>
-  
-                <div class="title title--small-mrg title--black c-blueDark mT-2 carusel__country carusel__country">
-                  <h3>COLOMBIA</h3>
-                  
+          <div class="gridSystem gridSystem--2-columns-didi justify-content-center gap-2 mT-15 align-item-flex-start">     
+
+              <div class="didi-programs-details lB-purple">
+                <div class="flexContainer align-item-center justify-content-between">
+                  <img class="mR-3 program-img devf-img" src="https://res.cloudinary.com/protalento/image/upload/c_scale,h_16,q_auto,w_69/v1664294411/Website/PROtalento/Convocatorias/DiDi/Vector_j40eje.svg" alt="devf">
+
+                  <div class="accordeon-title mR-2">
+                    <h4 class="small-size c-blueDark">Desarrollo <br>Web Full Stack</h4>
+                    <div class="flexContainer program-flag">
+                      <img src="https://res.cloudinary.com/protalento/image/upload/v1664298478/Website/PROtalento/Convocatorias/DiDi/Group_2296_mu1ikz.svg" class="mR-1" alt="méxico">
+                      <p class="mini-size c-blueDark">COLOMBIA</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img class="arrow mR-2" id="arrow" src="https://res.cloudinary.com/protalento/image/upload/v1663796521/Website/PROtalento/Generales/Vector_i2zyag.svg" alt="arrow">
+                  </div>
                 </div>
-  
-                <a href="https://www.protalento.com/desarrollo-software-co" class="btn btn--border btn--purple c-white mT-4"> Conoce más </a>
+                <article class="accordeon-content">
+                  <article class="program-features-container">
+                    <p class="program-features">JavaScript</p>
+                    <p class="program-features">React</p>
+                    <p class="program-features">Node.js</p>
+                  </article>
+                  <a class="mL-6 accordeon-link" href="https://www.protalento.com/desarrollo-software-mx?">!Ve al programa!</a>
+                </article>
               </div>
-            </div>
-            <!-- box -->
-  
-            <!-- box -->
-            <div class="raidus-small overflow-hidden">
-              <img
-                src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660168748/Website/PROtalento/Home/Carrusel/Mask_group-2_qky0oe_itcdgc_nnvell.png"
-                alt=""
-                class="carusel__img"
-              />
-              <div class="carusel__content c-blueDarker bg-white txt-center pY-2 pX-3">
-                <h2 class="carusel__title small-size">Desarrollo Web Full Stack</h2>
-  
-                <div class="title title--small-mrg title--black c-blueDark mT-2 carusel__country carusel__country">
-                  <h3>MÉXICO</h3>
-                  
+
+              <!--box-->
+
+              <!--box-->
+
+              <div class="didi-programs-details lB-aqua">
+                <div class="flexContainer align-item-center justify-content-between">
+                  <img class="mR-3 program-img devf-img" src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1664299682/Website/PROtalento/Convocatorias/DiDi/Logo-celeste_2_qbkzqa.svg" alt="coding dojo">
+
+                  <div class="accordeon-title mR-3">
+                    <h4 class="small-size c-blueDark">Full Stack <br>con Python</h4>
+                    <div class="flexContainer program-flag">
+                      <img src="https://res.cloudinary.com/protalento/image/upload/v1664298478/Website/PROtalento/Convocatorias/DiDi/Group_2296_mu1ikz.svg" class="mR-1" alt="colombia">
+                      <p class="mini-size c-blueDark">COLOMBIA</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img class="arrow mR-2" id="arrow" src="https://res.cloudinary.com/protalento/image/upload/v1663796521/Website/PROtalento/Generales/Vector_i2zyag.svg" alt="arrow">
+                  </div>
                 </div>
 
-                <a href="https://www.protalento.com/desarrollo-software-mx" class="btn btn--border btn--purple c-white mT-4"> Conoce más </a>
+                <article class="accordeon-content">
+                  <article class="program-features-container">
+                    <p class="program-features">Python</p>
+                    <p class="program-features">HTML</p>
+                    <p class="program-features">CSS</p>
+                  </article>
+                  <a class="mL-6 accordeon-link" href="https://www.protalento.com/desarrollo-software-mx?">!Ve al programa!</a>
+                </article>
               </div>
-            </div>
-            <!-- box -->
-  
-            <!-- box -->
-            <div class="raidus-small overflow-hidden">
-              <img
-                src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660168748/Website/PROtalento/Home/Carrusel/Mask_group-3_kvyg7i_qetncu_mmqj2k.png"
-                alt=""
-                class="carusel__img"
-              />
-              <div class="carusel__content c-blueDarker bg-white txt-center pY-2 pX-3">
-                <h2 class="carusel__title small-size">Upgrade Laboral</h2>
-  
-                <div class="title title--small-mrg title--black c-blueDark mT-2 carusel__country">
-                  <h3>COLOMBIA</h3>
-                  
+
+              <!--box-->
+
+              <!--box-->
+
+              <div class="didi-programs-details lB-yellow">
+                <div class="flexContainer align-item-center justify-content-between">
+                  <img class="mR-3 program-img devf-img" src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1664299682/Website/PROtalento/Convocatorias/DiDi/Logo-celeste_2_qbkzqa.svg" alt="coding dojo">
+
+                  <div class="accordeon-title mR-5">
+                    <h4 class="small-size c-blueDark">Full Stack <br>con MERN</h4>
+                    <div class="flexContainer program-flag">
+                      <img src="https://res.cloudinary.com/protalento/image/upload/v1664298478/Website/PROtalento/Convocatorias/DiDi/Group_2296_mu1ikz.svg" class="mR-1" alt="colombia">
+                      <p class="mini-size c-blueDark">COLOMBIA</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img class="arrow mR-2" id="arrow" src="https://res.cloudinary.com/protalento/image/upload/v1663796521/Website/PROtalento/Generales/Vector_i2zyag.svg" alt="arrow">
+                  </div>
                 </div>
 
-                <a href="https://www.protalento.com/upgrade-laboral-co" class="btn btn--border btn--purple c-white mT-4"> Conoce más </a>
+                <article class="accordeon-content">
+                  <article class=" program-features-container">
+                    <p class="program-features">Express</p>
+                    <p class="program-features">MongoDB</p>
+                    <p class="program-features">Node.js</p>
+                  </article>
+                  <a class="mL-6 accordeon-link" href="https://www.protalento.com/desarrollo-software-mx?">!Ve al programa!</a>
+                </article>
               </div>
-            </div>
-            <!-- box -->
-  
-            <!-- box -->
-            <div class="raidus-small overflow-hidden">
-              <img
-                src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660168747/Website/PROtalento/Home/Carrusel/Mask_group-1_jd64w8_ad06m9_mit5ew.png"
-                alt=""
-                class="carusel__img"
-              />
-              <div class="carusel__content c-blueDarker bg-white txt-center pY-2 pX-3">
-                <h2 class="carusel__title small-size">Upgrade Laboral</h2>
-  
-                <div class="title title--small-mrg title--black c-blueDark mT-2 carusel__country">
-                  <h3>MÉXICO</h3>
-                  
-                </div>
-  
-                <a href="https://www.protalento.com/upgrade-laboral-mx" class="btn btn--border btn--purple c-white mT-4"> Conoce más </a>
-              </div>
-            </div>
-            <!-- box -->
-  
-            <!-- box -->
-            <div class="raidus-small overflow-hidden">
-              <img
-                src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660168748/Website/PROtalento/Home/Carrusel/Mask_group-4_bomxes_pa5wui_yecadh.png"
-                alt=""
-                class="carusel__img"
-              />
-              <div class="carusel__content c-blueDarker bg-white txt-center pY-2 pX-3">
-                <h2 class="carusel__title small-size">Desarrollo Web Full Stack Python</h2>
-  
-                <div class="title title--small-mrg title--black c-blueDark mT-2 carusel__country carusel__country">
-                  <h3>COLOMBIA</h3>
-                  
+
+              <!--box-->
+
+              <!--box-->
+
+              <div class="didi-programs-details lB-lighterBlue">
+                <div class="flexContainer align-item-center justify-content-between">
+                  <img class="mR-3 program-img devf-img" src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1664299682/Website/PROtalento/Convocatorias/DiDi/Logo-celeste_2_qbkzqa.svg" alt="coding dojo">
+
+                  <div class="accordeon-title mR-3">
+                    <h4 class="small-size c-blueDark">Data <br>Science</h4>
+                    <div class="flexContainer program-flag">
+                      <img src="https://res.cloudinary.com/protalento/image/upload/v1664298478/Website/PROtalento/Convocatorias/DiDi/Group_2296_mu1ikz.svg" class="mR-1" alt="colombia">
+                      <p class="mini-size c-blueDark">COLOMBIA</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img class="arrow mR-2" id="arrow" src="https://res.cloudinary.com/protalento/image/upload/v1663796521/Website/PROtalento/Generales/Vector_i2zyag.svg" alt="arrow">
+                  </div>
                 </div>
 
-                <a href="https://www.protalento.com/full-stack-python" class="btn btn--border btn--purple c-white mT-4"> Conoce más </a>
+                <article class="accordeon-content">
+                  <article class="program-features-container">
+                    <p class="program-features">Express</p>
+                    <p class="program-features">MongoDB</p>
+                    <p class="program-features">Node.js</p>
+                  </article>
+                  <a class="mL-6 accordeon-link" href="https://www.protalento.com/desarrollo-software-mx?">!Ve al programa!</a>
+                </article>
               </div>
-            </div>
-            <!-- box -->
-  
-            <!-- box -->
-            <div class="raidus-small overflow-hidden">
-              <img
-                src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660168747/Website/PROtalento/Home/Carrusel/Mask_group-1_eawdrt_hoig8n_icsrb5.png"
-                alt=""
-                class="carusel__img"
-              />
-              <div class="carusel__content c-blueDarker bg-white txt-center pY-2 pX-3">
-                <h2 class="carusel__title small-size">Desarrollo Full Stack JavaScript</h2>
-  
-                <div class="title title--small-mrg title--black c-blueDark mT-2 carusel__country carusel__country">
-                  <h3>COLOMBIA</h3>
-                  
+
+              <!--box-->
+
+              <!--box-->
+
+              <div class="didi-programs-details lB-blueDark">
+                <div class="flexContainer align-item-center justify-content-between">
+                  <img class="mR-3 program-img devf-img" src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1664299682/Website/PROtalento/Convocatorias/DiDi/Protalento-logoazul-_3x_3_ltztig.svg" alt="protalento">
+
+                  <div class="accordeon-title mR-5">
+                    <h4 class="small-size c-blueDark">Upgrade <br>Laboral</h4>
+                    <div class="flexContainer program-flag">
+                      <img src="https://res.cloudinary.com/protalento/image/upload/v1664298478/Website/PROtalento/Convocatorias/DiDi/Group_2296_mu1ikz.svg" class="mR-1" alt="colombia">
+                      <p class="mini-size c-blueDark">COLOMBIA</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img class="arrow mR-2" id="arrow" src="https://res.cloudinary.com/protalento/image/upload/v1663796521/Website/PROtalento/Generales/Vector_i2zyag.svg" alt="arrow">
+                  </div>
                 </div>
-  
-                <a href="https://www.protalento.com/full-stack-javascript" class="btn btn--border btn--purple c-white mT-4"> Conoce más </a>
+
+                <article class="accordeon-content">
+                  <article class="program-features-container">
+                    <p class="program-features">Autogestión</p>
+                    <p class="program-features">Empleabilidad</p>
+                  </article>
+                  <a class="mL-6 accordeon-link" href="https://www.protalento.com/desarrollo-software-mx?">!Ve al programa!</a>
+                </article>
               </div>
-            </div>
-            <!-- box -->
-  
-            <!-- box -->
-            <div class="raidus-small overflow-hidden">
-              <img
-                src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660168747/Website/PROtalento/Home/Carrusel/Mask_group_juzcym_axqjwk_mxijzm.png"
-                alt=""
-                class="carusel__img"
-              />
-              <div class="carusel__content c-blueDarker bg-white txt-center pY-2 pX-3">
-                <h2 class="carusel__title small-size">Data Science</h2>
-  
-                <div class="title title--small-mrg title--black c-blueDark mT-2 carusel__country carusel__country">
-                  <h3>COLOMBIA</h3>
-                  
+
+              <!--box-->
+
+              <!--box-->
+
+              <div class="didi-programs-details lB-blueDark">
+                <div class="flexContainer align-item-center justify-content-between">
+                  <img class="mR-3 program-img devf-img" src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1664299682/Website/PROtalento/Convocatorias/DiDi/Protalento-logoazul-_3x_3_ltztig.svg" alt="protalento">
+
+                  <div class="accordeon-title mR-5">
+                    <h4 class="small-size c-blueDark">Upgrade <br>Laboral</h4>
+                    <div class="flexContainer program-flag">
+                      <img src="https://res.cloudinary.com/protalento/image/upload/v1664298996/Website/PROtalento/Convocatorias/DiDi/Group_2265_tqnrff.svg" class="mR-1" alt="méxico">
+                      <p class="mini-size c-blueDark">MÉXICO</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img class="arrow mR-2" id="arrow" src="https://res.cloudinary.com/protalento/image/upload/v1663796521/Website/PROtalento/Generales/Vector_i2zyag.svg" alt="arrow">
+                  </div>
                 </div>
-  
-                <a href="https://www.protalento.com/data-science" class="btn btn--border btn--purple c-white mT-4">Conoce más</a>
+
+                <article class="accordeon-content">
+                  <article class="program-features-container">
+                    <p class="program-features">Autogestión</p>
+                    <p class="program-features">Empleabilidad</p>
+                  </article>
+                  <a class="mL-6 accordeon-link" href="https://www.protalento.com/desarrollo-software-mx?">!Ve al programa!</a>
+                </article>
               </div>
-            </div>
-            <!-- box -->
-  
-            <!-- box -->
-            <div class="raidus-small overflow-hidden">
-              <img
-                src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660168748/Website/PROtalento/Home/Carrusel/Mask_group-2_hogebg_eybfiy_ey5art.png"
-                alt=""
-                class="carusel__img"
-              />
-              <div class="carusel__content c-blueDarker bg-white txt-center pY-2 pX-3">
-                <h2 class="carusel__title small-size">Desarrollo Web Full Stack</h2>
-  
-                <div class="title title--small-mrg title--black c-blueDark mT-2 carusel__country carusel__country">
-                  <h3>COLOMBIA</h3>
-                  
+
+              <!--box-->
+
+              <!--box-->
+
+              <div class="didi-programs-details lB-purple">
+                <div class="flexContainer align-item-center justify-content-between">
+                  <img class="mR-3 program-img devf-img" src="https://res.cloudinary.com/protalento/image/upload/c_scale,h_16,q_auto,w_69/v1664294411/Website/PROtalento/Convocatorias/DiDi/Vector_j40eje.svg" alt="devf">
+
+                  <div class="accordeon-title mR-2">
+                    <h4 class="small-size c-blueDark">Desarrollo <br>Web Full Stack</h4>
+                    <div class="flexContainer program-flag">
+                      <img src="https://res.cloudinary.com/protalento/image/upload/v1664298996/Website/PROtalento/Convocatorias/DiDi/Group_2265_tqnrff.svg" class="mR-1" alt="méxico">
+                      <p class="mini-size c-blueDark">MÉXICO</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img class="arrow mR-2" id="arrow" src="https://res.cloudinary.com/protalento/image/upload/v1663796521/Website/PROtalento/Generales/Vector_i2zyag.svg" alt="arrow">
+                  </div>
                 </div>
-  
-                <a href="https://www.protalento.com/desarrollo-software-co" class="btn btn--border btn--purple c-white mT-4"> Conoce más </a>
+
+                <article class="accordeon-content">
+                  <article class="program-features-container">
+                  <p class="program-features">JavaScript</p>
+                  <p class="program-features">React</p>
+                  <p class="program-features">Node.js</p>
+                  </article>
+                  <a class="mL-6 accordeon-link" href="https://www.protalento.com/desarrollo-software-mx?">!Ve al programa!</a>
+                </article>
               </div>
-            </div>
-            <!-- box -->
-  
-            <!-- box -->
-            <div class="raidus-small overflow-hidden">
-              <img
-                src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660168748/Website/PROtalento/Home/Carrusel/Mask_group-3_kvyg7i_qetncu_mmqj2k.png"
-                alt=""
-                class="carusel__img"
-              />
-              <div class="carusel__content c-blueDarker bg-white txt-center pY-2 pX-3">
-                <h2 class="carusel__title small-size">Upgrade Laboral</h2>
-  
-                <div class="title title--small-mrg title--black c-blueDark mT-2 carusel__country carusel__country">
-                  <h3>COLOMBIA</h3>
-                  
-                </div>
-  
-                <a href="https://www.protalento.com/upgrade-laboral-co" class="btn btn--border btn--purple c-white mT-4"> Conoce más </a>
-              </div>
-            </div>
-            <!-- box -->
+
+              <!--box-->
+
           </div>
+
           <div class="mT-15 mB-5 txt-center">
             <a href="#form" class="btn btn--yellow txt-center"> ¡Postúlate! </a>
           </div>
@@ -591,17 +629,18 @@
 
       <div class="map mT-10">
         <div class="bg-white boxShadow raidus-small pX-5 pY-5">
-          <img src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660169218/Website/PROtalento/Home/Mapa/OBJECTS_lntxep_s5j32h.svg" alt="" class="map__img" />
+          <img src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1664382574/Website/PROtalento/Home/Mapa/Group_2319_1_by0jhc.svg" alt="" class="map__img" />
         </div>
 
         <div class="gridSystem gridSystem--map gap-2 mT-5">
+
           <!-- box -->
-          <!-- <div class="map__location map__location--1">
-            <div class="map__box flexContainer align-item-center justify-content-center boxShadow pX-5 pY-1">
+          <div class="map__location map__location--1">
+            <div class="map__box__didi flexContainer align-item-center justify-content-center boxShadow pX-5 pY-1">
               <img
                 src="https://res.cloudinary.com/protalento/image/upload/c_scale,f_auto,q_auto,w_65/v1660169208/Website/PROtalento/Home/Mapa/globant-logo_vir3yn_cwiouc.png"
                 alt=""
-                class="map__logo"
+                class="map__logo didi-map-company"
               />
 
               <p class="map__text c-blueDarker">
@@ -609,16 +648,16 @@
                 <span class="d-block"> Ingeniería en Software </span>
               </p>
             </div>
-          </div> -->
+          </div>
           <!-- box -->
 
           <!-- box -->
-          <!-- <div class="map__location map__location--2">
-            <div class="map__box flexContainer align-item-center justify-content-center boxShadow pX-5 pY-1">
+          <div class="map__location map__location--2">
+            <div class="map__box__didi flexContainer align-item-center justify-content-center boxShadow pX-5 pY-1">
               <img
                 src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660169217/Website/PROtalento/Home/Mapa/pngwing.com_1_qkzimn_eyzrim.png"
                 alt=""
-                class="map__logo"
+                class="map__logo didi-map-company"
               />
 
               <p class="map__text c-blueDarker">
@@ -626,16 +665,16 @@
                 <span class="d-block"> Advertising </span>
               </p>
             </div>
-          </div> -->
+          </div>
           <!-- box -->
 
           <!-- box -->
-          <!-- <div class="map__location map__location--3">
-            <div class="map__box flexContainer align-item-center justify-content-center boxShadow pX-5 pY-1">
+          <div class="map__location map__location--3">
+            <div class="map__box__didi flexContainer align-item-center justify-content-center boxShadow pX-5 pY-1">
               <img
                 src="https://res.cloudinary.com/protalento/image/upload/c_scale,f_auto,q_auto,w_75/v1660169215/Website/PROtalento/Home/Mapa/kisspng-youtube-live-logo-streaming-media-youtube-banner-5b0c2742dcd1a0.1544278615275231389045_rgjhdf_gmfcze.png"
                 alt=""
-                class="map__logo"
+                class="map__logo didi-map-company"
               />
 
               <p class="map__text c-blueDarker">
@@ -643,16 +682,16 @@
                 <span class="d-block"> Servicio Web </span>
               </p>
             </div>
-          </div> -->
+          </div>
           <!-- box -->
 
           <!-- box -->
-          <!-- <div class="map__location map__location--4">
-            <div class="map__box flexContainer align-item-center justify-content-center boxShadow pX-5 pY-1">
+          <div class="map__location map__location--4">
+            <div class="map__box__didi flexContainer align-item-center justify-content-center boxShadow pX-5 pY-1">
               <img
                 src="https://res.cloudinary.com/protalento/image/upload/c_scale,f_auto,q_auto,w_75/v1660169217/Website/PROtalento/Home/Mapa/paypal-logo_z3hvdf_tu4u6g.png"
                 alt=""
-                class="map__logo"
+                class="map__logo didi-map-company"
               />
 
               <p class="map__text c-blueDarker">
@@ -660,18 +699,18 @@
                 <span class="d-block"> Fintech </span>
               </p>
             </div>
-          </div> -->
+          </div>
           <!-- box -->
 
           <!-- box -->
-          <!-- <div class="map__location map__location--5">
-            <div class="map__box flexContainer align-item-center justify-content-center boxShadow pX-5 pY-1"
+          <div class="map__location map__location--5">
+            <div class="map__box__didi flexContainer align-item-center justify-content-center boxShadow pX-5 pY-1"
             style="padding-left: 0;
             padding-right: 0;">
               <img
                 src="https://res.cloudinary.com/protalento/image/upload/c_scale,f_auto,q_auto,w_40/v1660169216/Website/PROtalento/Home/Mapa/nubank-logo-11_ocuynl_oujqwe.png"
                 alt=""
-                class="map__logo"
+                class="map__logo didi-map-company"
               />
 
               <p class="map__text c-blueDarker">
@@ -679,16 +718,16 @@
                 <span class="d-block"> Fintech </span>
               </p>
             </div>
-          </div> -->
+          </div>
           <!-- box -->
 
           <!-- box -->
-          <!-- <div class="map__location map__location--6">
-            <div class="map__box flexContainer align-item-center justify-content-center boxShadow pX-5 pY-1">
+          <div class="map__location map__location--6">
+            <div class="map__box__didi flexContainer align-item-center justify-content-center boxShadow pX-5 pY-1">
               <img
                 src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660170425/Website/PROtalento/Home/Mapa/2560px-Accenture_1_gjeipc_u8fpnj.png"
                 alt=""
-                class="map__logo"
+                class="map__logo didi-map-company"
               />
 
               <p class="map__text c-blueDarker">
@@ -696,16 +735,16 @@
                 <span class="d-block"> Tech </span>
               </p>
             </div>
-          </div> -->
+          </div>
           <!-- box -->
 
           <!-- box -->
-          <!-- <div class="map__location map__location--7">
-            <div class="map__box flexContainer align-item-center justify-content-center boxShadow pX-5 pY-1">
+          <div class="map__location map__location--7">
+            <div class="map__box__didi flexContainer align-item-center justify-content-center boxShadow pX-5 pY-1">
               <img
-                src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660169216/Website/PROtalento/Home/Mapa/mercado-libre-logo-6_d1aw44_yzmyrn.png"
+                src="https://res.cloudinary.com/protalento/image/upload/v1660169216/Website/PROtalento/Home/Mapa/mercado-libre-logo-6_d1aw44_yzmyrn.png"
                 alt=""
-                class="map__logo"
+                class="map__logo didi-map-company"
               />
 
               <p class="map__text c-blueDarker">
@@ -713,16 +752,16 @@
                 <span class="d-block"> E-commerce </span>
               </p>
             </div>
-          </div> -->
+          </div>
           <!-- box -->
 
           <!-- box -->
-          <!-- <div class="map__location map__location--8">
-            <div class="map__box flexContainer align-item-center justify-content-center boxShadow pX-5 pY-1">
+          <div class="map__location map__location--8">
+            <div class="map__box__didi flexContainer align-item-center justify-content-center boxShadow pX-5 pY-1">
               <img
                 src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660169217/Website/PROtalento/Home/Mapa/rappi-logo-7_qts2hu_vr6rff.png"
                 alt=""
-                class="map__logo"
+                class="map__logo didi-map-company"
               />
                     
               <p class="map__text c-blueDarker">
@@ -730,16 +769,16 @@
                 <span class="d-block"> Consumo masivo </span>
               </p>
             </div>
-          </div> -->
+          </div>
           <!-- box -->
 
           <!-- box -->
-          <!-- <div class="map__location map__location--9">
-            <div class="map__box flexContainer align-item-center justify-content-center boxShadow pX-5 pY-1">
+          <div class="map__location map__location--9">
+            <div class="map__box__didi flexContainer align-item-center justify-content-center boxShadow pX-5 pY-1">
               <img
                 src="https://res.cloudinary.com/protalento/image/upload/c_scale,f_auto,q_auto,w_75/v1660169210/Website/PROtalento/Home/Mapa/habi-logo_ubrv9t_m0ltna.jpg"
                 alt=""
-                class="map__logo"
+                class="map__logo didi-map-company"
               />
           
               <p class="map__text c-blueDarker">
@@ -747,16 +786,16 @@
                 <span class="d-block"> Proptech </span>
               </p>
             </div>
-          </div> -->
+          </div>
           <!-- box -->
 
           <!-- box -->
-          <!-- <div class="map__location map__location--10">
-            <div class="map__box flexContainer align-item-center justify-content-center boxShadow pX-5 pY-1">
+          <div class="map__location map__location--10">
+            <div class="map__box__didi flexContainer align-item-center justify-content-center boxShadow pX-5 pY-1">
               <img
                 src="https://res.cloudinary.com/protalento/image/upload/c_scale,f_auto,h_35,q_auto/v1660169216/Website/PROtalento/Home/Mapa/logo-bvc_ccmg9c_ueexlc.png"
                 alt=""
-                class="map__logo"
+                class="map__logo didi-map-company"
               />
           
               <p class="map__text c-blueDarker">
@@ -764,8 +803,9 @@
                 <span class="d-block"> Economia </span>
               </p>
             </div>
-          </div> -->
+          </div>
           <!-- box -->
+
         </div>
 
         <!-- images -->
@@ -789,7 +829,7 @@
             <div>
               <h3 class="title title--begin c-blueDark smaller-size c-blueDarker">EMPLEABILIDAD</h3>
 
-              <p class="medium-size fw-300 c-blueDarker mT-2 c-blueDarker">El 90% de nuestros talentos consiguen trabajo en 4 meses.</p>
+              <p class="medium-size fw-600 c-blueDarker mT-2 c-blueDarker line-height-b">El 90% de nuestros talentos consiguen trabajo en 4 meses.</p>
             </div>
           </div>
         </div>
@@ -805,7 +845,7 @@
             <div>
               <h3 class="title title--begin c-blueDark smaller-size c-blueDarker">FINANCIACIÓN</h3>
 
-              <p class="medium-size fw-300 c-blueDarker mT-2 c-blueDarker">El 97% de nuestros talentos han sido  financiados.</p>
+              <p class="medium-size fw-600 c-blueDarker mT-2 c-blueDarker line-height-b">El 97% de nuestros talentos han sido  financiados.</p>
             </div>
           </div>
         </div>
@@ -821,7 +861,7 @@
             <div>
               <h3 class="title title--begin c-blueDark smaller-size c-blueDarker">ALIANZAS</h3>
 
-              <p class="medium-size fw-300 c-blueDarker mT-2 c-blueDarker">Contamos con más de 200 empresas aliadas alrededor del mundo.</p>
+              <p class="medium-size fw-600 c-blueDarker mT-2 c-blueDarker line-height-b">Contamos con más de 200 empresas aliadas alrededor del mundo.</p>
             </div>
           </div>
         </div>
@@ -831,47 +871,78 @@
     <!-- section -->
 
     <!-- section -->
-    <section class="faq">
+    <section class="faq" class="faq">
       <div class="title medium-bigger-size c-blueDark txt-center font-nunito mT-15">
         <h2>Preguntas Frecuentes</h2>
       </div>
-      <div class="mT-15">
+
+        <div class="accordeon">
         <h3 class="medium-big-size c-blueDarker mL-3">Si quiero ser PROembajador</h3>
-        <details class="didi__details">
-          <summary class="medium-big-size c-blueDark line-height-b">1. ¿Cúal es mi misión como PROembajador?</summary>
-          <div>
-            <p class="medium-size mT-4 mB-3 max-width-details-didi line-height-b c-blueDarker">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quam nemo velit suscipit nihil reprehenderit impedit minus, enim repellendus quibusdam officia eius iste adipisci dolores. Magnam deleniti suscipit aspernatur voluptatum.</p>
+
+          <div class="accordeon-item didi__details">
+            <div class="flexContainer justify-content-between">
+              <h2 class="accordeon-title medium-big-size c-blueDark mL-3">1. ¿Cúal es mi misión como PROembajador?</h2>
+              <img class="arrow" id="arrow" src="https://res.cloudinary.com/protalento/image/upload/v1663796521/Website/PROtalento/Generales/Vector_i2zyag.svg" alt="arrow">
+            </div>
+            <article class="accordeon-content">
+              <p class="medium-size max-width-details-didi c-blueDarker mL-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quam, voluptas possimus velit quidem reprehenderit atque tenetur, expedita consequuntur nihil vel consequatur voluptates libero voluptatum, neque iusto non sequi veritatis.
+              </p>
+            </article>
           </div>
-        </details>
-        <details class="didi__details">
-          <summary class="medium-big-size c-blueDark line-height-b">2. ¿Qué tipo de material y/o apoyo recibiré por parte de PROtalento al ser un PROembajador?</summary>
-          <div>
-            <p class="medium-size mT-4 mB-3 max-width-details-didi line-height-b c-blueDarker">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum adipisci voluptates, dolorem quaerat soluta vero deleniti ad tempore numquam minus explicabo reprehenderit nisi corrupti in voluptate dicta perferendis exercitationem libero?</p>
+          <div class="accordeon-item didi__details">
+            <div class="flexContainer justify-content-between">
+            <h2 class="accordeon-title medium-big-size c-blueDark mL-3">2. ¿Qué tipo de material y/o apoyo recibiré por parte de PROtalento al ser un PROembajador?</h2>
+            <img class="arrow" id="arrow" src="https://res.cloudinary.com/protalento/image/upload/v1663796521/Website/PROtalento/Generales/Vector_i2zyag.svg" alt="arrow">
+            </div>
+            <article class="accordeon-content">
+              <p class="medium-size max-width-details-didi c-blueDarker mL-3">
+                - 1 sesión de capacitación de parte de PROtalento.<br><br>
+                - Kit de embajador (presentación de PROtalento en formato digital, 4 piezas publicitarias para convocatorias, programa curricular de convocatorias abiertas, 100 volantes físicos -si se necesitan-)<br><br>
+                - Línea directa con Líder Regional de PROtalento.<br><br>
+                - Código PROembajador para identificar y seguir a los talentos que hayas vinculado.<br><br>
+                - Posibilidad de acceder a un bono para realizar eventos en donde puedes plantearlos, que incluyan un número de personas significativo y podríamos cubrir gastos de dichos eventos, previa evaluación.
+              </p>
+            </article>
           </div>
-        </details>
-        <details class="didi__details">
-          <summary class="medium-big-size c-blueDark line-height-b">3. ¿Cuáles son los incentivos que recibiré como PROembajador al tener éxito con mi misión?</summary>
-          <div>
-            <p class="medium-size mT-4 mB-3 max-width-details-didi line-height-b c-blueDarker">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia qui voluptatibus culpa perferendis pariatur id facere eos sequi voluptate, omnis magni at facilis! Nesciunt magnam voluptates et voluptatem asperiores dolore?</p>
+          <div class="accordeon-item didi__details">
+            <div class="flexContainer justify-content-between">
+              <h2 class="accordeon-title medium-big-size c-blueDark mL-3">3. ¿Cuáles son los incentivos que recibiré como PROembajador al tener éxito con mi misión?</h2>
+              <img class="arrow" id="arrow" src="https://res.cloudinary.com/protalento/image/upload/v1663796521/Website/PROtalento/Generales/Vector_i2zyag.svg" alt="arrow">
+            </div>
+            <article class="accordeon-content">
+              <p class="medium-size max-width-details-didi c-blueDarker mL-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quam, voluptas possimus velit quidem reprehenderit atque tenetur, expedita consequuntur nihil vel consequatur voluptates libero voluptatum, neque iusto non sequi veritatis.
+              </p>
+            </article>
           </div>
-        </details>
-        <details class="didi__details">
-          <summary class="medium-big-size c-blueDark line-height-b">4. ¿Cómo me realizarán el pago de los incentivos?</summary>
-          <div>
-            <p class="medium-size mT-4 mB-3 max-width-details-didi line-height-b c-blueDarker">Una vez el talento que usó tu código y cumpla con los requisitos, además de  haber  firmado contrato, se te notificará para que al finalizar el mes, presentes una cuenta de cobro, certificación bancaria, copia de tu cédula y RUT para que se te realice el pago al correo que se te notificará.
-            </p>
+          <div class="accordeon-item didi__details">
+            <div class="flexContainer justify-content-between">
+              <h2 class="accordeon-title medium-big-size c-blueDark mL-3">4. ¿Cómo me realizarán el pago de los incentivos?</h2>
+              <img class="arrow" id="arrow" src="https://res.cloudinary.com/protalento/image/upload/v1663796521/Website/PROtalento/Generales/Vector_i2zyag.svg" alt="arrow">
+            </div>
+            <article class="accordeon-content">
+              <p class="medium-size max-width-details-didi c-blueDarker mL-3">
+                Una vez el talento que usó tu código y cumpla con los requisitos, además de  haber  firmado contrato, se te notificará para que al finalizar el mes, presentes una cuenta de cobro, certificación bancaria, copia de tu cédula y RUT para que se te realice el pago al correo que se te notificará.
+              </p>
+            </article>
           </div>
-        </details>
-      </div>
-      <div class="mT-4">
-        <h3 class="medium-big-size c-blueDarker mL-3">Si quiero estudiar en PROtalento</h3>
-        <details class="didi__details">
-          <summary class="medium-big-size c-blueDark line-height-b">1. ¿Dónde puedo encontrar más información sobre los programas?</summary>
-          <div>
-            <p class="medium-size mT-4 mB-3 max-width-details-didi line-height-b c-blueDarker">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus architecto animi perferendis. Maiores, dicta ut voluptas ex optio accusantium quasi, veritatis inventore itaque recusandae impedit iusto explicabo aut possimus quia.</p>
+
+          <h3 class="medium-big-size c-blueDarker mL-3">Si quiero estudiar en PROtalento</h3>
+
+          <div class="accordeon-item didi__details">
+            <div class="flexContainer justify-content-between">
+              <h2 class="accordeon-title medium-big-size c-blueDark mL-3">1. ¿Dónde puedo encontrar más información sobre los programas?</h2>
+              <img class="arrow" id="arrow" src="https://res.cloudinary.com/protalento/image/upload/v1663796521/Website/PROtalento/Generales/Vector_i2zyag.svg" alt="arrow">
+            </div>
+            <article class="accordeon-content">
+              <p class="medium-size max-width-details-didi c-blueDarker mL-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quam, voluptas possimus velit quidem reprehenderit atque tenetur, expedita consequuntur nihil vel consequatur voluptates libero voluptatum, neque iusto non sequi veritatis.
+              </p>
+            </article>
           </div>
-        </details>
-      </div>
+        </div>
+
     </section>
     <!-- section -->
   
@@ -949,7 +1020,7 @@
           <ul>
 
             <li>
-              <a class="d-inline-block text-decoration-none c-white mT-1" href="https://www.protalento.com/desarrollo-software-co">Full Stack</a>
+              <a class="d-inline-block text-decoration-none c-white mT-1 lB-blueDark border-radius-50" href="https://www.protalento.com/desarrollo-software-co">Full Stack</a>
             </li>
 
             <li>
@@ -957,19 +1028,19 @@
             </li>
 
             <li>
-              <a class="d-inline-block text-decoration-none c-white mT-1" href="https://www.protalento.com/full-stack-javascript">Full-Stack JavaScript</a>
+              <a class="d-inline-block text-decoration-none c-white mT-1 lB-yellow border-radius-50" href="https://www.protalento.com/full-stack-javascript">Full-Stack JavaScript</a>
             </li>
 
             <li>
-              <a class="d-inline-block text-decoration-none c-white mT-1" href="https://www.protalento.com/data-science">Data Science</a>
+              <a class="d-inline-block text-decoration-none c-white mT-1 lB-lighterBlue border-radius-50" href="https://www.protalento.com/data-science">Data Science</a>
             </li>
 
             <li>
-              <a class="d-inline-block text-decoration-none c-white mT-1" href="https://www.protalento.com/asodamas">Desarrollo de Software</a>
+              <a class="d-inline-block text-decoration-none c-white mT-1 border-radius-50 lB-blueDark" href="https://www.protalento.com/asodamas">Desarrollo de Software</a>
             </li>
 
             <li>
-              <a class="d-inline-block text-decoration-none c-white mT-1" href="https://www.protalento.com/upgrade-laboral-co">Upgrade Laboral</a>
+              <a class="d-inline-block text-decoration-none c-white mT-1 lB-purple border-radius-50" href="https://www.protalento.com/upgrade-laboral-co">Upgrade Laboral</a>
             </li>
           </ul>
 
@@ -977,11 +1048,11 @@
 
           <ul>
             <li>
-              <a class="d-inline-block text-decoration-none c-white mT-1" href="https://www.protalento.com/upgrade-laboral-mx">Upgrade Laboral</a>
+              <a class="d-inline-block text-decoration-none c-white mT-1 lB-blueDark border-radius-50" href="https://www.protalento.com/desarrollo-software-mx">Full Stack</a>
             </li>
 
             <li>
-              <a class="d-inline-block text-decoration-none c-white mT-1" href="https://www.protalento.com/desarrollo-software-mx">Full Stack</a>
+              <a class="d-inline-block text-decoration-none c-white mT-1 lB-purple border-radius-50" href="https://www.protalento.com/upgrade-laboral-mx">Upgrade Laboral</a>
             </li>
           </ul>
         </div>
@@ -989,44 +1060,5 @@
       </div>
     </footer>
     <!-- footer -->
-
-    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="slick/slick.min.js"></script>
-
-    <script>
-      $(".carusel").slick({
-        dots: true,
-        infinite: true,
-        speed: 300,
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1,
-              infinite: true,
-              dots: true,
-            },
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-            },
-          },
-          {
-            breakpoint: 500,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-            },
-          },
-        ],
-      });
-    </script>
 </body>
 </html>
