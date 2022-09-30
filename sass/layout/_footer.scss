@@ -8,3 +8,103 @@
         }
     }
 }
+
+.footer-program-yellow {
+    position: relative;
+
+    &::after {
+        content: '';
+    
+        background: $cPrimaryDynamic;
+
+        position: absolute;
+        bottom: 5px;
+        left: -2.5rem;
+        transform: rotate(90deg);
+    
+        width: 1.5rem;
+        height: 0.6rem;
+    
+        border-radius: 2rem;
+      }
+}
+
+.footer-program-purple {
+    position: relative;
+
+    &::after {
+        content: '';
+    
+        background: #A715FF;
+
+        position: absolute;
+        bottom: 5px;
+        left: -2.5rem;
+        transform: rotate(90deg);
+    
+        width: 1.5rem;
+        height: 0.6rem;
+    
+        border-radius: 2rem;
+      }
+}
+
+.footer-program-aqua {
+    position: relative;
+
+    &::after {
+        content: '';
+    
+        background: $cSecondaryElements;
+
+        position: absolute;
+        bottom: 5px;
+        left: -2.5rem;
+        transform: rotate(90deg);
+    
+        width: 1.5rem;
+        height: 0.6rem;
+    
+        border-radius: 2rem;
+      }
+}
+
+.footer-program-lighterBlue {
+    position: relative;
+
+    &::after {
+        content: '';
+    
+        background: $cIcons;
+
+        position: absolute;
+        bottom: 5px;
+        left: -2.5rem;
+        transform: rotate(90deg);
+    
+        width: 1.5rem;
+        height: 0.6rem;
+    
+        border-radius: 2rem;
+      }
+}
+
+.footer-program-darkBlue {
+    position: relative;
+
+    &::after {
+        content: '';
+    
+        background: $cBlueDark;
+
+        position: absolute;
+        bottom: 5px;
+        left: -2.5rem;
+        transform: rotate(90deg);
+    
+        width: 1.5rem;
+        height: 0.6rem;
+    
+        border-radius: 2rem;
+      }
+}
