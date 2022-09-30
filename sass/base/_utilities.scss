@@ -52,7 +52,7 @@
   flex-wrap: wrap;
 }
 
-@include for-size('tablet-landscape-up') {
+@media only screen and (min-width: 1024px) {
   .d-block-landscape {
     display: block;
   }
@@ -112,6 +112,10 @@
 
 .gap-5 {
   gap: 5rem;
+}
+
+.w-50 {
+  width: 50%;
 }
 
 .w-100 {
@@ -222,6 +226,18 @@
   margin-right: 5rem;
 }
 
+.mR-10 {
+  margin-right: 10rem;
+}
+
+.mR-15 {
+  margin-right: 15rem;
+}
+
+.mR-20 {
+  margin-right: 20rem;
+}
+
 .mB-1 {
   margin-bottom: 1rem;
 }
@@ -255,9 +271,9 @@
   padding-top: 5rem;
 }
 
-.pY-1 {
-  padding-right: 1rem;
-  padding-left: 1rem;
+.pY-05 {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
 .pX-1 {
@@ -309,6 +325,11 @@
   padding-top: 10rem;
   padding-bottom: 10rem;
 }
+
+.pL-3 {
+  padding-left: 3rem;
+}
+
 //background
 .bg-white {
   background: $cWhite;
@@ -340,6 +361,10 @@
 
 .bg-blueDarker {
   background: $cBlueDarker;
+}
+
+.bg-blueDarkNav {
+  background: #003399;
 }
 
 .bg-blueLighter {
@@ -394,6 +419,10 @@
 
 .c-blueDarker {
   color: $cBlueDarker;
+}
+
+.c-blueMain {
+  color: $cMain;
 }
 
 // font weight
@@ -468,6 +497,10 @@
 
 .radius-smaller {
   border-radius: 0.8rem;
+}
+
+.radius-very-smaller {
+  border-radius: 0.6rem;
 }
 
 // icon
@@ -572,4 +605,14 @@
 
 .lB-lighterBlue{
   border-left: 5px $cIcons solid;
+}
+
+// opacity
+
+.bg-new-blue {
+  background: #72a3fe91
+}
+
+.bg-new-purple {
+  background: #ba6df491
 }
