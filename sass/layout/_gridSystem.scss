@@ -60,7 +60,7 @@
   }
 
   &--2-columns-didi {
-    grid-template-columns: repeat(2, minmax(auto, 20rem));
+    grid-template-columns: repeat(2, min-content);
   }
 
   &--3-columns {
