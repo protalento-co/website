@@ -37,7 +37,7 @@
   }
 
   &__title {
-    font-size: 2.8rem;
+    font-size: 3.5rem;
     line-height: 1.5em;
 
     @include for-size('phone-only') {
@@ -51,6 +51,7 @@
   }
 
   &__text {
+    font-size: 2rem;
     line-height: 2.4rem;
   }
 
