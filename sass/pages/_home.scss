@@ -527,19 +527,49 @@ cursor: pointer;
   }
 }
 
-@media only screen and (min-width: 528px) and (max-width: 767px) {
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
 
+.flex-hero {
+  display: flex;
+  flex-direction: column;
 }
-
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 2000px) {
 
 }
 
 .faq {
   margin-left: 3%;
   margin-right: 3%;
+}
+
+.container__case {
+  display: flex;
+  flex-direction: row;
+}
+
+.width-170-nav {
+  width: 170px;
+}
+
+.width-81-nav {
+  width: 81px;
+}
+
+.m-width-nav-580 {
+  max-width: 58rem;
+}
+
+.btn-didi-talent {
+  padding-top: 0.75rem;
+
+  border: 2px inset $cSecondaryDynamic;
+}
+
+.dotted-line-hero {
+  position: absolute;
+  z-index: -1;
+
+  top: 61%;
+  left: 8%;
+
+  transform: rotate(10deg);
 }
