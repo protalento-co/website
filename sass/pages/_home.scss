@@ -578,3 +578,10 @@ cursor: pointer;
 .list-style-square {
   list-style: circle;
 }
+
+@media (max-width: 448px) { 
+  .mobile-height {
+    height: 18rem;
+  }
+}
+
