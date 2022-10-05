@@ -372,7 +372,6 @@
   min-height: 81px;
 
   padding-top: 20px;
-  padding-left: 30px;
 
 background: $cWhite;
 
@@ -627,13 +626,11 @@ cursor: pointer;
 
 .accordeon-content4.active {
   margin-top: 2rem;
-  margin-bottom: 2rem;
   line-height: 1.4;
   opacity: 1;
 }
 
 .accordeon-content5.active {
-  margin-bottom: 2rem;
   line-height: 1.4;
   opacity: 1;
 }
@@ -718,8 +715,8 @@ cursor: pointer;
   flex-direction: row;
 }
 
-.width-170-nav {
-  width: 170px;
+.width-200-nav {
+  width: 200px;
 }
 
 .width-81-nav {
@@ -743,7 +740,7 @@ cursor: pointer;
   z-index: -1;
 
   top: 42%;
-  left: -5%;
+  left: 8%;
   transform: rotate(10deg);
 }
 
@@ -767,7 +764,7 @@ cursor: pointer;
   width: 100%;
 
   margin-left: 8px;
-  padding: 8.25%;
+  padding: 6% 8.25% 8.25% 8.25%;
 
   @media (max-width: 767px) { 
     display: none;
@@ -934,7 +931,7 @@ cursor: pointer;
   .grid {
     display: grid;
     grid-template-columns: repeat(2, 310px);
-    grid-template-rows: repeat(4, 81px);
+    grid-template-rows: repeat(4, auto);
     grid-column-gap: 20px;
     grid-row-gap: 24px;
     justify-content: center;
@@ -948,6 +945,26 @@ cursor: pointer;
   }
 
   .grid-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
+
+    div {
+
+      &.active {
+        grid-row: span 5;
+      }
+    }
+  }
+
+}
+
+.programs-nav {
+  margin: auto;
+
+
+  .grid-nav {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, auto);
@@ -1009,6 +1026,14 @@ cursor: pointer;
 .map-absolute {
   position: absolute;
   z-index: -1;
+}
+
+.map-mobile-img {
+  max-width: 450px;
+
+  @media (min-width: 450px) {
+    margin: auto 1% auto 1%;
+  }
 }
 
 .features {
@@ -1212,5 +1237,17 @@ cursor: pointer;
 }
 
 .mobile-card-img {
-  width: 260px;
+  min-width: 260px;
+}
+
+// .tablet-nav {
+//   @media (min-width: 768px) { 
+//     max-width: 484px;
+//   }
+// }
+
+.go-program {
+  padding: 2rem 5rem;
+  margin-top: 30px;
+  background: #EBEBEB;
 }

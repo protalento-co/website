@@ -19,6 +19,12 @@
 
   &--begin {
     &::after {
+      left: 30px;
+    }
+  }
+
+  &--medium {
+    &::after {
       left: 50%;
     }
   }
