@@ -1000,6 +1000,10 @@ cursor: pointer;
 .partners-location {
   position: relative;
   top: 140px;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
 }
 
 .map-absolute {
