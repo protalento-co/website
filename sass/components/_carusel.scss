@@ -56,7 +56,7 @@
 }
 
 .features-main {
-  max-width: 110rem;
+  max-width: 260px;
   margin-right: auto;
   margin-left: auto;
 
@@ -82,6 +82,74 @@
   .slick-slide {
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  %arrow {
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .slick-prev:before {
+    content: '<';
+    @extend %arrow;
+  }
+
+  .slick-next:before {
+    content: '>';
+    @extend %arrow;
+  }
+
+  .slick-dots {
+    bottom: -5rem;
+
+    li {
+      button {
+        &::before {
+          font-size: 1rem;
+
+          color: #E4E4E4;
+
+          opacity: 1;
+        }
+      }
+
+      &.slick-active {
+        button {
+          &::before {
+            color: $cPrimaryDynamic;
+          }
+        }
+      }
+    }
+  }
+}
+
+.map-logos {
+  max-width: 260px;
+  margin-right: auto;
+  margin-left: auto;
+
+  &__title {
+    min-height: 3.5rem;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  .slick-track {
+    display: flex;
+
+    width: 200px;
+    height: 175px;
+
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+
+  .slick-slide {
+    
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   %arrow {
