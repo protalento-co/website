@@ -107,3 +107,34 @@ for (let i = 0; i < accordeonTitle4.length; i++) {
 
     })
 }
+
+const accordeonTitle5 = document.querySelectorAll('.accordeon-title5');
+const accordeonContent5 = document.querySelectorAll('.accordeon-content5');
+const accordeonArrow5 = document.querySelectorAll('.arrow5');
+const accordeonItemCards = document.querySelectorAll('.item-cards');
+
+
+
+for (let i = 0; i < accordeonTitle5.length; i++) {
+    const itemCards = accordeonItemCards[i];
+    
+    itemCards.addEventListener('click', () => {
+        const index = i;
+
+        accordeonTitle5[index].classList.toggle('active');
+        accordeonContent5[index].classList.toggle('active');
+        accordeonContent5[index].classList.toggle('d-none');
+        accordeonArrow5[index].classList.toggle('arrow-rotate5');
+
+        for (let f = 0; f < accordeonTitle5.length; f++) {
+            if(f !== i) {
+                accordeonTitle5[f].classList.remove('active');
+                accordeonContent5[f].classList.remove('active');
+                accordeonContent5[f].classList.add('d-none');
+                accordeonItemCards[f].classList.remove('active');
+                accordeonArrow5[f].classList.remove('arrow-rotate5');
+            }               
+        }
+
+    })
+}

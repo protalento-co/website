@@ -113,12 +113,12 @@
       height: 6.1rem;
     }
 
-    --logo: scale(1);
-    --text: scale(0);
+    --logoM: scale(1);
+    --textM: scale(0);
 
     &:hover {
-      --logo: scale(0);
-      --text: scale(1);
+      --logoM: scale(0);
+      --textM: scale(1);
     }
   }
 
@@ -129,7 +129,7 @@
   &__logo {
     object-fit: scale-down;
 
-    transform: var(--logo);
+    transform: var(--logoM);
 
     @extend %transition;
   }
@@ -137,48 +137,8 @@
   &__text {
     position: absolute;
 
-    transform: var(--text);
+    transform: var(--textM);
 
     @extend %transition;
   }
-}
-
-// .mobile-map {
-//   position: relative;
-// }
-
-// .features__desk {
-//   // position: absolute;
-//   // z-index: 1000;
-//   // bottom:  40%;
-//   // left: 30%;
-// }
-
-// .mobile__map-cards {
-//   top: 20px;
-//   width: 200px;
-
-//   background: $cWhite;
-
-//     border-radius: 0.8rem;
-
-//     // position: relative;
-
-//     // --logo: scale(1);
-//     // --text: scale(0);
-
-//     // &:hover {
-//     //   --logo: scale(0);
-//     //   --text: scale(1);
-//     // }
-// }
-
-// .features__main {
-//   // width: 20rem;
-// }
-
-.feature__card {
-  width: 20rem;
-  height: 32.6rem;
-  border-radius: 8px;
 }
