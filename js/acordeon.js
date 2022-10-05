@@ -28,16 +28,17 @@ for (let i = 0; i < accordeonTitle.length; i++) {
 const accordeonTitle2 = document.querySelectorAll('.accordeon-title2');
 const accordeonContent2 = document.querySelectorAll('.accordeon-content2');
 const accordeonArrow2 = document.querySelectorAll('.arrow2');
-const liAccordeon2 = document.querySelectorAll('.li__accordeon2')
+const accordeonItemNav = document.querySelectorAll('.item-nav');
 
 for (let i = 0; i < accordeonTitle2.length; i++) {
-    const title2 = accordeonTitle2[i];
+    const itemNav = accordeonItemNav[i];
     
-    title2.addEventListener('click', () => {
+    itemNav.addEventListener('click', () => {
         const index = i;
 
         accordeonTitle2[index].classList.toggle('active');
         accordeonContent2[index].classList.toggle('active');
+        accordeonContent2[index].classList.toggle('d-none');
         accordeonArrow2[index].classList.toggle('arrow-rotate');
 
 
@@ -45,6 +46,8 @@ for (let i = 0; i < accordeonTitle2.length; i++) {
             if(f !== i) {
                 accordeonTitle2[f].classList.remove('active');
                 accordeonContent2[f].classList.remove('active');
+                accordeonContent2[f].classList.add('d-none');
+                accordeonItemNav[f].classList.remove('active');
                 accordeonArrow2[f].classList.remove('arrow-rotate');
             }               
         }
@@ -94,12 +97,14 @@ for (let i = 0; i < accordeonTitle4.length; i++) {
 
         accordeonTitle4[index].classList.toggle('active');
         accordeonContent4[index].classList.toggle('active');
+        accordeonContent4[index].classList.toggle('d-none');
         accordeonArrow4[index].classList.toggle('arrow-rotate');
 
         for (let f = 0; f < accordeonTitle4.length; f++) {
             if(f !== i) {
                 accordeonTitle4[f].classList.remove('active');
                 accordeonContent4[f].classList.remove('active');
+                accordeonContent4[f].classList.add('d-none');
                 accordeonItem[f].classList.remove('active');
                 accordeonArrow4[f].classList.remove('arrow-rotate');
             }               
