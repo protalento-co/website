@@ -113,12 +113,12 @@
       height: 6.1rem;
     }
 
-    --logo: scale(1);
-    --text: scale(0);
+    --logoM: scale(1);
+    --textM: scale(0);
 
     &:hover {
-      --logo: scale(0);
-      --text: scale(1);
+      --logoM: scale(0);
+      --textM: scale(1);
     }
   }
 
@@ -129,7 +129,7 @@
   &__logo {
     object-fit: scale-down;
 
-    transform: var(--logo);
+    transform: var(--logoM);
 
     @extend %transition;
   }
@@ -137,7 +137,7 @@
   &__text {
     position: absolute;
 
-    transform: var(--text);
+    transform: var(--textM);
 
     @extend %transition;
   }
