@@ -39,13 +39,13 @@
 
   <!-- script -->
   <script src="js/sidenav.js" defer></script>
+    <script src="js/acordeon.js" defer></script>
   <script src="js/ChangeInfoli.js" defer></script>
   <script src="js/ChangeInfoP.js" defer></script>
   <script src="js/programa.js" defer></script>
   <script src="js/afiliados.js" defer></script>
   <script src="js/btnHelp.js" defer></script>
   <script src="js/comoPagar.js" defer></script>
-  <script src="js/acordeon.js" defer></script>
   <!-- script -->
   <title>PROtalento | DiDi</title>
 </head>
@@ -166,8 +166,15 @@
 
         <li class="d-none-landscape bg-white pX-2 pY-1 font-nunito tablet-nav" style="height: 100vh; margin-top: 7rem">
 
-          <!--box-->
-
+        <button id="toggle1" class="toggle1" title="button">
+          <span class="hamburguer__close2">
+            <img
+             
+              src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660170118/Website/PROtalento/Convocatorias/Vector_uwbajm_ikfpfp.png"
+             
+              alt="" />
+          </span>
+        </button>
           <!--box-->
 
           <section class="programs-nav">
@@ -390,38 +397,6 @@
         </div>
         <!--Tablet Hero-->
 
-        <!--Desktop Hero-->
-        <div class="desktop__hero">
-          <p class="header__text fw-300 line-height-md mT-4">
-            Generar hasta<b class="fw-600"> $3.000.000</b> siendo un <b class="fw-600">PROembajador</b> y tener un <b
-              class="fw-600">ingreso extra</b> con los referidos que se sumen a un programa en PROtalento <br> <br>
-            Aprender en pocos meses las <b class="fw-600">habilidades más demandadas</b> en el mercado laboral para
-            obtener un empleo en el que puedas empezar a ganar en promedio un salario de <b
-              class="fw-600">$2.800.000.</b>
-          </p>
-
-          <p class="small-size fw-600 line-height-md mT-4">Especialízate en tech + inglés + habilidades para emplearte,
-            en un solo lugar, a un precio asequible y financiable.</p>
-
-          <!-- button -->
-          <div class="flexContainer buttons">
-            <div class="mT-4">
-              <a href="#information" class="btn-didi-hero btn--yellow txt-center"> ¡Sé un PROembajador! </a>
-            </div>
-            <div class="mT-4 mL-2 p-relative">
-              <a href="#ambassador" class="btn-didi-hero btn-didi-talent bg-white txt-center text-decoration-none"> ¡Sé
-                un Talento! </a>
-                <div class="dotted-line-hero d-none-1024">
-                  <img
-                    src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1664554483/Website/PROtalento/Generales/long_nqe2ww.svg"
-                    alt="dotted line">
-                </div>
-            </div>
-          </div>
-          <!-- button -->
-        </div>
-
-        <!--Desktop Hero-->
       </div>
       <!-- content -->
 
@@ -649,8 +624,8 @@
             requisitos.</p>
           <p class="bold txt-left mB-2">*Aplican términos y condiciones.</p>
         </div>
-        <div class="mT-4">
-          <a href="#" class="btn btn--yellow txt-center"> ¡Regístrate! </a>
+        <div>
+          <a href="#" class="btn btn--yellow txt-center" style="margin-top: 362px;"> ¡Regístrate! </a>
         </div>
       </div>
     </div>

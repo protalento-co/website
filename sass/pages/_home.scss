@@ -289,17 +289,20 @@
 
   h1 {
     font-size: $medium-bigger-size;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
   }
 
   h2 {
     font-size: $medium-big-size;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
   }
 
   h3 {
     font-size: $medium-size;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
   }
 
   p{
@@ -989,10 +992,6 @@ cursor: pointer;
   .mobile__hero {
     display: none;
   }
-
-  .tablet-hero {
-    display: none;
-  }
 }
 
 .main__hero-tablet {
@@ -1240,14 +1239,20 @@ cursor: pointer;
   min-width: 260px;
 }
 
-// .tablet-nav {
-//   @media (min-width: 768px) { 
-//     max-width: 484px;
-//   }
-// }
+.tablet-nav {
+  @media (min-width: 768px) { 
+    max-width: 484px;
+  }
+}
 
 .go-program {
   padding: 2rem 5rem;
   margin-top: 30px;
   background: #EBEBEB;
+}
+
+.asodamas-hero-img {
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 }
