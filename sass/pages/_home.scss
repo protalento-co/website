@@ -1284,3 +1284,30 @@ cursor: pointer;
     width: 100%;
   }
 }
+
+.btn-didi {
+  padding: 12px 45px;
+
+  box-shadow: 0px 10px 20px rgba(32, 33, 47, 0.2);
+  border-radius: 24px;
+
+  font-size: 16px;
+}
+
+.decorations-button {
+  width: 200px;
+
+  position: absolute;
+  bottom: 25px;
+  right: -19px;
+
+}
+
+.decorations-button-tablet {
+  width: 200px;
+
+  position: absolute;
+  bottom: 32px;
+  right: -18px;
+
+}
