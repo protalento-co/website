@@ -126,19 +126,36 @@
     transition: transform 1s;
   }
 
-  &__logo {
-    object-fit: scale-down;
+}
 
-    transform: var(--logoM);
+.map__logo {
+  object-fit: scale-down;
 
-    @extend %transition;
-  }
+  transform: var(--logo);
 
-  &__text {
-    position: absolute;
+  @extend %transition;
+}
 
-    transform: var(--textM);
+.map__text {
+  position: absolute;
 
-    @extend %transition;
-  }
+  transform: var(--text);
+
+  @extend %transition;
+}
+
+.map__logoM {
+  object-fit: scale-down;
+
+  transform: var(--logoM);
+
+  @extend %transition;
+}
+
+.map__textM {
+  position: absolute;
+
+  transform: var(--textM);
+
+  @extend %transition;
 }
