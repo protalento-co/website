@@ -1,23 +1,24 @@
 const accordeonTitle = document.querySelectorAll('.accordeon-title');
 const accordeonContent = document.querySelectorAll('.accordeon-content');
 const accordeonArrow = document.querySelectorAll('.arrow');
+const accordeonItemFaq = document.querySelectorAll('.item-faq');
+
 
 for (let i = 0; i < accordeonTitle.length; i++) {
-    const title = accordeonTitle[i];
+    const itemFaq = accordeonItemFaq[i];
     
-    title.addEventListener('click', () => {
+    itemFaq.addEventListener('click', () => {
         const index = i;
 
         accordeonTitle[index].classList.toggle('active');
         accordeonContent[index].classList.toggle('active');
-        accordeonItem[index].classList.toggle('active-item');
         accordeonArrow[index].classList.toggle('arrow-rotate');
 
         for (let f = 0; f < accordeonTitle.length; f++) {
             if(f !== i) {
                 accordeonTitle[f].classList.remove('active');
                 accordeonContent[f].classList.remove('active');
-                accordeonItem[f].classList.remove('active');
+                accordeonItemFaq[f].classList.remove('active');
                 accordeonArrow[f].classList.remove('arrow-rotate');
             }               
         }
