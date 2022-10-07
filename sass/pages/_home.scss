@@ -333,7 +333,7 @@
 
 .didi__details {
   padding: 1.5rem;
-  margin: 3rem;
+  margin: 1.5rem;
 
   overflow: hidden;
 
@@ -980,14 +980,13 @@ cursor: pointer;
       }
     }
   }
-
 }
 
-.programs-nav {
+.programs-faq {
   margin: auto;
 
 
-  .grid-nav {
+  .grid-faq {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, auto);
@@ -996,7 +995,7 @@ cursor: pointer;
     div {
 
       &.active {
-        grid-row: span 5;
+        grid-row: span 2;
       }
     }
   }
@@ -1310,4 +1309,8 @@ cursor: pointer;
   bottom: 32px;
   right: -18px;
 
+}
+
+.logo-prices {
+  width: 200px;
 }
