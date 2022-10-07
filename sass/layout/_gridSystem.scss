@@ -63,6 +63,18 @@
     grid-template-columns: repeat(2, min-content);
   }
 
+  &--2-columns-prices {
+      grid-template-columns: repeat(2, 1fr);
+
+      @media (max-width: 768px) {
+        grid-template-columns: repeat(1, auto);
+
+        .align-item-center {
+          align-items: flex-start;
+        }
+      }
+  }
+
   &--3-columns {
     @include for-size('tablet-landscape-up') {
       grid-template-columns: repeat(3, 1fr);
