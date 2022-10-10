@@ -1,0 +1,81 @@
+.postulation-page {
+  width: 100%;
+  padding: 100px 7.5% 50px;
+
+  .container-postulation {
+    width: 100%;
+    .cta-card {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+
+      width: 120%;
+
+      margin-left: -18%;
+      margin-bottom: 44px;
+      padding: 17px 9px;
+
+      box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.08), 0px 16px 24px rgba(22, 34, 51, 0.08);
+      border-radius: 8px;
+
+      p {
+        margin-left: 10%;
+
+        font-family: "Nunito", sans-serif;
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 36px;
+        color: #003399;
+        text-align: left;
+
+        span {
+          font-size: 1.2rem;
+        }
+      }
+    }
+    .external-form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      width: 100%;
+      height: 200px;
+
+      margin-bottom: 50px;
+
+      box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.08), 0px 16px 24px rgba(22, 34, 51, 0.08);
+      border-radius: 8px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .postulation-page {
+    .container-postulation {
+      .cta-card {
+        p {
+          font-size: 2.5rem;
+          span {
+            font-size: 1.8rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .postulation-page {
+    .container-postulation {
+      .cta-card {
+        p {
+          font-size: 3.2rem;
+          span {
+            font-size: 2.4rem;
+          }
+        }
+      }
+    }
+  }
+}
+
