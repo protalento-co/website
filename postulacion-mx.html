@@ -297,13 +297,31 @@
         <div class="cta-card">
           <p><span>diligencia el</span> Formulario de Postulación</p>
         </div>
-        <div class="external-form"></div>
+        <div class="external-form">
+          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+          <script>
+            hbspt.forms.create({
+              region: "na1",
+              portalId: "20826022",
+              formId: "baa24fd3-f0d9-432d-a810-e6d76d130fde",
+            });
+          </script>
+        </div>
       </div>
       <div class="container-postulation">
         <div class="cta-card">
           <p><span>agéndate en el</span> Calendario de Entrevistas</p>
         </div>
-        <div class="external-form"></div>
+        <div class="external-form calendar">
+          <!-- Principio del widget integrado de Calendly -->
+          <div
+            class="calendly-inline-widget"
+            data-url="https://calendly.com/protalento/entrevista-candidato?hide_gdpr_banner=1"
+            style="height: 630px; width: 95%"
+          ></div>
+          <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+          <!-- Final del widget integrado de Calendly -->
+        </div>
       </div>
     </section>
 
@@ -441,5 +459,16 @@
       ><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KDK4LPR" height="0" width="0" style="display: none; visibility: hidden"></iframe
     ></noscript>
     <!-- End Google Tag Manager (noscript) -->
+    <script>
+      // Change content when viewport size come bigger that 320px
+      const mediaQuery = window.matchMedia("(min-width: 320px)");
+      // Valide if viewport size is bigger that 320px
+      if (mediaQuery.matches) {
+        // Change content
+        document.getElementById("hero__title").innerHTML = "¡Conviértete en un profesional de la tecnología!";
+        document.getElementById("hero__subtitle").innerHTML = "Aprende a programar desde cero y conviértete en un profesional de la tecnología en 6 meses.";
+        document.getElementById("hero__button").innerHTML = "¡Quiero ser un profesional de la tecnología!";
+      }
+    </script>
   </body>
 </html>
