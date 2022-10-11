@@ -1373,3 +1373,20 @@ cursor: pointer;
     flex-direction: column;
   }
 }
+
+.date-box {
+  width: 200px;
+  font-size: 18px;
+}
+
+.dates-container {
+  width: 660px;
+
+  @media (max-width: 900px){
+    max-width: 400px;
+  }
+}
+
+.dates-boxShadow {
+  box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.08), 0px 16px 24px rgba(22, 34, 51, 0.08);
+}

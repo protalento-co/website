@@ -363,8 +363,16 @@
   background: $cMain;
 }
 
+.bg-darkerPurple {
+  background: $cDarkerPurple;
+}
+
 .bg-cSecondaryElements {
   background: $cSecondaryElements;
+}
+
+.bg-darkerAqua {
+  background: $cDarkerAqua;
 }
 
 .bg-yellow {
@@ -516,6 +524,10 @@
 }
 
 // radius
+.radius-medium {
+  border-radius: 1.2rem;
+}
+
 .raidus-small {
   border-radius: 1rem;
 }
