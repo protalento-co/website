@@ -1390,3 +1390,18 @@ cursor: pointer;
 .dates-boxShadow {
   box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.08), 0px 16px 24px rgba(22, 34, 51, 0.08);
 }
+
+.header__form-box {
+  @media (min-width: 1024px) {
+    display: none;
+  }
+
+
+}
+
+.audiences {
+  @media (min-width: 1024px) {
+    margin-top: 100px;
+  }
+
+}
