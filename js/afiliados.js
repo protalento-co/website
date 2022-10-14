@@ -17,11 +17,11 @@ const afiliados = {
       'Es una marca creada por el grupo de trabajo de Bancolombia donde siempre podrás encontrar lo que desees ajustando siempre a tus necesidades y sin complicaciones. El ideal de Sufi de Bancolombia es estar presente para cualquier momento de tu vida, donde te acercará a lo que tanto anheles donde y cuando lo quieras.',
     url: 'https://res.cloudinary.com/protalento/image/upload/q_auto/v1660170117/Website/PROtalento/Convocatorias/Logos_y_Vigilado_Sufi_LOGOS_Logo-rojo_1_zoqebd_mxate1.svg',
   },
-  primera: {
-    title: 'Primera HFC',
+  English4Tech: {
+    title: 'English4Tech',
     content:
       'Es una organización de alto impacto social que enseña idiomas a los jóvenes y los apoya para mejorar sus oportunidades. Su misión es abrir oportunidades laborales para los jóvenes a través del poder de los idiomas.',
-    url: 'https://res.cloudinary.com/protalento/image/upload/f_auto/v1663189266/Website/PROtalento/Convocatorias/Recurso_1_hdkypw.png',
+    url: 'https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1665759936/Website/PROtalento/Convocatorias/logo-English4Tech_kbw6s9.png',
   },
   flevo: {
     title: 'Flevo',
@@ -61,7 +61,7 @@ const afiliados = {
   },
   dojo: {
     title: "Coding Dojo",
-    content: "Coding Dojo se ha transformado en la Academia EdTech más relevante a nivel global, a 10 años de su fundación en Silicon Valley y con más de 10 mil casos de éxito de graduados en el mundo. En América Latina contamos con alumnos y ex alumnos de Chile, Colombia, Perú, Ecuador, Uruguay y México. ",
+    content: "Es una academia de programación que inició en Silicon Valley, sede de las compañías emergentes y globales de tecnología. Con más de 10 años de experiencia en la educación TI y más de 11.000 graduados alrededor del mundo, Coding Dojo se ha consolidado como una de las academias de programación más reconocidas a nivel mundial y ha sido premiada por Course Report y Career Karma como el Mejor Bootcamp Online 2022, por Switch Up como el Mejor Bootcamp de 2022, entre otros.",
     url: "https://res.cloudinary.com/protalento/image/upload/q_auto/v1660170117/Website/PROtalento/Convocatorias/Logo-celeste_1_mljipn_wvujtr_m8xxkb.svg"
   },
   asodamas: {
