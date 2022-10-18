@@ -10,19 +10,21 @@ html {
     font-family: "Proxima Nova", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 a:link,
 a:visited,
 a:active {
     text-decoration: none;
     font-family: "Proxima Nova", sans-serif;
     font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 28px;
     /* identical to box height, or 200% */
 
 
-    color: #FFFFFF;
 
 }
 
