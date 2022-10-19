@@ -195,12 +195,11 @@ a:active {
 
 }
 
-.logos {
-    position: absolute;
+.logos-n {
+
     width: 80vw;
     height: 126px;
-    left: 10%;
-    top: 1894px;
+
     background: #FFFFFF;
     box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.08), 0px 16px 24px rgba(22, 34, 51, 0.08);
     border-radius: 8px;
@@ -216,7 +215,18 @@ a:active {
     overflow: auto;
 }
 
-.logos>div {
+
+.logos--cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 126px;
+    position: absolute;
+    left: 10%;
+    top: 1894px;
+}
+
+.logos-n>div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -224,13 +234,13 @@ a:active {
     margin-right: 56px;
 }
 
-.logos img {
+.logos-n img {
     height: 80px;
     width: 60px;
     object-fit: contain;
 }
 
-.logos h2 {
+.logos-n h2 {
     font-weight: 500;
     font-size: 10px;
     line-height: 28px;
@@ -829,6 +839,7 @@ a:active {
 
 .alliances__carousel {
     display: flex;
+    height: 843px;
 }
 
 .alliances__card {
@@ -862,7 +873,7 @@ a:active {
 }
 
 .alliances__card h2 {
-    font-family: 'Proxima Nova';
+    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
@@ -877,7 +888,7 @@ a:active {
 }
 
 .alliances__card p {
-    font-family: 'Proxima Nova';
+    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -1127,11 +1138,16 @@ color: #385499;
         top: 709px;
     }
 
-    .logos {
+    .logos--cont {
         position: absolute;
+        left: 0;
+        top: 80px;
+    }
+
+    .logos-n {
+
         height: 126px;
-        left: 10%;
-        top: 1630px;
+
 
         padding: 19px 82px 23px;
     }
@@ -1391,7 +1407,7 @@ color: #385499;
         margin-top: 220px;
     }
 
-    .logos {
+    .logos-n {
         position: absolute;
         width: 80%;
         height: 126px;
