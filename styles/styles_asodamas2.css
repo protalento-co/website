@@ -67,6 +67,7 @@ a:active {
     width: 100%;
     background-color: #381A8B;
     padding: 35px 30px 48px 30px;
+    margin-top: 98px;
 }
 
 .main>h1 {
@@ -176,7 +177,7 @@ a:active {
     width: 80%;
     /* height: 805px; */
     left: 10%;
-    top: 920px;
+    top: 1009px;
     background: #FFFFFF;
     box-shadow: 0px 4px 8px rgba(53, 105, 128, 0.3);
     border-radius: 8px;
@@ -226,7 +227,7 @@ a:active {
     height: 126px;
     position: absolute;
     /* left: 10%; */
-    top: 1790px
+    top: 1892px
 }
 
 .logos-n>div {
@@ -1512,6 +1513,7 @@ color: #385499;
         height: 621px;
         margin-top: 115px;
         padding-top: 30px;
+
     }
 
 
