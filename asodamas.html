@@ -6,11 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/styles.css" />
     <link rel="stylesheet" href="./styles/styles_asodamas2.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
     <!-- Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600&display=swap"
@@ -30,6 +27,7 @@
     <script src="js/acordeon.js" defer></script>
     <script src="js/programa.js" defer></script>
     <script src="js/ChangeInfoli.js" defer></script>
+    <script src="js/acordeon.js" defer></script>
     <!-- script -->
   </head>
   <body>
@@ -543,6 +541,7 @@
       <a href="#form" class="buttons__button--1">¡Postúlate!</a>
       <a href="#details" class="buttons__button--2">Conoce el programa</a>
     </section>
+
     <div class="decoration">
       <div class="decoration__pattern--container align--vertical--column">
         <img
@@ -579,48 +578,50 @@
       </script>
       <!-- End form embed -->
     </div>
-    <div class="logos">
-      <div>
-        <img
-          src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660170117/Website/PROtalento/Convocatorias/logo-asodamas-web-x1_khxsnh_mneqmt.png"
-          alt=""
-        />
-        <h2>CATALIZADOR</h2>
-      </div>
-      <div>
-        <img
-          src="https://res.cloudinary.com/protalento/image/upload/f_auto/v1663198391/Website/PROtalento/Convocatorias/Recurso_1_1_wr46ps.png"
-          alt=""
-        />
-        <h2>BOOTCAMP TECH</h2>
-      </div>
-      <div>
-        <img
-          src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1665759936/Website/PROtalento/Convocatorias/logo-English4Tech_kbw6s9.png"
-          alt=""
-        />
-        <h2>BOOTCAMP INGLES</h2>
-      </div>
-      <div>
-        <img
-          src="https://res.cloudinary.com/protalento/image/upload/v1660170117/Website/PROtalento/Convocatorias/Protalento-logoazul-_3x_2_bmzjqb_zrzdme.svg"
-          alt=""
-        />
-        <h2>BOOTCAMP EMPLEABILIDAD</h2>
-      </div>
-      <div>
-        <img
-          src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660170117/Website/PROtalento/Convocatorias/Logos_y_Vigilado_Sufi_LOGOS_Logo-rojo_1_zoqebd_mxate1.svg"
-          alt=""
-        />
-        <h2>FINANCIADOR</h2>
-      </div>
-      <div>
-        <img
-          src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660170116/Website/PROtalento/Convocatorias/Isologo-Flevo-secundario-transparente-01-1-e1644858311932_1_ea6psp_tbjy42.svg"
-          alt=""
-        />
-        <h2>FINANCIADOR</h2>
+    <div class="logos--cont">
+      <div class="logos-n">
+        <div>
+          <img
+            src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660170117/Website/PROtalento/Convocatorias/logo-asodamas-web-x1_khxsnh_mneqmt.png"
+            alt=""
+          />
+          <h2>CATALIZADOR</h2>
+        </div>
+        <div>
+          <img
+            src="https://res.cloudinary.com/protalento/image/upload/f_auto/v1663198391/Website/PROtalento/Convocatorias/Recurso_1_1_wr46ps.png"
+            alt=""
+          />
+          <h2>BOOTCAMP TECH</h2>
+        </div>
+        <div>
+          <img
+            src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1665759936/Website/PROtalento/Convocatorias/logo-English4Tech_kbw6s9.png"
+            alt=""
+          />
+          <h2>BOOTCAMP INGLES</h2>
+        </div>
+        <div>
+          <img
+            src="https://res.cloudinary.com/protalento/image/upload/v1660170117/Website/PROtalento/Convocatorias/Protalento-logoazul-_3x_2_bmzjqb_zrzdme.svg"
+            alt=""
+          />
+          <h2>BOOTCAMP EMPLEABILIDAD</h2>
+        </div>
+        <div>
+          <img
+            src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660170117/Website/PROtalento/Convocatorias/Logos_y_Vigilado_Sufi_LOGOS_Logo-rojo_1_zoqebd_mxate1.svg"
+            alt=""
+          />
+          <h2>FINANCIADOR</h2>
+        </div>
+        <div>
+          <img
+            src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660170116/Website/PROtalento/Convocatorias/Isologo-Flevo-secundario-transparente-01-1-e1644858311932_1_ea6psp_tbjy42.svg"
+            alt=""
+          />
+          <h2>FINANCIADOR</h2>
+        </div>
       </div>
     </div>
     <section class="developers">
@@ -715,73 +716,72 @@
         financiamiento más justas.
         <span> ¡Ahora puedes confiar en las letras chiquitas! </span>
       </p>
-      <div class="slider-hero">
-        <div class="paid__cards--container">
-          <div class="paid__card">
-            <!-- <div class="paid__header">
+
+      <div class="carusel" class="paid__cards--container">
+        <div class="paid__card">
+          <!-- <div class="paid__header">
               <img src="" alt="" />
               <h2>Estudia ahora y paga después</h2>
             </div> -->
-            <img
-              src="https://res.cloudinary.com/protalento/image/upload/v1666141848/Website/PROtalento/Convocatorias/Asodamas/Group_65_acreb0.svg"
-              alt=""
-            />
-            <div class="paid__card--content"></div>
-            <div class="paid__card--button">Ver más</div>
-          </div>
-          <div class="paid__card">
-            <!-- <div class="paid__header">
+          <img
+            src="https://res.cloudinary.com/protalento/image/upload/v1666141848/Website/PROtalento/Convocatorias/Asodamas/Group_65_acreb0.svg"
+            alt=""
+          />
+          <div class="paid__card--content"></div>
+          <div class="paid__card--button">Ver más</div>
+        </div>
+        <div class="paid__card">
+          <!-- <div class="paid__header">
               <img
                 src="https://res.cloudinary.com/protalento/image/upload/v1660170117/Website/PROtalento/Convocatorias/Protalento-logoazul-_3x_2_bmzjqb_zrzdme.svg"
                 alt=""
               />
               <h2>Paga en una sola cuota y recibe el 10% de descuento</h2>
             </div> -->
-            <img
-              src="https://res.cloudinary.com/protalento/image/upload/v1666142159/Website/PROtalento/Convocatorias/Asodamas/Group_66_nmcte5.svg"
-              alt=""
-            />
-            <div class="paid__card--content"></div>
-            <div class="paid__card--button">Ver más</div>
-          </div>
-          <div class="paid__card">
-            <!-- <div class="paid__header">
+          <img
+            src="https://res.cloudinary.com/protalento/image/upload/v1666142159/Website/PROtalento/Convocatorias/Asodamas/Group_66_nmcte5.svg"
+            alt=""
+          />
+          <div class="paid__card--content"></div>
+          <div class="paid__card--button">Ver más</div>
+        </div>
+        <div class="paid__card">
+          <!-- <div class="paid__header">
               <img src="" alt="" />
               <h2>Paga en 6 mensualidades, sin intereses</h2>
             </div> -->
-            <img
-              src="https://res.cloudinary.com/protalento/image/upload/v1666142191/Website/PROtalento/Convocatorias/Asodamas/Group_67_ewtguv.svg"
-              alt=""
-            />
-            <div class="paid__card--content"></div>
-            <div class="paid__card--button">Ver más</div>
-          </div>
-          <div class="paid__card">
-            <!-- <div class="paid__header">
+          <img
+            src="https://res.cloudinary.com/protalento/image/upload/v1666142191/Website/PROtalento/Convocatorias/Asodamas/Group_67_ewtguv.svg"
+            alt=""
+          />
+          <div class="paid__card--content"></div>
+          <div class="paid__card--button">Ver más</div>
+        </div>
+        <div class="paid__card">
+          <!-- <div class="paid__header">
               <img src="" alt="" />
               <h2>Paga en diferentes plazos y tasas de interés</h2>
             </div> -->
-            <img
-              src="https://res.cloudinary.com/protalento/image/upload/v1666142312/Website/PROtalento/Convocatorias/Asodamas/Group_68_osyw3k.svg"
-              alt=""
-            />
-            <div class="paid__card--content"></div>
-            <div class="paid__card--button"></div>
-          </div>
-          <div class="paid__card">
-            <!-- <div class="paid__header">
+          <img
+            src="https://res.cloudinary.com/protalento/image/upload/v1666142312/Website/PROtalento/Convocatorias/Asodamas/Group_68_osyw3k.svg"
+            alt=""
+          />
+          <div class="paid__card--content"></div>
+          <div class="paid__card--button"></div>
+        </div>
+        <div class="paid__card">
+          <!-- <div class="paid__header">
               <img src="" alt="" />
               <h2>
                 Diseñado para estudiantes sin historial crediticio, ni codeudor
               </h2>
             </div> -->
-            <img
-              src="https://res.cloudinary.com/protalento/image/upload/v1666142319/Website/PROtalento/Convocatorias/Asodamas/Group_69_scxxp7.svg"
-              alt=""
-            />
-            <div class="paid__card--content"></div>
-            <div class="paid__card--button">Ver más</div>
-          </div>
+          <img
+            src="https://res.cloudinary.com/protalento/image/upload/v1666142319/Website/PROtalento/Convocatorias/Asodamas/Group_69_scxxp7.svg"
+            alt=""
+          />
+          <div class="paid__card--content"></div>
+          <div class="paid__card--button">Ver más</div>
         </div>
       </div>
     </section>
@@ -986,38 +986,161 @@
 
       <a href="#form" class="buttons__button--1"> ¡Postúlate! </a>
     </section>
-    <!-- <section class="alliances align--vertical--column">
+    <section class="alliances align--vertical--column">
       <h2>Nuestros aliados para este programa</h2>
       <div class="developers__separator"></div>
-      <div class="alliances__carousel"></div>
-    </section> -->
-    <!-- <section class="faq align--vertical--column">
-      <h2>Nuestros aliados para este programa</h2>
-      <div class="developers__separator"></div>
-      <div class="faq__cards">
-        <div>
-          <h3>1. ¿Pregunta 01?</h3>
+      <div class="carusel-mobile alliances__carousel">
+        <div class="alliances__card">
           <img
-            src="https://res.cloudinary.com/protalento/image/upload/v1665944071/Website/PROtalento/Convocatorias/Asodamas/Vector_nbkz7y.svg"
-            alt="arrow-icon"
+            src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660170117/Website/PROtalento/Convocatorias/logo-asodamas-web-x1_khxsnh_mneqmt.png"
+            alt=""
           />
+          <div class="alliances__cards--content">
+            <h2>Asodamas</h2>
+            <p>
+              Es una asociación sin ánimo de lucro fundada en 2008. Está
+              integrada por esposas de gobernantes – primeras gestoras y
+              gestores sociales y asociadas de número que en su mayoría son
+              organizaciones de mujeres de base que trabajan por las comunidades
+              más vulnerables de la sociedad colombiana.
+            </p>
+          </div>
         </div>
-        <div>
-          <h3>2. ¿Pregunta 02?</h3>
+        <div class="alliances__card">
           <img
-            src="https://res.cloudinary.com/protalento/image/upload/v1665944071/Website/PROtalento/Convocatorias/Asodamas/Vector_nbkz7y.svg"
-            alt="arrow-icon"
+            src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660169215/Website/PROtalento/Home/logo_bvc_oq8pwn_lofcyc.png"
+            alt=""
           />
+          <div class="alliances__cards--content">
+            <h2>BVC</h2>
+            <p>
+              Una de nuestras más de 200 empresas aliadas con las que co-creamos
+              rutas de aprendizaje de precisión para la empleabilidad. La Bolsa
+              de Valores de Colombia es el centro de conexión entre los sueños
+              de las personas y los deseos de crecimiento de las empresas,
+              liderando la transformación del mercado de capitales y
+              contribuyendo al desarrollo económico del país.
+            </p>
+          </div>
         </div>
-        <div>
-          <h3>3. ¿Pregunta 03?</h3>
+        <div class="alliances__card">
           <img
-            src="https://res.cloudinary.com/protalento/image/upload/v1665944071/Website/PROtalento/Convocatorias/Asodamas/Vector_nbkz7y.svg"
-            alt="arrow-icon"
+            src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1665759936/Website/PROtalento/Convocatorias/logo-English4Tech_kbw6s9.png"
+            alt=""
           />
+          <div class="alliances__cards--content">
+            <h2>English4Tech</h2>
+            <p>
+              Es una organización de alto impacto social que enseña idiomas a
+              los jóvenes y los apoya para mejorar sus oportunidades. Su misión
+              es abrir oportunidades laborales para los jóvenes a través del
+              poder de los idiomas.
+            </p>
+          </div>
+        </div>
+        <div class="alliances__card">
+          <img
+            src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660170117/Website/PROtalento/Convocatorias/Logos_y_Vigilado_Sufi_LOGOS_Logo-rojo_1_zoqebd_mxate1.svg"
+            alt=""
+          />
+          <div class="alliances__cards--content">
+            <h2>SUFI</h2>
+            <p>
+              Es una marca creada por el grupo de trabajo de Bancolombia donde
+              siempre podrás encontrar lo que desees ajustando siempre a tus
+              necesidades y sin complicaciones. El ideal de Sufi de Bancolombia
+              es estar presente para cualquier momento de tu vida, donde te
+              acercará a lo que tanto anheles donde y cuando lo quieras.
+            </p>
+          </div>
         </div>
       </div>
-    </section> -->
+    </section>
+    <section class="faq" class="faq">
+      <div
+        class="title medium-bigger-size c-blueDark txt-center font-nunito mT-15"
+      >
+        <h2>Preguntas Frecuentes</h2>
+      </div>
+
+      <div class="accordeon line-height-b">
+        <section class="programs-faq">
+          <div class="grid-faq">
+            <!--Box-->
+            <div class="accordeon-item didi__details item-faq">
+              <div class="flexContainer justify-content-between">
+                <h2 class="accordeon-title medium-big-size c-blueDark mL-3">
+                  1. ¿Pregunta 01?
+                </h2>
+                <img
+                  class="arrow"
+                  id="arrow"
+                  src="https://res.cloudinary.com/protalento/image/upload/v1663796521/Website/PROtalento/Generales/Vector_i2zyag.svg"
+                  alt="arrow"
+                />
+              </div>
+              <article class="accordeon-content">
+                <p class="medium-size max-width-details-didi c-blueDarker mL-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Maxime sint ex quidem accusantium hic. Qui debitis, libero
+                  quos impedit quo repellat non maiores vero perferendis
+                  eligendi cum quae, modi nulla.
+                </p>
+              </article>
+            </div>
+            <!--Box-->
+
+            <!--Box-->
+            <div class="accordeon-item didi__details item-faq">
+              <div class="flexContainer justify-content-between">
+                <h2 class="accordeon-title medium-big-size c-blueDark mL-3">
+                  2. ¿Pregunta 02?
+                </h2>
+                <img
+                  class="arrow"
+                  id="arrow"
+                  src="https://res.cloudinary.com/protalento/image/upload/v1663796521/Website/PROtalento/Generales/Vector_i2zyag.svg"
+                  alt="arrow"
+                />
+              </div>
+              <article class="accordeon-content">
+                <p class="medium-size max-width-details-didi c-blueDarker mL-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Maxime sint ex quidem accusantium hic. Qui debitis, libero
+                  quos impedit quo repellat non maiores vero perferendis
+                  eligendi cum quae, modi nulla.
+                </p>
+              </article>
+            </div>
+            <!--Box-->
+
+            <!--Box-->
+            <div class="accordeon-item didi__details item-faq">
+              <div class="flexContainer justify-content-between">
+                <h2 class="accordeon-title medium-big-size c-blueDark mL-3">
+                  3. ¿Pregunta 03?
+                </h2>
+                <img
+                  class="arrow"
+                  id="arrow"
+                  src="https://res.cloudinary.com/protalento/image/upload/v1663796521/Website/PROtalento/Generales/Vector_i2zyag.svg"
+                  alt="arrow"
+                />
+              </div>
+              <article class="accordeon-content">
+                <p class="medium-size max-width-details-didi c-blueDarker mL-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Maxime sint ex quidem accusantium hic. Qui debitis, libero
+                  quos impedit quo repellat non maiores vero perferendis
+                  eligendi cum quae, modi nulla.
+                </p>
+              </article>
+            </div>
+            <!--Box-->
+          </div>
+        </section>
+      </div>
+    </section>
     <!-- footer -->
     <footer class="footer bg-blueDarker c-white pY-5">
       <div
@@ -1259,17 +1382,76 @@
         ],
       });
     </script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="slick/slick.min.js"></script>
     <script>
-      (function ($) {
-        $(document).ready(function () {
-          $(".slider-hero").slick({
-            dots: true,
-            infinite: true,
-            cssEase: "linear",
-            swipe: false,
-          });
-        });
-      })(jQuery);
+      $(".carusel").slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 500,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
+    </script>
+    <script>
+      $(".carusel-mobile").slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 500,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
     </script>
   </body>
   <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
