@@ -805,6 +805,8 @@ a:active {
 }
 
 
+
+
 .details__icons>h3 {
     width: 79px;
     height: 30px;
@@ -842,7 +844,7 @@ a:active {
     padding: 10px 17px;
     align-items: center;
 
-    margin: 8px 0;
+    margin: 1.5rem;
 
     cursor: pointer;
 
@@ -1513,6 +1515,7 @@ color: #385499;
         height: 621px;
         margin-top: 115px;
         padding-top: 30px;
+        margin-top: 225px;
 
     }
 
@@ -1551,21 +1554,24 @@ color: #385499;
         width: 40vw;
         height: 810px;
         left: 55%;
-        top: 123px;
+        top: 223px;
     }
 
     .developers {
         margin-top: 220px;
     }
 
-    .logos-n {
-        position: absolute;
-        width: 80%;
+    .logos--cont {
+        width: 100%;
+        display: flex;
+        justify-content: center;
         height: 126px;
-        left: 10%;
-        top: 940px;
-
+        position: absolute;
+        /* left: 10%; */
+        top: 1127px;
     }
+
+
 
     .paid__cards--container {
         align-self: flex-start;
@@ -1585,6 +1591,10 @@ color: #385499;
     .alliances>h2,
     .faq>h2 {
         margin-top: 96px;
+    }
+
+    .programa__container+a.buttons__button--1 {
+        margin-top: 64px;
     }
 
 }
