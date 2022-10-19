@@ -531,14 +531,22 @@ a:active {
     border-radius: 8px;
 }
 
-.paid__card img {
+.paid__cards--container .paid__card:nth-child(4n) {
+    height: 684px;
+}
+
+.paid__cards--container .paid__card:nth-child(5n) {
+    height: 596px;
+}
+
+/* .paid__card img {
     width: 80px;
     height: 60px;
     background: #D9D9D9;
     border-radius: 8px;
 
     margin-right: 14.69px;
-}
+} */
 
 .paid__card h2 {
     font-family: "Proxima Nova", sans-serif;
@@ -689,11 +697,31 @@ a:active {
 }
 
 .match__content {
-    display: none;
+    display: flex;
+    width: 320px;
+    overflow: auto;
+}
+
+.match__content p {
+    font-family: "Proxima Nova", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+
+    /* Texto - Body */
+
+    color: #33345C;
+
+    width: 190px;
+    margin-top: 45px;
+
 }
 
 .match__carousel {
-    height: 386px;
+    display: none;
 }
 
 .match__tip {
@@ -757,6 +785,8 @@ a:active {
 
     margin: 8px 0;
 
+    cursor: pointer;
+
 
 
 }
@@ -793,10 +823,10 @@ a:active {
     margin-left: 10px;
 }
 
-#details__group2,
+/* #details__group2,
 #details__group3 {
     display: none;
-}
+} */
 
 .alliances__carousel {
     height: 400px;
@@ -1225,6 +1255,49 @@ a:active {
         display: none
     }
 
+    .nav ul {
+        display: flex;
+        width: 200px;
+        justify-content: space-between;
+        list-style: none;
+
+
+    }
+
+    .nav ul>li>a {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 76px;
+        /* or 422% */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #381A8B;
+        text-decoration: none;
+    }
+
+
+
+    /* - -*/
+    #hamburguesa {
+        display: none;
+    }
+
+    .nav__menu {
+        display: none;
+    }
+
+    .nav-menu-movil {
+        transform: translateX(100%);
+        transition: all 0.3s ease;
+    }
+
+    /* - -*/
+
     .main {
         width: 50.9%;
         height: 621px;
@@ -1309,10 +1382,10 @@ a:active {
 
 
 /* -- */
-/* #show,
+#show,
 #hide {
     display: none;
-} */
+}
 
 /* div#details__group2 {
     display: none;
@@ -1344,7 +1417,13 @@ input#hide:checked~div#details__group2 {
 #chk--g1--02,
 #chk--g1--03,
 #chk--g1--04,
-#chk--g1--05 {
+#chk--g1--05,
+#chk--g2--01,
+#chk--g2--02,
+#chk--g2--03,
+#chk--g3--01,
+#chk--g3--02,
+#chk--g3--03 {
     display: none;
 }
 
@@ -1412,3 +1491,79 @@ input#hide:checked~div#details__group2 {
 
 
 /* END -- Show or hide details cards */
+
+
+
+/* menu hamburguer*/
+
+/* menu hamburguesa */
+/* .nav-menu-movil a {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background: #0000ec;
+    font-family: "IBM Plex Mono";
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 0px;
+}
+ */
+
+
+
+
+/* - - - - - - - */
+
+
+/* menu mobile */
+/* .nav__menu {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    z-index: 1;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+}
+
+label img {
+    position: relative;
+    top: 0;
+    left: 80%;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+#opciones_head {
+    display: none;
+}
+
+#hamburguesa:checked~.nav-menu-movil {
+    transform: translateX(0%);
+}
+*/
+
+/* - - - - - */
+
+
+#details__group1>h2,
+#details__group2>h2,
+#details__group3>h2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 16px;
+
+    margin: 30px 0;
+    /* or 57% */
+
+    display: flex;
+    align-items: center;
+
+    /* Texto - Titulos */
+
+    color: #385499;
+}
