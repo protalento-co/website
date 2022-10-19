@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <link rel="stylesheet" href="./styles/styles_asodamas2.css" />
     <link
       rel="stylesheet"
@@ -23,26 +24,164 @@
       type="image/x-icon"
       href="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660169974/Website/PROtalento/Generales/favicon-32x32_ctyplk_mzcud0.png"
     />
+
+    <!-- script -->
+    <script src="js/sidenav.js" defer></script>
+    <script src="js/acordeon.js" defer></script>
+    <script src="js/programa.js" defer></script>
+    <script src="js/ChangeInfoli.js" defer></script>
+    <!-- script -->
   </head>
   <body>
-    <!-- <nav role="navigation">
-      
-    </nav> -->
-    <div class="nav">
-      <a
-        href="https://www.protalento.com/"
-        class="nav__logo-box"
-        id="blue__logo"
-      >
-        <img
-          loading="lazy"
-          src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1665160713/Website/PROtalento/Generales/logo-protalento-color_nz2o4d.png"
-          alt="logo"
-          class="nav__logo"
-        />
-      </a>
-      <div class="nav__buttons--container">
-        <ul>
+    <nav class="nav">
+      <div class="nav__box container">
+        <a
+          href="https://www.protalento.com/"
+          class="nav__logo-box"
+          id="blue__logo"
+        >
+          <img
+            src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1665160713/Website/PROtalento/Generales/logo-protalento-color_nz2o4d.png"
+            loading="lazy"
+            alt="PROtalento-logo"
+            class="nav__logo"
+          />
+        </a>
+
+        <a
+          href="https://www.protalento.com/"
+          class="nav__logo-box d-none"
+          id="white__logo"
+        >
+          <img
+            src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1665160705/Website/PROtalento/Generales/logo-protalento-blanco_hnjox5.png"
+            loading="lazy"
+            alt="PROtalento-logo"
+            class="nav__logo"
+          />
+        </a>
+
+        <ul class="nav__ul">
+          <!-- li -->
+
+          <!-- <li>
+            <a href="#" class="nav__link font-nunito mL-5 d-none-1024 fw-600">Nosotros</a>
+          </li> -->
+          <!-- li -->
+
+          <!-- li -->
+
+          <li class="nav__link-btn d-none d-block-landscape">
+            <a href="#" class="nav__link font-nunito d-none-1024 fw-600"
+              >Programas</a
+            >
+
+            <div class="nav__link-programas bg-white pX-2 pY-1 font-nunito">
+              <p class="sm-size c-yellow mT-2">COLOMBIA</p>
+
+              <ul class="medium-size mT-1">
+                <li
+                  class="flexContainer justify-content-between align-item-center gap-1 mT-2"
+                >
+                  <a
+                    href="https://www.protalento.com/asodamas"
+                    class="c-blueDarker medium-size"
+                    >Full-Stack <b class="c-blueLogo">| ADA School</b></a
+                  >
+                  <p
+                    class="pXY-mini fw-600 bg-purple c-white radius-smaller sm-size"
+                  >
+                    Asodamas
+                  </p>
+                </li>
+
+                <li
+                  class="flexContainer justify-content-between align-item-center gap-1 mT-2"
+                >
+                  <a
+                    href="https://www.protalento.com/desarrollo-software-co"
+                    class="c-blueDarker medium-size"
+                    >Full-Stack <b class="c-blueLogo">| DEV.F</b></a
+                  >
+                </li>
+
+                <li
+                  class="flexContainer justify-content-between align-item-center gap-1 mT-2"
+                >
+                  <a
+                    href="https://www.protalento.com/full-stack-javascript"
+                    class="c-blueDarker medium-size"
+                    >Full-Stack <b class="c-blueLogo">| Coding Dojo</b></a
+                  >
+                </li>
+
+                <li
+                  class="flexContainer justify-content-between align-item-center gap-1 mT-2"
+                >
+                  <a
+                    href="https://www.protalento.com/full-stack-python"
+                    class="c-blueDarker medium-size"
+                    >Python <b class="c-blueLogo">| Coding Dojo</b></a
+                  >
+                </li>
+
+                <li
+                  class="flexContainer justify-content-between align-item-center gap-1 mT-2"
+                >
+                  <a
+                    href="https://www.protalento.com/data-science"
+                    class="c-blueDarker medium-size"
+                    >Data Science <b class="c-blueLogo">| Coding Dojo</b></a
+                  >
+                </li>
+
+                <li
+                  class="flexContainer justify-content-between align-item-center gap-1 mT-2"
+                >
+                  <a
+                    href="https://www.protalento.com/upgrade-laboral-co"
+                    class="c-blueDarker medium-size"
+                    >Upgrade Laboral <b class="c-blueLogo">| PROtalento</b></a
+                  >
+                </li>
+              </ul>
+
+              <p class="sm-size mT-2 c-yellow">MÉXICO</p>
+
+              <ul class="medium-size mT-1">
+                <li
+                  class="flexContainer justify-content-between align-item-center gap-1"
+                >
+                  <a
+                    href="https://www.protalento.com/desarrollo-software-mx"
+                    class="c-blueDarker medium-size"
+                    >Full-Stack <b class="c-blueLogo">| DEV.F</b></a
+                  >
+                </li>
+
+                <li
+                  class="flexContainer justify-content-between align-item-center gap-1 mT-2"
+                >
+                  <a
+                    href="https://www.protalento.com/upgrade-laboral-mx"
+                    class="c-blueDarker medium-size"
+                    >Upgrade Laboral <b class="c-blueLogo">| PROtalento</b></a
+                  >
+                </li>
+              </ul>
+
+              <div class="txt-center mT-3 pY-3">
+                <a href="#form" class="btn btn--yellow">¡Postúlate!</a>
+              </div>
+            </div>
+          </li>
+          <!-- li -->
+
+          <!-- li -->
+          <!-- <li>
+            <a href="#" class="nav__link font-nunito d-none-1024 fw-600" href="">Alianzas</a>
+          </li> -->
+
           <li>
             <a
               href="https://www.protalento.com/asodamas"
@@ -50,6 +189,13 @@
               >Asodamas</a
             >
           </li>
+          <!-- li -->
+
+          <!-- li -->
+          <!-- <li>
+            <a href="#" class="nav__link font-nunito d-none-1024 fw-600 mR-3" href="">Soy...</a>
+          </li> -->
+
           <li class="mR-3">
             <a
               href="https://www.protalento.com/didi"
@@ -57,36 +203,304 @@
               >DiDi</a
             >
           </li>
-        </ul>
-        <a
-          class="nav_button--postulacion"
-          href="https://www.protalento.com/postulacion-co"
-        >
-          <img
-            src="https://res.cloudinary.com/protalento/image/upload/v1665960587/Website/PROtalento/Convocatorias/Asodamas/Group_1662_lsh8j3.svg"
-            class="decorations-button-tablet"
-            alt="decorations"
-          />
-        </a>
 
-        <!-- <nav class="nav__menu">
-          <input type="checkbox" id="hamburguesa" />
-          <label for="hamburguesa">
-            <img
-              loading="lazy"
-              src="https://res.cloudinary.com/protalento/image/upload/v1663867963/Website/PROtalento/Convocatorias/DiDi/Vector_xqtlsn.svg"
-              alt="menu"
-            />
-          </label>
-          <div class="nav-menu-movil">
-            <a href="#episodios"><span>EPISODIOS</span></a>
-            <a href="#nosotros"><span>NOSOTROS</span></a>
-            <a href="#entrevistas"><span>ENTREVISTAS</span></a>
-            <a href="#topicos"><span>TÓPICOS</span></a>
-          </div>
-        </nav> -->
+          <!-- li -->
+          <li class="d-none d-block-landscape position-relative">
+            <a href="#form" class="btn btn--yellow btn-didi"
+              ><img
+                src="https://res.cloudinary.com/protalento/image/upload/v1665091089/Website/PROtalento/Generales/Group_2171_hdmkk0.svg"
+                class="decorations-button"
+                alt="decorations"
+              />
+              ¡Postúlate!</a
+            >
+          </li>
+
+          <li
+            class="d-none-landscape bg-white pX-2 pY-1 font-nunito tablet-nav"
+            style="height: 100vh; margin-top: 7rem"
+          >
+            <button id="toggle1" class="toggle1" title="button">
+              <span class="hamburguer__close2">
+                <img
+                  src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660170118/Website/PROtalento/Convocatorias/Vector_uwbajm_ikfpfp.png"
+                  alt=""
+                />
+              </span>
+            </button>
+            <!--box-->
+
+            <section class="programs-nav">
+              <div class="grid-nav">
+                <!-- <div class="item-nav mT-3">
+  
+                <div class="accordeon-title2 mR-2">
+                  <div class="flexContainer justify-content-between align-item-center">
+                    <p class="nav__programas c-blueDarker medium-big-size pL-3 pY-1 pX-2 fw-600 mR-10 m-width-nav-580" href="#"><i class="uil uil-rocket medium-bigger-size"></i> Nosotros</p>
+                  <div>
+                    <img class="arrow2" id="arrow"
+                    src="https://res.cloudinary.com/protalento/image/upload/v1664832272/Website/PROtalento/Generales/Vector_viv8qu.svg"
+                    alt="">
+                  </div>
+                </div>
+              <article class="accordeon-content2 d-none">
+                
+              </article>
+            </div>
+            </div> -->
+
+                <!--box-->
+
+                <!--box-->
+
+                <div class="item-nav mT-3">
+                  <div class="accordeon-title2 mR-2">
+                    <div
+                      class="flexContainer justify-content-between align-item-center"
+                    >
+                      <p
+                        class="nav__programas c-blueDarker medium-big-size pL-3 pY-1 pX-2 fw-600 mR-10 m-width-nav-580"
+                      >
+                        <i
+                          class="uil uil-clipboard-notes medium-bigger-size"
+                        ></i>
+                        Programas
+                      </p>
+                      <div>
+                        <img
+                          class="arrow2"
+                          id="arrow"
+                          src="https://res.cloudinary.com/protalento/image/upload/v1664832272/Website/PROtalento/Generales/Vector_viv8qu.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <article class="accordeon-content2 d-none">
+                      <p class="sm-size c-yellow fw-600 mL-2">COLOMBIA</p>
+
+                      <ul class="medium-size li__accordeon2">
+                        <li
+                          class="flexContainer align-item-center li__accordeon2 mL-2 mT-1"
+                        >
+                          <a
+                            href="https://www.protalento.com/asodamas"
+                            class="c-blueDarker medium-size fz18p"
+                            >Full-Stack
+                            <b class="c-blueLogo">| ADA School</b></a
+                          >
+                        </li>
+
+                        <li
+                          class="flexContainer align-item-center li__accordeon2 mL-2 mT-1"
+                        >
+                          <a
+                            href="https://www.protalento.com/desarrollo-software-co"
+                            class="c-blueDarker medium-size fz18p"
+                            >Full-Stack <b class="c-blueLogo">| DEV.F</b></a
+                          >
+                        </li>
+
+                        <li
+                          class="flexContainer align-item-center li__accordeon2 mL-2 mT-1"
+                        >
+                          <a
+                            href="https://www.protalento.com/full-stack-javascript"
+                            class="c-blueDarker medium-size fz18p"
+                            >Full-Stack
+                            <b class="c-blueLogo">| Coding Dojo</b></a
+                          >
+                        </li>
+
+                        <li
+                          class="flexContainer align-item-center li__accordeon2 mL-2 mT-1"
+                        >
+                          <a
+                            href="https://www.protalento.com/full-stack-python"
+                            class="c-blueDarker medium-size fz18p"
+                          >
+                            Python <b class="c-blueLogo">| Coding Dojo</b>
+                          </a>
+                        </li>
+
+                        <li
+                          class="flexContainer align-item-center li__accordeon2 mL-2 mT-1"
+                        >
+                          <a
+                            href="https://www.protalento.com/data-science"
+                            class="c-blueDarker medium-size fz18p"
+                            >Data Science
+                            <b class="c-blueLogo">| Coding Dojo</b></a
+                          >
+                        </li>
+
+                        <li
+                          class="flexContainer align-item-center li__accordeon2 mL-2 mT-1"
+                        >
+                          <a
+                            href="https://www.protalento.com/upgrade-laboral-co"
+                            class="c-blueDarker medium-size fz18p"
+                            >Upgrade Laboral
+                            <b class="c-blueLogo">| PROtalento</b></a
+                          >
+                        </li>
+                      </ul>
+
+                      <p class="sm-size mT-4 c-yellow fw-600 mL-2">MÉXICO</p>
+
+                      <ul class="medium-size mT-1">
+                        <li
+                          class="flexContainer align-item-center mL-2 li__accordeon2 mT-1"
+                        >
+                          <a
+                            href="https://www.protalento.com/desarrollo-software-mx"
+                            class="c-blueDarker medium-size fz18p"
+                            >Full-Stack <b class="c-blueLogo">| DEV.F</b></a
+                          >
+                        </li>
+
+                        <li
+                          class="flexContainer align-item-center mL-2 li__accordeon2 mT-1"
+                        >
+                          <a
+                            href="https://www.protalento.com/upgrade-laboral-mx"
+                            class="c-blueDarker medium-size fz18p"
+                            >Upgrade Laboral
+                            <b class="c-blueLogo">| PROtalento</b></a
+                          >
+                        </li>
+                      </ul>
+                    </article>
+                  </div>
+                </div>
+
+                <!--box-->
+
+                <!--box-->
+
+                <!-- <div class="item-nav mT-3">
+  
+                <div class="accordeon-title2 mR-2">
+                  <div class="flexContainer justify-content-between align-item-center">
+                    <p class="nav__programas c-blueDarker medium-big-size pL-3 pY-1 pX-2 fw-600 mR-10 m-width-nav-580"
+                  href="#"><i class="uil uil-telescope medium-bigger-size"></i> Alianzas</p>
+                  <div>
+                    <img class="arrow2" id="arrow"
+                    src="https://res.cloudinary.com/protalento/image/upload/v1664832272/Website/PROtalento/Generales/Vector_viv8qu.svg"
+                    alt="">
+                  </div>
+                </div>
+              <article class="accordeon-content2 d-none">
+                
+              </article>
+            </div>
+            </div> -->
+
+                <div class="item-nav mT-3">
+                  <div class="accordeon-title2 mR-2">
+                    <div
+                      class="flexContainer justify-content-between align-item-center"
+                    >
+                      <a
+                        class="nav__programas c-blueDarker medium-big-size pL-3 pY-1 pX-2 fw-600 mR-10 m-width-nav-580"
+                        href="https://www.protalento.com/asodamas"
+                        ><i class="uil uil-rocket medium-bigger-size"></i>
+                        Asodamas</a
+                      >
+                      <!-- <div>
+                  <img class="arrow2" id="arrow"
+                  src="https://res.cloudinary.com/protalento/image/upload/v1664832272/Website/PROtalento/Generales/Vector_viv8qu.svg"
+                  alt="">
+                </div> -->
+                    </div>
+                    <!-- <article class="accordeon-content2 d-none">
+              
+            </article> -->
+                  </div>
+                </div>
+
+                <!--box-->
+
+                <!--box-->
+
+                <!-- <div class="item-nav mT-3">
+  
+                <div class="accordeon-title2 mR-2">
+                  <div class="flexContainer justify-content-between align-item-center">
+                    <p class="nav__programas c-blueDarker medium-big-size pL-3 pY-1 pX-2 fw-600 mR-10 m-width-nav-580" href="#"><i class="uil uil-user medium-bigger-size"></i> Soy...</p>
+                  <div>
+                    <img class="arrow2" id="arrow"
+                    src="https://res.cloudinary.com/protalento/image/upload/v1664832272/Website/PROtalento/Generales/Vector_viv8qu.svg"
+                    alt="">
+                  </div>
+                </div>
+              <article class="accordeon-content2 d-none">
+                
+              </article>
+            </div>
+            </div> -->
+
+                <div class="item-nav mT-3">
+                  <div class="accordeon-title2 mR-2">
+                    <div
+                      class="flexContainer justify-content-between align-item-center"
+                    >
+                      <a
+                        class="nav__programas c-blueDarker medium-big-size pL-3 pY-1 pX-2 fw-600 mR-10 m-width-nav-580"
+                        href="https://www.protalento.com/didi"
+                        ><i class="uil uil-car medium-bigger-size"></i> DiDi</a
+                      >
+                      <!-- <div>
+                  <img class="arrow2" id="arrow"
+                  src="https://res.cloudinary.com/protalento/image/upload/v1664832272/Website/PROtalento/Generales/Vector_viv8qu.svg"
+                  alt="">
+                </div> -->
+                    </div>
+                    <!-- <article class="accordeon-content2 d-none">
+              
+            </article> -->
+                  </div>
+                </div>
+
+                <!--box-->
+              </div>
+            </section>
+
+            <div class="mT-4 txt-center position-relative">
+              <a
+                href="#form"
+                class="btn--yellow txt-center fw-600 btn-didi position-relative"
+                ><img
+                  src="https://res.cloudinary.com/protalento/image/upload/v1665091089/Website/PROtalento/Generales/Group_2171_hdmkk0.svg"
+                  class="decorations-button-tablet"
+                  alt="decorations"
+                />
+                ¡Postúlate!
+              </a>
+            </div>
+          </li>
+        </ul>
+
+        <!--box-->
+
+        <div class="hamburguer">
+          <button id="toggle" title="button">
+            <span class="hamburguer__open">
+              <img
+                src="https://res.cloudinary.com/protalento/image/upload/v1663867963/Website/PROtalento/Convocatorias/DiDi/Vector_xqtlsn.svg"
+                alt=""
+              />
+            </span>
+            <span class="hamburguer__close">
+              <img
+                src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660170118/Website/PROtalento/Convocatorias/Vector_uwbajm_ikfpfp.png"
+                alt=""
+              />
+            </span>
+          </button>
+        </div>
       </div>
-    </div>
+    </nav>
+
     <main class="main">
       <h1>Estudia ahora y paga después.</h1>
       <div class="main__container--items">
@@ -127,7 +541,7 @@
     </main>
     <section class="buttons">
       <a href="#form" class="buttons__button--1">¡Postúlate!</a>
-      <div class="buttons__button--2">Conoce el programa</div>
+      <a href="#details" class="buttons__button--2">Conoce el programa</a>
     </section>
     <div class="decoration">
       <div class="decoration__pattern--container align--vertical--column">
@@ -301,71 +715,73 @@
         financiamiento más justas.
         <span> ¡Ahora puedes confiar en las letras chiquitas! </span>
       </p>
-      <div class="paid__cards--container">
-        <div class="paid__card">
-          <!-- <div class="paid__header">
-            <img src="" alt="" />
-            <h2>Estudia ahora y paga después</h2>
-          </div> -->
-          <img
-            src="https://res.cloudinary.com/protalento/image/upload/v1666141848/Website/PROtalento/Convocatorias/Asodamas/Group_65_acreb0.svg"
-            alt=""
-          />
-          <div class="paid__card--content"></div>
-          <div class="paid__card--button">Ver más</div>
-        </div>
-        <div class="paid__card">
-          <!-- <div class="paid__header">
+      <div class="slider-hero">
+        <div class="paid__cards--container">
+          <div class="paid__card">
+            <!-- <div class="paid__header">
+              <img src="" alt="" />
+              <h2>Estudia ahora y paga después</h2>
+            </div> -->
             <img
-              src="https://res.cloudinary.com/protalento/image/upload/v1660170117/Website/PROtalento/Convocatorias/Protalento-logoazul-_3x_2_bmzjqb_zrzdme.svg"
+              src="https://res.cloudinary.com/protalento/image/upload/v1666141848/Website/PROtalento/Convocatorias/Asodamas/Group_65_acreb0.svg"
               alt=""
             />
-            <h2>Paga en una sola cuota y recibe el 10% de descuento</h2>
-          </div> -->
-          <img
-            src="https://res.cloudinary.com/protalento/image/upload/v1666142159/Website/PROtalento/Convocatorias/Asodamas/Group_66_nmcte5.svg"
-            alt=""
-          />
-          <div class="paid__card--content"></div>
-          <div class="paid__card--button">Ver más</div>
-        </div>
-        <div class="paid__card">
-          <!-- <div class="paid__header">
-            <img src="" alt="" />
-            <h2>Paga en 6 mensualidades, sin intereses</h2>
-          </div> -->
-          <img
-            src="https://res.cloudinary.com/protalento/image/upload/v1666142191/Website/PROtalento/Convocatorias/Asodamas/Group_67_ewtguv.svg"
-            alt=""
-          />
-          <div class="paid__card--content"></div>
-          <div class="paid__card--button">Ver más</div>
-        </div>
-        <div class="paid__card">
-          <!-- <div class="paid__header">
-            <img src="" alt="" />
-            <h2>Paga en diferentes plazos y tasas de interés</h2>
-          </div> -->
-          <img
-            src="https://res.cloudinary.com/protalento/image/upload/v1666142312/Website/PROtalento/Convocatorias/Asodamas/Group_68_osyw3k.svg"
-            alt=""
-          />
-          <div class="paid__card--content"></div>
-          <div class="paid__card--button"></div>
-        </div>
-        <div class="paid__card">
-          <!-- <div class="paid__header">
-            <img src="" alt="" />
-            <h2>
-              Diseñado para estudiantes sin historial crediticio, ni codeudor
-            </h2>
-          </div> -->
-          <img
-            src="https://res.cloudinary.com/protalento/image/upload/v1666142319/Website/PROtalento/Convocatorias/Asodamas/Group_69_scxxp7.svg"
-            alt=""
-          />
-          <div class="paid__card--content"></div>
-          <div class="paid__card--button">Ver más</div>
+            <div class="paid__card--content"></div>
+            <div class="paid__card--button">Ver más</div>
+          </div>
+          <div class="paid__card">
+            <!-- <div class="paid__header">
+              <img
+                src="https://res.cloudinary.com/protalento/image/upload/v1660170117/Website/PROtalento/Convocatorias/Protalento-logoazul-_3x_2_bmzjqb_zrzdme.svg"
+                alt=""
+              />
+              <h2>Paga en una sola cuota y recibe el 10% de descuento</h2>
+            </div> -->
+            <img
+              src="https://res.cloudinary.com/protalento/image/upload/v1666142159/Website/PROtalento/Convocatorias/Asodamas/Group_66_nmcte5.svg"
+              alt=""
+            />
+            <div class="paid__card--content"></div>
+            <div class="paid__card--button">Ver más</div>
+          </div>
+          <div class="paid__card">
+            <!-- <div class="paid__header">
+              <img src="" alt="" />
+              <h2>Paga en 6 mensualidades, sin intereses</h2>
+            </div> -->
+            <img
+              src="https://res.cloudinary.com/protalento/image/upload/v1666142191/Website/PROtalento/Convocatorias/Asodamas/Group_67_ewtguv.svg"
+              alt=""
+            />
+            <div class="paid__card--content"></div>
+            <div class="paid__card--button">Ver más</div>
+          </div>
+          <div class="paid__card">
+            <!-- <div class="paid__header">
+              <img src="" alt="" />
+              <h2>Paga en diferentes plazos y tasas de interés</h2>
+            </div> -->
+            <img
+              src="https://res.cloudinary.com/protalento/image/upload/v1666142312/Website/PROtalento/Convocatorias/Asodamas/Group_68_osyw3k.svg"
+              alt=""
+            />
+            <div class="paid__card--content"></div>
+            <div class="paid__card--button"></div>
+          </div>
+          <div class="paid__card">
+            <!-- <div class="paid__header">
+              <img src="" alt="" />
+              <h2>
+                Diseñado para estudiantes sin historial crediticio, ni codeudor
+              </h2>
+            </div> -->
+            <img
+              src="https://res.cloudinary.com/protalento/image/upload/v1666142319/Website/PROtalento/Convocatorias/Asodamas/Group_69_scxxp7.svg"
+              alt=""
+            />
+            <div class="paid__card--content"></div>
+            <div class="paid__card--button">Ver más</div>
+          </div>
         </div>
       </div>
     </section>
@@ -430,10 +846,10 @@
         digital.
       </div>
     </section>
-    <section class="details align--vertical--column">
+    <section id="details" class="details align--vertical--column">
       <h2>El PROgrama en detalle</h2>
       <div class="developers__separator"></div>
-      <div class="details__icons--container">
+      <!-- <div class="details__icons--container">
         <label class="details__icons align--vertical--column">
           <img
             src="https://res.cloudinary.com/protalento/image/upload/v1665941061/Website/PROtalento/Convocatorias/Asodamas/Vector_pghqfi.svg"
@@ -457,153 +873,117 @@
           <h3>Bootcamp Empleabilidad</h3>
         </label>
         <input type="radio" id="hide" name="group" />
-      </div>
-      <div class="details__content">
-        <!-- Grupo 1 -->
-        <div id="details__group1">
-          <h2>Bootcamp Tech</h2>
-          <label class="details_card" for="chk--g1--01">
-            <div class="details_card--number">1</div>
-            <h2>INTRO A LA WEB + JAVASCRIPT</h2>
-          </label>
-          <input type="checkbox" id="chk--g1--01" />
-          <div id="ocultar" class="details_card">
-            Aprender a trabajar con HTML y CSS para desarrollar sitios web
-            estáticos, responsivos
-            <br />
-            <br />
-            Uso básico de Git y Github para generar portafolio y desplegar
-            sitios web.
-            <br />
-            <br />
-            Lógica de programación con JavaScript para manipular HTML y CSS
-            mediante el DOM
-          </div>
-          <label class="details_card" for="chk--g1--02">
-            <div class="details_card--number">2</div>
-            <h2>ESTRUCTURA DE DATOS Y ALGORITMOS CON NODE. JS</h2>
-          </label>
-          <input type="checkbox" id="chk--g1--02" />
-          <div id="ocultar" class="details_card">
-            Aprender a reconocer y utilizar estructuras de datos y algoritmos de
-            búsqueda y ordenamiento con JavaScript para manejar datos
-            eficientemente.
-          </div>
-          <label class="details_card" for="chk--g1--03">
-            <div class="details_card--number">3</div>
-            <h2>INTRO A FRONTEND CON REACT.JS</h2>
-          </label>
-          <input type="checkbox" id="chk--g1--03" />
-          <div id="ocultar" class="details_card">
-            Obtener los conocimientos básicos sobre desarrollo de SPAs con
-            React.js para crear aplicaciones robustas del lado del cliente.
-          </div>
-          <label class="details_card" for="chk--g1--04">
-            <div class="details_card--number">4</div>
-            <h2>INTRO A BACKEND AVANZADO + SQL CON EXPRESS.JS</h2>
-          </label>
-          <input type="checkbox" id="chk--g1--04" />
-          <div id="ocultar" class="details_card">
-            Aprender a desarrollar REST APls con Express.js y como funcionan las
-            bases de datos y el lenguaje de consulta SQL para mejorar la
-            persistencia de datos de una aplicación.
-          </div>
-          <label class="details_card" for="chk--g1--05">
-            <div class="details_card--number">5</div>
-            <h2>BACKEND AVANZADO + NQSQL CON EXPRESS.JS</h2>
-          </label>
-          <input type="checkbox" id="chk--g1--05" />
-          <div id="ocultar" class="details_card">
-            Aprender técnicas avanzadas de desarrollo Backend como arquitectura
-            mvc, manejo de errores y autenticación para desarrollar aplicaciones
-            backend fáciles de escalar y mantener.
-          </div>
-        </div>
-        <!-- END Grupo 1 -->
+      </div> -->
 
-        <!-- Grupo 2 -->
-        <div id="details__group2">
-          <h2>Bootcamp Inglés</h2>
-          <label class="details_card" for="chk--g2--01">
-            <div class="details_card--number">1</div>
-            <h2>BÁSICO</h2>
-          </label>
-          <input type="checkbox" id="chk--g2--01" />
-          <div id="ocultar" class="details_card">
-            Describir información relacionada con el desarrollo de software.
-            Intercambiar información acerca de la lógica, sus principios y
-            métodos. Identificar información acerca de la historia del software
-            y sus características. Hacer sugerencias en el contexto de compartir
-            ideas relacionadas con el desarrollo de software. Identificar
-            características relacionadas con el desarrollo de software.
-          </div>
-          <label class="details_card" for="chk--g2--02">
-            <div class="details_card--number">2</div>
-            <h2>INTERMEDIO</h2>
-          </label>
-          <input type="checkbox" id="chk--g2--02" />
-          <div id="ocultar" class="details_card">
-            Entender información esencial acerca de conceptos, principios y
-            metodologías. Hablar acerca de técnicas de programación, casos de
-            uso, tipo y secuencias. Intercambiar información acerca de conceptos
-            y principios en el desarrollo de software. Intercambiar información
-            relacionada con el desarrollo de software y los lenguajes de
-            programación.
-          </div>
-          <label class="details_card" for="chk--g2--03">
-            <div class="details_card--number">3</div>
-            <h2>AVANZADO</h2>
-          </label>
-          <input type="checkbox" id="chk--g2--03" />
-          <div id="ocultar" class="details_card">
-            Dar información detallada relacionada con la historia de los
-            lenguajes de programación en diferentes periodos. Explicar rasgos
-            fundamentales relacionados con los lenguajes de programación en
-            diferentes contextos. Hablar de temas particulares y específicos
-            relacionados con el desarrollo de software. Explicar en detalle cómo
-            funcionan diferentes lenguajes de programación.
-          </div>
-        </div>
-        <!-- END Grupo 2 -->
+      <div class="gridSystem gridSystem--3-columns gap-2 pX-5 mT-10">
+        <!-- box -->
+        <div
+          class="programas__box txt-center bg-blueLight boxShadow raidus-small pX-2 pY-2"
+        >
+          <img
+            src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660237949/Website/PROtalento/Home/cerebro_dkedp0.svg"
+            alt=""
+          />
 
-        <!-- Grupo 3 -->
-        <div id="details__group3">
-          <h2>Bootcamp Empleabilidad</h2>
-          <label class="details_card" for="chk--g3--01">
-            <div class="details_card--number">1</div>
-            <h2>DESARROLLO DEL PERFIL, APLICACIONES Y PORTAFOLIO</h2>
-          </label>
-          <input type="checkbox" id="chk--g3--01" />
-          <div id="ocultar" class="details_card">
-            Acompañamiento en procesos de selección con nuestros aliados.
-            Creación de tu marca personal. Activación en redes profesionales.
-            Dashboard de seguimiento a ofertas laborales. Negociaciones
-            laborales y salariales.
-          </div>
-          <label class="details_card" for="chk--g3--02">
-            <div class="details_card--number">2</div>
-            <h2>ESTRATEGIA DE CARRERA Y LIDERAZGO</h2>
-          </label>
-          <input type="checkbox" id="chk--g3--02" />
-          <div id="ocultar" class="details_card">
-            Alineación de tus talentos, propósito y habilidades. Aterrizar plan
-            de carrera. Construcción de redes de contacto. Plan y proyecciones
-            económicas de carrera. Desarrollo de habilidades del siglo 21
-          </div>
-          <label class="details_card" for="chk--g3--03">
-            <div class="details_card--number">3</div>
-            <h2>COMPETENCIAS SOCIOEMOCIONALES PARA EL TRABAJO</h2>
-          </label>
-          <input type="checkbox" id="chk--g3--03" />
-          <div id="ocultar" class="details_card">
-            Aprender a aprender. Cómo administrar nuestra energía y alcanzar
-            nuestros sueños. Mentalidad de crecimiento y determinación para
-            retar el cerebro. Uso del tiempo para tener equilibrio. Decidir por
-            prioridad e importancia para crecer.
-          </div>
+          <p class="sm-size fw-300 radius-smaller c-blueDarker mT-2">
+            BOOTCAMP
+          </p>
+
+          <p class="medium-big-size c-blueDarker mT-1">Especialidad</p>
         </div>
-        <!-- END Grupo 3 -->
+        <!-- box -->
+
+        <!-- box -->
+        <div class="programas__box txt-center boxShadow raidus-small pX-2 pY-2">
+          <img
+            src="https://res.cloudinary.com/protalento/image/upload/v1660237950/Website/PROtalento/Home/Vector3_apphzo.svg"
+            alt=""
+          />
+
+          <p class="sm-size fw-300 radius-smaller c-blueDarker mT-2">
+            BOOTCAMP
+          </p>
+
+          <p class="medium-big-size c-blueDarker mT-1">Inglés</p>
+        </div>
+        <!-- box -->
+
+        <!-- box -->
+        <div class="programas__box txt-center boxShadow raidus-small pX-2 pY-2">
+          <img
+            src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660237950/Website/PROtalento/Home/Vector-1_gryvnb.svg"
+            alt=""
+          />
+
+          <p class="sm-size fw-300 radius-smaller c-blueDarker mT-2">
+            BOOTCAMP
+          </p>
+
+          <p class="medium-big-size c-blueDarker mT-1">Empleabilidad</p>
+        </div>
+        <!-- box -->
       </div>
+
+      <!-- details content iba aquì -->
+
+      <div
+        class="programa__container flexContainer flexContainer--column gap-2 mT-10"
+      >
+        <ul class="flexContainer__box medium-big-size">
+          <li
+            class="group-1 box__li boxShadow bg-blueLight radius-smaller pY-1 pX-3"
+          >
+            <h3>INTRO A LA WEB + JAVASCRIPT</h3>
+          </li>
+          <li class="group-1 box__li boxShadow radius-smaller pY-1 pX-3 mT-1">
+            <h3>ESTRUCTURA DE DATOS Y ALGORITMOS CON NODE. JS</h3>
+          </li>
+          <li class="group-1 box__li boxShadow radius-smaller pY-1 pX-3 mT-1">
+            <h3>INTRO A FRONTEND CON REACT.JS</h3>
+          </li>
+          <li class="group-1 box__li boxShadow radius-smaller pY-1 pX-3 mT-1">
+            <h3>INTRO A BACKEND AVANZADO + SQL CON EXPRESS.JS</h3>
+          </li>
+          <li class="group-1 box__li boxShadow radius-smaller pY-1 pX-3 mT-1">
+            <h3>BACKEND AVANZADO + NQSQL CON EXPRESS.JS</h3>
+          </li>
+
+          <!--  Grupo 2 -->
+
+          <li
+            class="group-2 box__li boxShadow bg-blueLight radius-smaller pY-1 pX-3"
+          >
+            <h3>BÁSICO</h3>
+          </li>
+          <li class="group-2 box__li boxShadow radius-smaller pY-1 pX-3 mT-1">
+            <h3>INTERMEDIO</h3>
+          </li>
+          <li class="group-2 box__li boxShadow radius-smaller pY-1 pX-3 mT-1">
+            <h3>AVANZADO</h3>
+          </li>
+
+          <!--  Grupo 2 -->
+
+          <!-- group 3 -->
+          <li
+            class="group-3 box__li boxShadow bg-blueLight radius-smaller pY-1 pX-3"
+          >
+            <h3>DESARROLLO DEL PERFIL, APLICACIONES Y PORTAFOLIO</h3>
+          </li>
+          <li class="group-3 box__li boxShadow radius-smaller pY-1 pX-3 mT-1">
+            <h3>ESTRATEGIA DE CARRERA Y LIDERAZGO</h3>
+          </li>
+          <li class="group-3 box__li boxShadow radius-smaller pY-1 pX-3 mT-1">
+            <h3>COMPETENCIAS SOCIOEMOCIONALES PARA EL TRABAJO</h3>
+          </li>
+        </ul>
+
+        <div
+          class="flexContainer__box boxShadow radius-smaller pY-2 pX-3"
+          id="content"
+        ></div>
+      </div>
+
       <a href="#form" class="buttons__button--1"> ¡Postúlate! </a>
     </section>
     <!-- <section class="alliances align--vertical--column">
@@ -638,99 +1018,262 @@
         </div>
       </div>
     </section> -->
-    <section class="footer align--vertical--column">
-      <div class="footer_button--yellow">
-        <a href="https://www.protalento.com/postulacion-co">
-          <img
-            src="https://res.cloudinary.com/protalento/image/upload/v1665960587/Website/PROtalento/Convocatorias/Asodamas/Group_1662_lsh8j3.svg"
-            class="decorations-button-tablet"
-            alt="decorations"
-          />
-        </a>
-      </div>
-      <h2>¡Registrate, hackea tu talento y reprograma tu futuro!</h2>
-      <div class="footer_contact--container">
-        <img
-          class="footer_logo"
-          src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1665160705/Website/PROtalento/Generales/logo-protalento-blanco_hnjox5.png"
-          alt="logo"
-        />
-        <div class="footer__separator"></div>
-        <p>¡Prepárate para el empleo que mereces en 6 meses!</p>
-        <ul>
-          <li>
-            <a href="https://www.linkedin.com/company/protalentolatam/">
+    <!-- footer -->
+    <footer class="footer bg-blueDarker c-white pY-5">
+      <div
+        class="container gridSystem gridSystem--footer justify-content-around align-item-flex-start gap-2"
+      >
+        <!-- box -->
+        <div class="gridSystem__widder">
+          <div>
+            <a href="#form" class="btn btn--yellow normal-wd-phone txt-center"
+              >¡Postúlate!</a
+            >
+          </div>
+
+          <h2 class="medium-bigger-size line-height-md font-nunito mT-2">
+            ¡Regístrate, hackea tu talento y reprograma tu futuro!
+          </h2>
+        </div>
+        <!-- box -->
+
+        <!-- box -->
+        <div class="small-size">
+          <div class="title title--white title--begin">
+            <img
+              src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1665160705/Website/PROtalento/Generales/logo-protalento-blanco_hnjox5.png"
+              class="footer__logo"
+              alt=""
+              loading="lazy"
+            />
+          </div>
+
+          <p class="mT-3">¡Prepárate para el empleo que mereces en 6 meses!</p>
+
+          <ul class="mT-2">
+            <li class="flexContainer gap-1">
+              <a href="https://www.linkedin.com/company/protalentolatam/">
+                <img
+                  src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660235398/Website/PROtalento/Home/Footer/Linkedin_gusepr_jox1dj.svg"
+                  alt=""
+                />
+              </a>
+              <a href="https://www.facebook.com/PROtalentoLatam/">
+                <img
+                  src="https://res.cloudinary.com/protalento/image/upload/v1660235398/Website/PROtalento/Home/Footer/Facebook_h5uyev_zs2rjg.svg"
+                  alt=""
+                />
+              </a>
+              <a href="https://twitter.com/ProTalentoLatam">
+                <img
+                  src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660237913/Website/PROtalento/Home/Footer/Twitter_aucq6l.svg"
+                  alt=""
+                />
+              </a>
+            </li>
+
+            <li class="flexContainer gap-1 mT-3">
               <img
-                src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660235398/Website/PROtalento/Home/Footer/Linkedin_gusepr_jox1dj.svg"
+                src="https://res.cloudinary.com/protalento/image/upload/v1660235398/Website/PROtalento/Home/Footer/Group_1727_orjljg_lbo1zp.svg"
                 alt=""
               />
-            </a>
-            <a href="https://www.facebook.com/PROtalentoLatam/">
+
+              <p>
+                Carrera 7 # 71-21
+                <span class="d-block mT-1"
+                  >Edificio BVC, Torre A, Oficina 528</span
+                >
+              </p>
+            </li>
+
+            <li class="flexContainer align-item-center gap-1 mT-2">
               <img
-                src="https://res.cloudinary.com/protalento/image/upload/v1660235398/Website/PROtalento/Home/Footer/Facebook_h5uyev_zs2rjg.svg"
+                src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660235398/Website/PROtalento/Home/Footer/Group_1728_sgfm9n_jl87x3.svg"
                 alt=""
               />
-            </a>
-            <a href="https://twitter.com/ProTalentoLatam">
+              <a class="text-decoration-none c-white" href="tel:+573185720909"
+                >CO: +57 318 5720909</a
+              >
+            </li>
+
+            <li class="flexContainer align-item-center gap-1 mT-2">
               <img
-                src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660237913/Website/PROtalento/Home/Footer/Twitter_aucq6l.svg"
+                src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660235398/Website/PROtalento/Home/Footer/Group_1728_sgfm9n_jl87x3.svg"
                 alt=""
               />
-            </a>
-          </li>
-          <li>
-            <img
-              src="https://res.cloudinary.com/protalento/image/upload/v1660235398/Website/PROtalento/Home/Footer/Group_1727_orjljg_lbo1zp.svg"
-              alt=""
-            />
-            <p>
-              Carrera 7 # 71-21
-              <br />
-              Edificio BVC, Torre A, Oficina 528
-            </p>
-          </li>
+              <a class="text-decoration-none c-white" href="tel:+525632318871"
+                >MX: +52 5632318871</a
+              >
+            </li>
 
-          <li>
-            <img
-              src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660235398/Website/PROtalento/Home/Footer/Group_1728_sgfm9n_jl87x3.svg"
-              alt=""
-            />
-            <a href="tel:+573185720909">CO: +57 318 5720909</a>
-          </li>
+            <li class="flexContainer align-item-center gap-1 mT-2">
+              <img
+                src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660235398/Website/PROtalento/Home/Footer/Group_1730_adbfqo_w7queu.svg"
+                alt=""
+              />
+              <a
+                class="text-decoration-none c-white"
+                href="mailto:hola@protalento.com"
+                >hola@protalento.com</a
+              >
+            </li>
+          </ul>
 
-          <li>
-            <img
-              src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660235398/Website/PROtalento/Home/Footer/Group_1728_sgfm9n_jl87x3.svg"
-              alt=""
-            />
-            <a href="tel:+525632318871">MX: +52 5632318871</a>
-          </li>
+          <p class="sm-size mT-2">
+            PROtalento. Todos los derechos reservados. C. 2022
+          </p>
+        </div>
+        <!-- box -->
 
-          <li>
-            <img
-              src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660235398/Website/PROtalento/Home/Footer/Group_1730_adbfqo_w7queu.svg"
-              alt=""
-            />
-            <a href="mailto:hola@protalento.com">hola@protalento.com</a>
-          </li>
-        </ul>
-      </div>
-      <!-- <div class="footer_programs--container">
-        <h2>PROGRAMAS</h2>
-        <div>
-          <h3>COLOMBIA</h3>
+        <!-- box -->
+        <div class="footer__box small-size">
+          <h2 class="medium-size fw-600">PROGRAMAS</h2>
+
+          <p class="mT-2 mL-2">COLOMBIA</p>
+
           <ul>
-            <li><a href="">Upgrade Laboral</a></li>
-            <li><a href="">Full Stack</a></li>
-            <li><a href="">Full Stack con Python</a></li>
-            <li><a href="">Full Stack con MERN</a></li>
-            <li><a href="">Data</a></li>
+            <li class="footer-program-darkBlue mL-2">
+              <a
+                class="d-inline-block text-decoration-none c-white mT-1"
+                href="https://www.protalento.com/asodamas"
+                >Full-Stack | ADA School</a
+              >
+            </li>
+
+            <li class="footer-program-darkBlue mL-2">
+              <a
+                class="d-inline-block text-decoration-none c-white mT-1"
+                href="https://www.protalento.com/desarrollo-software-co"
+                >Full Stack</a
+              >
+            </li>
+
+            <li class="footer-program-yellow mL-2">
+              <a
+                class="d-inline-block text-decoration-none c-white mT-1"
+                href="https://www.protalento.com/full-stack-javascript"
+                >Full-Stack | Coding Dojo</a
+              >
+            </li>
+
+            <li class="footer-program-aqua mL-2">
+              <a
+                class="d-inline-block text-decoration-none c-white mT-1"
+                href="https://www.protalento.com/full-stack-python"
+                >Python | Coding Dojo</a
+              >
+            </li>
+
+            <li class="footer-program-lighterBlue mL-2">
+              <a
+                class="d-inline-block text-decoration-none c-white mT-1"
+                href="https://www.protalento.com/data-science"
+                >Data Science | Coding Dojo</a
+              >
+            </li>
+
+            <li class="footer-program-purple mL-2">
+              <a
+                class="d-inline-block text-decoration-none c-white mT-1"
+                href="https://www.protalento.com/upgrade-laboral-co"
+                >Upgrade Laboral | PROtalento</a
+              >
+            </li>
+          </ul>
+
+          <p class="mT-3 mL-2">MÉXICO</p>
+
+          <ul>
+            <li class="footer-program-darkBlue mL-2">
+              <a
+                class="d-inline-block text-decoration-none c-white mT-1"
+                href="https://www.protalento.com/desarrollo-software-mx"
+                >Full Stack | DEV.F</a
+              >
+            </li>
+
+            <li class="footer-program-purple mL-2">
+              <a
+                class="d-inline-block text-decoration-none c-white mT-1"
+                href="https://www.protalento.com/upgrade-laboral-mx"
+                >Upgrade Laboral | PROtalento</a
+              >
+            </li>
           </ul>
         </div>
-      </div> -->
-    </section>
+        <!-- box -->
+      </div>
+    </footer>
+    <!-- footer -->
+    <script>
+      const itemsNav = document.querySelectorAll(".item-nav");
+
+      itemsNav.forEach((item) => {
+        item.addEventListener("click", () => {
+          item.classList.toggle("active");
+        });
+      });
+    </script>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-KDK4LPR"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <script>
+      $(".carusel--paid").slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 500,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
+    </script>
+    <script>
+      (function ($) {
+        $(document).ready(function () {
+          $(".slider-hero").slick({
+            dots: true,
+            infinite: true,
+            cssEase: "linear",
+            swipe: false,
+          });
+        });
+      })(jQuery);
+    </script>
   </body>
   <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="slick/slick.min.js"></script>
   <script
     type="text/javascript"
