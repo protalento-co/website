@@ -176,7 +176,7 @@ a:active {
     width: 80%;
     /* height: 805px; */
     left: 10%;
-    top: 1009px;
+    top: 920px;
     background: #FFFFFF;
     box-shadow: 0px 4px 8px rgba(53, 105, 128, 0.3);
     border-radius: 8px;
@@ -225,8 +225,8 @@ a:active {
     justify-content: center;
     height: 126px;
     position: absolute;
-    left: 10%;
-    top: 1894px;
+    /* left: 10%; */
+    top: 1790px
 }
 
 .logos-n>div {
@@ -1202,6 +1202,8 @@ color: #385499;
 
         padding-top: 20px;
         padding-left: 64px;
+
+        margin-top: 168px;
     }
 
     .main__container--items {
@@ -1277,13 +1279,13 @@ color: #385499;
         position: absolute;
         width: 50%;
         left: 25%;
-        top: 709px;
+        top: 736px;
     }
 
     .logos--cont {
         position: absolute;
         left: 0;
-        top: 80px;
+        top: 1628px;
     }
 
     .logos-n {
