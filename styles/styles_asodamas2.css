@@ -708,9 +708,9 @@ a:active {
 }
 
 .match__content {
-    display: flex;
-    width: 320px;
-    overflow: auto;
+    /* display: flex;
+    width: 320px; */
+    display: none;
 }
 
 .match__content p {
@@ -732,8 +732,55 @@ a:active {
 }
 
 .match__carousel {
-    display: none;
+    /* display: none; */
+    width: 200px;
+    height: 500px;
+    display: flex;
 }
+
+.match__carousel>div {
+    /* border: 1px solid #000000; */
+}
+
+.match__next--arrow {
+    position: absolute;
+    top: 25%;
+    right: -30px;
+    z-index: 1;
+    cursor: pointer;
+    height: 18.35px;
+}
+
+.match__prev--arrow {
+    position: relative;
+    top: 25%;
+    left: -30px;
+    z-index: 1;
+    cursor: pointer;
+    height: 18.35px;
+}
+
+
+
+.match__carousel p {
+    font-family: "Proxima Nova", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+
+    /* Texto - Body */
+
+    color: #33345C;
+
+    width: 190px;
+    margin-top: 45px;
+
+}
+
+
 
 .match__tip {
     height: 193px;

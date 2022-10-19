@@ -839,7 +839,35 @@
           </p>
         </div>
       </div>
-      <div class="match__carousel"></div>
+      <div class="match__carousel">
+        <div>
+          <img
+            src="https://res.cloudinary.com/protalento/image/upload/v1666108447/Website/PROtalento/Convocatorias/Asodamas/Group_65_i11tyi.png"
+            alt="image-reference"
+          />
+          <p>
+            Tienes interés en acelerar tu vida profesional e ingresar al empleo
+            que mereces
+          </p>
+        </div>
+        <div>
+          <img
+            src="https://res.cloudinary.com/protalento/image/upload/v1666108447/Website/PROtalento/Convocatorias/Asodamas/Group_2391_ihcm9t.png"
+            alt="image-reference"
+          />
+          <p>Quieres emplearte en 6 meses.</p>
+        </div>
+        <div>
+          <img
+            src="https://res.cloudinary.com/protalento/image/upload/v1666108448/Website/PROtalento/Convocatorias/Asodamas/Group_2392_i5mj5b.png"
+            alt="image-reference"
+          />
+          <p>
+            Disposición de 33h a la semana en horario flexible antes y después
+            de la jornada laboral.
+          </p>
+        </div>
+      </div>
       <div class="match__tip knowledge--card__tip">
         <strong>Tip PRO:</strong> No necesitas experiencia pero si haber
         explorado sobre lo que se trata programar o trabajar en el mundo
@@ -1474,6 +1502,32 @@
               slidesToScroll: 1,
               arrows: false,
             },
+          },
+        ],
+      });
+    </script>
+    <script>
+      $(".match__carousel").slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: true,
+        responsive: [
+          {
+            breakpoint: 500,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              prevArrow:
+                '<img src="https://res.cloudinary.com/protalento/image/upload/v1666213926/Website/PROtalento/Convocatorias/Asodamas/Vector_w44xrx.svg" class="match__prev--arrow"/>',
+              nextArrow:
+                '<img src="https://res.cloudinary.com/protalento/image/upload/v1665944071/Website/PROtalento/Convocatorias/Asodamas/Vector_nbkz7y.svg" class="match__next--arrow"/>',
+            },
+          },
+          {
+            breakpoint: 1024,
+            settings: "unslick",
           },
         ],
       });
