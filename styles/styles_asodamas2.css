@@ -59,6 +59,9 @@ a:active {
 
 */
 
+
+
+
 .main {
     height: 592px;
     width: 100%;
@@ -839,7 +842,7 @@ a:active {
 
 .alliances__carousel {
     display: flex;
-    height: 843px;
+    /* height: 843px; */
 }
 
 .alliances__card {
@@ -859,6 +862,7 @@ a:active {
     align-items: center;
 
     padding: 40px 30px 32px;
+    margin: 15px 15px;
 }
 
 .alliances__card img {
@@ -1028,6 +1032,63 @@ color: #385499;
 }
 
 
+/* Slider */
+.alliance-carousel {
+    max-width: 320px;
+    /* margin-right: auto;
+    margin-left: auto; */
+}
+
+/* .alliance-carousel__title {
+    min-height: 3.5rem;
+}
+
+.alliance-carousel__img {
+    width: 100%;
+}
+
+.alliance-carousel .slick-track {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 326px;
+    height: 175px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.alliance-carousel .slick-slide {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.alliance-carousel .slick-prev:before,
+.alliance-carousel .slick-next:before {
+    font-family: 'Nunito', sans-serif;
+}
+
+.alliance-carousel .slick-prev:before {
+    content: '<';
+}
+
+.alliance-carousel .slick-next:before {
+    content: '>';
+}
+
+.alliance-carousel .slick-dots {
+    bottom: -5rem;
+}
+
+.alliance-carousel .slick-dots li button::before {
+    font-size: 1rem;
+    color: #E4E4E4;
+    opacity: 1;
+}
+
+.alliance-carousel .slick-dots li.slick-active button::before {
+    color: #f1af4d;
+} */
+
 
 /*Tablet*/
 
@@ -1048,6 +1109,19 @@ color: #385499;
         width: 197px;
         height: 25px;
     } */
+
+    /*slide*/
+    .alliance-carousel {
+        max-width: 739px;
+        /* margin-right: auto;
+    margin-left: auto; */
+    }
+
+    .alliances__card {
+        width: 640px;
+        height: 302px;
+        flex-direction: row;
+    }
 
     .main {
         width: 91.6%;
@@ -1606,5 +1680,5 @@ input#hide:checked~div#details__group2 {
 
 /* slider */
 .slider-hero {
-    max-width: 1040px;
+    max-width: 320px;
 }
