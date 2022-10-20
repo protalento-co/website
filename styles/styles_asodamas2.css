@@ -177,6 +177,8 @@ a:active {
     -o-border-radius: 24px;
 }
 
+
+
 .decoration {
     height: 747px;
     background: #C3D6F9;
@@ -574,6 +576,15 @@ a:active {
     background: #F2F6FA;
     padding: 64px 35px 35px;
 }
+
+.paid-section-slider .paid__card {
+    width: 310px;
+    height: 467px;
+
+    /* max-width: 310px;
+    max-height: 467px; */
+}
+
 
 .paid__title {
     font-family: 'Nunito';
@@ -1614,9 +1625,20 @@ color: #385499;
         height: 48px;
     }
 
+
+    .paid-section-slider .paid__card {
+        width: 310px;
+        height: 467px;
+
+        /* max-width: 310px;
+        max-height: 467px; */
+    }
+
     .paid {
         padding: 64px 0px 35px;
     }
+
+
 
     .paid__title {
         width: 639px;
@@ -1642,12 +1664,17 @@ color: #385499;
         margin: 0 11px 0;
     }
 
+    .paid__li--tip {
+        display: none;
+
+    }
+
     .paid__card--content {
         display: inline;
     }
 
     .paid__card--content ul {
-        overflow-y: scroll;
+        /* overflow-y: scroll; */
         height: 250px;
 
     }
