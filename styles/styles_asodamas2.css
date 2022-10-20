@@ -1,10 +1,3 @@
-/* reset css */
-
-/* 
-html {
-    font-family: "Proxima Nova", sans-serif;
-}
- */
 html {
     scroll-behavior: smooth;
 }
@@ -105,7 +98,6 @@ a:active {
 }
 
 .main__items>h3 {
-    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -140,7 +132,6 @@ a:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -164,7 +155,6 @@ a:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -327,7 +317,6 @@ a:active {
 }
 
 .developers p {
-    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -362,7 +351,7 @@ a:active {
     top: 50%;
     left: 50%;
     width: 100%;
-    height: 160px;
+    height: 190px;
     perspective: 1000px;
     transform-style: preserve-3d;
     transform: translate(-50%, -50%);
@@ -453,7 +442,6 @@ a:active {
     width: 255px;
     height: 192px;
 
-    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -486,7 +474,6 @@ a:active {
 
     height: 17px;
 
-    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -510,7 +497,6 @@ a:active {
 }
 
 .knowledge--card__paragraph {
-    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -536,7 +522,6 @@ a:active {
     border-radius: 8px;
     padding: 24px 23px 23px 21px;
 
-    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -561,7 +546,6 @@ a:active {
     border-radius: 24px;
 
 
-    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -612,7 +596,6 @@ a:active {
     width: 255px;
     height: 117px;
 
-    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -652,7 +635,6 @@ a:active {
 }
 
 .paid__card h2 {
-    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -673,7 +655,6 @@ a:active {
 }
 
 .paid__card--button {
-    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -702,7 +683,6 @@ li>.paid__li--icon {
 }
 
 .paid__card--content li>p {
-    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -724,9 +704,8 @@ li>.paid__li--icon {
     padding: 21px 15px 26px;
 
 
-    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
 
@@ -737,6 +716,10 @@ li>.paid__li--icon {
 
     color: #33345C;
 
+}
+
+.paid__li--tip>span {
+    font-weight: 600;
 }
 
 .dates__card {
@@ -765,7 +748,6 @@ li>.paid__li--icon {
 
 .dates__card>h2 {
 
-    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -784,7 +766,6 @@ li>.paid__li--icon {
 }
 
 .dates__card div>h3 {
-    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -810,7 +791,6 @@ li>.paid__li--icon {
 
 
 
-    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -862,7 +842,6 @@ li>.paid__li--icon {
 }
 
 .match__content p {
-    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -911,7 +890,6 @@ li>.paid__li--icon {
 
 
 .match__carousel p {
-    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -960,7 +938,6 @@ li>.paid__li--icon {
     width: 79px;
     height: 30px;
 
-    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -1082,7 +1059,6 @@ li>.paid__li--icon {
 }
 
 .alliances__card h2 {
-    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
@@ -1097,7 +1073,6 @@ li>.paid__li--icon {
 }
 
 .alliances__card p {
-    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -1186,7 +1161,6 @@ color: #385499;
 
 .footer_contact--container>p {
 
-    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -1202,7 +1176,6 @@ color: #385499;
 }
 
 .footer_contact--container ul>li>p {
-    font-family: "Proxima Nova", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -1504,7 +1477,7 @@ color: #385499;
     }
 
     .developers__internal--content {
-        margin-left: 40px;
+        margin-left: 76px;
     }
 
     .developers__internal--content>p {
@@ -1549,7 +1522,7 @@ color: #385499;
     }
 
     .knowledge--card__card {
-        height: 353px;
+        height: 397px;
     }
 
     .knowledge--card__tip {
@@ -1644,7 +1617,6 @@ color: #385499;
     }
 
     .match__content p {
-        font-family: "Proxima Nova", sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 18px;
@@ -1679,7 +1651,6 @@ color: #385499;
         background: #FFE6D2;
         border-radius: 8px;
 
-        font-family: "Proxima Nova", sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -1799,6 +1770,20 @@ color: #385499;
 
     .developers {
         margin-top: 220px;
+    }
+
+    .developers__internal--content {
+        margin-left: 24px;
+    }
+
+    .developers__internal--content>p {
+        margin: 0 0 32px 0;
+        width: 303px;
+    }
+
+    .developers__image {
+        width: 310px;
+        height: 281.38px;
     }
 
     .logos--cont {
