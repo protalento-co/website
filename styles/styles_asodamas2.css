@@ -956,6 +956,19 @@ li>.paid__li--icon {
 
     margin: 48px 55px 64px;
     text-align: left;
+
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+
+
+    color: #33345C;
+
+
+    padding: 24px 23px 28px 21px;
+    background: #FFE6D2;
+    border-radius: 8px;
 }
 
 .match__tip>span {
@@ -1011,7 +1024,7 @@ li>.paid__li--icon {
     border-radius: 8px;
 
     display: flex;
-    padding: 10px 17px;
+    padding-top: 10px;
     align-items: center;
 
     margin: 1.5rem;
@@ -1048,13 +1061,11 @@ li>.paid__li--icon {
     margin: 10px;
 }
 
-.details_card h2 {
+.details_card h3 {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    /* or 150% */
-
-
+    width: 182px;
     color: #20212F;
     margin-left: 10px;
 }
