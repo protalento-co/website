@@ -995,18 +995,28 @@ li>.paid__li--icon {
     padding-bottom: 60px;
 }
 
+
 .details__icons--container {
     display: flex;
+    justify-content: space-around;
+    width: 90%;
+    /* max-width: 260px; */
+    margin: 1.5rem;
 }
 
-.details__icons--container div:nth-child(-n+2) {
+/* .details__icons--container div:nth-child(-n+2) {
     margin-right: 10px;
+} */
+
+.details__icons {
+    width: 79px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
-
-
-.details__icons>h3 {
+.details__icons h3 {
     width: 79px;
     height: 30px;
 
@@ -1031,7 +1041,7 @@ li>.paid__li--icon {
 }
 
 .details_card {
-    /* background: #FFFFFF; */
+    background: #F2F6FA;
 
     height: 94px;
     /* width: 80vw; */
@@ -1437,7 +1447,7 @@ color: #385499;
     }
 
     .main__container--items {
-        margin-top: 41px;
+        margin-top: 28px;
     }
 
     .main__items {
@@ -1456,8 +1466,8 @@ color: #385499;
 
         font-size: 48px;
         line-height: 58px;
-        width: 390px;
-        height: 114px;
+        width: 536px;
+        height: 172px;
     }
 
     /*  .nav__buttons--container {
@@ -1476,6 +1486,15 @@ color: #385499;
         border-radius: 0px 0px 0px 60px;
         z-index: -1;
 
+    }
+
+    .details_card h3 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        width: auto;
+        color: #20212F;
+        margin-left: 10px;
     }
 
     .decoration__pattern--container {
@@ -1765,8 +1784,14 @@ color: #385499;
         padding: 28px 23px 29px 24px;
     }
 
-    .details__icons--container div:nth-child(-n+2) {
+    /* .details__icons--container div:nth-child(-n+2) {
         margin-right: 47px;
+    } */
+
+    .details__icons--container {
+        display: flex;
+        width: 640px;
+        max-width: 640px;
     }
 
     .details_card--result {
@@ -1820,7 +1845,7 @@ color: #385499;
 
     .main {
         width: 50.9%;
-        height: 621px;
+        height: 795px;
         margin-top: 115px;
         padding-top: 30px;
         margin-top: 225px;
@@ -1836,12 +1861,12 @@ color: #385499;
 
 
     .main__container--items {
-        margin-top: 30px;
+        margin: 58px 59px 0 0;
     }
 
     .main>h1 {
         width: 403px;
-        height: 214px;
+        height: 347px;
         font-size: 68px;
         line-height: 70px;
     }
