@@ -226,7 +226,7 @@ a:active {
     justify-content: space-between;
 
     padding: 19px 22px 23px;
-    overflow: auto;
+    overflow: scroll;
 }
 
 
@@ -236,8 +236,8 @@ a:active {
     justify-content: center;
     height: 126px;
     position: absolute;
-    /* left: 10%; */
-    top: 1892px
+    top: 1892px;
+
 }
 
 .logos-n>div {
@@ -245,7 +245,7 @@ a:active {
     flex-direction: column;
     align-items: center;
 
-    margin-right: 56px;
+    margin-right: 34px;
 }
 
 .logos-n img {
@@ -258,8 +258,8 @@ a:active {
     font-weight: 500;
     font-size: 10px;
     line-height: 28px;
-
-
+    text-align: center;
+    width: 150px;
     color: #33345C;
 }
 
@@ -1454,9 +1454,16 @@ color: #385499;
     .logos-n {
 
         height: 126px;
+        display: flex;
+        justify-content: space-between;
+        overflow: scroll;
 
+        padding: 19px 48px 23px;
+    }
 
-        padding: 19px 82px 23px;
+    .logos-n>div {
+
+        margin-right: 50px;
     }
 
 
@@ -1796,6 +1803,14 @@ color: #385499;
         top: 1127px;
     }
 
+    .logos-n>div {
+
+        margin-right: 0px;
+    }
+
+    .logos-n {
+        overflow: hidden;
+    }
 
 
     .paid__cards--container {
