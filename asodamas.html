@@ -32,6 +32,7 @@
     <script src="js/ChangeInfoli.js" defer></script>
     <script src="js/acordeon.js" defer></script>
     <script src="js/btnHelp.js" defer></script>
+    <script src="js/readMore.js" defer></script>
     <!-- script -->
   </head>
   <body>
@@ -841,8 +842,8 @@
             />
             <h2>Estudia ahora y paga después</h2>
           </div>
-
-          <div class="paid__card--content">
+          <span id="dots"></span>
+          <div id="more" class="paid__card--content">
             <ul>
               <li>
                 <img
@@ -885,7 +886,13 @@
               </li>
             </ul>
           </div>
-          <div class="arrow paid__card--button">Ver más</div>
+          <div
+            class="arrow paid__card--button"
+            onclick="myFunction()"
+            id="myBtn"
+          >
+            Ver más
+          </div>
 
           <!-- *colaxable boton -->
           <!-- <button type="button" class="collapsible">Open Collapsible</button>
