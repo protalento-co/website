@@ -70,6 +70,13 @@ a:active {
     margin-top: 98px;
 }
 
+.main__design--pattern {
+    position: absolute;
+    width: 44px;
+    left: 267.9px;
+    top: 182.63px;
+}
+
 .main>h1 {
     font-family: 'Nunito';
     font-style: normal;
@@ -823,10 +830,8 @@ li>.paid__li--icon {
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
-    /* or 156% */
+    text-align: center;
 
-
-    /* Texto - Body */
 
     color: #33345C;
 
@@ -1303,6 +1308,13 @@ color: #385499;
         margin-top: 25px;
     }
 
+    .main__design--pattern {
+        position: absolute;
+        width: 44px;
+        left: 431.9px;
+        top: 206px;
+    }
+
     .main>h1 {
 
         font-size: 48px;
@@ -1471,9 +1483,10 @@ color: #385499;
     .paid__card {
         width: 281px;
         height: 470px;
-
         margin: 0 11px 0;
     }
+
+
 
     .paid__card--button {
         display: none;
@@ -1492,7 +1505,6 @@ color: #385499;
 
     .dates__card>div {
         display: flex;
-
     }
 
     .dates_date--button {
@@ -1520,10 +1532,8 @@ color: #385499;
         font-weight: 500;
         font-size: 18px;
         line-height: 28px;
-        /* or 156% */
 
 
-        /* Texto - Body */
 
         color: #33345C;
 
@@ -1607,6 +1617,13 @@ color: #385499;
         padding-top: 30px;
         margin-top: 225px;
 
+    }
+
+    .main__design--pattern {
+        position: absolute;
+        width: 44px;
+        left: 333px;
+        top: 271px;
     }
 
 
