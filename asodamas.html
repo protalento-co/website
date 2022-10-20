@@ -832,7 +832,7 @@
         <span> ¡Ahora puedes confiar en las letras chiquitas! </span>
       </p>
 
-      <div class="paid__cards--container">
+      <div class="paid-section-slider paid__cards--container">
         <div class="-item paid__card">
           <div class="paid__header">
             <img
@@ -841,12 +841,52 @@
             />
             <h2>Estudia ahora y paga después</h2>
           </div>
-          <!-- <img
-            src="https://res.cloudinary.com/protalento/image/upload/v1666141848/Website/PROtalento/Convocatorias/Asodamas/Group_65_acreb0.svg"
-            alt=""
-          /> -->
 
-          <div class="paid__card--content"></div>
+          <div class="paid__card--content">
+            <div class="paid__card--content">
+              <ul>
+                <li>
+                  <img
+                    src="https://res.cloudinary.com/protalento/image/upload/v1666226175/Website/PROtalento/Convocatorias/Asodamas/Vector_fejexr.svg"
+                    alt=""
+                    class="paid__li--icon"
+                  />
+                  <p>
+                    TASA DE INTERÉS:
+                    <br />
+                    0%
+                  </p>
+                </li>
+                <li>
+                  <img
+                    src="https://res.cloudinary.com/protalento/image/upload/v1666226175/Website/PROtalento/Convocatorias/Asodamas/Vector_fejexr.svg"
+                    alt=""
+                    class="paid__li--icon"
+                  />
+                  <p>
+                    INVERSIÓN TOTAL:
+                    <br />
+                    $18.000.000 IVA incluido Con inglés
+                    <br />
+                    $14.000.000 IVA incluido Sin inglés
+                  </p>
+                </li>
+                <li>
+                  <img
+                    src="https://res.cloudinary.com/protalento/image/upload/v1666226175/Website/PROtalento/Convocatorias/Asodamas/Vector_fejexr.svg"
+                    alt=""
+                    class="paid__li--icon"
+                  />
+                  <p>
+                    BENEFICIO:
+                    <br />
+                    Cuando te emplees paga con el 18% de tu sueldo, en cuotas
+                    mensuales.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
           <div class="arrow paid__card--button">Ver más</div>
 
           <!-- *colaxable boton -->
@@ -1846,6 +1886,33 @@
           },
           {
             breakpoint: 2024,
+            settings: "unslick",
+          },
+        ],
+      });
+    </script>
+    <script>
+      $(".paid-section-slider").slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: true,
+        prevArrow:
+          '<img src="https://res.cloudinary.com/protalento/image/upload/v1666269228/Website/PROtalento/Convocatorias/Asodamas/Group_2403_nr5jud.svg" class="paid__prev--arrow"/>',
+        nextArrow:
+          '<img src="https://res.cloudinary.com/protalento/image/upload/v1666269235/Website/PROtalento/Convocatorias/Asodamas/Group_2403_1_euxqoa.svg" class="paid__next--arrow"/>',
+        responsive: [
+          {
+            breakpoint: 1040,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              arrows: false,
+            },
+          },
+          {
+            breakpoint: 768,
             settings: "unslick",
           },
         ],

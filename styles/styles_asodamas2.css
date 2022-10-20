@@ -732,6 +732,40 @@ li>.paid__li--icon {
     font-weight: 600;
 }
 
+/* slide paid */
+
+.paid__prev--arrow {
+    position: absolute;
+    top: 95%;
+    right: 110px;
+    z-index: 1;
+    cursor: pointer;
+    height: 40px;
+    box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.08), 0px 16px 24px rgba(22, 34, 51, 0.08);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.paid__next--arrow {
+    position: absolute;
+    top: 95%;
+    right: 60px;
+    z-index: 1;
+    cursor: pointer;
+    height: 40px;
+    box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.08), 0px 16px 24px rgba(22, 34, 51, 0.08);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* END slide paid */
+
 .dates__card {
     width: 260px;
     margin-bottom: 48px;
@@ -1560,6 +1594,10 @@ color: #385499;
         height: 48px;
     }
 
+    .paid {
+        padding: 64px 0px 35px;
+    }
+
     .paid__title {
         width: 639px;
         height: 44px;
@@ -1573,11 +1611,10 @@ color: #385499;
     }
 
     .paid__cards--container {
-        width: 640px;
         display: flex;
-        overflow: auto;
-        padding: 30px 10px;
+        padding: 50px 0px;
     }
+
 
     .paid__card {
         width: 281px;
