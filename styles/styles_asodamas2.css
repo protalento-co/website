@@ -977,6 +977,7 @@ li>.paid__li--icon {
 .alliances__card img {
     width: 195px;
     height: 116px;
+    object-fit: contain;
 }
 
 .alliances__cards--content {
