@@ -1,7 +1,13 @@
-function myFunction() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more");
-    var btnText = document.getElementById("myBtn");
+function readMore(company) {
+
+    let dots = document.querySelector(`.paid__card[data-company="${company}"] #dots`);
+    let moreText = document.querySelector(`.paid__card[data-company="${company}"] #more`);
+    let btnText = document.querySelector(`.paid__card[data-company="${company}"] #myBtn`);
+
+
+    /*  console.log(dots);
+     console.log(moreText);
+     console.log(btnText); */
 
     if (dots.style.display === "none") {
         dots.style.display = "inline";

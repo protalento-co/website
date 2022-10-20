@@ -834,7 +834,7 @@
       </p>
 
       <div class="paid-section-slider paid__cards--container">
-        <div class="-item paid__card">
+        <div class="paid__card" data-company="asodamas">
           <div class="paid__header">
             <img
               src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1660170117/Website/PROtalento/Convocatorias/logo-asodamas-web-x1_khxsnh_mneqmt.png"
@@ -888,26 +888,13 @@
           </div>
           <div
             class="arrow paid__card--button"
-            onclick="myFunction()"
+            onclick="readMore('asodamas')"
             id="myBtn"
           >
             Ver más
           </div>
-
-          <!-- *colaxable boton -->
-          <!-- <button type="button" class="collapsible">Open Collapsible</button>
-          <div class="content--collapsible">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div> -->
-
-          <!-- *END colaxable boton -->
         </div>
-        <div class="paid__card">
+        <div class="paid__card" data-company="protalento1">
           <div class="paid__header">
             <img
               src="https://res.cloudinary.com/protalento/image/upload/v1660170117/Website/PROtalento/Convocatorias/Protalento-logoazul-_3x_2_bmzjqb_zrzdme.svg"
@@ -915,7 +902,8 @@
             />
             <h2>Paga en una sola cuota y recibe el 10% de descuento</h2>
           </div>
-          <div class="paid__card--content">
+          <span id="dots"></span>
+          <div id="more" class="paid__card--content">
             <ul>
               <li>
                 <img
@@ -958,9 +946,15 @@
               </li>
             </ul>
           </div>
-          <div class="paid__card--button">Ver más</div>
+          <div
+            class="paid__card--button"
+            onclick="readMore('protalento1')"
+            id="myBtn"
+          >
+            Ver más
+          </div>
         </div>
-        <div class="paid__card">
+        <div class="paid__card" data-company="protalento2">
           <div class="paid__header">
             <img
               src="https://res.cloudinary.com/protalento/image/upload/v1660170117/Website/PROtalento/Convocatorias/Protalento-logoazul-_3x_2_bmzjqb_zrzdme.svg"
@@ -968,7 +962,8 @@
             />
             <h2>Paga en 6 mensualidades, sin intereses</h2>
           </div>
-          <div class="paid__card--content">
+          <span id="dots"></span>
+          <div id="more" class="paid__card--content">
             <ul>
               <li>
                 <img
@@ -1012,9 +1007,15 @@
               </li>
             </ul>
           </div>
-          <div class="paid__card--button">Ver más</div>
+          <div
+            class="arrow paid__card--button"
+            onclick="readMore('protalento2')"
+            id="myBtn"
+          >
+            Ver más
+          </div>
         </div>
-        <div class="paid__card">
+        <div class="paid__card" data-company="Flevo">
           <div class="paid__header">
             <img
               src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660170116/Website/PROtalento/Convocatorias/Isologo-Flevo-secundario-transparente-01-1-e1644858311932_1_ea6psp_tbjy42.svg"
@@ -1022,7 +1023,8 @@
             />
             <h2>Paga en diferentes plazos y tasas de interés</h2>
           </div>
-          <div class="paid__card--content">
+          <span id="dots"></span>
+          <div id="more" class="paid__card--content">
             <ul>
               <li>
                 <img
@@ -1068,9 +1070,15 @@
               </li>
             </ul>
           </div>
-          <div class="paid__card--button">Ver más</div>
+          <div
+            class="arrow paid__card--button"
+            onclick="readMore('Flevo')"
+            id="myBtn"
+          >
+            Ver más
+          </div>
         </div>
-        <div class="paid__card">
+        <div class="paid__card" data-company="Sufi">
           <div class="paid__header">
             <img
               src="https://res.cloudinary.com/protalento/image/upload/q_auto/v1660170117/Website/PROtalento/Convocatorias/Logos_y_Vigilado_Sufi_LOGOS_Logo-rojo_1_zoqebd_mxate1.svg"
@@ -1080,7 +1088,8 @@
               Diseñado para estudiantes sin historial crediticio, ni codeudor
             </h2>
           </div>
-          <div class="paid__card--content">
+          <span id="dots"></span>
+          <div id="more" class="paid__card--content">
             <ul>
               <li>
                 <img
@@ -1124,7 +1133,13 @@
               </li>
             </ul>
           </div>
-          <div class="paid__card--button">Ver más</div>
+          <div
+            class="arrow paid__card--button"
+            onclick="readMore('Sufi')"
+            id="myBtn"
+          >
+            Ver más
+          </div>
         </div>
       </div>
     </section>
