@@ -601,6 +601,7 @@ a:active {
 .paid__card--content ul {
     margin-top: 38px;
     width: 193px;
+
 }
 
 li>.paid__li--icon {
@@ -1486,6 +1487,12 @@ color: #385499;
         margin: 0 11px 0;
     }
 
+    .paid__card--content ul {
+        overflow-y: scroll;
+        height: 250px;
+
+    }
+
 
 
     .paid__card--button {
@@ -1505,6 +1512,8 @@ color: #385499;
 
     .dates__card>div {
         display: flex;
+        width: 100%;
+        justify-content: space-between;
     }
 
     .dates_date--button {
@@ -1513,9 +1522,9 @@ color: #385499;
         margin: 0px;
     }
 
-    .dates__card>div>div:not(:last-child) {
-        margin: 0 14px 0;
-    }
+    /* .dates__card>div>div:not(:last-child) {
+        margin: 0 5px 0;
+    } */
 
     .match__carousel {
         display: none;
@@ -1568,6 +1577,10 @@ color: #385499;
     .details_card--result {
         width: 640px;
         background: #FFFFFF;
+    }
+
+    .programa__container+a.buttons__button--1 {
+        margin-top: 64px;
     }
 
 
