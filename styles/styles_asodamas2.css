@@ -577,13 +577,12 @@ a:active {
     padding: 64px 35px 35px;
 }
 
-.paid-section-slider .paid__card {
+/* .paid-section-slider .paid__card {
     width: 310px;
     height: 467px;
 
-    /* max-width: 310px;
-    max-height: 467px; */
-}
+    
+} */
 
 
 .paid__title {
