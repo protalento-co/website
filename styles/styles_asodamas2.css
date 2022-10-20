@@ -1265,6 +1265,10 @@ color: #385499;
 }
 
 
+.accordeon-content p>span {
+    font-weight: 700;
+}
+
 /* Slider */
 .alliance-carousel {
     max-width: 320px;
@@ -1340,9 +1344,9 @@ color: #385499;
 
 
 
-/* collasibles */
+/*  *collasibles prueba */
 
-.collapsible {
+/* .collapsible {
     background-color: #777;
     color: white;
     cursor: pointer;
@@ -1364,9 +1368,9 @@ color: #385499;
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
-}
+} */
 
-/* collasibles */
+/*  *collasibles prueba */
 
 
 /*Tablet*/
