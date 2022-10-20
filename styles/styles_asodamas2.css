@@ -89,8 +89,8 @@ a:active {
 .main__design--pattern {
     position: absolute;
     width: 44px;
-    left: 267.9px;
-    top: 182.63px;
+    right: 10%;
+    top: 146.63px;
 }
 
 .main>h1 {
@@ -1458,7 +1458,7 @@ color: #385499;
     .main__design--pattern {
         position: absolute;
         width: 44px;
-        left: 431.9px;
+        right: 15%;
         top: 206px;
     }
 
@@ -1922,7 +1922,7 @@ color: #385499;
         height: 126px;
         position: absolute;
         /* left: 10%; */
-        top: 1127px;
+        top: 1301px;
     }
 
     .logos-n>div {
