@@ -14,6 +14,7 @@ a:active {
     height: 98px;
     display: flex;
     align-items: center;
+    /* background-color: transparent; */
 }
 
 .nav__box {
@@ -76,7 +77,9 @@ a:active {
 */
 
 
-
+.transparent {
+    background-color: transparent;
+}
 
 .main {
     height: 592px;
