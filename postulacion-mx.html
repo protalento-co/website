@@ -47,6 +47,7 @@
     <script src="js/changeInfo.js" defer></script>
     <script src="js/btnHelp.js" defer></script>
     <script src="js/acordeon.js" defer></script>
+    <!-- <script src="js/acordeonForms.js" defer></script> -->
     <!-- script -->
     <title>PROtalento | Postulación Colombia</title>
   </head>
@@ -640,7 +641,7 @@
             <section class="programs-faq">
               <div class="grid-faq">
                 <!--Box-->
-                <div class="accordeon-item didi__details item-faq">
+                <div class="accordeon-item--forms didi__details item--forms">
                   <div
                     class="flexContainer justify-content-between align-item-center"
                   >
@@ -650,7 +651,7 @@
                         <p>PASO</p>
                       </div>
                       <h2
-                        class="accordeon-title medium-big-size c-blueDark postulation__options--title"
+                        class="accordeon-title--forms medium-big-size c-blueDark postulation__options--title"
                       >
                         Formulario
                       </h2>
@@ -662,7 +663,7 @@
                       alt="arrow"
                     />
                   </div>
-                  <article class="accordeon-content active">
+                  <article class="accordeon-content--forms">
                     <div id="subject" class="postulation_form">
                       <script
                         charset="utf-8"
@@ -682,7 +683,7 @@
                 <!--Box-->
 
                 <!--Box-->
-                <div class="accordeon-item didi__details item-faq">
+                <div class="accordeon-item--forms didi__details item--forms">
                   <div
                     class="flexContainer justify-content-between align-item-center"
                   >
@@ -692,7 +693,7 @@
                         <p>PASO</p>
                       </div>
                       <h2
-                        class="accordeon-title medium-big-size c-blueDark postulation__options--title"
+                        class="accordeon-title--forms medium-big-size c-blueDark postulation__options--title"
                       >
                         Agendamiento de la entrevista
                       </h2>
@@ -704,7 +705,7 @@
                       alt="arrow"
                     />
                   </div>
-                  <article class="accordeon-content active">
+                  <article class="accordeon-content--forms">
                     <div>
                       <!-- Principio del widget integrado de Calendly -->
                       <div
@@ -949,20 +950,7 @@
       ></iframe
     ></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <script>
-      // Change content when viewport size come bigger that 320px
-      const mediaQuery = window.matchMedia("(min-width: 320px)");
-      // Valide if viewport size is bigger that 320px
-      if (mediaQuery.matches) {
-        // Change content
-        document.getElementById("hero__title").innerHTML =
-          "¡Conviértete en un profesional de la tecnología!";
-        document.getElementById("hero__subtitle").innerHTML =
-          "Aprende a programar desde cero y conviértete en un profesional de la tecnología en 6 meses.";
-        document.getElementById("hero__button").innerHTML =
-          "¡Quiero ser un profesional de la tecnología!";
-      }
-    </script>
+
     <!-- slick -->
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

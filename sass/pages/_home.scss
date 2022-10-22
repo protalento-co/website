@@ -560,6 +560,12 @@
   transition: all .3s;
 }
 
+.arrow-rotate--forms {
+  transform: rotate(90deg);
+
+  transition: all .3s;
+}
+
 .arrow-rotate3 {
   transform: rotate(45deg);
 
@@ -577,6 +583,16 @@
   line-height: 0;
   overflow: hidden;
   opacity: 0;
+  display: none;
+  transition: all .3s;
+}
+
+.accordeon-content--forms {
+  padding: 0 1rem;
+  line-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  display: none;
   transition: all .3s;
 }
 
@@ -618,6 +634,16 @@
   margin-bottom: 2rem;
   line-height: 1.4;
   opacity: 1;
+  display: block;
+}
+
+.accordeon-content--forms.active {
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+  opacity: 1;
+  display: block;
 }
 
 .accordeon-content2.active {
