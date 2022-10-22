@@ -563,10 +563,10 @@
           </span>
         </p>
         <div
-          class="postulation__card--container flexContainer justify-content-center mT-10"
+          class="postulation__card--container flexContainer justify-content-center mT-10 steps-carousel"
         >
           <div
-            class="postulation__card mR-1 flexContainer flexContainer--column align-item-center"
+            class="postulation__card flexContainer flexContainer--column align-item-center"
           >
             <div class="postulation__card--header">
               <p>PASO</p>
@@ -589,7 +589,7 @@
             </p>
           </div>
           <div
-            class="postulation__card mR-1 flexContainer flexContainer--column align-item-center"
+            class="postulation__card flexContainer flexContainer--column align-item-center"
           >
             <div class="postulation__card--header">
               <p>PASO</p>
@@ -954,5 +954,39 @@
       ></iframe
     ></noscript>
     <!-- End Google Tag Manager (noscript) -->
+    <!-- slick -->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script>
+      $(".steps-carousel").slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: false,
+        arrows: false,
+        pauseOnHover: false,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 500,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              autoplay: false,
+              infinite: false,
+            },
+          },
+        ],
+      });
+    </script>
+    <!-- END slick -->
   </body>
 </html>
