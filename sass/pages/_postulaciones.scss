@@ -57,10 +57,47 @@
   }
 }
 
+.steps-carousel {
+  /* height: 397px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+
+  .slick-track {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+
+
+  }
+
+
+}
+
 .postulation__card--container {
-  width: 100%;
+
+  display: block;
+  margin-left: 18%;
+  margin-right: 18%;
+  /*  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: center; */
+  /*   max-width: 320px; */
+
+  @media screen and (min-width: 768px) {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin-left: 18%;
+    margin-right: 18%;
+  }
+
+
 
   .postulation__card {
     width: 200px;
@@ -222,6 +259,9 @@
 } */
 
 /* END acordeon form */
+
+
+
 
 @media screen and (min-width: 768px) {
   .postulation-page {
