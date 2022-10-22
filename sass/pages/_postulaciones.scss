@@ -4,6 +4,7 @@
 
   .container-postulation {
     width: 100%;
+
     .cta-card {
       display: flex;
       justify-content: left;
@@ -33,6 +34,7 @@
         }
       }
     }
+
     .external-form {
       width: 100%;
 
@@ -55,19 +57,188 @@
   }
 }
 
+.postulation__card--container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .postulation__card {
+    width: 200px;
+    height: 397px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px 10px rgba(32, 33, 47, 0.04);
+    border-radius: 8px;
+
+    padding: 20px;
+
+    img {
+      height: 138px;
+    }
+
+    &--time--container {
+      display: flex;
+
+      img {
+        width: 28px;
+        height: 28px;
+      }
+
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        margin-left: 8px;
+
+        color: #33345C;
+
+      }
+
+    }
+
+
+
+    h2 {
+      font-family: 'Nunito';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 36px;
+
+
+      color: #003399;
+
+    }
+
+    .postulation__card--paid__paragraph {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+
+      text-align: center;
+
+      margin-top: 19px;
+      color: #33345C;
+    }
+
+    .postulation__card--header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 28px;
+        /* or 233% */
+
+        display: flex;
+        align-items: center;
+
+        /* Texto - Body */
+
+        color: #33345C;
+      }
+
+      span {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 20px;
+
+        color: #385499;
+
+      }
+    }
+  }
+
+
+  .card--disabled {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+  }
+}
+
+.accordeon-item {
+
+
+  .steps--container {
+    margin: 12px 0;
+
+    span {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 0px;
+
+      text-align: center;
+
+
+      color: #385499;
+
+    }
+
+    p {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 0px;
+      display: flex;
+      text-align: center;
+
+
+      color: #33345C;
+    }
+  }
+
+  .postulation__options--title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+
+    margin-left: 12px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #003399;
+
+  }
+}
+
+/* acordeon form */
+/* .accordeon-content {
+  display: none;
+} */
+
+/* .postulationForm {
+  display: none;
+} */
+
+/* END acordeon form */
+
 @media screen and (min-width: 768px) {
   .postulation-page {
     .container-postulation {
       .cta-card {
         p {
           font-size: 2.5rem;
+
           span {
             font-size: 1.8rem;
           }
         }
       }
+
       .external-form {
         padding: 5% 10%;
+
         div {
           min-width: unset;
         }
@@ -82,11 +253,27 @@
       .cta-card {
         p {
           font-size: 3.2rem;
+
           span {
             font-size: 2.4rem;
           }
         }
       }
+    }
+
+    .postulation__options--title {
+
+      font-size: 20px;
+      line-height: 36px;
+
+      margin-left: 23px;
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: #003399;
+
     }
   }
 }
