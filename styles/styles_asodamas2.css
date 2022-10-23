@@ -354,7 +354,7 @@ a:active {
     padding: 64px 35px;
 }
 
-.flip-card,
+.flip-card-knowledge,
 .flip-card__container {
     display: none;
 }
@@ -377,7 +377,7 @@ a:active {
     cursor: pointer;
 }
 
-.flip-card {
+.flip-card-knowledge {
     position: relative;
     width: 100%;
     height: 100%;
@@ -386,8 +386,8 @@ a:active {
     z-index: 1;
 }
 
-.flip-card .front,
-.flip-card .back {
+.flip-card-knowledge .front,
+.flip-card-knowledge .back {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -397,7 +397,7 @@ a:active {
 
 }
 
-.flip-card .back {
+.flip-card-knowledge .back {
     transform: rotateY(180deg);
     background: #fff;
     -webkit-transform: rotateY(180deg);
@@ -410,7 +410,7 @@ a:active {
     display: none;
 }
 
-:checked+.flip-card {
+:checked+.flip-card-knowledge {
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
@@ -1596,7 +1596,7 @@ color: #385499;
         margin: 0;
     }
 
-    .flip-card {
+    .flip-card-knowledge {
         display: block;
     }
 
