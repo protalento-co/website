@@ -953,6 +953,43 @@ li>.paid__li--icon {
     height: 18.35px;
 }
 
+.match__carousel .slick-dots {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 6rem 0;
+    list-style-type: none;
+}
+
+.match__carousel .slick-dots li {
+    margin: 0 0.25rem;
+}
+
+.match__carousel .slick-dots button {
+    display: block;
+    width: 2rem;
+    height: 1rem;
+    padding: 0;
+    border: none;
+    background-color: #E4E4E4;
+    text-indent: -9999px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.match__carousel .slick-dots li.slick-active button {
+    background-color: #F1AF4D;
+    width: 4rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
 
 
 .match__carousel p {
