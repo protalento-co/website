@@ -1523,6 +1523,24 @@
   }
 }
 
+.maintenance__badge {
+  position: relative;
+  width: 64px;
+  height: 16px;
+  left: 35%;
+  top: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e7ddff;
+  /* opacity: 0.3; */
+  border-radius: 8px;
+  color: #3D1891;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
 .redirection-columns {
   @media (max-width: 768px) {
     flex-direction: column;
