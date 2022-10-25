@@ -307,7 +307,38 @@
     color: #003399;
 
 
+  }
 
+  .postulation__paragraph {
+    span {
+      font-size: 16px;
+      color: $cBlueDark;
+    }
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 1rem;
+
+    color: $cBlueDarker;
+  }
+
+  .postulation_tip {
+    font-size: 16px;
+    max-width: 420px;
+    line-height: 24px;
+    color: #33345C;
+    margin: 5rem auto;
+    padding: 3rem;
+    background: #FFE6D2;
+    border-radius: 8px;
+
+    span {
+      font-weight: 700;
+
+    }
   }
 }
 
@@ -346,6 +377,21 @@
 
         div {
           min-width: unset;
+        }
+
+        .postulation__paragraph {
+          font-family: 'Nunito';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+
+          color: $cBlueDarker;
+
+
+          span {
+            color: #385499;
+          }
         }
       }
     }
