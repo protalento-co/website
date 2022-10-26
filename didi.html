@@ -396,26 +396,38 @@
 
         <!--Tablet Hero-->
         <div class="flexContainer justify-content-center mT-5 tablet-hero line">
-          <div class="mR-10 tablet-hero-block">
-            <h2 class="accordeon-title3 medium-size c-blueDark boxShadow raidus-small pY-2 pX-2 ambassador-hero">como <b
-                class="mobile__hero-text">PROembajador</b></h2>
-            <p class="mT-4 fw-300 mL-1 ambassador-hero-text line-height-b">Generar hasta <b
-                class="fw-600">$3.000.000</b> y tener un <b class="fw-600">ingreso extra.</b></p>
-            <div class="mT-6">
-              <a href="#ambassador" class="btn-didi-hero btn--yellow txt-center"> ¡Sé un PROembajador! </a>
-            </div>
+          <div class="mR-3 tablet-hero-block">
+            <div class="accordeon-title3 medium-size c-blueDark boxShadow raidus-small pY-2 pX-2 ambassador-hero">como 
+              <b class="mobile__hero-text">PROembajador</b>
+                <i class="uil uil-plus-circle"></i>
+                
+                <article class="accordeon-content3">
+                  <p class="medium-size max-width-details-didi c-blueDarker mL-3">
+                    <p class="mT-4 fw-300 mL-1 ambassador-hero-text line-height-b">Generar hasta <b
+                      class="fw-600">$3.000.000</b> y tener un <b class="fw-600">ingreso extra.</b></p>
+                  <div class="mT-6 ">
+                    <a href="#ambassador" class="btn-didi-hero btn--yellow txt-center"> ¡Sé un PROembajador! </a>
+                  </div>
+                  </p>
+                </div>
+                </article>
+            
           </div>
 
           <div class="tablet-hero-block">
-            <h2 class="accordeon-title3 medium-size c-blueDark boxShadow raidus-small pY-2 pX-2 talent-hero">como <b
-                class="mobile__hero-text">Talento</b></h2>
-            <p class="mT-4 fw-300 mL-1 talent-hero-text line-height-b">Aprender las <b class="fw-600">habilidades más
-                demandadas</b> en el mercado laboral y emplearte con un salario inicial de <b
-                class="fw-600">$2.800.000</b></p>
-            <div class="mT-3 mL-2">
-              <a href="#study" class="btn-didi-hero btn-didi-talent bg-white txt-center text-decoration-none"> ¡Sé
-                un Talento! </a>
-            </div>
+            <div class="accordeon-title3 medium-size c-blueDark boxShadow raidus-small pY-2 pX-2 talent-hero">como <b
+                class="mobile__hero-text">Talento</b>
+                <i class="uil uil-plus-circle"></i>
+                <article class="accordeon-content3">
+                  <p class="mT-4 fw-300 mL-1 talent-hero-text line-height-b">Aprender las <b class="fw-600">habilidades más
+                    demandadas</b> en el mercado laboral y emplearte con un salario inicial de <b
+                    class="fw-600">$2.800.000</b></p>
+                <div class="mT-3 mL-2">
+                  <a href="#study" class="btn-didi-hero btn-didi-talent bg-white txt-center text-decoration-none"> ¡Sé
+                    un Talento! </a>
+                </div>
+                </article>
+              </div>
           </div>
         </div>
         <!--Tablet Hero-->
@@ -498,7 +510,7 @@
               <div class="card-header">
                 <div class="flex">
                   <p><span>como</span> PROembajador</p>
-                  <i class="uil uil-plus-circle"></i>
+                  <i class="uil uil-plus-circle uil-plus-circle-mobile"></i>
                 </div>
               </div>
               <div class="card-body">
@@ -511,7 +523,7 @@
               <div class="card-header">
                 <div class="flex">
                   <p><span>como</span> Talento</p>
-                  <i class="uil uil-plus-circle"></i>
+                  <i class="uil uil-plus-circle uil-plus-circle-mobile"></i>
                 </div>
               </div>
               <div class="card-body">
@@ -1750,7 +1762,7 @@
   </footer>
   <!-- footer -->
   <script>
-    const buttons = document.querySelectorAll(".uil-plus-circle");
+    const buttons = document.querySelectorAll(".uil-plus-circle-mobile");
     const cardsBody = document.querySelectorAll(".card-body");
     buttons.forEach((button, index) => {
       button.addEventListener("click", () => {

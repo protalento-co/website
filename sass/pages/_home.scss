@@ -608,6 +608,7 @@
   overflow: hidden;
   opacity: 0;
   transition: all .3s;
+  display: none;
 }
 
 .accordeon-content4 {
@@ -659,6 +660,7 @@
   margin-bottom: 2rem;
   line-height: 1.4;
   opacity: 1;
+  display: block;
 }
 
 .accordeon-content4.active {
@@ -1028,6 +1030,7 @@
 
 .mobile__hero-text {
   font-size: 2.4rem;
+
 }
 
 @media (min-width: 768px) {
@@ -1382,22 +1385,60 @@
 
 @media screen and (min-width: 768px) {}
 
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1024px) {
+  .tablet-hero {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+}
 
 .position-relative {
   position: relative;
 }
 
+
+
 .tablet-hero-block {
   width: 50%;
+  cursor: pointer;
 }
 
 .talent-hero {
-  max-width: 200px;
+  width: 100vw;
+  max-width: 310px;
+
+  i {
+    position: relative;
+    top: 0;
+    left: 1rem;
+    font-size: 3rem;
+
+  }
+
+  @media screen and (min-width: 1024px) {
+    max-width: 420px;
+    margin-top: 1rem;
+  }
 }
 
 .ambassador-hero {
-  max-width: 350px;
+  width: 100vw;
+  max-width: 310px;
+
+  i {
+    position: relative;
+    top: 0;
+    left: 1rem;
+    font-size: 3rem;
+
+  }
+
+
+  @media screen and (min-width: 1024px) {
+    max-width: 420px;
+  }
 }
 
 .talent-hero-text {
