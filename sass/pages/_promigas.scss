@@ -986,11 +986,43 @@ li>.paid__li--icon {
 
 
 
+.promigas--alliances {
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 96px;
+
+    >h2 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+
+        color: #33345C;
+        margin: 0 4rem;
+        align-self: flex-start;
+
+    }
+
+    .alliances__title {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+        /* or 29px */
+
+
+        /* Texto - Body */
+
+        color: #33345C;
+    }
+}
 
 
 .match>h2,
 
-.alliances>h2,
+
 .faq>h2 {
     font-family: 'Nunito';
     font-style: normal;
@@ -1173,6 +1205,7 @@ li>.paid__li--icon {
         font-weight: 700;
         font-size: 24px;
         line-height: 120%;
+        margin-bottom: 48px;
 
         color: #33345C;
 
