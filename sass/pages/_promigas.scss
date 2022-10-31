@@ -6,19 +6,20 @@ a:active {
 
 }
 
-.nav {
+.promigas--nav {
     height: 98px;
     display: flex;
     align-items: center;
     background-color: transparent;
+
+    .nav__box {
+        margin: 0;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
 }
 
-.nav__box {
-    margin: 0;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
 
 .align--vertical--column {
     display: flex;
