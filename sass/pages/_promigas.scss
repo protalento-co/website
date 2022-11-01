@@ -1194,9 +1194,9 @@ li>.paid__li--icon {
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
-        align-self: self-start;
         margin: 0 4rem;
-
+        text-align: left;
+        width: 625px;
 
         color: #33345C;
 
@@ -1205,6 +1205,7 @@ li>.paid__li--icon {
     .details__title {
         font-family: 'Nunito';
         font-style: normal;
+        width: 625px;
         font-weight: 700;
         font-size: 24px;
         line-height: 120%;
@@ -1897,6 +1898,8 @@ color: #385499;
 
         >h2 {
             width: 625px;
+            font-size: 20px;
+            line-height: 150%;
         }
 
         .knowledge__title {
@@ -2066,7 +2069,6 @@ color: #385499;
     }
 
     .match>h2,
-    .promigas--details>h2,
     .alliances>h2,
     .faq>h2 {
         width: 639px;
@@ -2297,7 +2299,6 @@ color: #385499;
 
     .match>h2,
     .promigas-dates>h2,
-    .promigas--details>h2,
     .alliances>h2,
     .faq>h2 {
         margin-top: 96px;
