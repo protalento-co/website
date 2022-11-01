@@ -615,6 +615,8 @@ a:active {
 
 .promigas--paid {
 
+    display: flex;
+    flex-direction: column;
 
     >h2 {
         font-style: normal;
@@ -641,43 +643,80 @@ a:active {
 
     }
 
-    >p {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
 
-        margin: 68px 4rem 0;
-        color: #33345C;
-    }
 
     div {
 
-        height: 216px;
+        height: 446px;
         background: #4267CD;
         padding: 4rem;
 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
         margin-top: 48px;
 
-        >p {
-            width: 213px;
+        >span {
+            font-family: 'Nunito';
             font-style: normal;
             font-weight: 600;
-            font-size: 24px;
-            line-height: 150%;
+            font-size: 18px;
+            line-height: 120%;
+
+
             color: #FFFFFF;
-            display: inline-block;
         }
 
-        /* >img {
-            position: absolute;
-            width: 84.18px;
-            height: 65.57px;
-            left: 223px;
-            top: 5347px;
+        >p {
 
-        } */
+
+
+            width: 255px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 120%;
+            margin-top: 16px;
+
+
+            color: #FFFFFF;
+        }
+
+
+
+        .tip--pro {
+
+            width: 210px;
+            height: 158px;
+
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 150%;
+
+            padding: 32px 24px 32px 25px;
+            text-align: center;
+
+            background: #FFD7BA;
+            border-radius: 8px;
+
+            margin-top: 40px;
+
+
+            color: #33345C;
+
+            /* >img {
+                position: relative;
+                width: 84.18px;
+                height: 65.57px;
+                left: 10px;
+                top: -100px;
+
+                z-index: 1;
+
+            } */
+        }
     }
 }
 
@@ -1014,23 +1053,23 @@ li>.paid__li--icon {
 }
 
 
-.match>h2,
+.promigas--faq {
+    display: flex;
+    flex-direction: column;
 
+    >h2 {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
 
-.faq>h2 {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 28px;
-    /* identical to box height, or 140% */
+        color: #33345C;
 
-    text-align: center;
-
-    color: #385499;
-    margin-top: 64px;
-
+    }
 }
+
+
 
 .match__content {
     /* display: flex;
@@ -1188,7 +1227,7 @@ li>.paid__li--icon {
         line-height: 24px;
         margin: 0 4rem;
         text-align: left;
-        width: 625px;
+
 
         color: #33345C;
 
@@ -1197,7 +1236,6 @@ li>.paid__li--icon {
     .details__title {
         font-family: 'Nunito';
         font-style: normal;
-        width: 625px;
         font-weight: 700;
         font-size: 24px;
         line-height: 120%;
@@ -1246,7 +1284,7 @@ li>.paid__li--icon {
         background: #fff;
 
         height: 94px;
-        /* width: 80vw; */
+        width: 95%;
         max-width: 640px;
         box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.08), 0px 16px 24px rgba(22, 34, 51, 0.08);
         border-radius: 8px;
@@ -1692,10 +1730,25 @@ color: #385499;
 
     .promigas--alliances {
 
-        display: flex;
-        flex-direction: column;
+
         align-items: center;
 
+        >h2 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 150%;
+
+            width: 625px;
+        }
+
+        .alliances__title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            width: 625px;
+        }
 
     }
 
@@ -1995,6 +2048,41 @@ color: #385499;
         display: none;
     } */
 
+
+
+    .promigas--paid {
+
+        align-items: center;
+
+        >h2 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 150%;
+            width: 625px;
+        }
+
+        .paid__title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+        }
+
+        >div {
+            width: 640px;
+            height: 720px;
+            border-radius: 16px;
+
+            .tip--pro {
+
+                padding: 24px 20px;
+                height: 89px;
+                width: 60vw;
+            }
+        }
+    }
+
     .promigas-dates {
 
 
@@ -2060,13 +2148,36 @@ color: #385499;
         margin-right: 26px;
     }
 
-    .match>h2,
+    /* .match>h2,
     .alliances>h2,
     .faq>h2 {
         width: 639px;
         height: 44px;
         font-size: 36px;
         line-height: 44px;
+    } */
+
+    .promigas--faq {
+        align-items: center;
+
+        >h2 {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+
+            width: 625px;
+            margin-top: 80px;
+
+            color: #33345C;
+
+
+        }
+
+        .accordeon {
+            margin: 64px 0;
+        }
     }
 
     .match__tip {
@@ -2096,6 +2207,7 @@ color: #385499;
             font-weight: 400;
             font-size: 20px;
             line-height: 150%;
+            width: 625px;
 
 
             color: #33345C;
@@ -2108,6 +2220,7 @@ color: #385499;
             font-weight: 700;
             font-size: 36px;
             line-height: 44px;
+            width: 625px;
             /* identical to box height, or 122% */
 
 
