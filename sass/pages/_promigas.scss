@@ -382,6 +382,7 @@ a:active {
 
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     .flip-card-knowledge,
     .flip-card__container {
@@ -462,6 +463,7 @@ a:active {
         font-size: 16px;
         line-height: 150%;
         color: #33345C;
+        /* align-self: flex-start; */
     }
 
     .knowledge__title {
@@ -1185,6 +1187,7 @@ li>.paid__li--icon {
 
     display: flex;
     flex-direction: column;
+    align-items: center;
 
 
     >h2 {
@@ -1251,6 +1254,7 @@ li>.paid__li--icon {
 
         height: 94px;
         /* width: 80vw; */
+        max-width: 640px;
         box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.08), 0px 16px 24px rgba(22, 34, 51, 0.08);
         border-radius: 8px;
 
@@ -1294,6 +1298,10 @@ li>.paid__li--icon {
     .details__button {
         align-self: center;
         margin-top: 48px;
+    }
+
+    .programa__container {
+        max-width: 640px;
     }
 
 }
@@ -1861,59 +1869,65 @@ color: #385499;
         margin: 0;
     }
 
-    .flip-card-knowledge {
-        display: block;
-    }
 
-    .flip-card__container {
-        display: block;
-    }
+    .promigas--knowledge {
 
-    .knowledge--card__mobile {
-        display: none;
-    }
+        margin-top: 1123px;
 
-    .knowledge__title {
-        font-size: 36px;
-        line-height: 44px;
-        width: 625px;
-        height: 44px;
-    }
+        .flip-card-knowledge {
+            display: block;
+        }
 
-    .knowledge__paragraph {
-        width: 640px;
-        height: 73px;
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 400;
-    }
+        .flip-card__container {
+            display: block;
+        }
 
-    .knowledge--cards {
-        width: 640px;
-        flex-direction: row;
-    }
+        .knowledge--card__mobile {
+            display: none;
+        }
 
-    .knowledge--card__card {
-        height: 397px;
-    }
+        .knowledge__title {
+            font-size: 36px;
+            line-height: 44px;
+            width: 625px;
+            height: 44px;
+        }
 
-    .knowledge--card__tip {
-        margin-top: 0;
-        width: 171px;
-        height: 146px;
-        padding: 15px 10px 15px 10px;
+        .knowledge__paragraph {
+            width: 640px;
+            height: 73px;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+        }
 
-    }
+        .knowledge--cards {
+            width: 640px;
+            flex-direction: row;
+        }
 
-    .knowledge--cards>div:not(:last-child) {
-        margin-right: 10px;
-    }
+        .knowledge--card__card {
+            height: 397px;
+        }
 
-    .knowledge__button {
-        margin-top: 48px;
-        width: 200px;
-        height: 48px;
+        .knowledge--card__tip {
+            margin-top: 0;
+            width: 171px;
+            height: 146px;
+            padding: 15px 10px 15px 10px;
 
+        }
+
+        .knowledge--cards>div:not(:last-child) {
+            margin-right: 10px;
+        }
+
+        .knowledge__button {
+            margin-top: 48px;
+            width: 200px;
+            height: 48px;
+
+        }
     }
 
 
@@ -2068,20 +2082,50 @@ color: #385499;
         margin-right: 47px;
     } */
 
-    .details__icons--container {
-        display: flex;
-        width: 640px;
-        max-width: 640px;
+    .promigas--details {
+
+        >h2 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 150%;
+
+
+            color: #33345C;
+
+        }
+
+        .details__title {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            /* identical to box height, or 122% */
+
+
+            /* Texto - Body */
+
+            color: #33345C;
+        }
+
+        .details__icons--container {
+            display: flex;
+            width: 640px;
+
+        }
+
+        .details_card--result {
+            width: 640px;
+            background: #FFFFFF;
+        }
+
+        .programa__container+a.buttons__button--1 {
+            margin-top: 64px;
+        }
     }
 
-    .details_card--result {
-        width: 640px;
-        background: #FFFFFF;
-    }
 
-    .programa__container+a.buttons__button--1 {
-        margin-top: 64px;
-    }
 
 
 }
