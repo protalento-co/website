@@ -1697,6 +1697,15 @@ color: #385499;
     margin-left: auto; */
     }
 
+    .promigas--alliances {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
     .alliances__card {
         width: 640px;
         height: 302px;
@@ -1884,6 +1893,10 @@ color: #385499;
 
         .knowledge--card__mobile {
             display: none;
+        }
+
+        >h2 {
+            width: 625px;
         }
 
         .knowledge__title {
@@ -2292,6 +2305,16 @@ color: #385499;
 
     .programa__container+a.buttons__button--1 {
         margin-top: 64px;
+    }
+
+    .promigas--knowledge {
+        margin-top: 540px;
+        background-color: #fff;
+
+        .knowledge--card__card {
+            box-shadow: 0px 4px 15px 10px rgba(0, 0, 0, 0.04);
+        }
+
     }
 
 }
