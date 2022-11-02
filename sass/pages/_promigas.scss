@@ -83,11 +83,29 @@ a:active {
 }
 
 .promigas--main {
-    height: 500px;
+    height: 636px;
     width: 100%;
     background-color: #514EBC;
     padding: 45px 30px 48px 30px;
     margin-top: 98px;
+
+    .main__logos {
+        margin-top: 25px;
+
+
+
+        img {
+            width: 70px;
+            object-fit: contain;
+            margin-right: 3px;
+
+            &:last-child {
+                width: 90px;
+                margin-bottom: 5px;
+            }
+        }
+
+    }
 
     .main__design--pattern {
         position: absolute;
@@ -145,7 +163,7 @@ a:active {
     width: 56px;
     height: 49.18px;
     left: 49px;
-    top: 870px;
+    top: 980px;
 }
 
 
@@ -225,7 +243,7 @@ a:active {
     width: 80%;
     /* height: 805px; */
     left: 10%;
-    top: 929px;
+    top: 1063px;
     background: #FFFFFF;
     box-shadow: 0px 4px 8px rgba(53, 105, 128, 0.3);
     border-radius: 8px;
@@ -255,7 +273,7 @@ a:active {
     justify-content: center;
     height: 126px;
     position: absolute;
-    top: 1892px;
+    top: 2016px;
 
     .logos-n {
 
@@ -375,6 +393,8 @@ a:active {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+
 
     .flip-card-knowledge,
     .flip-card__container {
@@ -560,6 +580,10 @@ a:active {
 
         color: #33345C;
 
+        a {
+            color: #4267CD;
+        }
+
     }
 
     .knowledge__button {
@@ -617,6 +641,7 @@ a:active {
 
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     >h2 {
         font-style: normal;
@@ -645,10 +670,10 @@ a:active {
 
 
 
-    div {
+    .promigas--paid__card {
 
-        height: 446px;
-        background: #4267CD;
+        height: 1526px;
+        background: #fff;
         padding: 4rem;
 
         display: flex;
@@ -657,66 +682,90 @@ a:active {
 
         margin-top: 48px;
 
-        >span {
-            font-family: 'Nunito';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 18px;
-            line-height: 120%;
+        >div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            >p {
 
 
-            color: #FFFFFF;
+
+                width: 255px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 120%;
+                margin-top: 16px;
+
+
+                color: #33345C;
+            }
+
+
+
+            .tip--pro {
+
+                width: 210px;
+                height: 158px;
+
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 150%;
+
+                padding: 32px 24px 32px 25px;
+                text-align: center;
+
+                background: #FFD7BA;
+                border-radius: 8px;
+
+                margin-top: 40px;
+
+
+                color: #33345C;
+
+
+            }
+
+
         }
 
-        >p {
+        .promigas--paid__content {
+
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column;
+
+            li {
+                display: flex;
+                align-items: flex-start;
+
+                img {
+                    width: 12.97px;
+                    margin: 10px 22px 0 0;
+                }
+
+                >p {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 28px;
+                    margin-bottom: 24px;
 
 
 
-            width: 255px;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 32px;
-            line-height: 120%;
-            margin-top: 16px;
 
+                    color: #33345C;
 
-            color: #FFFFFF;
+                    span {
+                        font-size: 14px;
+                    }
+                }
+            }
         }
 
 
-
-        .tip--pro {
-
-            width: 210px;
-            height: 158px;
-
-            font-style: normal;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 150%;
-
-            padding: 32px 24px 32px 25px;
-            text-align: center;
-
-            background: #FFD7BA;
-            border-radius: 8px;
-
-            margin-top: 40px;
-
-
-            color: #33345C;
-
-            /* >img {
-                position: relative;
-                width: 84.18px;
-                height: 65.57px;
-                left: 10px;
-                top: -100px;
-
-                z-index: 1;
-
-            } */
-        }
     }
 }
 
@@ -1760,7 +1809,7 @@ color: #385499;
 
     .promigas--main {
         width: 91.6%;
-        height: 414px;
+        height: 517px;
         border-radius: 0 50px 50px 0;
         -webkit-border-radius: 0 50px 50px 0;
         -moz-border-radius: 0 50px 50px 0;
@@ -2054,6 +2103,8 @@ color: #385499;
 
         align-items: center;
 
+
+
         >h2 {
             font-style: normal;
             font-weight: 400;
@@ -2069,18 +2120,41 @@ color: #385499;
             line-height: 44px;
         }
 
-        >div {
+        .promigas--paid__card {
             width: 640px;
-            height: 720px;
+            height: 1010px;
             border-radius: 16px;
+            padding: 6rem;
 
-            .tip--pro {
+            box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.08), 0px 16px 24px rgba(22, 34, 51, 0.08);
 
-                padding: 24px 20px;
-                height: 89px;
-                width: 60vw;
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            >div {
+                /* height: 154px; */
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+
+
+
+
+                .tip--pro {
+
+                    padding: 24px 20px;
+                    width: 223px;
+                    height: 154px;
+                    margin-top: 0;
+                }
             }
+
         }
+
     }
 
     .promigas-dates {
@@ -2301,6 +2375,8 @@ color: #385499;
             top: 271px;
         }
 
+
+
         /* .main__container--items {
             margin: 90px 59px 0 0;
         }
@@ -2372,11 +2448,13 @@ color: #385499;
         position: absolute;
         /* left: 10%; */
         top: 1098px;
+        background-color: #F2F6FA;
 
 
         .logos-n {
             overflow: hidden;
-            width: 100vw;
+            /* width: 100vw; */
+
             background-color: #F2F6FA;
 
             >div {
