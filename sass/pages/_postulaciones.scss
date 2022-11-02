@@ -38,6 +38,7 @@
     .external-form {
       width: 100%;
 
+
       margin-bottom: 50px;
       padding: 5%;
 
@@ -46,6 +47,11 @@
 
       div {
         min-width: 320px;
+      }
+
+      .postulacion--calendar {
+        /* height: 1000px; */
+        width: 100%;
       }
 
       &.calendar {
