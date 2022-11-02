@@ -54,7 +54,7 @@
     <script src="js/ChangeInfoliPromigas.js" defer></script>
     <script src="js/acordeon.js" defer></script>
     <script src="js/btnHelp.js" defer></script>
-    <script src="js/readMore.js" defer></script>
+    <!-- <script src="js/readMore.js" defer></script> -->
     <script src="js/transparentNav.js" defer></script>
     <!-- script -->
     <title>PROtalento | Promigas</title>
@@ -1306,7 +1306,7 @@
             beca aquí
           </div>
         </div>
-        <div class="promigas--paid__content">
+        <div class="promigas--paid__content" data-company="promigas--paid">
           <ul>
             <li>
               <img
@@ -1344,6 +1344,7 @@
               </p>
             </li>
           </ul>
+          <span id="dots"></span>
           <ul id="more">
             <li>
               <img
@@ -1378,8 +1379,20 @@
                 la formación.
               </p>
             </li>
+            <a href="#form" class="buttons__button--2">¡Postúlate!</a>
           </ul>
-          <a href="#form" class="buttons__button--2">¡Postúlate!</a>
+          <div
+            class="arrow paid__card--button"
+            onclick="readMore('promigas--paid')"
+            id="myBtn"
+          >
+            <img
+              class="arrow"
+              id="arrow"
+              src="https://res.cloudinary.com/protalento/image/upload/v1663796521/Website/PROtalento/Generales/Vector_i2zyag.svg"
+              alt="arrow"
+            />
+          </div>
         </div>
       </div>
     </section>
@@ -1999,6 +2012,34 @@
       </div>
     </footer>
     <!-- footer -->
+
+    <script>
+      function readMore(company) {
+        let dots = document.querySelector(
+          `.promigas--paid__content[data-company="${company}"] #dots`
+        );
+        let moreText = document.querySelector(
+          `.promigas--paid__content[data-company="${company}"] #more`
+        );
+        let btnText = document.querySelector(
+          `.promigas--paid__content[data-company="${company}"] #myBtn`
+        );
+
+        /*  console.log(dots);
+ console.log(moreText);
+ console.log(btnText); */
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          /* btnText.innerHTML = "Ver más"; */
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          /* btnText.innerHTML = "Ver menos"; */
+          moreText.style.display = "inline";
+        }
+      }
+    </script>
     <script>
       const itemsNav = document.querySelectorAll(".item-nav");
 
