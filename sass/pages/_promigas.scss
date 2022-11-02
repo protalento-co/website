@@ -785,13 +785,14 @@ a:active {
 
         #myBtn {
 
+            cursor: pointer;
+
             .arrow {
 
                 margin: 0;
             }
 
             img {
-
 
                 transform: rotate(90deg);
                 -webkit-transform: rotate(90deg);
