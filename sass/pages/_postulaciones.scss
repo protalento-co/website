@@ -5,6 +5,16 @@
   .container-postulation {
     width: 100%;
 
+    >p {
+      span {
+        font-style: italic;
+      }
+
+      a {
+        color: #F1AF4D;
+      }
+    }
+
     .cta-card {
       display: flex;
       justify-content: left;
@@ -373,6 +383,8 @@
 @media screen and (min-width: 768px) {
   .postulation-page {
     .container-postulation {
+
+
       .cta-card {
         p {
           font-size: 2.5rem;
