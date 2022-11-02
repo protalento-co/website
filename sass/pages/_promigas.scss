@@ -1119,7 +1119,7 @@ li>.paid__li--icon {
 
         color: #33345C;
         margin: 0 4rem;
-        align-self: flex-start;
+        /* align-self: flex-start; */
 
     }
 
@@ -1863,6 +1863,19 @@ color: #385499;
             width: 44px;
             right: 15%;
             top: 206px;
+        }
+
+        .main__logos {
+            img {
+                width: 100px;
+
+                &:last-child {
+                    width: 120px;
+                    margin-bottom: 5px;
+                }
+            }
+
+
         }
     }
 
