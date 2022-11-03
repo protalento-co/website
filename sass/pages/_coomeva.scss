@@ -55,11 +55,15 @@ a:active {
 }
 
 .coomeva--main {
-    height: 592px;
+    height: 620px;
     width: 100%;
     background-color: #381A8B;
     padding: 35px 30px 48px 30px;
     margin-top: 98px;
+
+    .hero-logo {
+        width: 150px;
+    }
 
     .main__design--pattern {
         position: absolute;
@@ -79,7 +83,7 @@ a:active {
 
     .main__items {
         display: flex;
-        margin-top: 40px;
+        /* margin-top: 40px; */
 
         >h3 {
             font-style: normal;
@@ -1403,7 +1407,7 @@ a:active {
 
     .coomeva--main {
         width: 91.6%;
-        height: 414px;
+        height: 595px;
         border-radius: 0 50px 50px 0;
         -webkit-border-radius: 0 50px 50px 0;
         -moz-border-radius: 0 50px 50px 0;
@@ -1416,7 +1420,7 @@ a:active {
         margin-top: 168px;
 
         .main__container--items {
-            margin-top: 28px;
+            /* margin-top: 28px; */
         }
 
         .main__items {
@@ -1505,13 +1509,13 @@ a:active {
         position: absolute;
         width: 50%;
         left: 25%;
-        top: 736px;
+        top: 919px;
     }
 
     .coomeva--logos--cont {
         position: absolute;
         left: 0;
-        top: 1628px;
+        top: 1797px;
 
         .logos-n {
 
@@ -1840,7 +1844,7 @@ a:active {
 
     .coomeva--main {
         width: 50.9%;
-        height: 795px;
+        height: 855px;
         margin-top: 115px;
         padding-top: 30px;
         margin-top: 202px;
@@ -1853,7 +1857,7 @@ a:active {
         }
 
         .main__container--items {
-            margin: 58px 59px 0 0;
+            margin: 0 59px 0 0;
         }
 
         >h1 {
