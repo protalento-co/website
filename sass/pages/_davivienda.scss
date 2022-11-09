@@ -578,6 +578,8 @@ a:active {
 
 .davivienda--paid {
 
+    margin-top: 476px;
+
     background: #F2F6FA;
     padding: 64px 35px 35px;
 
@@ -785,9 +787,9 @@ a:active {
 /* END slide paid */
 
 
-.coomeva--dates {
+.davivienda--dates {
     .dates__card {
-        width: 260px;
+        /* width: 260px; */
         margin-bottom: 48px;
         padding: 32px 24px;
 
@@ -847,8 +849,8 @@ a:active {
     }
 
     .dates_date--button {
-        width: 212px;
-        height: 44px;
+        /* width: 212px;
+        height: 44px; */
 
         background: #506FC5;
         border-radius: 12px;
@@ -1657,6 +1659,7 @@ a:active {
     }
 
     .davivienda--paid {
+        margin-top: 1265px;
         padding: 64px 0px 35px;
 
         .paid__title {
@@ -1716,6 +1719,8 @@ a:active {
     .dates__card {
         width: 640px;
         height: 201px;
+        display: flex;
+        justify-content: center;
 
     }
 
@@ -1726,7 +1731,7 @@ a:active {
     }
 
     .dates_date--button {
-        width: 189px;
+        width: 495px;
         height: 40px;
         margin: 0px;
     }
@@ -1955,6 +1960,9 @@ a:active {
 
 
     .davivienda--paid {
+
+        margin-top: 476px;
+
         .paid__cards--container {
             align-self: flex-start;
             justify-content: center;
@@ -1976,7 +1984,7 @@ a:active {
 
 
     .coomeva--match>h2,
-    .coomeva--dates>h2,
+    .davivienda--dates>h2,
     .coomeva--details>h2,
     .coomeva--alliances>h2,
     .coomeva--faq>h2 {
