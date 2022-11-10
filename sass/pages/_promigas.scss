@@ -1355,13 +1355,23 @@ li>.paid__li--icon {
         /* max-width: 260px; */
         margin: 1.5rem;
 
+
+
+
         .details__icons {
+            position: relative;
             width: 79px;
             display: flex;
             flex-direction: column;
             align-items: center;
+            cursor: pointer;
+
+            >img {
+                pointer-events: none;
+            }
 
             h3 {
+                pointer-events: none;
                 width: 79px;
                 height: 30px;
 
@@ -1380,6 +1390,41 @@ li>.paid__li--icon {
 
             }
         }
+    }
+
+    #marker {
+        position: relative;
+        left: 40%;
+        height: 4px;
+        width: 0px;
+        background: #4267CD;
+        bottom: -8px;
+        border-radius: 4px;
+        z-index: 1;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+
+
+        align-self: flex-start;
+    }
+
+    #markerBackground {
+        position: relative;
+        left: 0;
+        top: 4px;
+        height: 4px;
+        width: 90%;
+        max-width: 640px;
+        background: #C3D6F9;
+        bottom: -8px;
+        border-radius: 4px;
     }
 
     .details_card {
@@ -2376,7 +2421,15 @@ color: #385499;
 
         .details__icons--container {
             display: flex;
-            width: 640px;
+            max-width: 640px;
+
+            .details__icons {
+                width: 200px;
+
+                >h3 {
+                    width: 100%;
+                }
+            }
 
         }
 
@@ -2387,6 +2440,18 @@ color: #385499;
 
         .programa__container+a.buttons__button--1 {
             margin-top: 64px;
+        }
+
+        #markerBackground {
+            position: relative;
+            left: 0;
+            top: 4px;
+            height: 4px;
+            width: 100%;
+            max-width: 640px;
+            background: #C3D6F9;
+            bottom: -8px;
+            border-radius: 4px;
         }
     }
 
