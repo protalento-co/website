@@ -755,7 +755,7 @@ li>.paid__li--icon {
 .paid__prev--arrow {
     position: absolute;
     top: 95%;
-    right: 110px;
+    left: 45%;
     z-index: 1;
     cursor: pointer;
     height: 40px;
@@ -770,7 +770,7 @@ li>.paid__li--icon {
 .paid__next--arrow {
     position: absolute;
     top: 95%;
-    right: 60px;
+    left: 50%;
     z-index: 1;
     cursor: pointer;
     height: 40px;
