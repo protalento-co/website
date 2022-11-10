@@ -273,6 +273,11 @@ a:active {
 
 
 
+.davivienda--programas {
+    margin-top: 450px;
+}
+
+
 
 
 .coomeva--developers {
@@ -579,7 +584,7 @@ a:active {
 
 .davivienda--paid {
 
-    margin-top: 476px;
+    /* margin-top: 476px; */
 
     background: #F2F6FA;
     padding: 64px 35px 35px;
@@ -618,6 +623,8 @@ a:active {
     .paid__paragraph {
         width: 255px;
         height: 117px;
+
+        text-align: center;
 
         font-style: normal;
         font-weight: 400;
@@ -1542,6 +1549,9 @@ a:active {
     }
 
 
+    .davivienda--programas {
+        margin-top: 1233px;
+    }
 
 
 
@@ -1665,7 +1675,7 @@ a:active {
     }
 
     .davivienda--paid {
-        margin-top: 1265px;
+        /* margin-top: 1265px; */
         padding: 64px 0px 35px;
 
         .paid__title {
@@ -1682,13 +1692,22 @@ a:active {
 
         .paid__cards--container {
             display: flex;
-            padding: 50px 0px;
+            /* padding: 50px 0px; */
         }
 
         .paid__card {
-            width: 281px;
+            width: 100%;
+            max-width: 640px;
             height: 470px;
             margin: 0 11px 0;
+
+            .paid__header img {
+                width: 110px;
+                height: 90px;
+                border-radius: 8px;
+                object-fit: contain;
+                margin-right: 14.69px;
+            }
         }
 
         .paid__li--tip {
@@ -1944,7 +1963,7 @@ a:active {
         height: 126px;
         position: absolute;
         /* left: 10%; */
-        top: 1301px;
+        top: 1183px;
 
 
         .logos-n {
@@ -1965,9 +1984,14 @@ a:active {
     }
 
 
+    .davivienda--programas {
+        margin-top: 345px;
+    }
+
+
     .davivienda--paid {
 
-        margin-top: 476px;
+        /* margin-top: 476px; */
 
         .paid__cards--container {
             align-self: flex-start;
@@ -1975,13 +1999,9 @@ a:active {
             width: 100%;
         }
 
-        .paid__card {
-            width: 310px;
-            /* max-width: 640px; */
-            height: 467px;
-
-
-            margin: 0 11px 0;
+        .paid__card--content {
+            display: flex;
+            justify-content: center;
         }
     }
 
