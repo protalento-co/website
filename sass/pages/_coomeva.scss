@@ -1475,6 +1475,17 @@ a:active {
 
     }
 
+    .coomeva--customer-logos {
+        .slick-track {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .slick-slide img {
+            display: unset;
+        }
+    }
 
 
 

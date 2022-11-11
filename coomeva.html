@@ -647,17 +647,17 @@
     <div class="coomeva--decoration">
       <div class="decoration__pattern--container align--vertical--column">
         <img
-          src="https://res.cloudinary.com/protalento/image/upload/v1665689401/Website/PROtalento/Generales/mem_dots_square_ckluu0.svg"
+          src="https://res.cloudinary.com/protalento/image/upload/v1668194919/Website/PROtalento/Convocatorias/Coomeva/Group_2375_pxzcgr.svg"
           alt="dacoration-pattern"
           class="decoration__pattern"
         />
         <img
-          src="https://res.cloudinary.com/protalento/image/upload/v1665689401/Website/PROtalento/Generales/mem_dots_square_ckluu0.svg"
+          src="https://res.cloudinary.com/protalento/image/upload/v1668194919/Website/PROtalento/Convocatorias/Coomeva/Group_2375_pxzcgr.svg"
           alt="dacoration-pattern"
           class="decoration__pattern"
         />
         <img
-          src="https://res.cloudinary.com/protalento/image/upload/v1665689401/Website/PROtalento/Generales/mem_dots_square_ckluu0.svg"
+          src="https://res.cloudinary.com/protalento/image/upload/v1668194919/Website/PROtalento/Convocatorias/Coomeva/Group_2375_pxzcgr.svg"
           alt="dacoration-pattern"
           class="decoration__pattern"
         />
@@ -680,7 +680,62 @@
       </script>
       <!-- End form embed -->
     </div>
-    <div class="coomeva--logos--cont">
+    <div class="mT-10">
+      <div class="coomeva--customer-logos">
+        <!-- box -->
+        <div class="aliados__box radius-smaller txt-center pX-3 pY-2">
+          <div>
+            <img
+              src="https://res.cloudinary.com/protalento/image/upload/v1666840064/Website/PROtalento/Convocatorias/Coomeva/Logo_Coomeva_color_stux8m.png"
+              alt=""
+              class="aliados__img"
+            />
+            <h2 class="small-size mT-2">FINANCIADOR</h2>
+          </div>
+        </div>
+        <!-- box -->
+
+        <!-- box -->
+        <div class="aliados__box radius-smaller txt-center pX-3 pY-2">
+          <div>
+            <img
+              src="https://res.cloudinary.com/protalento/image/upload/f_auto/v1663198391/Website/PROtalento/Convocatorias/Recurso_1_1_wr46ps.png"
+              alt=""
+              class="aliados__img"
+            />
+            <h2 class="small-size mT-2">BOOTCAMP TECH</h2>
+          </div>
+        </div>
+        <!-- box -->
+
+        <!-- box -->
+        <div class="aliados__box radius-smaller txt-center pX-3 pY-2">
+          <div>
+            <img
+              src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1665759936/Website/PROtalento/Convocatorias/logo-English4Tech_kbw6s9.png"
+              alt=""
+              class="aliados__img"
+            />
+            <h2 class="small-size mT-2">BOOTCAMP INGLES</h2>
+          </div>
+        </div>
+        <!-- box -->
+
+        <!-- box -->
+        <div class="aliados__box radius-smaller txt-center pX-3 pY-2">
+          <div>
+            <img
+              src="https://res.cloudinary.com/protalento/image/upload/v1660170117/Website/PROtalento/Convocatorias/Protalento-logoazul-_3x_2_bmzjqb_zrzdme.svg"
+              alt=""
+              class="aliados__img"
+            />
+            <h2 class="small-size mT-2">BOOTCAMP EMPLEABILIDAD</h2>
+          </div>
+        </div>
+        <!-- box -->
+      </div>
+    </div>
+    <!-- <div class="coomeva--logos--cont">
       <div class="logos-n">
         <div>
           <img
@@ -711,26 +766,8 @@
           <h2>BOOTCAMP EMPLEABILIDAD</h2>
         </div>
       </div>
-    </div>
-    <!-- <section class="coomeva--developers">
-      <h2>¿Por qué las empresas buscan Desarrolladores Web Full Stack?</h2>
-      <div class="developers__separator"></div>
-      <div class="developers__content">
-        <img
-          src="https://res.cloudinary.com/protalento/image/upload/v1665700214/Website/PROtalento/Convocatorias/Asodamas/smiling-couple-using-tablet-pc_q5fpox.png"
-          alt="image-developers"
-          class="developers__image"
-        />
-        <div class="developers__internal--content">
-          <p>
-            ¡Dato Curioso! Los desarrolladores Full Stack son de los perfiles
-            profesionales más buscados y mejor pagados en la actualidad por las
-            empresas.
-          </p>
-          <a href="#form" class="coomeva--buttons__button--1">¡Postúlate!</a>
-        </div>
-      </div>
-    </section> -->
+    </div> -->
+
     <section class="coomeva--knowledge align--vertical--column">
       <h2 class="knowledge__title">¿Qué debes saber del programa?</h2>
       <div class="knowledge__separator"></div>
@@ -1877,6 +1914,33 @@
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="slick/slick.min.js"></script>
+
+    <script>
+      $(".coomeva--customer-logos").slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 500,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
+    </script>
     <script>
       $(".carusel--paid").slick({
         dots: true,
