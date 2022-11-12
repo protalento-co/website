@@ -63,7 +63,6 @@ a:active {
 .coomeva--main {
     height: 583px;
     width: 100%;
-    /* background-color: #381A8B; */
     padding: 35px 30px 48px 30px;
     margin-top: 98px;
 
@@ -83,6 +82,15 @@ a:active {
         width: 44px;
         right: 10%;
         top: 146.63px;
+    }
+
+    >h2 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #4267CD;
+        align-self: start;
     }
 
     >h1 {
@@ -378,6 +386,34 @@ a:active {
     padding: 64px 35px;
     margin-top: 96px;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    >h2 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #4267CD;
+        align-self: start;
+    }
+
+    .knowledge__title {
+        height: 52px;
+
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+        align-self: start;
+
+
+
+        color: #33345C;
+    }
+
     .flip-card-knowledge,
     .flip-card__container {
         display: none;
@@ -451,38 +487,15 @@ a:active {
     /* END Flip card */
 
 
-    .knowledge__title {
-        width: 256px;
-        height: 52px;
 
-        font-family: 'Nunito';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 28px;
-        /* or 140% */
 
-        text-align: center;
 
-        color: #33345C;
-    }
-
-    .knowledge__separator {
-        width: 40px;
-        height: 0px;
-        border: 2px solid #fff;
-        margin: 16px 0 51px;
-
-        border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
-    }
 
     .knowledge__paragraph {
         width: 255px;
         height: 192px;
+
+        margin-top: 51px;
 
         font-style: normal;
         font-weight: 400;
@@ -612,22 +625,29 @@ a:active {
     background: #F2F6FA;
     padding: 64px 35px 35px;
 
-    .paid__paragraph>span {
-        font-weight: 600;
+
+
+
+
+    >h2 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #4267CD;
+        align-self: start;
     }
 
     .paid__title {
         font-family: 'Nunito';
         font-style: normal;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 28px;
-        /* or 140% */
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
 
         text-align: center;
 
-        color: #385499;
-
+        color: #33345C;
     }
 
     .paid__separator {
@@ -651,9 +671,15 @@ a:active {
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
-        margin-bottom: 48px;
+        margin: 68px 0 48px;
 
         color: #33345C;
+
+
+        >span {
+            font-weight: 600;
+
+        }
 
     }
 
@@ -775,7 +801,37 @@ a:active {
 }
 
 
+.coomeva--alliances {
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 96px 35px 0;
+
+    >h2 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #4267CD;
+        align-self: start;
+    }
+
+    .alliances__title {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+        /* or 29px */
+
+
+        /* Texto - Body */
+
+        color: #33345C;
+    }
+}
 
 
 
@@ -919,23 +975,38 @@ a:active {
     background: #381A8B;
 }
 
-.coomeva--match>h2,
-.coomeva--details>h2,
-.coomeva--alliances>h2,
-.coomeva--faq>h2 {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 28px;
-    /* identical to box height, or 140% */
+.coomeva--faq {
 
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 35px 35px;
+    background: #F2F6FA;
 
-    color: #385499;
-    margin-top: 64px;
+    .faq__title {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+        align-self: start;
 
+
+
+        color: #33345C;
+
+    }
+
+    .accordeon {
+        margin: 6rem 0;
+
+        .accordeon-item {
+            margin: 1.5rem 0;
+        }
+    }
 }
+
+
 
 .coomeva--match {
 
@@ -1094,6 +1165,37 @@ a:active {
     background: #fff;
     padding-bottom: 60px;
 
+    padding-top: 96px;
+
+
+    >h2 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0 4rem;
+        /* text-align: left; */
+        align-self: start;
+
+
+        color: #4267CD;
+
+    }
+
+    .details__title {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+        margin-bottom: 48px;
+
+        color: #33345C;
+
+        text-align: left;
+    }
+
+
+
     .details__icons--container {
         display: flex;
         justify-content: space-around;
@@ -1169,7 +1271,7 @@ a:active {
     .details_card--number {
         height: 24px;
         width: 24px;
-        background: #00A7A7;
+        background: #4267CD;
         font-size: 14px;
         color: #FFFFFF;
         border-radius: 50%;
@@ -1659,11 +1761,23 @@ a:active {
             display: none;
         }
 
+        >h2 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            width: 625px;
+            line-height: 150%;
+            color: #4267CD;
+            align-self: center;
+
+        }
+
         .knowledge__title {
             font-size: 36px;
             line-height: 44px;
             width: 625px;
             height: 44px;
+            align-self: center;
         }
 
         .knowledge__paragraph {
@@ -1728,11 +1842,23 @@ a:active {
     .coomeva--paid {
         padding: 64px 0px 35px;
 
+        >h2 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            width: 625px;
+            line-height: 150%;
+            color: #4267CD;
+            align-self: center;
+
+        }
+
         .paid__title {
             width: 639px;
             height: 44px;
             font-size: 36px;
             line-height: 44px;
+            text-align: left;
         }
 
         .paid__paragraph {
@@ -1842,15 +1968,7 @@ a:active {
 
 
 
-    .coomeva--match>h2,
-    .coomeva--details>h2,
-    .coomeva--alliances>h2,
-    .coomeva--faq>h2 {
-        width: 639px;
-        height: 44px;
-        font-size: 36px;
-        line-height: 44px;
-    }
+
 
     .match__tip {
         width: 420px;
@@ -1874,6 +1992,30 @@ a:active {
 
 
     .coomeva--details {
+
+        >h2 {
+            font-weight: 400;
+            font-size: 16px;
+            width: 640px;
+            line-height: 24px;
+            margin: 0 4rem;
+            /* text-align: left; */
+            align-self: center;
+
+
+            color: #4267CD;
+
+        }
+
+        .details__title {
+            font-weight: 700;
+            font-size: 36px;
+            width: 640px;
+            line-height: 44px;
+
+            color: #33345C;
+
+        }
 
         .details__icons--container {
             display: flex;
@@ -2064,13 +2206,7 @@ a:active {
 
 
 
-    .coomeva--match>h2,
-    .coomeva--dates>h2,
-    .coomeva--details>h2,
-    .coomeva--alliances>h2,
-    .coomeva--faq>h2 {
-        margin-top: 96px;
-    }
+
 
     .programa__container+a.coomeva--buttons__button--1 {
         margin-top: 64px;
