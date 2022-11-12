@@ -147,7 +147,7 @@ a:active {
     line-height: 18px;
     letter-spacing: 1px;
     color: #3D1891;
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
     -webkit-border-radius: 24px;
     -moz-border-radius: 24px;
     -ms-border-radius: 24px;
@@ -181,7 +181,7 @@ a:active {
 .coomeva--decoration {
     height: 747px;
     background: #fff;
-    padding-top: 41px;
+    padding-top: 145px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -198,7 +198,7 @@ a:active {
     position: absolute;
     width: 80%;
     left: 10%;
-    top: 1500px;
+    top: 1515px;
     background: #FFFFFF;
     box-shadow: 0px 4px 8px rgba(53, 105, 128, 0.3);
     border-radius: 8px;
@@ -280,6 +280,23 @@ a:active {
 
 }
 
+.coomeva--customer-logos {
+
+    margin-top: 415px;
+    color: #7B7E9D;
+
+
+    .slick-track {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .slick-slide img {
+        display: unset;
+    }
+}
+
 
 
 
@@ -355,10 +372,11 @@ a:active {
 
 
 .coomeva--knowledge {
-    background: #506FC5;
+    background: #F2F6FA;
+
 
     padding: 64px 35px;
-    margin-top: 430px;
+    margin-top: 96px;
 
     .flip-card-knowledge,
     .flip-card__container {
@@ -446,7 +464,7 @@ a:active {
 
         text-align: center;
 
-        color: #FFFFFF;
+        color: #33345C;
     }
 
     .knowledge__separator {
@@ -473,7 +491,7 @@ a:active {
         /* or 150% */
 
 
-        color: #FFFFFF;
+        color: #33345C;
     }
 
 
@@ -492,6 +510,8 @@ a:active {
         -moz-border-radius: 8px;
         -ms-border-radius: 8px;
         -o-border-radius: 8px;
+
+        box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.08), 0px 16px 24px rgba(22, 34, 51, 0.08);
     }
 
     .knowledge--card__title {
@@ -1071,7 +1091,7 @@ a:active {
 
 
 .coomeva--details {
-    background: #F2F6FA;
+    background: #fff;
     padding-bottom: 60px;
 
     .details__icons--container {
@@ -1086,6 +1106,10 @@ a:active {
             display: flex;
             flex-direction: column;
             align-items: center;
+
+            >img {
+                pointer-events: none;
+            }
 
             h3 {
                 width: 79px;
@@ -1114,7 +1138,7 @@ a:active {
     }
 
     .details_card {
-        background: #F2F6FA;
+        background: #fff;
 
         height: 94px;
         /* width: 80vw; */
@@ -1167,6 +1191,41 @@ a:active {
         width: 182px;
         color: #20212F;
         margin-left: 10px;
+    }
+
+    #marker {
+        position: relative;
+        left: 40%;
+        height: 4px;
+        width: 0px;
+        background: #4267CD;
+        bottom: -8px;
+        border-radius: 4px;
+        z-index: 1;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+
+
+        align-self: flex-start;
+    }
+
+    #markerBackground {
+        position: relative;
+        left: 0;
+        top: 4px;
+        height: 4px;
+        width: 90%;
+        max-width: 640px;
+        background: #C3D6F9;
+        bottom: -8px;
+        border-radius: 4px;
     }
 
 
@@ -1475,17 +1534,7 @@ a:active {
 
     }
 
-    .coomeva--customer-logos {
-        .slick-track {
-            display: flex;
-            align-items: center;
-            gap: 2rem;
-        }
 
-        .slick-slide img {
-            display: unset;
-        }
-    }
 
 
 
@@ -1830,7 +1879,18 @@ a:active {
             display: flex;
             width: 640px;
             max-width: 640px;
+
+            .details__icons {
+                width: 200px;
+
+                >h3 {
+                    width: 100%;
+                }
+            }
         }
+
+
+
 
         .details_card--result {
             width: 640px;
@@ -1841,14 +1901,26 @@ a:active {
             margin-top: 64px;
         }
 
-        .details_card h3 {
+        /* .details_card h3 {
             font-weight: 500;
             font-size: 16px;
             line-height: 24px;
             width: auto;
             color: #20212F;
             margin-left: 10px;
-        }
+        } */
+    }
+
+    #markerBackground {
+        position: relative;
+        left: 0;
+        top: 4px;
+        height: 4px;
+        width: 100%;
+        max-width: 640px;
+        background: #C3D6F9;
+        bottom: -8px;
+        border-radius: 4px;
     }
 
 
