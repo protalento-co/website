@@ -135,8 +135,13 @@ a:active {
 }
 
 .coomeva--hero--img {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
+
+    img {
+        position: relative;
+        left: 3%;
+    }
 
     img:nth-child(2) {
         display: none;
@@ -416,6 +421,13 @@ a:active {
         color: #33345C;
     }
 
+
+    .knowledge__decoration {
+        position: relative;
+        left: 60px;
+        top: -254px;
+    }
+
     .flip-card-knowledge,
     .flip-card__container {
         display: none;
@@ -624,10 +636,24 @@ a:active {
 
 .coomeva--paid {
 
-    background: #F2F6FA;
     padding: 64px 35px 35px;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+    .coomeva__decoration {
+        position: relative;
+        top: 105px;
+        left: 130px;
+    }
+
+    .coomeva__decoration--2 {
+        position: relative;
+        top: 422px;
+        left: -142px;
+        z-index: -1;
+    }
 
 
 
@@ -810,6 +836,13 @@ a:active {
     align-items: center;
 
     padding: 96px 35px 0;
+
+    .aliances__decoration {
+        position: absolute;
+        top: 7711px;
+        left: 90%;
+        z-index: -1;
+    }
 
     >h2 {
         font-style: normal;
@@ -1769,6 +1802,13 @@ a:active {
 
         margin-top: 84px;
 
+
+        .knowledge__decoration {
+            position: relative;
+            left: 306px;
+            top: -112px;
+        }
+
         .flip-card-knowledge {
             display: block;
         }
@@ -1862,6 +1902,17 @@ a:active {
     .coomeva--paid {
         padding: 64px 0px 35px;
 
+
+        .coomeva__decoration {
+            position: relative;
+            top: 57px;
+            left: 290px;
+        }
+
+        .coomeva__decoration--2 {
+            display: none;
+        }
+
         >h2 {
             font-style: normal;
             font-weight: 400;
@@ -1884,6 +1935,7 @@ a:active {
         .paid__paragraph {
             width: 640px;
             height: 48px;
+            margin: 32px 0;
         }
 
         .paid__cards--container {
@@ -2086,6 +2138,13 @@ a:active {
     }
 
     .coomeva--alliances {
+
+        .aliances__decoration {
+            position: absolute;
+            top: 5211px;
+            left: 90%;
+            z-index: -1;
+        }
 
         >h2 {
             font-style: normal;
