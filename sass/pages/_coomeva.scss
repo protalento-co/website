@@ -66,6 +66,8 @@ a:active {
     padding: 35px 30px 48px 30px;
     margin-top: 98px;
 
+
+
     .main__container--items {
         margin-top: 32px;
     }
@@ -132,6 +134,10 @@ a:active {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.coomeva--decoration--logo {
+    display: none;
 }
 
 .coomeva--hero--img {
@@ -1709,6 +1715,8 @@ a:active {
 
         margin-top: 168px;
 
+
+
         .main__container--items {
             margin-top: 32px;
         }
@@ -1735,7 +1743,12 @@ a:active {
 
 
 
-
+    .coomeva--decoration--logo {
+        display: inline-block;
+        position: relative;
+        left: 15%;
+        top: 21px;
+    }
 
 
 
@@ -2424,6 +2437,14 @@ a:active {
             margin: 0 auto;
         }
 
+    }
+
+
+    .coomeva--decoration--logo {
+        display: inline-block;
+        position: relative;
+        left: 48%;
+        top: -838px;
     }
 
 
