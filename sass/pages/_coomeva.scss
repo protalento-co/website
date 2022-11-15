@@ -870,6 +870,171 @@ a:active {
 
         color: #33345C;
     }
+
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 6rem 0;
+
+
+        list-style-type: none;
+
+        li {
+            margin: 0 0.25rem;
+        }
+
+        button {
+            display: block;
+            width: 2rem;
+            height: 1rem;
+            padding: 0;
+            border: none;
+            background-color: #E4E4E4;
+            text-indent: -9999px;
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+        }
+
+        li.slick-active button {
+            background-color: #4267CD;
+            width: 2rem;
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+        }
+    }
+
+    .alliances__carousel {
+        display: flex;
+
+
+
+    }
+
+    .alliances__card {
+        width: 260px;
+        /* height: 585px; */
+        left: 31px;
+        top: 9231px;
+
+        background: #FFFFFF;
+
+        box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.08), 0px 16px 24px rgba(22, 34, 51, 0.08);
+        border-radius: 8px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        padding: 40px 30px 32px;
+        margin: 15px 15px;
+
+        img {
+            width: 195px;
+            height: 116px;
+            object-fit: contain;
+        }
+
+
+
+        h2 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 120%;
+
+
+
+            color: #33345C;
+
+        }
+
+        .cards__description {
+
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 120%;
+
+
+            margin: 8px 0 20px;
+
+            color: #7B7E9D;
+
+
+        }
+
+        .cards__separator {
+            width: 32px;
+            height: 0px;
+            background: #33345C;
+            border: 2px solid #33345C;
+            border-radius: 50px;
+            -webkit-border-radius: 50px;
+            -moz-border-radius: 50px;
+            -ms-border-radius: 50px;
+            -o-border-radius: 50px;
+        }
+
+        p {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 24px;
+
+
+            color: #33345C;
+
+        }
+    }
+
+
+    .alliances__cards--content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+
+}
+
+
+.coomeva--alliance__prev--arrow {
+    position: absolute;
+    top: 50%;
+    left: 3px;
+    z-index: 1;
+    cursor: pointer;
+    height: 40px;
+    box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.08), 0px 16px 24px rgba(22, 34, 51, 0.08);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.coomeva--alliance__next--arrow {
+    position: absolute;
+    top: 50%;
+    right: -3px;
+    z-index: 1;
+    cursor: pointer;
+    height: 40px;
+    box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.08), 0px 16px 24px rgba(22, 34, 51, 0.08);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 
@@ -1083,7 +1248,7 @@ a:active {
 
 
 
-
+/* 
 .match__next--arrow {
     position: absolute;
     top: 25%;
@@ -1105,8 +1270,6 @@ a:active {
 .match__carousel .slick-dots {
     display: block;
     justify-content: center;
-    /* margin: 0; */
-    /* padding: 0; */
     list-style-type: none;
     bottom: 4rem;
 
@@ -1116,10 +1279,7 @@ a:active {
     margin: 0 0.25rem;
 }
 
-.match__carousel ul.slick-dots {
-    /* width: 300px; */
-    /* gap: 1rem; */
-}
+
 
 .match__carousel .slick-dots button {
     display: block;
@@ -1139,7 +1299,6 @@ a:active {
 .match__carousel .slick-dots li.slick-active button {
     background-color: #F1AF4D;
     width: 2rem;
-    /* width: 4rem; */
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -1163,7 +1322,7 @@ a:active {
 
 }
 
-
+ */
 
 
 
@@ -1359,68 +1518,10 @@ a:active {
 
 
 
-/* 
-.alliances__carousel {
-    display: flex;
-}
-
-.alliances__card {
-    width: 260px;
-    height: 585px;
-    left: 31px;
-    top: 9231px;
-
-    background: #FFFFFF;
-
-    box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.08), 0px 16px 24px rgba(22, 34, 51, 0.08);
-    border-radius: 8px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    padding: 40px 30px 32px;
-    margin: 15px 15px;
-}
-
-.alliances__card img {
-    width: 195px;
-    height: 116px;
-    object-fit: contain;
-}
-
-.alliances__cards--content {
-    display: flex;
-    flex-direction: column;
-    margin-top: 40px;
-}
-
-.alliances__card h2 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 16px;
-
-    display: flex;
-    align-items: center;
 
 
-    color: #385499;
-
-}
-
-.alliances__card p {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    margin-top: 24px;
 
 
-    color: #33345C;
-
-} */
 
 
 .footer {
@@ -2234,7 +2335,23 @@ a:active {
             align-self: center;
             text-align: left;
         }
+
+
+
+
+        .alliance-carousel {
+            width: 650px;
+
+
+
+            img {
+                display: unset;
+            }
+        }
     }
+
+
+
 
     .coomeva--faq {
 
@@ -2292,8 +2409,9 @@ a:active {
 
     .coomeva--hero--img {
         position: absolute;
+        width: 100%;
         top: 1028px;
-        left: 25%;
+        left: 0;
 
         img {
             display: none;
@@ -2302,6 +2420,8 @@ a:active {
 
         img:nth-child(2) {
             display: block;
+
+            margin: 0 auto;
         }
 
     }
