@@ -719,8 +719,14 @@ a:active {
         background: #FFFFFF;
         /* Sombras */
 
-        box-shadow: 0px 10px 20px 4px rgba(32, 33, 47, 0.2);
+        box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.08), 0px 16px 24px rgba(22, 34, 51, 0.08);
         border-radius: 8px;
+
+
+        .paid__header {
+            display: flex;
+
+        }
 
         >.paid__header img {
             width: 80px;
@@ -746,9 +752,7 @@ a:active {
 
         }
 
-        .paid__header {
-            display: flex;
-        }
+
 
 
     }
@@ -871,39 +875,7 @@ a:active {
 
 
 
-/* slide paid */
 
-.paid__prev--arrow {
-    position: absolute;
-    top: 95%;
-    right: 110px;
-    z-index: 1;
-    cursor: pointer;
-    height: 40px;
-    box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.08), 0px 16px 24px rgba(22, 34, 51, 0.08);
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-}
-
-.paid__next--arrow {
-    position: absolute;
-    top: 95%;
-    right: 60px;
-    z-index: 1;
-    cursor: pointer;
-    height: 40px;
-    box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.08), 0px 16px 24px rgba(22, 34, 51, 0.08);
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-}
-
-/* END slide paid */
 
 
 .coomeva--dates {
@@ -1891,7 +1863,7 @@ a:active {
 
 
 
-    .paid-section-slider .paid__card {
+    .coomeva--paid-section-slider .paid__card {
         width: 310px;
         height: 467px;
 
@@ -1941,12 +1913,109 @@ a:active {
         .paid__cards--container {
             display: flex;
             padding: 50px 0px;
+            max-width: 640px;
+            margin: 0 auto;
+
+            /* slide paid */
+
+            .slick-track {
+                display: flex;
+                align-items: center;
+                gap: 3rem;
+            }
+
+            .slick-list {
+                padding: 27px 6px;
+            }
+
+            .paid__prev--arrow {
+                position: absolute;
+                top: 50%;
+                right: 606px;
+                z-index: 1;
+                cursor: pointer;
+                height: 40px;
+                box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.08), 0px 16px 24px rgba(22, 34, 51, 0.08);
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+            }
+
+
+            .paid__next--arrow {
+                position: absolute;
+                top: 50%;
+                right: -3px;
+                z-index: 1;
+                cursor: pointer;
+                height: 40px;
+                box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.08), 0px 16px 24px rgba(22, 34, 51, 0.08);
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+            }
+
+            .slick-dots {
+                display: flex;
+                justify-content: center;
+                margin: 0;
+                padding: 6rem 0;
+
+                list-style-type: none;
+
+                li {
+                    margin: 0 0.25rem;
+                }
+
+                button {
+                    display: block;
+                    width: 2rem;
+                    height: 1rem;
+                    padding: 0;
+                    border: none;
+                    background-color: #E4E4E4;
+                    text-indent: -9999px;
+                    border-radius: 20px;
+                    -webkit-border-radius: 20px;
+                    -moz-border-radius: 20px;
+                    -ms-border-radius: 20px;
+                    -o-border-radius: 20px;
+                }
+
+                li.slick-active button {
+                    background-color: #4267CD;
+                    width: 2rem;
+                    border-radius: 20px;
+                    -webkit-border-radius: 20px;
+                    -moz-border-radius: 20px;
+                    -ms-border-radius: 20px;
+                    -o-border-radius: 20px;
+                }
+            }
+
+            /* END slide paid */
         }
+
+
 
         .paid__card {
             width: 281px;
-            height: 470px;
             margin: 0 11px 0;
+            height: 636px;
+
+            .paid__header {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                >img {
+                    width: 146px;
+                }
+            }
         }
 
         .paid__li--tip {
@@ -2331,7 +2400,6 @@ a:active {
 
         .paid__card {
             width: 310px;
-            height: 467px;
 
             margin: 0 11px 0;
         }

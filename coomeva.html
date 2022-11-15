@@ -1056,7 +1056,7 @@
         <span> ¡Ahora puedes confiar en las letras chiquitas! </span>
       </p>
 
-      <div class="paid-section-slider paid__cards--container">
+      <div class="coomeva--paid-section-slider paid__cards--container">
         <div class="paid__card" data-company="protalento1">
           <div class="paid__header">
             <img
@@ -1090,6 +1090,12 @@
                   INVERSIÓN TOTAL:
                   <br />
                   $18.000.000 IVA incluido
+                  <br />
+                  Con inglés
+                  <br />
+                  $14.000.000 IVA incluido
+                  <br />
+                  Sin inglés
                 </p>
               </li>
               <li>
@@ -1101,8 +1107,9 @@
                 <p>
                   BENEFICIO:
                   <br />
-                  Cuando te emplees paga con el 18% de tu sueldo, en cuotas
-                  mensuales
+                  Paga despues de emplearte en cuotas mensuales de hasta un 18%
+                  de tu salario; en un plazo de acuerdo a tus capacidades de
+                  pago.
                 </p>
               </li>
             </ul>
@@ -2030,11 +2037,11 @@
       });
     </script>
     <script>
-      $(".paid-section-slider").slick({
+      $(".coomeva--paid-section-slider").slick({
         infinite: true,
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
-
+        dots: true,
         arrows: true,
 
         prevArrow:
@@ -2047,20 +2054,12 @@
             settings: "unslick",
           },
           {
-            breakpoint: 768,
+            breakpoint: 770,
             settings: {
-              slidesToShow: 1,
+              slidesToShow: 2,
               slidesToScroll: 1,
               arrows: false,
               dots: true,
-            },
-          },
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              arrows: false,
             },
           },
         ],
