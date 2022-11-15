@@ -1814,7 +1814,7 @@ a:active {
 
     .coomeva--main__formu {
         position: absolute;
-        width: 50%;
+        width: 370px;
         left: 25%;
         top: 872px;
     }
@@ -2396,7 +2396,7 @@ a:active {
 
     .coomeva--main {
         width: 50.9%;
-        height: 671px;
+        height: 100%;
         margin-top: 115px;
         padding-top: 30px;
         margin-top: 176px;
@@ -2409,12 +2409,13 @@ a:active {
         }
 
         .main__container--items {
-            margin: 0 59px 0 0;
+            margin: 10% 59px 0 0;
         }
 
         >h1 {
-            width: 403px;
-            height: 347px;
+            /* width: 403px; */
+            max-width: 766px;
+            /* height: 347px; */
             font-size: 68px;
             line-height: 70px;
         }
@@ -2442,9 +2443,9 @@ a:active {
 
     .coomeva--decoration--logo {
         display: inline-block;
-        position: relative;
+        position: absolute;
         left: 48%;
-        top: -838px;
+        top: 135px;
     }
 
 
@@ -2471,7 +2472,7 @@ a:active {
 
     .coomeva--main__formu {
         position: absolute;
-        width: 40vw;
+        width: 370px;
         height: 810px;
         left: 55%;
         top: 223px;
