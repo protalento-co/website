@@ -9,8 +9,9 @@ a:active {
 .coomeva--nav {
     height: 98px;
     display: flex;
-    align-items: center;
+    justify-content: center;
     background-color: transparent;
+    width: 100vw;
 
     .decoration-nav {
         position: absolute;
@@ -20,9 +21,8 @@ a:active {
 
     .nav__box {
         margin: 0;
-        display: flex;
         width: 100%;
-        justify-content: space-between;
+
     }
 }
 
@@ -229,6 +229,11 @@ a:active {
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
+
+
+    /* form {
+        width: 100% !important;
+    } */
 
     >h2 {
         font-family: 'Nunito';
@@ -2400,6 +2405,7 @@ a:active {
         margin-top: 115px;
         padding-top: 30px;
         margin-top: 176px;
+        padding-left: 8%;
 
         .main__design--pattern {
             position: absolute;
@@ -2475,7 +2481,7 @@ a:active {
         width: 370px;
         height: 810px;
         left: 55%;
-        top: 223px;
+        top: 177px;
     }
 
     .coomeva--developers {
@@ -2555,6 +2561,24 @@ a:active {
 
     .programa__container+a.coomeva--buttons__button--1 {
         margin-top: 64px;
+    }
+
+}
+
+@media screen and (min-width: 1500px) {
+
+
+    .coomeva--main {
+        height: 841px;
+
+    }
+
+    .coomeva--hero--img {
+        top: 1118px;
+    }
+
+    .coomeva--main__formu {
+        left: 66%;
     }
 
 }
