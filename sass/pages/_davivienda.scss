@@ -1901,15 +1901,14 @@ a:active {
 
     .davivienda--main {
         width: 50.9%;
-        height: 855px;
-        margin-top: 115px;
+        height: auto;
         padding-top: 30px;
         margin-top: 202px;
 
         .main__design--pattern {
             position: absolute;
             width: 44px;
-            left: 333px;
+            left: 45%;
             top: 271px;
         }
 
@@ -1918,8 +1917,8 @@ a:active {
         }
 
         >h1 {
-            width: 403px;
-            height: 347px;
+            width: 100%;
+            height: auto;
             font-size: 45px;
             line-height: 55px;
         }
@@ -1953,7 +1952,7 @@ a:active {
 
     .davivienda--main__formu {
         position: absolute;
-        width: 40vw;
+        width: 370px;
         height: 810px;
         left: 55%;
         top: 223px;
@@ -2045,6 +2044,25 @@ a:active {
 
     .programa__container+a.davivienda--buttons__button--1 {
         margin-top: 64px;
+    }
+
+}
+
+
+@media screen and (min-width: 1500px) {
+
+
+    .davivienda--main {
+        padding: 61px 30px 48px 93px;
+
+
+    }
+
+
+
+
+    .davivienda--main__formu {
+        left: 66%;
     }
 
 }
