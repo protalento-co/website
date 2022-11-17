@@ -1606,7 +1606,7 @@ color: #385499;
 
     .main__formu {
         position: absolute;
-        width: 50%;
+        width: 370px;
         left: 25%;
         top: 736px;
     }
@@ -1964,7 +1964,6 @@ color: #385499;
 
     .main__formu {
         position: absolute;
-        width: 40vw;
         height: 810px;
         left: 55%;
         top: 223px;
@@ -2032,6 +2031,14 @@ color: #385499;
         margin-top: 64px;
     }
 
+}
+
+@media screen and (min-width: 1500px) {
+
+
+    .main__formu {
+        left: 66%;
+    }
 }
 
 /* slider */
