@@ -1432,7 +1432,7 @@ a:active {
 
     .promigas--main__formu {
         position: absolute;
-        width: 50%;
+        width: 370px;
         left: 25%;
         top: 736px;
     }
@@ -1818,7 +1818,7 @@ a:active {
 
     .promigas--main__formu {
         position: absolute;
-        width: 40vw;
+        width: 370px;
         height: 810px;
         left: 55%;
         top: 223px;
@@ -1879,4 +1879,12 @@ a:active {
 
     }
 
+}
+
+@media screen and (min-width: 1500px) {
+
+
+    .promigas--main__formu {
+        left: 66%;
+    }
 }
