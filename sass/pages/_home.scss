@@ -1643,6 +1643,7 @@
   background-color: #381A8B;
   padding: 35px 30px 48px 30px;
 
+
   @media (min-width: 768px) {
     border-radius: 12px;
     -webkit-border-radius: 12px;
@@ -1650,4 +1651,26 @@
     -ms-border-radius: 12px;
     -o-border-radius: 12px;
   }
+
+  @media (min-width: 1200px) {
+    margin-left: -70%;
+    padding-left: 36rem;
+  }
+
+  @media (min-width: 1600px) {
+    margin-left: -70%;
+    padding-left: 26rem;
+  }
+
+  @media (min-width: 1800px) {
+    margin-left: -70%;
+    padding-left: 16rem;
+  }
+
+  /*  @media (min-width: 1920px) {
+    margin-left: -70%;
+    padding-left: 15rem;
+  } */
+
+
 }
