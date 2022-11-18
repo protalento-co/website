@@ -29,3 +29,17 @@
     }
   }
 }
+
+.logos__hero {
+  position: relative;
+
+  max-width: 110rem;
+  margin: 3rem auto;
+
+  z-index: 1;
+
+  img:nth-child(n) {
+    width: 134px;
+    height: 60px;
+  }
+}
