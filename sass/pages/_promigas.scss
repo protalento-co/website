@@ -1310,11 +1310,11 @@ a:active {
     .promigas--main {
         width: 91.6%;
         height: 425px;
-        border-radius: 0 50px 50px 0;
-        -webkit-border-radius: 0 50px 50px 0;
-        -moz-border-radius: 0 50px 50px 0;
-        -ms-border-radius: 0 50px 50px 0;
-        -o-border-radius: 0 50px 50px 0;
+        border-radius: 0 12px 12px 0;
+        -webkit-border-radius: 0 12px 12px 0;
+        -moz-border-radius: 0 12px 12px 0;
+        -ms-border-radius: 0 12px 12px 0;
+        -o-border-radius: 0 12px 12px 0;
 
         padding-top: 20px;
         padding-left: 64px;
@@ -1355,7 +1355,7 @@ a:active {
 
             font-size: 4rem;
             line-height: 40px;
-            width: 536px;
+            width: 100%;
         }
     }
 
@@ -1768,15 +1768,15 @@ a:active {
         .main__design--pattern {
             position: absolute;
             width: 44px;
-            left: 433px;
             top: 271px;
+            right: 60%;
         }
 
 
 
 
         h1 {
-            width: 335px;
+            /* width: 335px; */
             /* height: 347px; */
             font-size: 4rem;
             line-height: 40px;
