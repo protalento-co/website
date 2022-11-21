@@ -1018,7 +1018,7 @@ a:active {
     }
 
     .details_card {
-        background: #fff;
+        /* background: #fff; */
 
         height: 94px;
         /* width: 95%; */
@@ -1056,12 +1056,27 @@ a:active {
 
     }
 
+    .details--card__content {
+        display: none;
+    }
+
     .details_card--result {
         /* width: 260px; */
         background: #FFFFFF;
         /* width: 95%; */
         max-width: 640px;
         margin: 0 1.5rem;
+
+        ul {
+
+            list-style-image: url('https://res.cloudinary.com/protalento/image/upload/v1667350240/Website/PROtalento/Convocatorias/Promigas/Vector_tej7sh.svg');
+            list-style-position: inside;
+
+            li {
+                margin: 0 0 10px 0;
+            }
+        }
+
     }
 
     .details__button {

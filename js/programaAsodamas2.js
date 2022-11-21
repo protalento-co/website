@@ -1,6 +1,8 @@
 const boxes = document.querySelectorAll('.details__icons');
 
 
+
+
 var marker = document.querySelector("#marker");
 
 function indicator(e) {
@@ -23,6 +25,7 @@ boxes.forEach((item, idx) => {
 
   item.addEventListener('click', () => {
 
+
     // change box
     boxes.forEach((item, id) => {
       /* item.classList.remove('bg-blueLight'); */
@@ -42,7 +45,17 @@ boxes.forEach((item, idx) => {
 function change(number, display) {
   const grupo = document.querySelectorAll(`.group-${number}`);
 
+
+
+
+
   grupo.forEach((item) => {
     item.style.display = display;
   });
+
+  document.querySelectorAll(".details--card__content").forEach(a => a.style.display = "none");
+  document.querySelectorAll("#dots").forEach(a => a.style.display = "block");
+  document.querySelectorAll(".box__li").forEach(a => a.classList.remove('bg-blueLighter'));
 }
+
+

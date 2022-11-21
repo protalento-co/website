@@ -52,7 +52,7 @@
     <script src="js/sidenav.js" defer></script>
     <!-- <script src="js/programaAsodamas.js" defer></script> -->
     <script src="js/programaAsodamas2.js" defer></script>
-    <script src="js/ChangeInfoliPromigas.js" defer></script>
+    <!-- <script src="js/ChangeInfoliPromigas.js" defer></script> -->
     <script src="js/acordeon.js" defer></script>
     <script src="js/btnHelp.js" defer></script>
     <!-- <script src="js/readMore.js" defer></script> -->
@@ -1302,86 +1302,319 @@
           buscan solo habilidades técnicas, las habilidades socioemocionales son
           clave para la empleabilidad. Cada semana tendrá acceso a:
         </h2>
-        <ul class="flexContainer__box medium-big-size">
-          <li
-            class="group-1 box__li boxShadow bg-blueLight radius-smaller pY-1 pX-3 details_card"
-          >
-            <div class="details_card--number">1</div>
-            <h3>Bloque 1: Front End</h3>
-          </li>
+        <div class="flexContainer__box medium-big-size">
+          <!-- box -->
+          <div class="details__card--box" data-group="001">
+            <div
+              class="group-1 box__li boxShadow radius-smaller pY-1 pX-3 details_card"
+              onclick="readMoreDetails('001')"
+              id="myBtn"
+            >
+              <div class="details_card--number">1</div>
+              <h3>Bloque 1: Front End</h3>
+            </div>
+            <span id="dots"></span>
+
+            <div
+              class="details--card__content flexContainer__box boxShadow radius-smaller pY-2 pX-3 details_card--result"
+              id="more"
+            >
+              TECNOLOGÍAS:
+              <br />
+              <br />
+              <ul>
+                <li>HTML</li>
+                <li>CCS</li>
+                <li>Flexbox</li>
+                <li>JavaScript</li>
+                <li>Ajax</li>
+                <li>Json</li>
+                <li>Jquery</li>
+              </ul>
+
+              <br />
+              <br />
+
+              INTERVENCIONES:
+              <br />
+              <br />
+              <ul>
+                <li>Daily Mentoring</li>
+                <li>Chrome Dev. tools</li>
+                <li>HTML tags</li>
+                <li>Sintaxis de CSS</li>
+                <li>Metodología</li>
+                <li>Introducción a JavaScript</li>
+                <li>JQuery, DOM, POO</li>
+                <li>AJAX Fetch, Get JSON</li>
+                <li>Media Queries, Firebase</li>
+              </ul>
+            </div>
+          </div>
+          <!-- box -->
+
+          <!-- box -->
+          <div class="details__card--box" data-group="002">
+            <div
+              class="group-1 box__li boxShadow radius-smaller pY-1 pX-3 details_card"
+              onclick="readMoreDetails('002')"
+              id="myBtn"
+            >
+              <div class="details_card--number">2</div>
+              <h3>Bloque 2: Back End</h3>
+            </div>
+            <span id="dots"></span>
+
+            <div
+              class="details--card__content flexContainer__box boxShadow radius-smaller pY-2 pX-3 details_card--result"
+              id="more"
+            >
+              TECNOLOGÍAS:
+              <br />
+              <br />
+              <ul>
+                <li>MongoBD</li>
+                <li>Express</li>
+                <li>React</li>
+                <li>Redux Framework</li>
+                <li>Node.js</li>
+              </ul>
+
+              <br />
+              <br />
+
+              INTERVENCIONES:
+              <br />
+              <br />
+              <ul>
+                <li>Daily Mentoring</li>
+                <li>Agile - Scrum, Sprint</li>
+                <li>MVP</li>
+                <li>Deploy en la nube</li>
+                <li>(Heroku)</li>
+                <li>Uso de Github</li>
+              </ul>
+            </div>
+          </div>
+          <!-- box -->
+
           <!-- <li
             class="group-1 box__li boxShadow radius-smaller pY-1 pX-3 mT-1 details_card"
           >
             <div class="details_card--number">2</div>
-            <h3>ESTRUCTURA DE DATOS Y ALGORITMOS CON NODE. JS</h3>
-          </li>
-          <li
-            class="group-1 box__li boxShadow radius-smaller pY-1 pX-3 mT-1 details_card"
-          >
-            <div class="details_card--number">3</div>
-            <h3>INTRO A FRONTEND CON REACT.JS</h3>
-          </li>
-          <li
-            class="group-1 box__li boxShadow radius-smaller pY-1 pX-3 mT-1 details_card"
-          >
-            <div class="details_card--number">4</div>
-            <h3>INTRO A BACKEND AVANZADO + SQL CON EXPRESS.JS</h3>
-          </li> -->
-          <li
-            class="group-1 box__li boxShadow radius-smaller pY-1 pX-3 mT-1 details_card"
-          >
-            <div class="details_card--number">2</div>
             <h3>Bloque 2: Back End</h3>
-          </li>
+          </li> -->
 
           <!--  Grupo 2 -->
 
-          <li
-            class="group-2 box__li boxShadow bg-blueLight radius-smaller pY-1 pX-3 details_card"
-          >
-            <div class="details_card--number">1</div>
-            <h3>BÁSICO</h3>
-          </li>
-          <li
-            class="group-2 box__li boxShadow radius-smaller pY-1 pX-3 mT-1 details_card"
-          >
-            <div class="details_card--number">2</div>
-            <h3>INTERMEDIO</h3>
-          </li>
-          <li
-            class="group-2 box__li boxShadow radius-smaller pY-1 pX-3 mT-1 details_card"
-          >
-            <div class="details_card--number">3</div>
-            <h3>AVANZADO</h3>
-          </li>
+          <!-- box -->
+          <div class="details__card--box" data-group="003">
+            <div
+              class="group-2 box__li boxShadow radius-smaller pY-1 pX-3 details_card"
+              onclick="readMoreDetails('003')"
+              id="myBtn"
+            >
+              <div class="details_card--number">1</div>
+              <h3>BÁSICO</h3>
+            </div>
+            <span id="dots"></span>
+
+            <div
+              class="details--card__content flexContainer__box boxShadow radius-smaller pY-2 pX-3 details_card--result"
+              id="more"
+            >
+              Describir información relacionada con el desarrollo de software.
+              <br />
+              <br />
+              Intercambiar información acerca de la lógica, sus principios y
+              métodos.
+              <br />
+              <br />
+              Identificar información acerca de la historia del software y sus
+              características.
+              <br />
+              <br />
+              Hacer sugerencias en el contexto de compartir ideas relacionadas
+              con el desarrollo de software.
+              <br />
+              <br />
+              Identificar características relacionadas con el desarrollo de
+              software.
+            </div>
+          </div>
+          <!-- box -->
+
+          <!-- box -->
+          <div class="details__card--box" data-group="004">
+            <div
+              class="group-2 box__li boxShadow radius-smaller pY-1 pX-3 details_card"
+              onclick="readMoreDetails('004')"
+              id="myBtn"
+            >
+              <div class="details_card--number">2</div>
+              <h3>INTERMEDIO</h3>
+            </div>
+            <span id="dots"></span>
+
+            <div
+              class="details--card__content flexContainer__box boxShadow radius-smaller pY-2 pX-3 details_card--result"
+              id="more"
+            >
+              Entender información esencial acerca de conceptos, principios y
+              metodologías.
+              <br />
+              <br />
+              Hablar acerca de técnicas de programación, casos de uso, tipo y
+              secuencias.
+              <br />
+              <br />
+              Intercambiar información acerca de conceptos y principios en el
+              desarrollo de software.
+              <br />
+              <br />
+              Intercambiar información relacionada con el desarrollo de software
+              y los lenguajes de programación.
+            </div>
+          </div>
+          <!-- box -->
+
+          <!-- box -->
+          <div class="details__card--box" data-group="005">
+            <div
+              class="group-2 box__li boxShadow radius-smaller pY-1 pX-3 details_card"
+              onclick="readMoreDetails('005')"
+              id="myBtn"
+            >
+              <div class="details_card--number">3</div>
+              <h3>AVANZADO</h3>
+            </div>
+            <span id="dots"></span>
+
+            <div
+              class="details--card__content flexContainer__box boxShadow radius-smaller pY-2 pX-3 details_card--result"
+              id="more"
+            >
+              Dar información detallada relacionada con la historia de los
+              lenguajes de programación en diferentes periodos.
+              <br />
+              <br />
+              Explicar rasgos fundamentales relacionados con los lenguajes de
+              programación en diferentes contextos.
+              <br />
+              <br />
+              Hablar de temas particulares y específicos relacionados con el
+              desarrollo de software.
+              <br />
+              <br />
+              Explicar en detalle cómo funcionan diferentes lenguajes de
+              programación.
+            </div>
+          </div>
+          <!-- box -->
 
           <!--  Grupo 2 -->
 
           <!-- group 3 -->
-          <li
-            class="group-3 box__li boxShadow bg-blueLight radius-smaller pY-1 pX-3 details_card"
-          >
-            <div class="details_card--number">1</div>
-            <h3>DESARROLLO DEL PERFIL, APLICACIONES Y PORTAFOLIO</h3>
-          </li>
-          <li
-            class="group-3 box__li boxShadow radius-smaller pY-1 pX-3 mT-1 details_card"
-          >
-            <div class="details_card--number">2</div>
-            <h3>ESTRATEGIA DE CARRERA Y LIDERAZGO</h3>
-          </li>
-          <li
-            class="group-3 box__li boxShadow radius-smaller pY-1 pX-3 mT-1 details_card"
-          >
-            <div class="details_card--number">3</div>
-            <h3>COMPETENCIAS SOCIOEMOCIONALES PARA EL TRABAJO</h3>
-          </li>
-        </ul>
 
-        <div
-          class="flexContainer__box boxShadow radius-smaller pY-2 pX-3 details_card--result"
-          id="content"
-        ></div>
+          <!-- box -->
+          <div class="details__card--box" data-group="006">
+            <div
+              class="group-3 box__li boxShadow radius-smaller pY-1 pX-3 details_card"
+              onclick="readMoreDetails('006')"
+              id="myBtn"
+            >
+              <div class="details_card--number">1</div>
+              <h3>DESARROLLO DEL PERFIL, APLICACIONES Y PORTAFOLIO</h3>
+            </div>
+            <span id="dots"></span>
+
+            <div
+              class="details--card__content flexContainer__box boxShadow radius-smaller pY-2 pX-3 details_card--result"
+              id="more"
+            >
+              Acompañamiento en procesos de selección con nuestros aliados.
+              <br />
+              <br />
+              Creación de tu marca personal.
+              <br />
+              <br />
+              Activación en redes profesionales.
+              <br />
+              <br />
+              Dashboard de seguimiento a ofertas laborales.
+              <br />
+              <br />
+              Negociaciones laborales y salariales.
+            </div>
+          </div>
+          <!-- box -->
+
+          <!-- box -->
+          <div class="details__card--box" data-group="007">
+            <div
+              class="group-3 box__li boxShadow radius-smaller pY-1 pX-3 details_card"
+              onclick="readMoreDetails('007')"
+              id="myBtn"
+            >
+              <div class="details_card--number">2</div>
+              <h3>ESTRATEGIA DE CARRERA Y LIDERAZGO</h3>
+            </div>
+            <span id="dots"></span>
+
+            <div
+              class="details--card__content flexContainer__box boxShadow radius-smaller pY-2 pX-3 details_card--result"
+              id="more"
+            >
+              Alineación de tus talentos, propósito y habilidades.
+              <br />
+              <br />
+              Aterrizar plan de carrera.
+              <br />
+              <br />
+              Construcción de redes de contacto.
+              <br />
+              <br />
+              Plan y proyecciones económicas de carrera.
+              <br />
+              <br />
+              Desarrollo de habilidades del siglo 21
+            </div>
+          </div>
+          <!-- box -->
+
+          <!-- box -->
+          <div class="details__card--box" data-group="008">
+            <div
+              class="group-3 box__li boxShadow radius-smaller pY-1 pX-3 details_card"
+              onclick="readMoreDetails('008')"
+              id="myBtn"
+            >
+              <div class="details_card--number">3</div>
+              <h3>COMPETENCIAS SOCIOEMOCIONALES PARA EL TRABAJO</h3>
+            </div>
+            <span id="dots"></span>
+
+            <div
+              class="details--card__content flexContainer__box boxShadow radius-smaller pY-2 pX-3 details_card--result"
+              id="more"
+            >
+              Aprender a aprender.
+              <br />
+              <br />
+              Cómo administrar nuestra energía y alcanzar nuestros sueños.
+              <br />
+              <br />
+              Mentalidad de crecimiento y determinación para retar el cerebro.
+              <br />
+              <br />
+              Uso del tiempo para tener equilibrio.
+              <br />
+              <br />
+              Decidir por prioridad e importancia para crecer.
+            </div>
+          </div>
+          <!-- box -->
+        </div>
       </div>
 
       <a href="#form" class="buttons__button--1 details__button">
@@ -2169,10 +2402,6 @@
           `.promigas--paid__content[data-company="${company}"] #myBtn`
         );
 
-        /*  console.log(dots);
- console.log(moreText);
- console.log(btnText); */
-
         if (dots.style.display === "none") {
           dots.style.display = "inline";
           /* btnText.innerHTML = "Ver más"; */
@@ -2183,6 +2412,33 @@
           /* btnText.innerHTML = "Ver menos"; */
           btnText.style.transform = "rotate(180deg)";
           moreText.style.display = "inline";
+        }
+      }
+    </script>
+
+    <script>
+      function readMoreDetails(group) {
+        let dots = document.querySelector(
+          `.details__card--box[data-group="${group}"] #dots`
+        );
+        let moreText = document.querySelector(
+          `.details__card--box[data-group="${group}"] #more`
+        );
+        let btnText = document.querySelector(
+          `.details__card--box[data-group="${group}"] #myBtn`
+        );
+
+        if (dots.style.display === "none") {
+          dots.style.display = "block";
+          /* btnText.innerHTML = "Ver más"; */
+          btnText.classList.remove("bg-blueLighter");
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          /* btnText.innerHTML = "Ver menos"; */
+          btnText.classList.add("bg-blueLighter");
+
+          moreText.style.display = "block";
         }
       }
     </script>
