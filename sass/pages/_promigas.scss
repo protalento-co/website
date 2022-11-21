@@ -1067,10 +1067,12 @@ a:active {
         max-width: 640px;
         margin: 0 1.5rem;
 
+        padding: 3rem 6rem;
+
         ul {
 
             list-style-image: url('https://res.cloudinary.com/protalento/image/upload/v1667350240/Website/PROtalento/Convocatorias/Promigas/Vector_tej7sh.svg');
-            list-style-position: inside;
+            list-style-position: outside;
 
             li {
                 margin: 0 0 10px 0;
