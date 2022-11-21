@@ -924,7 +924,7 @@ a:active {
 
     .alliances__carousel {
         display: flex;
-
+        max-width: 320px;
 
 
     }
@@ -2203,6 +2203,8 @@ a:active {
 
 
         .alliances__card {
+            height: 320px;
+
             .alliances__card--header {
                 display: flex;
 
@@ -2211,13 +2213,17 @@ a:active {
                 }
 
             }
+
         }
+
+
 
 
 
         .alliance-carousel {
             width: 650px;
             max-width: 739px;
+            height: 400px;
 
 
 
