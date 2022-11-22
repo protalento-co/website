@@ -1060,6 +1060,11 @@ li>.paid__li--icon {
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
+}
+
+.details__icons>img {
+    pointer-events: none;
 }
 
 
@@ -1170,6 +1175,42 @@ li>.paid__li--icon {
 #details__group3 {
     display: none;
 } */
+
+
+#marker {
+    position: relative;
+    left: 40%;
+    height: 4px;
+    width: 0px;
+    background: #4267CD;
+    bottom: -8px;
+    border-radius: 4px;
+    z-index: 1;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+
+
+    align-self: flex-start;
+}
+
+#markerBackground {
+    position: relative;
+    left: 0;
+    top: 4px;
+    height: 4px;
+    width: 90%;
+    max-width: 640px;
+    background: #C3D6F9;
+    bottom: -8px;
+    border-radius: 4px;
+}
 
 
 .alliances__carousel {
@@ -1594,6 +1635,18 @@ color: #385499;
         margin-left: 10px;
     }
 
+    #markerBackground {
+        position: relative;
+        left: 0;
+        top: 4px;
+        height: 4px;
+        width: 100%;
+        max-width: 640px;
+        background: #C3D6F9;
+        bottom: -8px;
+        border-radius: 4px;
+    }
+
     .decoration__pattern--container {
         position: absolute;
         width: 158px;
@@ -1889,6 +1942,16 @@ color: #385499;
         display: flex;
         width: 640px;
         max-width: 640px;
+    }
+
+    .details__icons {
+        width: 200px;
+
+
+    }
+
+    .details__icons>h3 {
+        width: 100%;
     }
 
     .details_card {
