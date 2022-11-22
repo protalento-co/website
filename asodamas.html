@@ -50,8 +50,8 @@
 
     <!-- script -->
     <script src="js/sidenav.js" defer></script>
-    <script src="js/programaAsodamas.js" defer></script>
-    <script src="js/ChangeInfoli.js" defer></script>
+    <script src="js/programaDetalles.js" defer></script>
+    <!-- <script src="js/ChangeInfoli.js" defer></script> -->
     <script src="js/acordeon.js" defer></script>
     <script src="js/btnHelp.js" defer></script>
     <script src="js/readMore.js" defer></script>
@@ -1358,34 +1358,8 @@
       </div>
     </section>
     <section id="details" class="details align--vertical--column">
-      <h2>El PROgrama en detalle</h2>
-      <div class="developers__separator"></div>
-      <!-- <div class="details__icons--container">
-        <label class="details__icons align--vertical--column">
-          <img
-            src="https://res.cloudinary.com/protalento/image/upload/v1665941061/Website/PROtalento/Convocatorias/Asodamas/Vector_pghqfi.svg"
-            alt=""
-          />
-          <h3>Bootcamp Tech</h3>
-        </label>
-        <label class="details__icons align--vertical--column" for="show">
-          <img
-            src="https://res.cloudinary.com/protalento/image/upload/v1665941061/Website/PROtalento/Convocatorias/Asodamas/Vector2_anwbne.svg"
-            alt=""
-          />
-          <h3>Bootcamp Inglés</h3>
-        </label>
-        <input type="radio" id="show" name="group" />
-        <label class="details__icons align--vertical--column" for="hide">
-          <img
-            src="https://res.cloudinary.com/protalento/image/upload/v1665941061/Website/PROtalento/Convocatorias/Asodamas/Vector3_m0hid5.svg"
-            alt=""
-          />
-          <h3>Bootcamp Empleabilidad</h3>
-        </label>
-        <input type="radio" id="hide" name="group" />
-      </div> -->
-
+      <h2>CONTENIDO TEMATICO</h2>
+      <h2 class="details__title">Conoce en detalle lo que aprenderás</h2>
       <div class="details__icons--container">
         <!-- box -->
         <div class="details__icons">
@@ -1421,94 +1395,394 @@
         <!-- box -->
       </div>
 
-      <!-- details content iba aquì -->
+      <div id="marker"></div>
+      <div id="markerBackground"></div>
 
       <div
-        class="programa__container flexContainer flexContainer--column gap-2 mT-10"
+        class="programa__container flexContainer flexContainer--column gap-2 mT-5"
       >
-        <ul class="flexContainer__box medium-big-size">
-          <li
+        <div class="flexContainer__box medium-big-size">
+          <!-- <li
             class="group-1 box__li boxShadow bg-blueLight radius-smaller pY-1 pX-3 details_card"
           >
             <div class="details_card--number">1</div>
             <h3>INTRO A LA WEB + JAVASCRIPT</h3>
-          </li>
-          <li
+          </li> -->
+          <!-- box -->
+          <div class="details__card--box" data-group="001">
+            <div
+              class="group-1 box__li boxShadow radius-smaller pY-1 pX-3 details_card"
+              onclick="readMoreDetails('001')"
+              id="myBtn"
+            >
+              <div class="details_card--number">1</div>
+              <h3>INTRO A LA WEB + JAVASCRIPT</h3>
+            </div>
+            <span id="dots"></span>
+
+            <div
+              class="details--card__content flexContainer__box boxShadow radius-smaller pY-2 pX-3 details_card--result"
+              id="more"
+            >
+              <ul>
+                <li>
+                  Aprender a trabajar con HTML y CSS para desarrollar sitios web
+                  estáticos, responsivos.
+                </li>
+                <li>
+                  Uso básico de Git y Github para generar portafolio y desplegar
+                  sitios web.
+                </li>
+                <li>
+                  Lógica de programación con JavaScript para manipular HTML y
+                  CSS mediante el DOM.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- box -->
+          <!-- <li
             class="group-1 box__li boxShadow radius-smaller pY-1 pX-3 mT-1 details_card"
           >
             <div class="details_card--number">2</div>
             <h3>ESTRUCTURA DE DATOS Y ALGORITMOS CON NODE. JS</h3>
-          </li>
-          <li
+          </li> -->
+
+          <!-- box -->
+          <div class="details__card--box" data-group="002">
+            <div
+              class="group-1 box__li boxShadow radius-smaller pY-1 pX-3 details_card"
+              onclick="readMoreDetails('002')"
+              id="myBtn"
+            >
+              <div class="details_card--number">2</div>
+              <h3>ESTRUCTURA DE DATOS Y ALGORITMOS CON NODE. JS</h3>
+            </div>
+            <span id="dots"></span>
+
+            <div
+              class="details--card__content flexContainer__box boxShadow radius-smaller pY-2 pX-3 details_card--result"
+              id="more"
+            >
+              <ul>
+                <li>
+                  Aprender a reconocer y utilizar estructuras de datos y
+                  algoritmos de búsqueda y ordenamiento con JavaScript para
+                  manejar datos eficientemente.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- box -->
+          <!-- <li
             class="group-1 box__li boxShadow radius-smaller pY-1 pX-3 mT-1 details_card"
           >
             <div class="details_card--number">3</div>
             <h3>INTRO A FRONTEND CON REACT.JS</h3>
-          </li>
-          <li
+          </li> -->
+
+          <!-- box -->
+          <div class="details__card--box" data-group="003">
+            <div
+              class="group-1 box__li boxShadow radius-smaller pY-1 pX-3 details_card"
+              onclick="readMoreDetails('003')"
+              id="myBtn"
+            >
+              <div class="details_card--number">3</div>
+              <h3>INTRO A FRONTEND CON REACT.JS</h3>
+            </div>
+            <span id="dots"></span>
+
+            <div
+              class="details--card__content flexContainer__box boxShadow radius-smaller pY-2 pX-3 details_card--result"
+              id="more"
+            >
+              <ul>
+                <li>
+                  Obtener los conocimientos básicos sobre desarrollo de SPAs con
+                  React.js para crear aplicaciones robustas del lado del
+                  cliente.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- box -->
+
+          <!-- <li
             class="group-1 box__li boxShadow radius-smaller pY-1 pX-3 mT-1 details_card"
           >
             <div class="details_card--number">4</div>
             <h3>INTRO A BACKEND AVANZADO + SQL CON EXPRESS.JS</h3>
-          </li>
-          <li
-            class="group-1 box__li boxShadow radius-smaller pY-1 pX-3 mT-1 details_card"
-          >
-            <div class="details_card--number">5</div>
-            <h3>BACKEND AVANZADO + NQSQL CON EXPRESS.JS</h3>
-          </li>
+          </li> -->
+          <!-- box -->
+          <div class="details__card--box" data-group="004">
+            <div
+              class="group-1 box__li boxShadow radius-smaller pY-1 pX-3 details_card"
+              onclick="readMoreDetails('004')"
+              id="myBtn"
+            >
+              <div class="details_card--number">4</div>
+              <h3>INTRO A BACKEND AVANZADO + SQL CON EXPRESS.JS</h3>
+            </div>
+            <span id="dots"></span>
+
+            <div
+              class="details--card__content flexContainer__box boxShadow radius-smaller pY-2 pX-3 details_card--result"
+              id="more"
+            >
+              <ul>
+                <li>
+                  Obtener los conocimientos básicos sobre desarrollo de SPAs con
+                  React.js para crear aplicaciones robustas del lado del
+                  cliente.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- box -->
+
+          <!-- box -->
+          <div class="details__card--box" data-group="005">
+            <div
+              class="group-1 box__li boxShadow radius-smaller pY-1 pX-3 details_card"
+              onclick="readMoreDetails('005')"
+              id="myBtn"
+            >
+              <div class="details_card--number">5</div>
+              <h3>BACKEND AVANZADO + NQSQL CON EXPRESS.JS</h3>
+            </div>
+            <span id="dots"></span>
+
+            <div
+              class="details--card__content flexContainer__box boxShadow radius-smaller pY-2 pX-3 details_card--result"
+              id="more"
+            >
+              <ul>
+                <li>
+                  Aprender técnicas avanzadas de desarrollo Backend como
+                  arquitectura mvc, manejo de errores y autenticación para
+                  desarrollar aplicaciones backend fáciles de escalar y
+                  mantener.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- box -->
 
           <!--  Grupo 2 -->
 
-          <li
-            class="group-2 box__li boxShadow bg-blueLight radius-smaller pY-1 pX-3 details_card"
-          >
-            <div class="details_card--number">1</div>
-            <h3>BÁSICO</h3>
-          </li>
-          <li
-            class="group-2 box__li boxShadow radius-smaller pY-1 pX-3 mT-1 details_card"
-          >
-            <div class="details_card--number">2</div>
-            <h3>INTERMEDIO</h3>
-          </li>
-          <li
-            class="group-2 box__li boxShadow radius-smaller pY-1 pX-3 mT-1 details_card"
-          >
-            <div class="details_card--number">3</div>
-            <h3>AVANZADO</h3>
-          </li>
+          <!-- box -->
+          <div class="details__card--box" data-group="006">
+            <div
+              class="group-2 box__li boxShadow radius-smaller pY-1 pX-3 details_card"
+              onclick="readMoreDetails('006')"
+              id="myBtn"
+            >
+              <div class="details_card--number">1</div>
+              <h3>BÁSICO</h3>
+            </div>
+            <span id="dots"></span>
+
+            <div
+              class="details--card__content flexContainer__box boxShadow radius-smaller pY-2 pX-3 details_card--result"
+              id="more"
+            >
+              <ul>
+                <li>
+                  Describir información relacionada con el desarrollo de
+                  software.
+                </li>
+                <li>
+                  Intercambiar información acerca de la lógica, sus principios y
+                  métodos.
+                </li>
+                <li>
+                  Identificar información acerca de la historia del software y
+                  sus características.
+                </li>
+                <li>
+                  Hacer sugerencias en el contexto de compartir ideas
+                  relacionadas con el desarrollo de software.
+                </li>
+                <li>
+                  Identificar características relacionadas con el desarrollo de
+                  software.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- box -->
+
+          <!-- box -->
+          <div class="details__card--box" data-group="007">
+            <div
+              class="group-2 box__li boxShadow radius-smaller pY-1 pX-3 details_card"
+              onclick="readMoreDetails('007')"
+              id="myBtn"
+            >
+              <div class="details_card--number">2</div>
+              <h3>INTERMEDIO</h3>
+            </div>
+            <span id="dots"></span>
+
+            <div
+              class="details--card__content flexContainer__box boxShadow radius-smaller pY-2 pX-3 details_card--result"
+              id="more"
+            >
+              <ul>
+                <li>
+                  Entender información esencial acerca de conceptos, principios
+                  y metodologías.
+                </li>
+                <li>
+                  Hablar acerca de técnicas de programación, casos de uso, tipo
+                  y secuencias.
+                </li>
+                <li>
+                  Intercambiar información acerca de conceptos y principios en
+                  el desarrollo de software.
+                </li>
+                <li>
+                  Intercambiar información relacionada con el desarrollo de
+                  software y los lenguajes de programación.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- box -->
+
+          <!-- box -->
+          <div class="details__card--box" data-group="008">
+            <div
+              class="group-2 box__li boxShadow radius-smaller pY-1 pX-3 details_card"
+              onclick="readMoreDetails('008')"
+              id="myBtn"
+            >
+              <div class="details_card--number">3</div>
+              <h3>AVANZADO</h3>
+            </div>
+            <span id="dots"></span>
+
+            <div
+              class="details--card__content flexContainer__box boxShadow radius-smaller pY-2 pX-3 details_card--result"
+              id="more"
+            >
+              <ul>
+                <li>
+                  Dar información detallada relacionada con la historia de los
+                  lenguajes de programación en diferentes periodos.
+                </li>
+                <li>
+                  Explicar rasgos fundamentales relacionados con los lenguajes
+                  de programación en diferentes contextos.
+                </li>
+                <li>
+                  Hablar de temas particulares y específicos relacionados con el
+                  desarrollo de software.
+                </li>
+                <li>
+                  Explicar en detalle cómo funcionan diferentes lenguajes de
+                  programación.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- box -->
 
           <!--  Grupo 2 -->
 
           <!-- group 3 -->
-          <li
-            class="group-3 box__li boxShadow bg-blueLight radius-smaller pY-1 pX-3 details_card"
-          >
-            <div class="details_card--number">1</div>
-            <h3>DESARROLLO DEL PERFIL, APLICACIONES Y PORTAFOLIO</h3>
-          </li>
-          <li
-            class="group-3 box__li boxShadow radius-smaller pY-1 pX-3 mT-1 details_card"
-          >
-            <div class="details_card--number">2</div>
-            <h3>ESTRATEGIA DE CARRERA Y LIDERAZGO</h3>
-          </li>
-          <li
-            class="group-3 box__li boxShadow radius-smaller pY-1 pX-3 mT-1 details_card"
-          >
-            <div class="details_card--number">3</div>
-            <h3>COMPETENCIAS SOCIOEMOCIONALES PARA EL TRABAJO</h3>
-          </li>
-        </ul>
 
-        <div
-          class="flexContainer__box boxShadow radius-smaller pY-2 pX-3 details_card--result"
-          id="content"
-        ></div>
+          <!-- box -->
+          <div class="details__card--box" data-group="009">
+            <div
+              class="group-3 box__li boxShadow radius-smaller pY-1 pX-3 details_card"
+              onclick="readMoreDetails('009')"
+              id="myBtn"
+            >
+              <div class="details_card--number">1</div>
+              <h3>DESARROLLO DEL PERFIL, APLICACIONES Y PORTAFOLIO</h3>
+            </div>
+            <span id="dots"></span>
+
+            <div
+              class="details--card__content flexContainer__box boxShadow radius-smaller pY-2 pX-3 details_card--result"
+              id="more"
+            >
+              <ul>
+                <li>
+                  Acompañamiento en procesos de selección con nuestros aliados.
+                </li>
+                <li>Creación de tu marca personal.</li>
+                <li>Activación en redes profesionales.</li>
+                <li>Dashboard de seguimiento a ofertas laborales.</li>
+                <li>Negociaciones laborales y salariales.</li>
+              </ul>
+            </div>
+          </div>
+          <!-- box -->
+
+          <!-- box -->
+          <div class="details__card--box" data-group="010">
+            <div
+              class="group-3 box__li boxShadow radius-smaller pY-1 pX-3 details_card"
+              onclick="readMoreDetails('010')"
+              id="myBtn"
+            >
+              <div class="details_card--number">2</div>
+              <h3>ESTRATEGIA DE CARRERA Y LIDERAZGO</h3>
+            </div>
+            <span id="dots"></span>
+
+            <div
+              class="details--card__content flexContainer__box boxShadow radius-smaller pY-2 pX-3 details_card--result"
+              id="more"
+            >
+              <ul>
+                <li>Alineación de tus talentos, propósito y habilidades.</li>
+                <li>Aterrizar plan de carrera.</li>
+                <li>Construcción de redes de contacto.</li>
+                <li>Plan y proyecciones económicas de carrera.</li>
+                <li>Desarrollo de habilidades del siglo 21</li>
+              </ul>
+            </div>
+          </div>
+          <!-- box -->
+
+          <!-- box -->
+          <div class="details__card--box" data-group="011">
+            <div
+              class="group-3 box__li boxShadow radius-smaller pY-1 pX-3 details_card"
+              onclick="readMoreDetails('011')"
+              id="myBtn"
+            >
+              <div class="details_card--number">3</div>
+              <h3>COMPETENCIAS SOCIOEMOCIONALES PARA EL TRABAJO</h3>
+            </div>
+            <span id="dots"></span>
+
+            <div
+              class="details--card__content flexContainer__box boxShadow radius-smaller pY-2 pX-3 details_card--result"
+              id="more"
+            >
+              <ul>
+                <li>Aprender a aprender.</li>
+                <li>
+                  Cómo administrar nuestra energía y alcanzar nuestros sueños.
+                </li>
+                <li>
+                  Mentalidad de crecimiento y determinación para retar el
+                  cerebro.
+                </li>
+                <li>Uso del tiempo para tener equilibrio.</li>
+                <li>Decidir por prioridad e importancia para crecer.</li>
+              </ul>
+            </div>
+          </div>
+          <!-- box -->
+        </div>
       </div>
-
-      <a href="#form" class="buttons__button--1"> ¡Postúlate! </a>
+      <a href="#form" class="coomeva--buttons__button--1 mT-6"> ¡Postúlate! </a>
     </section>
     <section class="alliances align--vertical--column">
       <h2>Nuestros aliados para este programa</h2>
@@ -1993,6 +2267,34 @@
         });
       }
     </script>
+
+    <script>
+      function readMoreDetails(group) {
+        let dots = document.querySelector(
+          `.details__card--box[data-group="${group}"] #dots`
+        );
+        let moreText = document.querySelector(
+          `.details__card--box[data-group="${group}"] #more`
+        );
+        let btnText = document.querySelector(
+          `.details__card--box[data-group="${group}"] #myBtn`
+        );
+
+        if (dots.style.display === "none") {
+          dots.style.display = "block";
+          /* btnText.innerHTML = "Ver más"; */
+          btnText.classList.remove("bg-blueLighter");
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          /* btnText.innerHTML = "Ver menos"; */
+          btnText.classList.add("bg-blueLighter");
+
+          moreText.style.display = "block";
+        }
+      }
+    </script>
+
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="slick/slick.min.js"></script>
