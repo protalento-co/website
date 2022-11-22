@@ -1179,9 +1179,9 @@ li>.paid__li--icon {
 
 #marker {
     position: relative;
-    left: 40%;
+    left: 7%;
     height: 4px;
-    width: 0px;
+    width: 25%;
     background: #4267CD;
     bottom: -8px;
     border-radius: 4px;
@@ -1633,6 +1633,13 @@ color: #385499;
         width: auto;
         color: #20212F;
         margin-left: 10px;
+    }
+
+    #marker {
+        position: relative;
+        left: 10%;
+        width: 25%;
+
     }
 
     #markerBackground {
@@ -2120,6 +2127,37 @@ color: #385499;
 
     .programa__container+a.buttons__button--1 {
         margin-top: 64px;
+    }
+
+    #marker {
+        position: relative;
+        left: 40%;
+        width: 0px;
+
+    }
+
+    #markerBackground::after {
+        position: absolute;
+        left: 0;
+        content: '';
+        height: 4px;
+        width: 25rem;
+        background: #4267CD;
+        border-radius: 4px;
+        z-index: 1;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+    }
+
+    .hide-markerBackground::after {
+        display: none;
     }
 
 }

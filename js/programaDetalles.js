@@ -4,8 +4,11 @@ const boxes = document.querySelectorAll('.details__icons');
 
 
 var marker = document.querySelector("#marker");
+var markerBackground = document.querySelector("#markerBackground");
+
 
 function indicator(e) {
+  markerBackground.classList.add('hide-markerBackground');
   marker.style.left = e.offsetLeft + "px";
   marker.style.width = e.offsetWidth + "px";
 
