@@ -1427,10 +1427,10 @@ a:active {
     }
 
     .details_card {
-        background: #fff;
+        /* background: #fff; */
 
         height: 94px;
-        /* width: 80vw; */
+        max-width: 640px;
         box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.08), 0px 16px 24px rgba(22, 34, 51, 0.08);
         border-radius: 8px;
 
@@ -1442,35 +1442,58 @@ a:active {
 
         cursor: pointer;
 
+        .details_card--number {
+            height: 24px;
+            width: 24px;
+            background: #4267CD;
+            font-size: 14px;
+            color: #FFFFFF;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+        }
 
 
+
+    }
+
+    .details--card__content {
+        display: none;
     }
 
     .details_card--result {
         /* width: 260px; */
         background: #FFFFFF;
+        /* width: 95%; */
+        max-width: 640px;
+        margin: 0 1.5rem;
+
+        padding: 3rem 6rem;
+        line-height: 24px;
+
+        ul {
+
+            list-style-image: url('https://res.cloudinary.com/protalento/image/upload/v1667350240/Website/PROtalento/Convocatorias/Promigas/Vector_tej7sh.svg');
+            list-style-position: outside;
+
+            li {
+                margin: 0 0 10px 0;
+            }
+        }
+
     }
 
     .details__content>label:not(:first-child) {
         margin: 8px 0;
     }
 
-    .details_card--number {
-        height: 24px;
-        width: 24px;
-        background: #4267CD;
-        font-size: 14px;
-        color: #FFFFFF;
-        border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 10px;
-    }
+
 
 
     .details_card h3 {
@@ -2150,14 +2173,18 @@ a:active {
             margin-top: 64px;
         }
 
-        /* .details_card h3 {
+        .details_card {
+            width: 640px;
+        }
+
+        .details_card h3 {
             font-weight: 500;
             font-size: 16px;
             line-height: 24px;
             width: auto;
             color: #20212F;
             margin-left: 10px;
-        } */
+        }
     }
 
     #markerBackground {
