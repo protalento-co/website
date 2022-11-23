@@ -755,7 +755,7 @@
       </script>
       <!-- End form embed -->
     </div>
-    <div class="promigas--logos--cont">
+    <!-- <div class="promigas--logos--cont">
       <div class="logos-n">
         <div>
           <img
@@ -778,6 +778,49 @@
           />
           <h2>BOOTCAMP EMPLEABILIDAD</h2>
         </div>
+      </div>
+    </div> -->
+
+    <div>
+      <div class="promigas--customer-logos">
+        <!-- box -->
+        <div class="aliados__box radius-smaller txt-center pX-3 pY-2">
+          <div>
+            <img
+              src="https://res.cloudinary.com/protalento/image/upload/v1667152752/Website/PROtalento/Convocatorias/Promigas/Logo_con_azul_punto_azul-01_mf6k3e.png"
+              alt=""
+              class="aliados__img"
+            />
+            <h2 class="small-size mT-2">BOOTCAMP TECH</h2>
+          </div>
+        </div>
+        <!-- box -->
+
+        <!-- box -->
+        <div class="aliados__box radius-smaller txt-center pX-3 pY-2">
+          <div>
+            <img
+              src="https://res.cloudinary.com/protalento/image/upload/f_auto,q_auto/v1665759936/Website/PROtalento/Convocatorias/logo-English4Tech_kbw6s9.png"
+              alt=""
+              class="aliados__img"
+            />
+            <h2 class="small-size mT-2">BOOTCAMP EMPLEABILIDAD</h2>
+          </div>
+        </div>
+        <!-- box -->
+
+        <!-- box -->
+        <div class="aliados__box radius-smaller txt-center pX-3 pY-2">
+          <div>
+            <img
+              src="https://res.cloudinary.com/protalento/image/upload/c_scale,w_200/v1665160713/Website/PROtalento/Generales/logo-protalento-color_nz2o4d.png"
+              alt=""
+              class="aliados__img"
+            />
+            <h2 class="small-size mT-2">BOOTCAMP INGLES</h2>
+          </div>
+        </div>
+        <!-- box -->
       </div>
     </div>
 
@@ -2467,6 +2510,32 @@
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="slick/slick.min.js"></script>
+    <script>
+      $(".promigas--customer-logos").slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 500,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
+    </script>
     <script>
       $(".carusel--paid").slick({
         dots: true,
