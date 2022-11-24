@@ -641,9 +641,8 @@ a:active {
         margin-bottom: 48px;
 
         background: #FFFFFF;
-        /* Sombras */
 
-        box-shadow: 0px 10px 20px 4px rgba(32, 33, 47, 0.2);
+        box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.08), 0px 16px 24px rgba(22, 34, 51, 0.08);
         border-radius: 8px;
 
         >.paid__header img {
@@ -1756,10 +1755,113 @@ a:active {
     .asodamas--paid {
         padding: 64px 0px 35px;
 
-        .paid-section-slider .paid__card {
-            width: 310px;
-            height: 467px;
+        .paid-section-slider {
 
+            height: 700px;
+
+            max-width: 660px;
+
+
+            .slick-slide {
+                width: 310px;
+                height: 636px;
+                margin: 10px;
+
+
+
+
+            }
+
+            .slick-track {
+                display: flex;
+                align-items: center;
+                gap: 3rem;
+
+
+
+            }
+
+            /* slide paid */
+
+            .paid__prev--arrow {
+                position: absolute;
+                top: 45%;
+                left: 0%;
+                z-index: 1;
+                cursor: pointer;
+                height: 40px;
+                box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.08), 0px 16px 24px rgba(22, 34, 51, 0.08);
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+            }
+
+            .paid__next--arrow {
+                position: absolute;
+                top: 45%;
+                left: 95%;
+                z-index: 1;
+                cursor: pointer;
+                height: 40px;
+                box-shadow: 0px 4px 8px -4px rgba(22, 34, 51, 0.08), 0px 16px 24px rgba(22, 34, 51, 0.08);
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+            }
+
+            /* END slide paid */
+
+
+            .slick-dots {
+                display: flex;
+                justify-content: center;
+
+                /* padding: 1rem 0 0; */
+
+                list-style-type: none;
+
+                li {
+                    margin: 0 0.25rem;
+                    width: 2rem;
+                }
+
+                button {
+                    display: block;
+                    width: 2rem;
+                    height: 1rem;
+                    padding: 0;
+                    /* padding: 0 1.5rem; */
+                    border: none;
+                    background-color: #E4E4E4;
+                    text-indent: -9999px;
+                    border-radius: 20px;
+                    -webkit-border-radius: 20px;
+                    -moz-border-radius: 20px;
+                    -ms-border-radius: 20px;
+                    -o-border-radius: 20px;
+                }
+
+                button:before {
+                    display: none;
+                }
+
+                li.slick-active button {
+                    background: #4267CD;
+                    width: 2rem;
+                    height: 1rem;
+
+                    border-radius: 20px;
+                    -webkit-border-radius: 20px;
+                    -moz-border-radius: 20px;
+                    -ms-border-radius: 20px;
+                    -o-border-radius: 20px;
+                }
+
+            }
 
         }
 
@@ -1777,14 +1879,14 @@ a:active {
 
         .paid__cards--container {
             display: flex;
-            padding: 50px 0px;
+            /* padding: 50px 0px; */
         }
 
 
         .paid__card {
-            width: 281px;
+            /* width: 281px;
             height: 470px;
-            margin: 0 11px 0;
+            margin: 0 11px 0; */
 
             .paid__card--content {
                 display: inline;
@@ -2078,14 +2180,14 @@ a:active {
     .asodamas--paid {
 
         .paid__cards--container {
-            align-self: flex-start;
-            width: 100%;
+            /* align-self: flex-start; */
+            /* width: 100%; */
 
             .paid__card {
                 width: 310px;
-                height: 467px;
+                height: 636px;
 
-                margin: 0 11px 0;
+                /* margin: 0 11px 0; */
             }
         }
     }
