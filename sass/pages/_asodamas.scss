@@ -1258,7 +1258,7 @@ a:active {
 
     }
 
-    .alliances__carousel {
+    .alliances__card--container {
         display: flex;
         /* height: 843px; */
 
@@ -1363,7 +1363,49 @@ a:active {
         max-width: 320px;
         /* margin-right: auto;
     margin-left: auto; */
+
+        .slick-dots {
+            display: flex;
+            justify-content: center;
+
+            /* padding: 1rem 0 0; */
+
+            list-style-type: none;
+
+            li {
+                margin: 0 0.25rem;
+                width: 2rem;
+            }
+
+            button {
+                display: block;
+                width: 2rem;
+                height: 1rem;
+                padding: 0;
+                border: none;
+                background-color: #E4E4E4;
+                text-indent: -9999px;
+                border-radius: 20px;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                -ms-border-radius: 20px;
+                -o-border-radius: 20px;
+            }
+
+            li.slick-active button {
+                background-color: #4267CD;
+                width: 2rem;
+                /* width: 4rem; */
+                border-radius: 20px;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                -ms-border-radius: 20px;
+                -o-border-radius: 20px;
+            }
+        }
     }
+
+
 
     .alliance__prev--arrow {
         position: absolute;
@@ -1381,31 +1423,7 @@ a:active {
         cursor: pointer;
     }
 
-    .alliance-carousel .slick-dots button {
-        display: block;
-        width: 2rem;
-        height: 1rem;
-        padding: 0;
-        border: none;
-        background-color: #E4E4E4;
-        text-indent: -9999px;
-        border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
-    }
 
-    .alliance-carousel .slick-dots li.slick-active button {
-        background-color: #4267CD;
-        width: 2rem;
-        /* width: 4rem; */
-        border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
-    }
 
 }
 
