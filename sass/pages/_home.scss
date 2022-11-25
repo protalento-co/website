@@ -1785,7 +1785,7 @@ $gl-lg : "screen and (max-width: 80em)"; // max 1280px
           left: 10px;
           top: 0;
           padding: 2%;
-          background: #FFED86;
+          background: $cPrimaryDynamic;
         }
 
         &:nth-child(1):before {
