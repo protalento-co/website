@@ -89,6 +89,15 @@
     margin-top: 0;
 }
 
+.argo--dates {
+    .dates__card {
+        >div {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
 
 /*Tablet*/
 
