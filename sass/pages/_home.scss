@@ -1644,6 +1644,7 @@
   padding: 35px 30px 48px 30px;
 
 
+
   @media (min-width: 768px) {
     border-radius: 12px;
     -webkit-border-radius: 12px;
@@ -1655,16 +1656,20 @@
   @media (min-width: 1200px) {
     margin-left: -70%;
     padding-left: 36rem;
+    height: 80%;
+
   }
 
   @media (min-width: 1600px) {
     margin-left: -70%;
     padding-left: 26rem;
+    height: 75%;
   }
 
   @media (min-width: 1800px) {
     margin-left: -70%;
     padding-left: 16rem;
+    height: 60%;
   }
 
   /*  @media (min-width: 1920px) {
