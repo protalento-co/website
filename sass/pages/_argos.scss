@@ -113,6 +113,8 @@
 @media screen and (min-width: 768px) {
 
     .argos--main {
+        height: 696px;
+
         .argos--hero-logo {
             width: 250px;
         }
@@ -162,4 +164,12 @@
 
     }
 
+}
+
+/*Desktop*/
+
+@media screen and (min-width: 1024px) {
+    .argos--main {
+        height: auto;
+    }
 }
