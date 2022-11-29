@@ -2608,7 +2608,9 @@
       });
     </script>
     <script>
-      $(".paid-section-slider").slick({
+      $window = $(window);
+      $slick_slider = $(".paid-section-slider");
+      settings = {
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -2620,10 +2622,6 @@
         nextArrow:
           '<img src="https://res.cloudinary.com/protalento/image/upload/v1666269235/Website/PROtalento/Convocatorias/Asodamas/Group_2403_1_euxqoa.svg" class="paid__next--arrow"/>',
         responsive: [
-          {
-            breakpoint: 765,
-            settings: "unslick",
-          },
           {
             breakpoint: 768,
             settings: {
@@ -2643,6 +2641,16 @@
             },
           },
         ],
+      };
+      $slick_slider.slick(settings);
+      $window.on("resize", function () {
+        if ($window.width() < 765) {
+          if ($slick_slider.hasClass("slick-initialized"))
+            $slick_slider.slick("unslick");
+          return;
+        }
+        if (!$slick_slider.hasClass("slick-initialized"))
+          return $slick_slider.slick(settings);
       });
     </script>
     <!-- Google Tag Manager (noscript) -->

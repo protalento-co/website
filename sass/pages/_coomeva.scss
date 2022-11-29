@@ -1853,13 +1853,7 @@ a:active {
 
 
 
-    .coomeva--paid-section-slider .paid__card {
-        width: 310px;
-        height: 467px;
 
-        /* max-width: 310px;
-        max-height: 467px; */
-    }
 
     .coomeva--paid {
         padding: 64px 0px 35px;
@@ -1900,28 +1894,39 @@ a:active {
             margin: 32px 0;
         }
 
-        .paid__cards--container {
-            display: flex;
-            padding: 50px 0px;
-            max-width: 640px;
-            margin: 0 auto;
 
-            /* slide paid */
+        .coomeva--paid-section-slider {
+
+            height: 700px;
+
+            max-width: 660px;
+
+
+            .slick-slide {
+                width: 310px;
+                height: 636px;
+                margin: 10px;
+
+
+
+
+            }
 
             .slick-track {
                 display: flex;
                 align-items: center;
                 gap: 3rem;
+
+
+
             }
 
-            .slick-list {
-                padding: 27px 6px;
-            }
+            /* slide paid */
 
             .paid__prev--arrow {
                 position: absolute;
-                top: 50%;
-                right: 606px;
+                top: 45%;
+                left: 0%;
                 z-index: 1;
                 cursor: pointer;
                 height: 40px;
@@ -1932,12 +1937,11 @@ a:active {
                 -ms-border-radius: 50%;
                 -o-border-radius: 50%;
             }
-
 
             .paid__next--arrow {
                 position: absolute;
-                top: 50%;
-                right: -3px;
+                top: 45%;
+                left: 95%;
                 z-index: 1;
                 cursor: pointer;
                 height: 40px;
@@ -1948,17 +1952,21 @@ a:active {
                 -ms-border-radius: 50%;
                 -o-border-radius: 50%;
             }
+
+            /* END slide paid */
+
 
             .slick-dots {
                 display: flex;
                 justify-content: center;
-                margin: 0;
-                padding: 6rem 0;
+
+                /* padding: 1rem 0 0; */
 
                 list-style-type: none;
 
                 li {
                     margin: 0 0.25rem;
+                    width: 2rem;
                 }
 
                 button {
@@ -1966,6 +1974,7 @@ a:active {
                     width: 2rem;
                     height: 1rem;
                     padding: 0;
+                    /* padding: 0 1.5rem; */
                     border: none;
                     background-color: #E4E4E4;
                     text-indent: -9999px;
@@ -1976,18 +1985,24 @@ a:active {
                     -o-border-radius: 20px;
                 }
 
+                button:before {
+                    display: none;
+                }
+
                 li.slick-active button {
-                    background-color: #4267CD;
+                    background: #4267CD;
                     width: 2rem;
+                    height: 1rem;
+
                     border-radius: 20px;
                     -webkit-border-radius: 20px;
                     -moz-border-radius: 20px;
                     -ms-border-radius: 20px;
                     -o-border-radius: 20px;
                 }
+
             }
 
-            /* END slide paid */
         }
 
 
@@ -2440,15 +2455,15 @@ a:active {
 
 
     .coomeva--paid {
-        .paid__cards--container {
-            align-self: flex-start;
-            width: 100%;
-        }
+        .coomeva--paid-section-slider {
+            max-width: 960px;
 
-        .paid__card {
-            width: 310px;
+            .slick-track {
+                gap: 2rem;
 
-            margin: 0 11px 0;
+
+
+            }
         }
     }
 
