@@ -1,3 +1,12 @@
+.argos--main {
+    .argos--hero-logo {
+        width: 200px;
+        margin-top: 40px;
+    }
+}
+
+
+
 .argos--municipios {
     display: flex;
     flex-direction: column;
@@ -102,6 +111,12 @@
 /*Tablet*/
 
 @media screen and (min-width: 768px) {
+
+    .argos--main {
+        .argos--hero-logo {
+            width: 250px;
+        }
+    }
 
     .argos--municipios {
         display: flex;
