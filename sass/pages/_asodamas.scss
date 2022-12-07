@@ -48,7 +48,8 @@ a:active {
 }
 
 .transparent--nav {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0.9999999;
 }
 
 .asodamas--main {
