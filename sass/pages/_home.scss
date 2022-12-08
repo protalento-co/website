@@ -350,10 +350,158 @@
 
 }
 
+.didi--main {
+
+  height: auto;
+  width: 100%;
+  background-color: #381A8B;
+  padding: 35px 30px 48px 30px;
+  margin-top: 98px;
+  /* margin-bottom: 1530px; */
+
+  .didi--hero-logo {
+    width: 200px;
+    margin-top: 40px;
+  }
+
+  >h1 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+  }
+
+  .didi--buttons {
+    height: 232px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  @media (min-width: 768px) {
+    width: 91.6%;
+    /* height: 544px; */
+    border-radius: 0 50px 50px 0;
+    -webkit-border-radius: 0 50px 50px 0;
+    -moz-border-radius: 0 50px 50px 0;
+    -ms-border-radius: 0 50px 50px 0;
+    -o-border-radius: 0 50px 50px 0;
+
+    padding-top: 20px;
+    padding-left: 64px;
+
+    margin-top: 168px;
+
+    .didi--hero-logo {
+      width: 250px;
+    }
+
+    >h1 {
+
+      font-size: 48px;
+      line-height: 58px;
+      width: 100%;
+      height: 172px;
+    }
+
+    .didi--buttons {
+      height: 132px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+  }
+
+  @media (min-width: 1024px) {
+
+    width: 50.9%;
+    /* height: 795px; */
+    margin-top: 115px;
+    padding-top: 30px;
+    margin-top: 202px;
+
+    margin-bottom: 7vw;
+
+    >h1 {
+      /* width: 403px; */
+      height: auto;
+      font-size: 68px;
+      line-height: 70px;
+    }
+  }
+
+  @media (min-width: 1600px) {
+    padding: 67px;
+    height: auto;
+    margin-bottom: 3vw;
+  }
+
+}
+
+
+.didi--main__formu {
+  position: static;
+  width: 80%;
+  /* height: 805px; */
+  /* left: 10%;
+  top: 1142px; */
+  background: #FFFFFF;
+  box-shadow: 0px 4px 8px rgba(53, 105, 128, 0.3);
+  border-radius: 8px;
+  padding: 28px 24px 21px 24px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+
+  >h2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #33345C;
+    margin-bottom: 42px;
+
+  }
+
+
+  @media (min-width: 768px) {
+    /* position: absolute; */
+    width: 370px;
+    /* left: 25%;
+    top: 1178px; */
+  }
+
+  @media (min-width: 1024px) {
+    position: absolute;
+    left: 60%;
+    top: 223px;
+    width: 400px;
+  }
+
+  @media (min-width: 1600px) {
+    left: 65%;
+    width: 511px;
+  }
+}
+
+
 @media (min-width: 768px) {
   .mobile-cards-main {
     display: none;
   }
+}
+
+.didi--img--hero {
+  width: 80vw;
+  max-width: 650px;
 }
 
 .mobile-cards-details {
