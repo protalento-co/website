@@ -35,7 +35,7 @@
     }
 
     @include for-size('desktop-up') {
-      grid-template-columns: repeat(6, 1fr);
+      grid-template-columns: repeat(5, 1fr);
     }
   }
 
@@ -64,15 +64,15 @@
   }
 
   &--2-columns-prices {
-      grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 
-      @media (max-width: 768px) {
-        grid-template-columns: repeat(1, auto);
+    @media (max-width: 768px) {
+      grid-template-columns: repeat(1, auto);
 
-        .align-item-center {
-          align-items: flex-start;
-        }
+      .align-item-center {
+        align-items: flex-start;
       }
+    }
   }
 
   &--3-columns {
@@ -103,6 +103,7 @@
     @include for-size('phone-only') {
       grid-column: span 3 / auto;
     }
+
     @include for-size('tablet-landscape-up') {
       grid-column: unset;
     }
@@ -112,6 +113,7 @@
     @include for-size('tablet-portrait-up') {
       grid-template-columns: 1fr 1fr;
     }
+
     @include for-size('tablet-landscape-up') {
       grid-template-columns: 47rem 47rem;
     }
@@ -141,9 +143,11 @@
 
   &--autoVariation {
     grid-template-columns: repeat(2, 1fr);
-    @include for-size("tablet-portrait-up"){
+
+    @include for-size("tablet-portrait-up") {
       grid-template-columns: repeat(3, 1fr);
     }
+
     @include for-size('tablet-landscape-up') {
       grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     }
