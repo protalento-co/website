@@ -1787,6 +1787,13 @@
 
 }
 
+.carusel__content {
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .hero__box__blue {
   background-color: #381A8B;
   padding: 35px 30px 48px 30px;
