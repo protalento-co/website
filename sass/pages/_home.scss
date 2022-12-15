@@ -1836,6 +1836,56 @@
 }
 
 
+.honduras--form {
+  height: 914px;
+  position: absolute;
+  width: 80%;
+  /* height: 805px; */
+  left: 10%;
+  top: 1009px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 8px rgba(53, 105, 128, 0.3);
+  border-radius: 8px;
+  padding: 28px 24px 21px 24px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+
+  >h2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #33345C;
+    margin-bottom: 42px;
+
+  }
+
+
+  @media (min-width: 768px) {
+    position: absolute;
+    height: 914px;
+    width: 370px;
+    left: 25%;
+    top: 736px;
+  }
+
+  @media (min-width: 1040px) {
+    position: absolute;
+    height: 810px;
+    left: 55%;
+    top: 223px;
+    height: 914px;
+  }
+
+  @media (min-width: 1500px) {
+    left: 66%;
+  }
+}
+
+
 
 
 // table t-y-c didi
