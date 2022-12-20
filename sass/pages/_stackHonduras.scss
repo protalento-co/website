@@ -854,7 +854,7 @@ a:active {
     flex-direction: column;
     align-items: center;
 
-    padding: 96px 35px 0;
+    padding: 96px 35px;
 
     .aliances__decoration {
         position: absolute;
@@ -886,7 +886,7 @@ a:active {
         color: #33345C;
     }
 
-    .slick-dots {
+    /* .slick-dots {
         display: flex;
         justify-content: center;
         margin: 0;
@@ -923,7 +923,7 @@ a:active {
             -ms-border-radius: 20px;
             -o-border-radius: 20px;
         }
-    }
+    } */
 
     /* Slider */
     .alliance-carousel {
@@ -931,45 +931,8 @@ a:active {
         /* margin-right: auto;
     margin-left: auto; */
 
-        .slick-dots {
-            display: flex;
-            justify-content: center;
 
-            /* padding: 1rem 0 0; */
 
-            list-style-type: none;
-
-            li {
-                margin: 0 0.25rem;
-                width: 2rem;
-            }
-
-            button {
-                display: block;
-                width: 2rem;
-                height: 1rem;
-                padding: 0;
-                border: none;
-                background-color: #E4E4E4;
-                text-indent: -9999px;
-                border-radius: 20px;
-                -webkit-border-radius: 20px;
-                -moz-border-radius: 20px;
-                -ms-border-radius: 20px;
-                -o-border-radius: 20px;
-            }
-
-            li.slick-active button {
-                background-color: #4267CD;
-                width: 2rem;
-                /* width: 4rem; */
-                border-radius: 20px;
-                -webkit-border-radius: 20px;
-                -moz-border-radius: 20px;
-                -ms-border-radius: 20px;
-                -o-border-radius: 20px;
-            }
-        }
     }
 
     .alliances__card {
@@ -1073,6 +1036,7 @@ a:active {
             display: flex;
             align-items: center;
             gap: 2rem;
+            overflow: hidden;
         }
 
         .slick-slide {
@@ -2370,6 +2334,7 @@ a:active {
 
         .alliances-slider-nav {
             max-width: 490px;
+
         }
     }
 
