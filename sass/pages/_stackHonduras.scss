@@ -134,6 +134,7 @@ a:active {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 2rem;
 }
 
 .stackHonduras--decoration--logo {
@@ -214,6 +215,11 @@ a:active {
         height: 120px;
         margin-top: 9.88px;
     }
+}
+
+
+.stackHonduras--form--decoration {
+    display: none;
 }
 
 
@@ -1705,19 +1711,26 @@ a:active {
         height: 48px;
     }
 
-    .stackHonduras--buttons__button--1 {
+    /* .stackHonduras--buttons__button--1 {
         margin: 0;
     }
 
     .stackHonduras--buttons__button--2 {
         margin-left: 20px;
+    } */
+
+    .stackHonduras--form--decoration {
+        position: absolute;
+        top: 847px;
+        left: 18%;
+        display: block;
     }
 
     .stackHonduras--main__formu {
         position: absolute;
         width: 370px;
         left: 25%;
-        top: 824px;
+        top: 919px;
     }
 
     .stackHonduras--logos--cont {
@@ -2444,7 +2457,9 @@ a:active {
 
     }
 
-
+    .stackHonduras--form--decoration {
+        display: none;
+    }
 
     .stackHonduras--main__formu {
         position: absolute;
