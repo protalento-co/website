@@ -667,6 +667,13 @@ a:active {
         left: 130px;
     }
 
+    .decoration--paid {
+        position: absolute;
+        top: 4600px;
+        left: 0px;
+        z-index: -1;
+    }
+
     .stackHonduras__decoration--2 {
         position: relative;
         top: 422px;
@@ -1909,6 +1916,13 @@ a:active {
             left: 290px;
         }
 
+        .decoration--paid {
+            position: absolute;
+            top: 3188px;
+            left: 0px;
+            z-index: -1;
+        }
+
         .stackHonduras__decoration--2 {
             display: none;
         }
@@ -1935,7 +1949,7 @@ a:active {
         .paid__paragraph {
             width: 640px;
             height: 48px;
-            margin: 32px 0;
+            margin: 32px 0 140px;
         }
 
 
@@ -2527,6 +2541,13 @@ a:active {
 
     .stackHonduras--paid {
 
+        .decoration--paid {
+            position: absolute;
+            top: 3250px;
+            left: 10%;
+            z-index: -1;
+        }
+
         .paid__cards--container {
             /* align-self: flex-start; */
             /* width: 100%; */
@@ -2620,6 +2641,15 @@ a:active {
 
             left: 43%;
 
+        }
+    }
+
+    .stackHonduras--paid {
+        .decoration--paid {
+            position: absolute;
+            top: 3050px;
+            left: 20%;
+            z-index: -1;
         }
     }
 
