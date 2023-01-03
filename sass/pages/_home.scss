@@ -221,6 +221,8 @@
 
     .slick-slide img {
       display: unset;
+      aspect-ratio: 3/2;
+      object-fit: contain;
     }
   }
 
